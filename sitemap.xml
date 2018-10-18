@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/International</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Technology</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Lifestyle</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Politics</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/weekly-news</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Sports</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Health</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/International</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Travel</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Food</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Technology</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Lifestyle</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Editor-Choice</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Video</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Politics</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/Business</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/About-us</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/PRIVACY-POLICY</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/MainNewsPaper-v2.0/main/TERMS-OF</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+</urlset>

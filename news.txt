@@ -1,0 +1,42 @@
+Step To Install - 
+
+Log into your Hosting panel
+
+1. Import Zip file to public_html
+2. Extract the zip file
+3. Create Databse in My Sql Database option
+4. Create user in databse section (Not required if alredy created)
+5. Add user to database and give all privilages
+
+Now go to folder which you extracted 
+
+
+1. go to folder application/config folder and edit file database.php
+
+Fill correct information in
+
+HostName - Localhost
+DB_DATABASE=
+DB_USERNAME=
+
+DB_PASSWORD=
+
+2. in main folder edit - config.local.php and 
+
+Fill correct information in
+
+HostName - Localhost
+DB_DATABASE=
+DB_USERNAME=
+
+DB_PASSWORD=
+
+
+
+Then go to PHP My admin
+
+click on databse name
+
+and imprort given database
+
+Done
