@@ -138,7 +138,7 @@ $selected = 'style="background-color:#f60d2b;color:#fff;"';
 
 ?>
                              
-          <li class="active"><a href="<?php echo $bu ?>" class="active"><?php echo @$lan['home']?></a></li>
+        <li class="active"><a href="<?php echo $bu ?>" class="active"><?php echo @$lan['home']?></a></li>
             <?php
                 $i = 2;
                 foreach ($main_menu as $key => $value) {
