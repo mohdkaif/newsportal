@@ -4,12 +4,147 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <title>Demo Newspaper RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>22-10-2018</lastBuildDate>
+<lastBuildDate>23-10-2018</lastBuildDate>
 <image>
                     <title>Demo NewspaperRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
                     <link>http://localhost/newsportal/</link>
                 </image>
+
+                <item>
+                    <title>Nauru migrants: Australia evacuates 11 children off detention island</title>
+                            <link>http://localhost/newsportal/world/details/143/Nauru-migrants-Australia-evacuates-children-off-detention-island</link>
+                    <pubDate>Tuesday, 23 Oct, 2018</pubDate>  
+                    <author>Md Naeem Khan 1</author>     
+                    <description>Some 11 children have been transferred to Australia from the Nauru detention centre to receive medical treatment.
+
+They are the latest to be moved amid a mental health crisis on the</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540274134.jpg</url>
+                        <title>Nauru migrants: Australia evacuates 11 children off detention island</title>
+                        <link>http://localhost/newsportal/world/details/143/Nauru-migrants-Australia-evacuates-children-off-detention-island</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/143/Nauru-migrants-Australia-evacuates-children-off-detention-island</guid>
+                    <category><![CDATA[world]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/143/Nauru-migrants-Australia-evacuates-children-off-detention-island>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>Some 11 children have been transferred to Australia from the Nauru detention centre to receive medical treatment.
+
+They are the latest to be moved amid a mental health crisis on the</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>Donald Trump: US will build up nuclear arsenal</title>
+                            <link>http://localhost/newsportal/world/details/142/Donald-Trump-US-will-build-up-nuclear-arsenal</link>
+                    <pubDate>Tuesday, 23 Oct, 2018</pubDate>  
+                    <author>Md Naeem Khan 1</author>     
+                    <description>President Donald Trump has warned that the US will bolster its nuclear arsenal to put pressure on Russia and China.
+
+Speaking to reporters, he repeated his belief that Russia has violated</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540273902.jpg</url>
+                        <title>Donald Trump: US will build up nuclear arsenal</title>
+                        <link>http://localhost/newsportal/world/details/142/Donald-Trump-US-will-build-up-nuclear-arsenal</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/142/Donald-Trump-US-will-build-up-nuclear-arsenal</guid>
+                    <category><![CDATA[world]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/142/Donald-Trump-US-will-build-up-nuclear-arsenal>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>President Donald Trump has warned that the US will bolster its nuclear arsenal to put pressure on Russia and China.
+
+Speaking to reporters, he repeated his belief that Russia has violated</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>World's longest sea crossing: Hong Kong-Zhuhai bridge opens</title>
+                            <link>http://localhost/newsportal/world/details/141/World's-longest-sea-crossing-Hong-Kong-Zhuhai-bridge-opens</link>
+                    <pubDate>Tuesday, 23 Oct, 2018</pubDate>  
+                    <author>Md Naeem Khan 1</author>     
+                    <description>Chinese President Xi Jinping has officially opened the world&amp;#39;s longest sea crossing bridge, nine years after construction first began.
+
+Including its access roads, the bridge spans 55km (34 miles) and connects</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540273770.jpeg</url>
+                        <title>World's longest sea crossing: Hong Kong-Zhuhai bridge opens</title>
+                        <link>http://localhost/newsportal/world/details/141/World's-longest-sea-crossing-Hong-Kong-Zhuhai-bridge-opens</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/141/World's-longest-sea-crossing-Hong-Kong-Zhuhai-bridge-opens</guid>
+                    <category><![CDATA[world]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/141/World's-longest-sea-crossing-Hong-Kong-Zhuhai-bridge-opens>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>Chinese President Xi Jinping has officially opened the world&amp;#39;s longest sea crossing bridge, nine years after construction first began.
+
+Including its access roads, the bridge spans 55km (34 miles) and connects</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
 
                 <item>
                     <title>Lorem Ipsum is simply dummy text of the printing</title>
@@ -692,129 +827,6 @@ Australia were originally scheduled</p>
                           <head>
                             <meta charset="utf-8">
                             <link rel="canonical" href=http://localhost/newsportal/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit</title>
-                            <link>http://localhost/newsportal/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit</title>
-                        <link>http://localhost/newsportal/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Business Page  praesentium voluptatum deleniti atque corrupti</title>
-                            <link>http://localhost/newsportal/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>Business Page  praesentium voluptatum deleniti atque corrupti</title>
-                        <link>http://localhost/newsportal/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</guid>
-                    <category><![CDATA[Lifestyle]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://localhost/newsportal/Lifestyle/details/111/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://localhost/newsportal/Lifestyle/details/111/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Lifestyle/details/111/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
-                    <category><![CDATA[Lifestyle]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/Lifestyle/details/111/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>

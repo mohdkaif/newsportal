@@ -2,7 +2,7 @@
 <div class="top_header hidden-xs">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8 col-md-8">
+            <div class="col-sm-8 col-md-8" style="height:30px">
                 <div class="top_header_menu_wrap">
                     <ul class="top-header-menu">
                         <li><a href="<?php echo base_url();?>Registration/index" target="__blank"><span class="glyphicon glyphicon-log-in"></span> LOGIN </a></li>

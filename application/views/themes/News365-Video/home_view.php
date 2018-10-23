@@ -14,12 +14,12 @@
                     $("#breaking").hide();
                 </script>
             <!--breaking news-->
-                <div id="breaking" class="col-sm-12 col-md-12">
+                <div id="breaking" class="breaking-news col-sm-12 col-md-12">
                     <div class="row">
-                        <div class="col-md-3 col-xs-12 col-sm-12">
+                        <div class="center col-md-3 col-xs-12 col-sm-12">
                             <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/download.jpg');?>" alt="" width="250px" height="50px"/>
                         </div>
-                        <div class="col-md-6 col-xs-12 col-sm-12">
+                        <div class="center col-md-6 col-xs-12 col-sm-12">
                             <div class="newsticker-inner">
 
 
@@ -36,7 +36,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-xs-12 col-sm-12" style="margin-top: 30px">
+                        <div class="center col-md-3 col-xs-12 col-sm-12">
                             <?php
                                 $fa = array('method' =>'GET' ); 
                                 echo form_open('search',$fa);?>

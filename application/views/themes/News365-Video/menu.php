@@ -8,7 +8,7 @@ if (isset($ads) && is_array($ads)) {
     $selected = 'style="background-color:#f60d2b;color:#fff;"';
 ?>
 
-<div class="top_banner_wrap">
+<div class="top_banner_wrap" style="background:#bb1919">
    
         <div class="row" style="background:#bb1919">
           <!--   <div class="col-xs-12 col-md-4 col-sm-4">
@@ -33,9 +33,9 @@ if (isset($ads) && is_array($ads)) {
 
 ?>
 <!-- navber -->
-<div class="container-fluid hidden-xs"  style="background:#bb1919">
-    <nav class="navbar" style="background:#bb1919">
-        <div class="collapse navbar-collapse">
+<div class="container-fluid hidden-xs"  style="background:#bb1919;">
+    <nav class="navbar" style="background:#bb1919;margin-left:200px">
+        <div class="collapse navbar-collapse" style="background:#bb1919">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="<?php echo $bu ?>" class="category01 active"><?php echo @$lan['home']?></a></li>
             <?php
