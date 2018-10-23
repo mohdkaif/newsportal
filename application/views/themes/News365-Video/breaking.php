@@ -2,7 +2,7 @@
 <div class="top_header hidden-xs">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 col-md-3">
+            <div class="col-sm-8 col-md-8">
                 <div class="top_header_menu_wrap">
                     <ul class="top-header-menu">
                         <li><a href="<?php echo base_url();?>Registration/index" target="__blank"><span class="glyphicon glyphicon-log-in"></span> LOGIN </a></li>
@@ -17,8 +17,10 @@
                 $("#breaking").hide();
             </script>
             <!--breaking news-->
-            <div id="breaking" class="col-sm-8 col-md-7">
+       <!--      <div id="breaking" class="col-sm-8 col-md-7">
+                <img src="<?php echo base_url('/views/themes/News365-Video/web-assets/images/download.jpg');?>" alt=""/>
                 <div class="newsticker-inner">
+
                     <ul class="newsticker">
                         <?php
                         for ($i = 1; $i <= count($bn); $i++) {
@@ -31,13 +33,13 @@
                         <a href="#" id="next-button"><i class='pe-7s-angle-right'></i></a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <?php
                 @$social_link = json_decode('[' . $social_link . ']');
             ?>
 
-            <div class="col-sm-12 col-md-2">
+            <div class="col-sm-12 col-md-4">
                 <div class="top_header_icon">
                     <span class="top_header_icon_wrap">
                         <a target="_blank" href="<?php if (isset($social_link[0]->tw)) echo @$social_link[0]->tw; ?>" title="Twitter"><i class="fa fa-twitter"></i></a>

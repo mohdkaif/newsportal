@@ -23,7 +23,7 @@ class Home_controller extends CI_Controller {
 
 /***************************************
  * To veiw all home page Data
- ***************************************/
+****************************************************/
 
     public function index() {
 

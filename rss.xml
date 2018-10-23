@@ -2,68 +2,27 @@
 xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
 <title>Demo Newspaper RSS Feed RSS</title>
-<link>http://news365v3.bdtask.com/main_v4/</link>
+<link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>20-02-2018</lastBuildDate>
+<lastBuildDate>22-10-2018</lastBuildDate>
 <image>
                     <title>Demo NewspaperRSS Feed</title>
-                    <url>http://news365v3.bdtask.com/main_v4/uploads/images/logo.png</url>
-                    <link>http://news365v3.bdtask.com/main_v4/</link>
+                    <url>http://localhost/newsportal/uploads/images/logo.png</url>
+                    <link>http://localhost/newsportal/</link>
                 </image>
 
                 <item>
-                    <title>Bdtask Provides the Best Software Development Service at reasonable price around the world</title>
-                            <link>http://news365v3.bdtask.com/main_v4/Technology/details/133/Bdtask-Provides-the-Best-Software-Development-Service-at-reasonable-price-around-the-world</link>
-                    <pubDate>Tuesday, 20 Feb, 2018</pubDate>  
-                    <author>Md Naeem Khan</author>     
-                    <description>Because of being subservient for more than two centuries, the fear of the inhospitable atmosphere of the bounded Bangladesh sky, but it has turned into hope within the four-decade of</description>
-                    <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1519114488.jpg</url>
-                        <title>Bdtask Provides the Best Software Development Service at reasonable price around the world</title>
-                        <link>http://news365v3.bdtask.com/main_v4/Technology/details/133/Bdtask-Provides-the-Best-Software-Development-Service-at-reasonable-price-around-the-world</link>
-                    </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/Technology/details/133/Bdtask-Provides-the-Best-Software-Development-Service-at-reasonable-price-around-the-world</guid>
-                    <category><![CDATA[Technology]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/Technology/details/133/Bdtask-Provides-the-Best-Software-Development-Service-at-reasonable-price-around-the-world>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Because of being subservient for more than two centuries, the fear of the inhospitable atmosphere of the bounded Bangladesh sky, but it has turned into hope within the four-decade of</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
                     <title>Lorem Ipsum is simply dummy text of the printing</title>
-                            <link>http://news365v3.bdtask.com/main_v4/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing</link>
+                            <link>http://localhost/newsportal/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing</link>
                     <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1540210778.jpg</url>
                         <title>Lorem Ipsum is simply dummy text of the printing</title>
-                        <link>http://news365v3.bdtask.com/main_v4/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing</link>
+                        <link>http://localhost/newsportal/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -72,7 +31,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -95,16 +54,16 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
                 <item>
                     <title>But I must explain to you how all this mistaken idea</title>
-                            <link>http://news365v3.bdtask.com/main_v4/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system,</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>But I must explain to you how all this mistaken idea</title>
-                        <link>http://news365v3.bdtask.com/main_v4/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea</link>
+                        <link>http://localhost/newsportal/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -113,7 +72,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -136,16 +95,16 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
                 <item>
                     <title>Contrary to popular belief, Lorem Ipsum is not simply</title>
-                            <link>http://news365v3.bdtask.com/main_v4/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>Contrary to popular belief, Lorem Ipsum is not simply</title>
-                        <link>http://news365v3.bdtask.com/main_v4/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply</link>
+                        <link>http://localhost/newsportal/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -154,7 +113,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -177,16 +136,16 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
                 <item>
                     <title>There are many variations of passages </title>
-                            <link>http://news365v3.bdtask.com/main_v4/world/details/129/There-are-many-variations-of-passages</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/world/details/129/There-are-many-variations-of-passages</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;#39;t look even slightly</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>There are many variations of passages </title>
-                        <link>http://news365v3.bdtask.com/main_v4/world/details/129/There-are-many-variations-of-passages</link>
+                        <link>http://localhost/newsportal/world/details/129/There-are-many-variations-of-passages</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/world/details/129/There-are-many-variations-of-passages</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/129/There-are-many-variations-of-passages</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -195,7 +154,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/world/details/129/There-are-many-variations-of-passages>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/129/There-are-many-variations-of-passages>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -218,18 +177,18 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
                 <item>
                     <title>Australian cricket team in Bangladesh in 2017</title>
-                            <link>http://news365v3.bdtask.com/main_v4/Sports/details/128/Australian-cricket-team-in-Bangladesh-in</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/Sports/details/128/Australian-cricket-team-in-Bangladesh-in</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>TheÂ Australia cricket teamÂ are scheduled to tour Bangladesh in August and September 2017 to play twoÂ Test matchesÂ and a tour match.[1]Â It will be Australia&amp;#39;s first tour to BangladeshÂ since 2011.[2]
 
 Australia were originally scheduled</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>Australian cricket team in Bangladesh in 2017</title>
-                        <link>http://news365v3.bdtask.com/main_v4/Sports/details/128/Australian-cricket-team-in-Bangladesh-in</link>
+                        <link>http://localhost/newsportal/Sports/details/128/Australian-cricket-team-in-Bangladesh-in</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/Sports/details/128/Australian-cricket-team-in-Bangladesh-in</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Sports/details/128/Australian-cricket-team-in-Bangladesh-in</guid>
                     <category><![CDATA[Sports]]></category>
 
                     <content:encoded>
@@ -238,7 +197,7 @@ Australia were originally scheduled</description>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/Sports/details/128/Australian-cricket-team-in-Bangladesh-in>
+                            <link rel="canonical" href=http://localhost/newsportal/Sports/details/128/Australian-cricket-team-in-Bangladesh-in>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -263,16 +222,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>Escalation of tension between India, China will be disruptive</title>
-                            <link>http://news365v3.bdtask.com/main_v4/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;#39;t look even slightly</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>Escalation of tension between India, China will be disruptive</title>
-                        <link>http://news365v3.bdtask.com/main_v4/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive</link>
+                        <link>http://localhost/newsportal/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive</guid>
                     <category><![CDATA[International]]></category>
 
                     <content:encoded>
@@ -281,7 +240,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive>
+                            <link rel="canonical" href=http://localhost/newsportal/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -304,16 +263,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>Lorem Ipsum which looks reasonable. The generated</title>
-                            <link>http://news365v3.bdtask.com/main_v4/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>Lorem Ipsum which looks reasonable. The generated</title>
-                        <link>http://news365v3.bdtask.com/main_v4/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated</link>
+                        <link>http://localhost/newsportal/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated</guid>
                     <category><![CDATA[Travel]]></category>
 
                     <content:encoded>
@@ -322,7 +281,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated>
+                            <link rel="canonical" href=http://localhost/newsportal/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -345,16 +304,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://news365v3.bdtask.com/main_v4/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://news365v3.bdtask.com/main_v4/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                        <link>http://localhost/newsportal/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -363,7 +322,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -386,16 +345,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://news365v3.bdtask.com/main_v4/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://news365v3.bdtask.com/main_v4/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                        <link>http://localhost/newsportal/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -404,7 +363,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -427,16 +386,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://news365v3.bdtask.com/main_v4/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://news365v3.bdtask.com/main_v4/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                        <link>http://localhost/newsportal/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -445,7 +404,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -468,16 +427,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>Business Page  praesentium voluptatum deleniti atque corrupti</title>
-                            <link>http://news365v3.bdtask.com/main_v4/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>Business Page  praesentium voluptatum deleniti atque corrupti</title>
-                        <link>http://news365v3.bdtask.com/main_v4/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
+                        <link>http://localhost/newsportal/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -486,7 +445,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -509,16 +468,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://news365v3.bdtask.com/main_v4/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://news365v3.bdtask.com/main_v4/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                        <link>http://localhost/newsportal/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -527,7 +486,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -550,16 +509,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://news365v3.bdtask.com/main_v4/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://news365v3.bdtask.com/main_v4/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                        <link>http://localhost/newsportal/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
                     <category><![CDATA[Sports]]></category>
 
                     <content:encoded>
@@ -568,7 +527,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
+                            <link rel="canonical" href=http://localhost/newsportal/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -591,16 +550,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://news365v3.bdtask.com/main_v4/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://news365v3.bdtask.com/main_v4/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                        <link>http://localhost/newsportal/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
                     <category><![CDATA[Health]]></category>
 
                     <content:encoded>
@@ -609,7 +568,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
+                            <link rel="canonical" href=http://localhost/newsportal/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -632,16 +591,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://news365v3.bdtask.com/main_v4/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://news365v3.bdtask.com/main_v4/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                        <link>http://localhost/newsportal/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
                     <category><![CDATA[Sports]]></category>
 
                     <content:encoded>
@@ -650,7 +609,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
+                            <link rel="canonical" href=http://localhost/newsportal/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -673,16 +632,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://news365v3.bdtask.com/main_v4/Sports/details/115/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/Sports/details/115/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://news365v3.bdtask.com/main_v4/Sports/details/115/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                        <link>http://localhost/newsportal/Sports/details/115/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/Sports/details/115/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Sports/details/115/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
                     <category><![CDATA[Sports]]></category>
 
                     <content:encoded>
@@ -691,7 +650,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/Sports/details/115/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
+                            <link rel="canonical" href=http://localhost/newsportal/Sports/details/115/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -714,16 +673,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://news365v3.bdtask.com/main_v4/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://news365v3.bdtask.com/main_v4/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                        <link>http://localhost/newsportal/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
                     <category><![CDATA[Health]]></category>
 
                     <content:encoded>
@@ -732,7 +691,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
+                            <link rel="canonical" href=http://localhost/newsportal/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -755,16 +714,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit</title>
-                            <link>http://news365v3.bdtask.com/main_v4/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit</title>
-                        <link>http://news365v3.bdtask.com/main_v4/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit</link>
+                        <link>http://localhost/newsportal/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -773,7 +732,7 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/113/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -796,16 +755,16 @@ Australia were originally scheduled</p>
 
                 <item>
                     <title>Business Page  praesentium voluptatum deleniti atque corrupti</title>
-                            <link>http://news365v3.bdtask.com/main_v4/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
-                    <pubDate>Wednesday, 31 Jan, 2018</pubDate>  
+                            <link>http://localhost/newsportal/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
                     <author>Md Tuhin</author>     
                     <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
                     <image>
-                        <url>http://news365v3.bdtask.com/main_v4/uploads/1502887485.jpeg</url>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
                         <title>Business Page  praesentium voluptatum deleniti atque corrupti</title>
-                        <link>http://news365v3.bdtask.com/main_v4/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
+                        <link>http://localhost/newsportal/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
                     </image>
-                    <guid isPermaLink='false'>http://news365v3.bdtask.com/main_v4/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</guid>
                     <category><![CDATA[Lifestyle]]></category>
 
                     <content:encoded>
@@ -814,7 +773,48 @@ Australia were originally scheduled</p>
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://news365v3.bdtask.com/main_v4/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti>
+                            <link rel="canonical" href=http://localhost/newsportal/Lifestyle/details/112/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>There are many variations of passages of Lorem Ipsum available</title>
+                            <link>http://localhost/newsportal/Lifestyle/details/111/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
+                    <author>Md Tuhin</author>     
+                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>There are many variations of passages of Lorem Ipsum available</title>
+                        <link>http://localhost/newsportal/Lifestyle/details/111/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Lifestyle/details/111/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <category><![CDATA[Lifestyle]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/Lifestyle/details/111/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>

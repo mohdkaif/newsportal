@@ -525,12 +525,15 @@ header {
 .top-header-menu li {
     display: inline-block;
     position: relative;
-    margin-left: 0px;
+    margin-left: 10px;
+    margin-right:10px;
+    border-left: 1px solid #ccc;
+
 }
 
 .top-header-menu li a {
     color: #2d3038;
-    font-size: 11px;
+    font-size: 15px;
     margin-right: 0px;
     line-height: 3.6;
     padding: 10px 5px;
@@ -707,7 +710,7 @@ header {
 /*newstricker*/
 
 .newsticker-inner {
-    padding: 8px 54px 0 0;
+    padding: 8px 30px 0 0;
 }
 
 .newsticker li a {
@@ -716,6 +719,10 @@ header {
     text-overflow: ellipsis;
     font-family: 'Ubuntu', sans-serif;
     overflow: hidden;
+    font-size:20px;
+    font-weight:bold;
+    border-right: 1px solid #727272;
+
 }
 
 .newsticker li span {
@@ -727,13 +734,14 @@ header {
     font-size: 23px;
     position: absolute;
     width: 25px;
-    height: 25px;
+    height: 50px;
     line-height: 24px;
     border: 1px solid #d1d1d1;
     vertical-align: middle;
     color: #d1d1d1;
     z-index: 100;
     background-color: transparent;
+    border-right: 1px solid #727272;
 }
 
 .newsticker-inner #prev-button i {
@@ -770,7 +778,7 @@ header {
 }
 
 .header-banner {
-    margin: 30px 0px;
+    margin: 0px 0px;
 }
 
 
@@ -793,10 +801,11 @@ header {
 }
 
 .navbar-nav > li > a {
-    color: #2d3038;
+    color: white;
     font-weight: 700;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-right: 1px solid #bb454f;
 }
 
 .nav .open > a,
@@ -3405,7 +3414,7 @@ textarea.input_field {
 
 .videoWrapper-1 {
     position: relative;
-    padding-bottom: 70%;
+    padding-bottom: 57%;
     /* 16:9 */
     padding-top: 25px;
     height: 0;
@@ -4389,4 +4398,7 @@ margin-left: 96px;
 .category-headding-two{
 margin-left: 0px;
     }
+}
+.white-text{
+    color:white;
 }

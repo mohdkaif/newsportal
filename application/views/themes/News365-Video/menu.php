@@ -9,22 +9,23 @@ if (isset($ads) && is_array($ads)) {
 ?>
 
 <div class="top_banner_wrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-4 col-sm-4">
+   
+        <div class="row" style="background:#bb1919">
+          <!--   <div class="col-xs-12 col-md-4 col-sm-4">
                 <div class="header-logo">  <!-- logo -->
-                    <a href="<?php echo $bu; ?>">
+                <!--     <a href="<?php echo $bu; ?>">
                         <img class="td-retina-data img-responsive"  src="<?php echo base_url() . @$website_logo; ?>" alt="">
                     </a>
                 </div>
-            </div>
-            <div class="col-xs-8 col-md-8 col-sm-8 hidden-xs">
-                <div class="header-banner <?php echo (@$lg_status_11==0?'hidden-lg hidden-md':'')?> <?php echo (@$sm_status_11==0?'hidden-xs hidden-sm':'')?>">
-                    <?php echo @$home_11; ?>
+            </div> --> 
+            <div class="col-xs-8 col-md-8 col-sm-8">
+                
+                <div class="header-banner">
+                    <!-- <?php  echo '<h2 class="white-text">YUGANTARPRAVAH</h2>'?> -->
+                    <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantar-logo.png')?>" alt="" width="200px" height="70px">
                 </div>
             </div>
         </div>
-    </div>
 </div>
 
 
@@ -32,8 +33,8 @@ if (isset($ads) && is_array($ads)) {
 
 ?>
 <!-- navber -->
-<div class="container hidden-xs">
-    <nav class="navbar">
+<div class="container-fluid hidden-xs"  style="background:#bb1919">
+    <nav class="navbar" style="background:#bb1919">
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="<?php echo $bu ?>" class="category01 active"><?php echo @$lan['home']?></a></li>

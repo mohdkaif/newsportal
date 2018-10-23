@@ -8,8 +8,52 @@
 <!-- header news Area
 ============================================ -->
     <section class="headding-news">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row row-margin">
+                <script type="text/javascript">
+                    $("#breaking").hide();
+                </script>
+            <!--breaking news-->
+                <div id="breaking" class="col-sm-12 col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 col-sm-12">
+                            <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/download.jpg');?>" alt="" width="250px" height="50px"/>
+                        </div>
+                        <div class="col-md-6 col-xs-12 col-sm-12">
+                            <div class="newsticker-inner">
+
+
+                                <ul class="newsticker">
+                                    <?php
+                                    for ($i = 1; $i <= count($bn); $i++) {
+                                        echo '<li>' . $bn['title_' . $i] . '</li>';
+                                    }
+                                    ?>
+                                </ul>
+                                <div class="next-prev-inner">
+                                    <a href="#" id="prev-button"><i class='pe-7s-angle-left'></i></a>
+                                    <a href="#" id="next-button"><i class='pe-7s-angle-right'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-sm-12" style="margin-top: 30px">
+                            <?php
+                                $fa = array('method' =>'GET' ); 
+                                echo form_open('search',$fa);?>
+                                    <div class="input-group search-area"> <!-- search area -->
+                                        <input type="text" class="form-control" placeholder="<?php echo display('search')?>" name="q">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div> <!-- /.search area -->
+                                <?php echo form_close();?>
+                        </div>
+                    </div>
+                </div>
+                <!-- Search Area-->
+
+             
+               
                 <div class="hidden-xs col-sm-3 col-padding">
                     <?php 
                         for($i=2;$i<=3;$i++){
@@ -150,7 +194,8 @@
                             <?php 
                                 for($i=1; $i<=3; $i++){
                                 if(!isset($pn['position_1']['news_title_'.$i]))
-                                continue
+                                continue;
+                                
                             ?>
                             <div class="item home2-post effects">
                                 <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
@@ -420,17 +465,7 @@
             <!-- /.left content inner -->
             <div class="col-md-4 col-sm-4 left-padding">
                 <!-- right content wrapper -->
-                <?php
-                $fa = array('method' =>'GET' ); 
-                echo form_open('search',$fa);?>
-                    <div class="input-group search-area"> <!-- search area -->
-                        <input type="text" class="form-control" placeholder="<?php echo display('search')?>" name="q">
-                        <div class="input-group-btn">
-                            <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                        </div>
-                    </div> <!-- /.search area -->
-                <?php echo form_close();?>
-               
+          
                 <!-- /.search area -->
                 <!-- social icon -->
                 <h3 class="category-headding "><?php echo display('social_pixel')?></h3>
