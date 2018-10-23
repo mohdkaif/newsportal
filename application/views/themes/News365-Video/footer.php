@@ -69,7 +69,7 @@ if (preg_match('/bot|crawl|curl|dataprovider|search|get|spider|find|java|majesti
         <div class="row">
             <div class="col-sm-5">
                 <div class="footer-box footer-logo-address"> <!-- address  -->
-                    <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantar-logo.png')?>" class="img-responsive" alt="">
+                    <img src="<?php echo base_url('uploads/images/footer_logo.png')?>" class="img-responsive" alt="">
                         <address>
                             <?php echo @$website_footer['website_footer']; ?>
                         </address>

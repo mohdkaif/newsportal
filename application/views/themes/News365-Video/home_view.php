@@ -16,7 +16,7 @@
             <!--breaking news-->
                 <div id="breaking" class="breaking-news col-sm-12 col-md-12">
                     <div class="row">
-                        <div class="center col-md-3 col-xs-12 col-sm-12">
+                        <div class="col-md-3 col-xs-12 col-sm-12">
                             <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/download.jpg');?>" alt="" width="250px" height="50px"/>
                         </div>
                         <div class="center col-md-6 col-xs-12 col-sm-12">
@@ -30,10 +30,10 @@
                                     }
                                     ?>
                                 </ul>
-                                <div class="next-prev-inner">
+                               <!--  <div class="next-prev-inner">
                                     <a href="#" id="prev-button"><i class='pe-7s-angle-left'></i></a>
                                     <a href="#" id="next-button"><i class='pe-7s-angle-right'></i></a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="center col-md-3 col-xs-12 col-sm-12">

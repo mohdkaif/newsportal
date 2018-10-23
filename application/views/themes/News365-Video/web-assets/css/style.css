@@ -513,6 +513,7 @@ header {
     line-height: 24px;
     z-index: 1000;
     float: left;
+    height:40px;
 }
 
 .top-header-menu {
@@ -520,6 +521,7 @@ header {
     margin: 0px;
     padding: 0px;
     display: inline-block;
+    height:40px;
 }
 
 .top-header-menu li {
@@ -528,17 +530,20 @@ header {
     margin-left: 10px;
     margin-right:10px;
     border-left: 1px solid #ccc;
+    height:40px;
+    text-align: center;
 
 }
 
 .top-header-menu li a {
     color: #2d3038;
-    font-size: 15px;
+    font-size: 12px;
     margin-right: 0px;
     line-height: 3.6;
     padding: 10px 5px;
     letter-spacing: 0.5px;
     font-weight: 700;
+    height:40px;
 }
 
 .td-header-top-menu a {
@@ -556,6 +561,7 @@ header {
     border-radius: 0;
     border-color: #f60d2b;
     margin: 0;
+    height:40px;
 }
 
 
@@ -795,6 +801,7 @@ header {
     border-radius: 0px;
     background-color: #fff;
     margin-bottom: 0px;
+    width:100%;
 }
 
 .navbar-collapse {
