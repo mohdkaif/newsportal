@@ -26,7 +26,7 @@
                                 <ul class="newsticker">
                                     <?php
                                     for ($i = 1; $i <= count($bn); $i++) {
-                                        echo '<li>' . $bn['title_' . $i] . '</li>';
+                                        echo '<li style="color:white">' . $bn['title_' . $i] . '</li>';
                                     }
                                     ?>
                                 </ul>
