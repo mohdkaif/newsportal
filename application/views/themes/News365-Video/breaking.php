@@ -5,6 +5,7 @@
             <div class="col-sm-8 col-md-8" style="height:30px">
                 <div class="top_header_menu_wrap">
                     <ul class="top-header-menu">
+                        <li><?php echo date("l, M j G:i:s T Y"); ?></li>
                         <li><a href="<?php echo base_url();?>Registration/index" target="__blank"><span class="glyphicon glyphicon-log-in"></span> LOGIN </a></li>
                         <li><a href="<?php echo base_url();?>Registration/index"><?php echo display('login_and_registration')?></a></li>
 
