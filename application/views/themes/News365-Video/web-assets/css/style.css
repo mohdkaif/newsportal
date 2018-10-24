@@ -718,7 +718,7 @@ header {
 }
 
 .newsticker li a {
-    color: #fff;
+    color: white;
     list-style: none;
     text-overflow: ellipsis;
     font-family: 'Ubuntu', sans-serif;
@@ -799,7 +799,6 @@ header {
     border-radius: 0px;
     background-color: #fff;
     margin-bottom: 0px;
-    width:100%;
 }
 
 .navbar-collapse {
