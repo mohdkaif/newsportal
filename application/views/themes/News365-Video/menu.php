@@ -20,9 +20,10 @@ if (isset($ads) && is_array($ads)) {
             </div> --> 
             <div class="col-xs-8 col-md-8 col-sm-8">
                 
-                <div class="header-banner">
+                <div class="header-bann">
                     <!-- <?php  echo '<h2 class="white-text">YUGANTARPRAVAH</h2>'?> -->
-                    <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantar-logo.png')?>" alt="" width="200px" height="70px">
+                    <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantarlogo.png')?>" alt="" />
+                    <h1>युगान्तर प्रवाह</h1>
                 </div>
             </div>
         </div>

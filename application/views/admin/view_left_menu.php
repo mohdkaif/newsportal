@@ -32,9 +32,9 @@
         else if (segment_2 === 'News_list') {
             $('.news_list').addClass('active');
         }
-        else if (segment_2 === 'Theme') {
+       /* else if (segment_2 === 'Theme') {
             $('.theme').addClass('active');
-        }
+        }*/
         else if (segment_3 === 'Create_new_page'|| segment_3 == 'Pages') {
             $('.pages').addClass('active');
         }
@@ -271,10 +271,10 @@ $selected = 'style="background-color:#dbdbdb;"';
                 </li>
 
                 <!--Themes Menu-->
-                <li <?php echo (($slug == 'Theme') ? $selected : '')?>>
+            <!--     <li <?php echo (($slug == 'Theme') ? $selected : '')?>>
                     <a href="<?php echo $bu; ?>admin/Theme"><i class="glyphicon glyphicon-picture"></i> <?php echo display('theme_activation')?></a>
                 </li>
-                
+                 -->
 
                 <li <?php echo (($slug == 'Social_auth_setting') ? $selected : '')?>>
                     <a href="<?php echo $bu; ?>admin/Social_auth_setting" class="theme_de">

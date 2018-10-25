@@ -505,10 +505,14 @@ header {
 }
 
 .top_header {
-    background-color: #f6f6f6;
+    background-color: black;
     position: relative;
+    color:white;
 }
-
+.top-header-div{
+    height:30px;
+    background:black;
+}
 .top_header_menu_wrap {
     line-height: 24px;
     z-index: 1000;
@@ -531,11 +535,12 @@ header {
     margin-right:10px;
     height:30px;
     text-align: center;
+    color:white;
 
 }
 
 .top-header-menu li a {
-    color: #2d3038;
+    color: white;
     font-size: 12px;
     margin-right: 0px;
     line-height: 3.6;
@@ -4418,4 +4423,25 @@ margin-left: 0px;
 .center {
     margin: auto;
     padding: 10px;
+}
+.header-bann{
+    top:0px;
+}
+.header-bann img {
+  float: left;
+  width: 100px;
+  height: 80px;
+ 
+}
+
+.header-bann h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  color:white;
+  font-weight:800;
+}
+.icon-img {
+    width:40px;
+    height:40px;
 }

@@ -85,6 +85,9 @@ $route['(:any)/page/(:any)'] = "Pages_controller/page/$1/$2";
 $route['(:any)/page'] = "Pages_controller/page/0";
 //article page 
 $route['(:any)/details/(:any)/(:any)'] = "Article_controller/details/$1/$2/$3";
+/////////////////API//////////////////////////////
+
+$route['registration_api'] = "Api_controller/registration";
 
 
 

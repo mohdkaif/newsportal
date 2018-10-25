@@ -184,9 +184,10 @@
             <?php
                 if (@$home_page_positions[1]['status'] == 1) {
             ?>
+           
                 <!-- left content inner -->
                 <section class="recent_news_inner">
-                    <h3 class="category-headding "><?php echo @$home_page_positions[1]['cat_name']; ?></h3>
+                    <h3 class="category-headding "><img class="icon-img" src="<?php echo $pn['position_1']['post_by_image_1']; ?>"><?php echo @$home_page_positions[1]['cat_name']; ?></h3>
                     <div class="headding-border"></div>
                     <div class="row">
                         <div id="content-slide" class="owl-carousel">
@@ -282,7 +283,7 @@
                 if (@$home_page_positions[2]['status'] == 1) {
             ?>
                 <section class="politics_wrapper">
-                    <h3 class="category-headding "><?php echo @$home_page_positions[2]['cat_name']; ?></h3>
+                    <h3 class="category-headding "><img class="icon-img" src="<?php echo $pn['position_2']['post_by_image_2']; ?>"><?php echo @$home_page_positions[2]['cat_name']; ?></h3>
                     <div class="headding-border"></div>
                     <div class="row">
                         <div id="content-slide-2" class="owl-carousel">
@@ -580,7 +581,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h3 class="category-headding "><?php echo @$home_page_positions[3]['cat_name'];?></h3>
+                        <h3 class="category-headding "><img class="icon-img" src="<?php echo $pn['position_3']['post_by_image_3']; ?>"><?php echo @$home_page_positions[3]['cat_name'];?></h3>
                         <div class="headding-border"></div>
                     </div>
                     <?php 

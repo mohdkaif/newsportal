@@ -2,7 +2,7 @@
 <div class="top_header hidden-xs">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-8 col-md-8" style="height:30px">
+            <div class="top-header-div col-sm-8 col-md-8">
                 <div class="top_header_menu_wrap">
                     <ul class="top-header-menu">
                         <li><?php echo date("l, M j G:i:s T Y"); ?></li>
