@@ -2,121 +2,229 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/</loc>
+                    <loc>http://localhost/newsportal/</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/International</loc>
+                    <loc>http://localhost/newsportal/International</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Technology</loc>
+                    <loc>http://localhost/newsportal/Travel</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Lifestyle</loc>
+                    <loc>http://localhost/newsportal/Food</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Politics</loc>
+                    <loc>http://localhost/newsportal/Technology</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/weekly-news</loc>
+                    <loc>http://localhost/newsportal/Lifestyle</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Sports</loc>
+                    <loc>http://localhost/newsportal/Editor-Choice</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Health</loc>
+                    <loc>http://localhost/newsportal/Video</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/International</loc>
+                    <loc>http://localhost/newsportal/Politics</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Travel</loc>
+                    <loc>http://localhost/newsportal/About-us</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Food</loc>
+                    <loc>http://localhost/newsportal/PRIVACY-POLICY</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Technology</loc>
+                    <loc>http://localhost/newsportal/TERMS-OF</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Lifestyle</loc>
+                    <loc>http://localhost/newsportal/अंतरराष्ट्रीय</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Editor-Choice</loc>
+                    <loc>http://localhost/newsportal/राष्ट्रीय</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Video</loc>
+                    <loc>http://localhost/newsportal/उत्तर-प्रदेश</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Politics</loc>
+                    <loc>http://localhost/newsportal/राजनीति</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/Business</loc>
+                    <loc>http://localhost/newsportal/क्राइम</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/About-us</loc>
+                    <loc>http://localhost/newsportal/खेल</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/PRIVACY-POLICY</loc>
+                    <loc>http://localhost/newsportal/मनोरंजन</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/MainNewsPaper-v2.0/main/TERMS-OF</loc>
+                    <loc>http://localhost/newsportal/स्वास्थ</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/ज्योतिष</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/अध्यात्म</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/व्यापार</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/टेक्नोलॉजी</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/नौकर-शाही</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/अंतरराष्ट्रीय</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/राष्ट्रीय</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/उत्तर-प्रदेश</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/राजनीति</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/क्राइम</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/खेल</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/मनोरंजन</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/स्वास्थ</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/ज्योतिष</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/अध्यात्म</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/व्यापार</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/टेक्नोलॉजी</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/नौकर-शाही</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>

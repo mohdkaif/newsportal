@@ -1,4 +1,5 @@
 <?php
+
     $bu = base_url();
     if (isset($ads) && is_array($ads)) {
         extract($ads);
@@ -174,20 +175,19 @@
         </div>
     </section>
 
-
+<!------------------------------  TEchnology -->
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-sm-8">
-                <div class="banner <?php echo (@$lg_status_12==0?'hidden-lg hidden-md':'')?> <?php echo (@$sm_status_12==0?'hidden-xs hidden-sm':'')?>">
-                    <?php echo @$home_12; ?>
-                </div> 
+                
             <?php
                 if (@$home_page_positions[1]['status'] == 1) {
+                 
             ?>
            
-                <!-- left content inner -->
+                <!-- left content inner -- technology...................... -->
                 <section class="recent_news_inner">
-                    <h3 class="category-headding "><img class="icon-img" src="<?php echo $pn['position_1']['post_by_image_1']; ?>"><?php echo @$home_page_positions[1]['cat_name']; ?></h3>
+                    <h3 class="category-headding "><img class="icon-img" src="<?php echo $ci['category_image_1']; ?>"><?php echo '  '. @$home_page_positions[1]['cat_name']; ?></h3>
                     <div class="headding-border"></div>
                     <div class="row">
                         <div id="content-slide" class="owl-carousel">
@@ -201,7 +201,7 @@
                             <div class="item home2-post effects">
                                 <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
                                     <!-- image -->
-                                    <div class="post-thumb">
+                                    <div class="post-thumb polaroid">
                                             <?php
                                                 if (@$pn['position_1']['image_check_'.$i]!=NULL) {
                                                 echo' <a href="'.@$pn['position_1']['news_link_'.$i].'">
@@ -240,7 +240,7 @@
                             <div class="home2-post">
                                 <div class="post-wrapper wow fadeIn effects" data-wow-duration="1s">
                                     <!-- image -->
-                                    <div class="post-thumb">
+                                    <div class="post-thumb polaroid">
                                         
                                             <?php
                                                 if (@$pn['position_1']['image_check_'.$i]!=NULL) {
@@ -281,9 +281,11 @@
                     ============================================ -->
             <?php
                 if (@$home_page_positions[2]['status'] == 1) {
+                   
+
             ?>
                 <section class="politics_wrapper">
-                    <h3 class="category-headding "><img class="icon-img" src="<?php echo $pn['position_2']['post_by_image_2']; ?>"><?php echo @$home_page_positions[2]['cat_name']; ?></h3>
+                    <h3 class="category-headding "><img class="icon-img" src="<?php echo @$ci['category_image_2']; ?>"/><?php echo '  '. @$home_page_positions[2]['cat_name']; ?></h3>
                     <div class="headding-border"></div>
                     <div class="row">
                         <div id="content-slide-2" class="owl-carousel">
@@ -297,7 +299,7 @@
                                             <!-- post title -->
                                             <h3><a href="<?php echo @$pn['position_2']['news_link_1']; ?>"><?php echo @$pn['position_2']['news_title_1']; ?></a></h3>
                                             <!-- post image -->
-                                            <div class="post-thumb">
+                                            <div class="post-thumb polaroid">
                                                 <a href="<?php echo @$pn['position_2']['news_link_1']; ?>">
                                                     
                                             <?php
@@ -383,7 +385,7 @@
                                             <!-- post title -->
                                             <h3><a href="<?php echo @$pn['position_2']['news_link_6']; ?>"><?php echo @$pn['position_2']['news_title_6']; ?></a></h3>
                                             <!-- post image -->
-                                            <div class="post-thumb">
+                                            <div class="post-thumb polaroid">
                                                 <a href="<?php echo @$pn['position_2']['news_link_6']; ?>">
                                                    <?php if(@$pn['position_2']['image_check_6']){?>
                                                     <img src="<?php echo @$pn['position_2']['image_large_6']; ?>" class="img-responsive" alt="">
@@ -459,34 +461,37 @@
                 }
             ?>
                 <!-- /.Politics -->
-                <div class="ads <?php echo (@$lg_status_13==0?'hidden-lg hidden-md':'')?> <?php echo (@$sm_status_13==0?'hidden-xs hidden-sm':'')?>">
-                   <?php echo @$home_14;?>
-                </div>
+                <!-- <div class="ads <?php echo (@$lg_status_13==0?'hidden-lg hidden-md':'')?> <?php echo (@$sm_status_13==0?'hidden-xs hidden-sm':'')?>">
+                   <?php echo @$home_32; ?>
+                </div> -->
             </div>
             <!-- /.left content inner -->
-            <div class="col-md-4 col-sm-4 left-padding">
-                <!-- right content wrapper -->
-          
-                <!-- /.search area -->
-                <!-- social icon -->
-                <h3 class="category-headding "><?php echo display('social_pixel')?></h3>
-                <div class="headding-border"></div>
-                <div class="social">
-                <?php
-                    $social_sites = json_decode('[' . @$seo['social_sites'] . ']');
+         <div class="col-sm-4 left-padding">
+                    <!-- slider widget -->
+                   <div>
+                            <!-- widget item -->
+                           <?php 
+                        
+                           for($i=0;$i<=1;$i++){
 
-                    if (@$social_sites[0]->fb->h_p == 1) {
-                        echo @$social_sites[0]->fb->URL;
-                    }
-                ?>
-                </div>
-                <!-- /.social icon -->
-                <div class="banner-add <?php echo (@$lg_status_14==0?'hidden-lg hidden-md':'')?> <?php echo (@$sm_status_14==0?'hidden-xs hidden-sm':'')?>">
-                    <!-- add -->
-                    <span class="add-title"> </span>
-                    <?php echo @$home_13; ?>
-                </div>
-                 <div class="tab-inner">
+
+                            ?>
+                                <div class="ad-item">
+                                    
+                                    <?php
+                                    $srcelem = @$ads['home_'.$i];
+                                        if (@$ads['home_'.$i]!=NULL) {
+                                              echo $srcelem;
+                                            } 
+                                        ?>
+                                   
+                                  
+                                
+                                </div>
+                            <?php } ?>
+                        
+                    </div>
+                    <div class="tab-inner">
                         <ul class="tabs">
                             <li><a href="#"><?php echo @$lan['latest_news'];?></a></li>
                             <li><a href="#"><?php echo @$lan['most_read']; ?></a></li>
@@ -564,8 +569,8 @@
                             </div> <!-- / tab item -->
                         </div> <!-- / tab_content -->
                     </div> <!-- / tab -->
-                <!-- / tab -->
-            </div>
+
+        </div>
             <!-- side content end -->
         </div>
         <!-- row end -->
@@ -576,15 +581,18 @@
     <!-- Video News Area
            <!-- Video News Area
  ============================================ -->
-        <?php if(@$home_page_positions[3]['status']==1){ ?>
+        <?php if(@$home_page_positions[3]['status']==1){  
+
+
+
+            ?>
         <section class="video-post-inner">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <h3 class="category-headding "><img class="icon-img" src="<?php echo $pn['position_3']['post_by_image_3']; ?>"><?php echo @$home_page_positions[3]['cat_name'];?></h3>
-                        <div class="headding-border"></div>
-                    </div>
-                    <?php 
+                    <div class="col-sm-8">
+                        <h3 class="category-headding "><img class="icon-img" src="<?php echo @$ci['category_image_3']; ?>"/><?php echo '  '. @$home_page_positions[3]['cat_name'];?></h3>
+                        <div class="headding-border"></div> 
+                        <?php 
                     for($i=1; $i<=3; $i++){ 
                         if(!isset($pn['position_3']['news_title_'.$i]))
                             continue
@@ -623,6 +631,101 @@
                         </div>
                     </div>
                 <?php }?>
+
+                    </div>
+                 
+                  <div class="col-sm-4 left-padding">
+                    <!-- slider widget -->
+                    <div class="widget-slider-inner">
+                        <h3 class="category-headding "><img class="icon-img" src="<?php echo base_url().'/uploads/editorchoice.png'; ?>"><?php echo  @$Editor['hn']['category_1']; ?></h3>
+                        <div class="headding-border"></div>
+                        <div id="widget-slider" class="owl-carousel owl-theme">
+                            <!-- widget item -->
+                           <?php 
+                           for($i=1;$i<=3;$i++){
+                            if(!isset($Editor['hn']['news_title_'.$i]))
+                            continue
+
+                            ?>
+                                <div class="item">
+                                    <a href="<?php echo @$Editor['hn']['news_link_'.$i]?>">
+                                    <?php
+                                        if (@$Editor['hn']['image_check_'.$i]!=NULL) {
+                                              echo'<img  src="'. @$Editor['hn']['image_thumb_'.$i].'" alt="">';
+                                            } else {
+                                              echo'<img  class="img-responsive"  src="http://img.youtube.com/vi/'.@$Editor['hn']['video_'.$i].'/0.jpg" alt="photography" />';
+                                            }
+                                        ?>
+                                    </a>
+                                    <h4><a href="<?php echo @$Editor['hn']['news_link_'.$i]?>"><?php echo @$Editor['hn']['news_title_'.$i]?></a></h4>
+                                    <div class="date">
+                                        <ul>
+                                            <li>By<a title="" href="#"><span><?php echo @$Editor['hn']['post_by_name_'.$i]?></span></a> --</li>
+                                            <li><a title="" href="#"><?php echo date('l, d M, Y', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
+                                        </ul>
+                                    </div>
+                                    <p>
+                                    <?php 
+                                        @$news_details = @$Editor['hn']['full_news_'.$i];
+                                     echo $exploded = implode(' ', array_slice(explode(' ', $news_details), 0, 20));
+                                    ?></p>
+                                </div>
+                            <?php } ?>
+                        </div>
+                    </div>
+                    <!-- video -->
+                    <?php if(@$home_page_positions[7]['status']==1){ ?>
+                        <!-- video -->
+                        <div class="video-headding"><?php echo display('video_striming')?></div>
+                        <div id="rypp-demo-4" class="RYPP r16-9" data-playlist="PLw8TejMbmHM6IegrJ4iECWNoFuG7RiCV_">
+                            <div class="RYPP-playlist">
+                                <script type="text/javascript" src="<?php echo base_url(); ?>movi/highslide-with-html.js"></script>
+                                <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>movi/highslide.css" />
+                                
+                                <script type="text/javascript">
+                                    // Apply the Highslide settings
+                                    hs.graphicsDir = '<?php echo base_url(); ?>movi/graphics/';
+                                    hs.outlineType = 'rounded-white';
+                                    hs.outlineWhileAnimating = true;
+                                </script>
+                                <div class="RYP-items">
+                                    <ol>
+                                    <?php 
+                                    for($i=1;$i<=5;$i++){
+                                        if(!isset($pn['position_7']['news_title_'.$i]))
+                                        continue
+                                    ?>
+                                       <li class="selected" >
+                                           <p class="title" style="width: 67%">
+                                           <a style="width: 67%; color: #fff;" href="http://www.youtube.com/embed/<?php echo @$pn['position_7']['video_'.$i]?>?rel=0&amp;wmode=transparent"
+                                                onclick="return hs.htmlExpand(this, {objectType: 'iframe', width: 480, height: 385, 
+                                                        allowSizeReduction: false, wrapperClassName: 'draggable-header no-footer', 
+                                                        preserveContent: false, objectLoadTime: 'after'})">
+                                           <?php echo @$pn['position_7']['news_title_'.$i]?>
+                                           </a>
+                                           <small class="author"><br><?php echo @$pn['position_7']['post_by_name_'.$i]?></small></p>
+                                                <a href="http://www.youtube.com/embed/<?php echo @$pn['position_7']['video_'.$i]?>?rel=0&amp;wmode=transparent"
+                                                onclick="return hs.htmlExpand(this, {objectType: 'iframe', width: 480, height: 385, 
+                                                        allowSizeReduction: false, wrapperClassName: 'draggable-header no-footer', 
+                                                        preserveContent: false, objectLoadTime: 'after'})">    
+                                            <?php
+                                                if (@$pn['position_7']['image_check_'.$i]!=NULL) {
+                                                  echo'<img class="img-responsive" style="width: 85px" src="'.@$pn['position_7']['image_thumb_'.$i].'" alt="">';
+                                                } else {
+                                                    echo'<img style="width: 85px" src="https://i.ytimg.com/vi/'. @$pn['position_7']['video_'.$i].'/default.jpg" class="thumb">';
+                                                }
+                                            ?>
+                                                </a>
+                                       </li>
+                                    <?php } ?>
+                                    </ol>   
+                                </div>
+
+                            </div>
+                        </div>
+                         <?php } ?>
+                    <!-- /.video -->
+                </div>
                 </div>
             </div>
         </section>
@@ -636,19 +739,20 @@
             <div class="row">
                 <div class="col-sm-8">
                     <div class="row">
-                    <?php if(@$home_page_positions[4]['status']==1){ ?>
+                    <?php if(@$home_page_positions[4]['status']==1){ 
+                     ?>
                         <!-- business Area
                             ============================================ -->
                         <div class="col-sm-6 col-md-6">
                             <div class="buisness">
-                                <h3 class="category-headding "><?php echo @$home_page_positions[4]['cat_name']?></h3>
+                                <h3 class="category-headding "><img class="icon-img" src="<?php echo @$ci['category_image_4']; ?>"/><?php echo '  '. @$home_page_positions[4]['cat_name']?></h3>
                                 <div class="headding-border bg-color-5"></div>
                                 <?php  if (@$pn['position_4']['news_title_1']!=NULL) { ?>
                                 <div class="post-wrapper wow fadeIn effects" data-wow-duration="1s">
                                     <!-- post title -->
                                     <h3><a href="<?php echo @$pn['position_4']['news_link_1']?>"> <?php echo @$pn['position_4']['news_title_1']?></a></h3>
                                     <!-- post image -->
-                                    <div class="post-thumb">
+                                    <div class="post-thumb polaroid">
                                         <?php
                                                 if (@$pn['position_4']['image_check_1']) {
                                                   echo'<img class="img-responsive" src="'.@$pn['position_4']['image_thumb_1'].'" alt="">';
@@ -723,19 +827,20 @@
 
                         <?php }?>
 
-                        <?php if(@$home_page_positions[5]['status']==1){ ?>
+                        <?php if(@$home_page_positions[5]['status']==1){ 
+?>
                         <!-- international Area
                             ============================================ -->
                         <div class="col-sm-6 col-md-6">
                             <div class="international">
-                                <h3 class="category-headding "><?php echo @$home_page_positions[5]['cat_name']?></h3>
+                                <h3 class="category-headding "><img class="icon-img" src="<?php echo  @$ci['category_image_5'];; ?>"><?php echo '  '. @$home_page_positions[5]['cat_name']?></h3>
                                 <div class="headding-border bg-color-2"></div>
                                 <?php  if (@$pn['position_5']['news_title_1']!=NULL) {?>
                                 <div class="post-wrapper wow fadeIn effects" data-wow-duration="1s">
                                     <!-- post title -->
                                     <h3><a href="<?php echo @$pn['position_5']['news_link_1']?>"><?php echo @$pn['position_5']['news_title_1']?></a></h3>
                                     <!-- post image -->
-                                    <div class="post-thumb">
+                                    <div class="post-thumb polaroid">
                                             <?php
                                                 if (@$pn['position_5']['image_check_1']!=NULL) {
                                                   echo'<img class="img-responsive" src="'.@$pn['position_5']['image_large_1'].'" alt="">';
@@ -807,11 +912,14 @@
                         </div>
                         <?php } ?>
                     </div>
-                    <?php if(@$home_page_positions[6]['status']==1){ ?>
+                    <?php if(@$home_page_positions[6]['status']==1){ 
+
+
+                        ?>
                     <!-- technology Area
                         ============================================ -->
                     <section class="politics_wrapper">
-                        <h3 class="category-headding "><?php echo @$home_page_positions[6]['cat_name']?></h3>
+                        <h3 class="category-headding "><img class="icon-img" src="<?php echo $ci['category_image_6']; ?>"><?php echo '  '. @$home_page_positions[6]['cat_name']?></h3>
                         <div class="headding-border"></div>
                         <div class="row">
                             <div id="content-slide-3" class="owl-carousel">
@@ -825,7 +933,7 @@
                                                 <!-- post title -->
                                                 <h3><a href="<?php echo @$pn['position_6']['news_link_1']?>"><?php echo @$pn['position_6']['news_title_1']?></a></h3>
                                                 <!-- post image -->
-                                                <div class="post-thumb">
+                                                <div class="post-thumb polaroid">
                                             <?php
                                                 if (@$pn['position_6']['image_check_1']!=NULL) {
                                                   echo'<img class="img-responsive" src="'.@$pn['position_6']['image_large_1'].'" alt="">';
@@ -978,98 +1086,31 @@
                     </section>
                     <?php } ?>
                 </div>
-                <div class="col-sm-4 left-padding">
-                    <!-- slider widget -->
-                    <div class="widget-slider-inner">
-                        <h3 class="category-headding "><?php echo  @$Editor['hn']['category_1']; ?></h3>
-                        <div class="headding-border"></div>
-                        <div id="widget-slider" class="owl-carousel owl-theme">
-                            <!-- widget item -->
-                           <?php 
-                           for($i=1;$i<=3;$i++){
-                            if(!isset($Editor['hn']['news_title_'.$i]))
-                            continue
+   <div class="col-md-4 col-sm-4 left-padding">
+                <!-- right content wrapper -->
+          
+                <!-- /.search area -->
+                <!-- social icon -->
+                <h3 class="category-headding "><img class="icon-img" src="<?php echo base_url().'/uploads/social.png'?>"/><?php echo ' '.display('social_pixel')?></h3>
+                <div class="headding-border"></div>
+                <div class="social">
+                <?php
+                    $social_sites = json_decode('[' . @$seo['social_sites'] . ']');
 
-                            ?>
-                                <div class="item">
-                                    <a href="<?php echo @$Editor['hn']['news_link_'.$i]?>">
-                                    <?php
-                                        if (@$Editor['hn']['image_check_'.$i]!=NULL) {
-                                              echo'<img  src="'. @$Editor['hn']['image_thumb_'.$i].'" alt="">';
-                                            } else {
-                                              echo'<img  class="img-responsive"  src="http://img.youtube.com/vi/'.@$Editor['hn']['video_'.$i].'/0.jpg" alt="photography" />';
-                                            }
-                                        ?>
-                                    </a>
-                                    <h4><a href="<?php echo @$Editor['hn']['news_link_'.$i]?>"><?php echo @$Editor['hn']['news_title_'.$i]?></a></h4>
-                                    <div class="date">
-                                        <ul>
-                                            <li>By<a title="" href="#"><span><?php echo @$Editor['hn']['post_by_name_'.$i]?></span></a> --</li>
-                                            <li><a title="" href="#"><?php echo date('l, d M, Y', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
-                                        </ul>
-                                    </div>
-                                    <p>
-                                    <?php 
-                                        @$news_details = @$Editor['hn']['full_news_'.$i];
-                                     echo $exploded = implode(' ', array_slice(explode(' ', $news_details), 0, 20));
-                                    ?></p>
-                                </div>
-                            <?php } ?>
-                        </div>
-                    </div>
-                    <!-- video -->
-                    <?php if(@$home_page_positions[7]['status']==1){ ?>
-                        <!-- video -->
-                        <div class="video-headding"><?php echo display('video_striming')?></div>
-                        <div id="rypp-demo-4" class="RYPP r16-9" data-playlist="PLw8TejMbmHM6IegrJ4iECWNoFuG7RiCV_">
-                            <div class="RYPP-playlist">
-                                <script type="text/javascript" src="<?php echo base_url(); ?>movi/highslide-with-html.js"></script>
-                                <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>movi/highslide.css" />
-                                
-                                <script type="text/javascript">
-                                    // Apply the Highslide settings
-                                    hs.graphicsDir = '<?php echo base_url(); ?>movi/graphics/';
-                                    hs.outlineType = 'rounded-white';
-                                    hs.outlineWhileAnimating = true;
-                                </script>
-                                <div class="RYP-items">
-                                    <ol>
-                                    <?php 
-                                    for($i=1;$i<=5;$i++){
-                                        if(!isset($pn['position_7']['news_title_'.$i]))
-                                        continue
-                                    ?>
-                                       <li class="selected" >
-                                           <p class="title" style="width: 67%">
-                                           <a style="width: 67%; color: #fff;" href="http://www.youtube.com/embed/<?php echo @$pn['position_7']['video_'.$i]?>?rel=0&amp;wmode=transparent"
-                                                onclick="return hs.htmlExpand(this, {objectType: 'iframe', width: 480, height: 385, 
-                                                        allowSizeReduction: false, wrapperClassName: 'draggable-header no-footer', 
-                                                        preserveContent: false, objectLoadTime: 'after'})">
-                                           <?php echo @$pn['position_7']['news_title_'.$i]?>
-                                           </a>
-                                           <small class="author"><br><?php echo @$pn['position_7']['post_by_name_'.$i]?></small></p>
-                                                <a href="http://www.youtube.com/embed/<?php echo @$pn['position_7']['video_'.$i]?>?rel=0&amp;wmode=transparent"
-                                                onclick="return hs.htmlExpand(this, {objectType: 'iframe', width: 480, height: 385, 
-                                                        allowSizeReduction: false, wrapperClassName: 'draggable-header no-footer', 
-                                                        preserveContent: false, objectLoadTime: 'after'})">    
-                                            <?php
-                                                if (@$pn['position_7']['image_check_'.$i]!=NULL) {
-                                                  echo'<img class="img-responsive" style="width: 85px" src="'.@$pn['position_7']['image_thumb_'.$i].'" alt="">';
-                                                } else {
-                                                    echo'<img style="width: 85px" src="https://i.ytimg.com/vi/'. @$pn['position_7']['video_'.$i].'/default.jpg" class="thumb">';
-                                                }
-                                            ?>
-                                                </a>
-                                       </li>
-                                    <?php } ?>
-                                    </ol>   
-                                </div>
-
-                            </div>
-                        </div>
-                         <?php } ?>
-                    <!-- /.video -->
+                    if (@$social_sites[0]->fb->h_p == 1) {
+                        echo @$social_sites[0]->fb->URL;
+                    }
+                ?>
                 </div>
+                <!-- /.social icon -->
+                <div class="banner-add <?php echo (@$lg_status_14==0?'hidden-lg hidden-md':'')?> <?php echo (@$sm_status_14==0?'hidden-xs hidden-sm':'')?>">
+                    <!-- add -->
+                    <span class="add-title"> </span>
+                    <?php echo @$home_13; ?>
+                </div>
+                 
+                <!-- / tab -->
+            </div>
             </div>
         </div>
     </section>
@@ -1085,4 +1126,4 @@
     </div>
 </div>
 
-   
+  

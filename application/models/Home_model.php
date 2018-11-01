@@ -7,13 +7,16 @@ class Home_model extends CI_Model {
 
     // Getting Page data for home
     function page_data_for_home($page_comma_seperator, $limit = 15) {
+
         $PN = array();
         $bu = base_url();
         $page_list = explode(',', $page_comma_seperator);
+
         $word_limit = 30;
         $i = 1;
         foreach ($page_list as $page){
             list($page, $position) = explode('~', $page);
+
             $this->db->select('t1.news_id,t1.time_stamp,t1.page,t1.stitle,t1.title,t1.image,t1.videos,t1.news,t1.reference,t1.ref_date,t1.reporter,t1.videos,t1.post_date,t1.post_by,t3.id,t3.photo,t3.name');
             $this->db->from('news_position t2');
             $this->db->where('t2.page', $page);
@@ -24,7 +27,7 @@ class Home_model extends CI_Model {
             $this->db->order_by('t2.position', 'ASC');
             $this->db->limit(50);  
             $result = $this->db->get()->result_array();
-            
+           
             $i = 1;
             foreach ($result as $data) {
                 $news_id = $data['news_id']; 
@@ -40,7 +43,7 @@ class Home_model extends CI_Model {
                 $post_by_name = $data['name'];
                 $post_by_img = $data['photo'];
                 $post_date = $data['post_date'];
-
+              
                 // category
                 $PN['position_' . $position]['category_' . $i] = $page;
                 // category link
@@ -81,6 +84,8 @@ class Home_model extends CI_Model {
                 //Image large with link
                 $PN['position_' . $position]['image_large_link_' . $i] = "<a href='" . @$PN['position_' . $position]['newslink' . $i] . "'><img src='" . base_url() . 'uploads/' . $image . "' alt='" . $splited_TITLE . "' class='img-responsive bdtask_image_large'></a>";
 
+               
+
                 ### Image Group End  ###
                  $i++;
 
@@ -100,7 +105,6 @@ class Home_model extends CI_Model {
                 ->from('news_position t2')
                 ->join('news_mst t1', 't1.news_id=t2.news_id', 'left')
                 ->join('user_info t3', 't3.id=t1.post_by')
-                ->join('categories t4', 't4.slug=t1.page')
                 ->where('t1.publish_date <=',date("Y-m-d"))
                 ->where('t2.page', $page)
                 ->where('t1.status', '0')
@@ -109,7 +113,7 @@ class Home_model extends CI_Model {
                 ->order_by('t2.news_id', 'DESC')
                 ->get()
                 ->result();
-
+                
         $bu = base_url();
         $i = 1;
         @$HN = array();
@@ -170,14 +174,33 @@ class Home_model extends CI_Model {
                    $cat_list[] = trim($value['slug']) . '~' . $key;
                 } 
             }
+           
+            @$CI = array();
+            foreach($cat_list as $key => $value){
+                $value = substr($value, 0, strpos($value, "~"));
+                
+
+                $this->db->select('category_imgae');
+                $this->db->from('categories');
+                $this->db->where('slug ', $value);
+                $result_category = $this->db->get()->result_array();
+                
+                foreach ($result_category as $data_cat) {
+                    $CI['category_image_'. ($key+1)] = $data_cat['category_imgae'];
+                }
+            }
+           
+           
+            
             $cat_list = implode(',', $cat_list);
+
             @$PN = $this->page_data_for_home($cat_list);
            
         } else {
             $PN = '';
         }
-        
-        return array('hn' => $HN, 'pn' => $PN);
+      
+        return array('hn' => $HN, 'pn' => $PN , 'ci' => $CI);
     }
 
 

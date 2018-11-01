@@ -36,11 +36,11 @@
                 </div>
             </div> -->
 
-            <?php
+            <!-- <?php
                 @$social_link = json_decode('[' . $social_link . ']');
             ?>
-
-            <div class="col-sm-12 col-md-4">
+ -->
+          <!--   <div class="col-sm-12 col-md-4">
                 <div class="top_header_icon">
                     <span class="top_header_icon_wrap">
                         <a target="_blank" href="<?php if (isset($social_link[0]->tw)) echo @$social_link[0]->tw; ?>" title="Twitter"><i class="fa fa-twitter"></i></a>
@@ -58,7 +58,7 @@
                         <a target="_blank" href="<?php if (isset($social_link[0]->pin)) echo @$social_link[0]->pin; ?>" title="Pintereset"><i class="fa fa-pinterest-p"></i></a>
                     </span>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

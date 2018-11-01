@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?><rss version="2.0"
 xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
-<title>Demo Newspaper RSS Feed RSS</title>
+<title>YugantarPravah RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>23-10-2018</lastBuildDate>
+<lastBuildDate>31-10-2018</lastBuildDate>
 <image>
-                    <title>Demo NewspaperRSS Feed</title>
+                    <title>YugantarPravahRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
                     <link>http://localhost/newsportal/</link>
                 </image>
 
                 <item>
-                    <title>रायबरेली में बड़ा ट्रेन हादसा कई लोगों की मौत बड़ी संख्या में लोग घायल-300 सौ से अधिक लोगों की फंसे होने की संभावना।</title>
-                            <link>http://localhost/newsportal/world/details/145/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।</link>
-                    <pubDate>Tuesday, 23 Oct, 2018</pubDate>  
-                    <author>Md Naeem Khan 1</author>     
-                    <description>स्थानीय लोगों और हरचंदपुर स्टेशन के स्टाफ के साथ एनडीआरएफ की टीम स्क्यू ऑपरेशन में जुटी है.मामले में उत्तर रेलवे के एडीआरएम काजी महाराज अलाम ने बताया कि 14003 न्यू</description>
+                    <title>यूपी: कई जिलों में रहस्यमयी बुखार ने मचाया आतंक, एक दिन में 11 लोगों की मौत</title>
+                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/165/यूपी-कई-जिलों-में-रहस्यमयी-बुखार-ने-मचाया-आतंक-एक-दिन-में-लोगों-की-मौत</link>
+                    <pubDate>Tuesday, 30 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>यूपी के कुछ जिलों में संक्रामक बुखार विकराल हो चुका है। बदायूं में शनिवार को 11 लोगों की मौत हो गई। आसपास के क्षेत्रों में बुखार से मरने वालों की</description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1540283422.jpg</url>
-                        <title>रायबरेली में बड़ा ट्रेन हादसा कई लोगों की मौत बड़ी संख्या में लोग घायल-300 सौ से अधिक लोगों की फंसे होने की संभावना।</title>
-                        <link>http://localhost/newsportal/world/details/145/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।</link>
+                        <url>http://localhost/newsportal/uploads/1540972976.jpg</url>
+                        <title>यूपी: कई जिलों में रहस्यमयी बुखार ने मचाया आतंक, एक दिन में 11 लोगों की मौत</title>
+                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/165/यूपी-कई-जिलों-में-रहस्यमयी-बुखार-ने-मचाया-आतंक-एक-दिन-में-लोगों-की-मौत</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/145/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।</guid>
-                    <category><![CDATA[world]]></category>
+                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/165/यूपी-कई-जिलों-में-रहस्यमयी-बुखार-ने-मचाया-आतंक-एक-दिन-में-लोगों-की-मौत</guid>
+                    <category><![CDATA[उत्तर-प्रदेश]]></category>
 
                     <content:encoded>
                     <![CDATA[
@@ -31,7 +31,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/145/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।>
+                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/165/यूपी-कई-जिलों-में-रहस्यमयी-बुखार-ने-मचाया-आतंक-एक-दिन-में-लोगों-की-मौत>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -40,7 +40,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                                 <!— Article header goes here -->
                               </header>
 
-                                <p>स्थानीय लोगों और हरचंदपुर स्टेशन के स्टाफ के साथ एनडीआरएफ की टीम स्क्यू ऑपरेशन में जुटी है.मामले में उत्तर रेलवे के एडीआरएम काजी महाराज अलाम ने बताया कि 14003 न्यू</p>
+                                <p>यूपी के कुछ जिलों में संक्रामक बुखार विकराल हो चुका है। बदायूं में शनिवार को 11 लोगों की मौत हो गई। आसपास के क्षेत्रों में बुखार से मरने वालों की</p>
 
                               <footer>
                                 <!— Article footer goes here -->
@@ -53,18 +53,18 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </item>
 
                 <item>
-                    <title>मेक्सिको तट पर मृत मिले दुर्लभ प्रजाति के 300 कछुए</title>
-                            <link>http://localhost/newsportal/world/details/144/मेक्सिको-तट-पर-मृत-मिले-दुर्लभ-प्रजाति-के-कछुए</link>
-                    <pubDate>Tuesday, 23 Oct, 2018</pubDate>  
-                    <author>Md Naeem Khan 1</author>     
-                    <description>दक्षिणी मेक्सिको के तट पर लुप्तप्राय: प्रजाति के 300 से ज्यादा कछुए मृत अवस्था में मिले, ये कछुए मछली पकड़ने के उस किस्म के जाल में फंसे हुए थे जिसके</description>
+                    <title> सिंबा नहीं केदारनाथ से ही डेब्यू करेंगी सारा, ऐसा है नया पोस्टर</title>
+                            <link>http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर</link>
+                    <pubDate>Tuesday, 30 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>सैफ अली खान की बेटी सारा अली खान बहुत जल्द बॉलीवुड में डेब्यू करने जा रही हैं. केदारनाथ की रिलीज डेट को लेकर लगातार बने हुए कन्फ्यूजन के चलते हालांकि यह साफ नहीं हो</description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1540283307.jpg</url>
-                        <title>मेक्सिको तट पर मृत मिले दुर्लभ प्रजाति के 300 कछुए</title>
-                        <link>http://localhost/newsportal/world/details/144/मेक्सिको-तट-पर-मृत-मिले-दुर्लभ-प्रजाति-के-कछुए</link>
+                        <url>http://localhost/newsportal/uploads/1540969938.jpeg</url>
+                        <title> सिंबा नहीं केदारनाथ से ही डेब्यू करेंगी सारा, ऐसा है नया पोस्टर</title>
+                        <link>http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/144/मेक्सिको-तट-पर-मृत-मिले-दुर्लभ-प्रजाति-के-कछुए</guid>
-                    <category><![CDATA[world]]></category>
+                    <guid isPermaLink='false'>http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर</guid>
+                    <category><![CDATA[मनोरंजन]]></category>
 
                     <content:encoded>
                     <![CDATA[
@@ -72,7 +72,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/144/मेक्सिको-तट-पर-मृत-मिले-दुर्लभ-प्रजाति-के-कछुए>
+                            <link rel="canonical" href=http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -81,7 +81,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                                 <!— Article header goes here -->
                               </header>
 
-                                <p>दक्षिणी मेक्सिको के तट पर लुप्तप्राय: प्रजाति के 300 से ज्यादा कछुए मृत अवस्था में मिले, ये कछुए मछली पकड़ने के उस किस्म के जाल में फंसे हुए थे जिसके</p>
+                                <p>सैफ अली खान की बेटी सारा अली खान बहुत जल्द बॉलीवुड में डेब्यू करने जा रही हैं. केदारनाथ की रिलीज डेट को लेकर लगातार बने हुए कन्फ्यूजन के चलते हालांकि यह साफ नहीं हो</p>
 
                               <footer>
                                 <!— Article footer goes here -->
@@ -94,17 +94,508 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </item>
 
                 <item>
-                    <title> अमेरिका ने कहा- भारत के साथ 2+2 वार्ता गहरे रणनीतिक साझेदारी के संकेत</title>
-                            <link>http://localhost/newsportal/world/details/143/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत</link>
-                    <pubDate>Tuesday, 23 Oct, 2018</pubDate>  
-                    <author>Md Naeem Khan 1</author>     
+                    <title>Asian Games 2018: शरत-मणिका और अमलराज-मधुरिका की जो़ड़ी प्री-क्वार्टरफाइनल में पहुंची</title>
+                            <link>http://localhost/newsportal/खेल/details/163/Asian-Games-शरत-मणिका-और-अमलराज-मधुरिका-की-जो़ड़ी-प्री-क्वार्टरफाइनल-में-पहुंची</link>
+                    <pubDate>Tuesday, 30 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>भारतीय टेबल टेनिस जोड़ी अचंत शरत कमल और मणिका बत्रा ने भी अच्छी शुरुआत कर 18वें एशियाई खेलों में बुधवार को मिश्रित युगल स्पर्धा के अंतिम-16 दौर में प्रवेश कर</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540969560.jpg</url>
+                        <title>Asian Games 2018: शरत-मणिका और अमलराज-मधुरिका की जो़ड़ी प्री-क्वार्टरफाइनल में पहुंची</title>
+                        <link>http://localhost/newsportal/खेल/details/163/Asian-Games-शरत-मणिका-और-अमलराज-मधुरिका-की-जो़ड़ी-प्री-क्वार्टरफाइनल-में-पहुंची</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/खेल/details/163/Asian-Games-शरत-मणिका-और-अमलराज-मधुरिका-की-जो़ड़ी-प्री-क्वार्टरफाइनल-में-पहुंची</guid>
+                    <category><![CDATA[खेल]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/खेल/details/163/Asian-Games-शरत-मणिका-और-अमलराज-मधुरिका-की-जो़ड़ी-प्री-क्वार्टरफाइनल-में-पहुंची>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>भारतीय टेबल टेनिस जोड़ी अचंत शरत कमल और मणिका बत्रा ने भी अच्छी शुरुआत कर 18वें एशियाई खेलों में बुधवार को मिश्रित युगल स्पर्धा के अंतिम-16 दौर में प्रवेश कर</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>खुद की गलती से सड़क दुर्घटना हुई तो बीमा नहीं – सुप्रीम कोर्ट</title>
+                            <link>http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट</link>
+                    <pubDate>Tuesday, 30 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>सुप्रीम कोर्ट ने शनिवार को कहा कि यदि कोई व्यक्ति वाहन चलाते समय स्वयं कोई दुर्घटना करता है और उसमें कोई दूसरा वाहन शामिल न हो तो परिजन मुआवजे का</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540969399.png</url>
+                        <title>खुद की गलती से सड़क दुर्घटना हुई तो बीमा नहीं – सुप्रीम कोर्ट</title>
+                        <link>http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट</guid>
+                    <category><![CDATA[क्राइम]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>सुप्रीम कोर्ट ने शनिवार को कहा कि यदि कोई व्यक्ति वाहन चलाते समय स्वयं कोई दुर्घटना करता है और उसमें कोई दूसरा वाहन शामिल न हो तो परिजन मुआवजे का</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>भारतीय रेल की नई ट्रेन: हादसा होने पर भी सुरक्षित रहेंगे लोग</title>
+                            <link>http://localhost/newsportal//details/161/भारतीय-रेल-की-नई-ट्रेन-हादसा-होने-पर-भी-सुरक्षित-रहेंगे-लोग</link>
+                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>चेन्नई में इंटिग्रल कोच फैक्ट्री (आईसीएफ) द्वारा सौ करोड़ रूपये की लागत से तैयार देश की पहली मेट्रो जैसी ‘ट्रेन 18’ का अनावरण रेलवे बोर्ड के अध्यक्ष अश्विनी लोहानी ने</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540969233.jpg</url>
+                        <title>भारतीय रेल की नई ट्रेन: हादसा होने पर भी सुरक्षित रहेंगे लोग</title>
+                        <link>http://localhost/newsportal//details/161/भारतीय-रेल-की-नई-ट्रेन-हादसा-होने-पर-भी-सुरक्षित-रहेंगे-लोग</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details/161/भारतीय-रेल-की-नई-ट्रेन-हादसा-होने-पर-भी-सुरक्षित-रहेंगे-लोग</guid>
+                    <category><![CDATA[]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal//details/161/भारतीय-रेल-की-नई-ट्रेन-हादसा-होने-पर-भी-सुरक्षित-रहेंगे-लोग>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>चेन्नई में इंटिग्रल कोच फैक्ट्री (आईसीएफ) द्वारा सौ करोड़ रूपये की लागत से तैयार देश की पहली मेट्रो जैसी ‘ट्रेन 18’ का अनावरण रेलवे बोर्ड के अध्यक्ष अश्विनी लोहानी ने</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>जानलेवा हुई दिल्ली की धुंध, पुरानी गाड़ियों पर रोक</title>
+                            <link>http://localhost/newsportal//details/155/जानलेवा-हुई-दिल्ली-की-धुंध-पुरानी-गाड़ियों-पर-रोक</link>
+                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>सीपीसीबी ने चेतावनी दी है कि हाल-फिलहाल में हालात में बदलाव नहीं आएंगे और दिवाली तक स्थिति और बिगड़ सकती है.
+
+उत्तरी दिल्ली में जहांगीरपुरी, पश्चिम दिल्ली में मुंडका, दक्षिणी दिल्ली</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540968805.jpeg</url>
+                        <title>जानलेवा हुई दिल्ली की धुंध, पुरानी गाड़ियों पर रोक</title>
+                        <link>http://localhost/newsportal//details/155/जानलेवा-हुई-दिल्ली-की-धुंध-पुरानी-गाड़ियों-पर-रोक</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details/155/जानलेवा-हुई-दिल्ली-की-धुंध-पुरानी-गाड़ियों-पर-रोक</guid>
+                    <category><![CDATA[]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal//details/155/जानलेवा-हुई-दिल्ली-की-धुंध-पुरानी-गाड़ियों-पर-रोक>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>सीपीसीबी ने चेतावनी दी है कि हाल-फिलहाल में हालात में बदलाव नहीं आएंगे और दिवाली तक स्थिति और बिगड़ सकती है.
+
+उत्तरी दिल्ली में जहांगीरपुरी, पश्चिम दिल्ली में मुंडका, दक्षिणी दिल्ली</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>महागठबंधन राजनीतिक शरारत से ज्यादा कुछ नहीं- योगी आदित्यनाथ</title>
+                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/154/महागठबंधन-राजनीतिक-शरारत-से-ज्यादा-कुछ-नहीं-योगी-आदित्यनाथ</link>
+                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>मुख्यमंत्री योगी आदित्यनाथ ने कहा है कि देश में राजनीतिक अस्थिरता पैदा करने के लिए महागठबंधन बन रहा है। यह एक राजनीतिक शरारत से ज्यादा कुछ नहीं है। वर्ष 2019</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540625675.jpg</url>
+                        <title>महागठबंधन राजनीतिक शरारत से ज्यादा कुछ नहीं- योगी आदित्यनाथ</title>
+                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/154/महागठबंधन-राजनीतिक-शरारत-से-ज्यादा-कुछ-नहीं-योगी-आदित्यनाथ</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/154/महागठबंधन-राजनीतिक-शरारत-से-ज्यादा-कुछ-नहीं-योगी-आदित्यनाथ</guid>
+                    <category><![CDATA[उत्तर-प्रदेश]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/154/महागठबंधन-राजनीतिक-शरारत-से-ज्यादा-कुछ-नहीं-योगी-आदित्यनाथ>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>मुख्यमंत्री योगी आदित्यनाथ ने कहा है कि देश में राजनीतिक अस्थिरता पैदा करने के लिए महागठबंधन बन रहा है। यह एक राजनीतिक शरारत से ज्यादा कुछ नहीं है। वर्ष 2019</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>हिन्दुस्तान शिखर समागम 2018: अखिलेश यादव ने कहा- नोटबंदी अच्छी है तो फिर से करके दिखाएं</title>
+                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/152/हिन्दुस्तान-शिखर-समागम-अखिलेश-यादव-ने-कहा-नोटबंदी-अच्छी-है-तो-फिर-से-करके-दिखाएं</link>
+                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>उत्तर प्रदेश के  पूर्व मुख्यमंत्री अखिलेश यादव ने नोटबंदी पर सवाल खड़ा करते हुए केंद्र सरकार पर जमकर प्रहार किया। लखनऊ में हिन्दुस्तान शिखर समागम 2018 में अखिलेश यादव ने</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540555415.jpg</url>
+                        <title>हिन्दुस्तान शिखर समागम 2018: अखिलेश यादव ने कहा- नोटबंदी अच्छी है तो फिर से करके दिखाएं</title>
+                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/152/हिन्दुस्तान-शिखर-समागम-अखिलेश-यादव-ने-कहा-नोटबंदी-अच्छी-है-तो-फिर-से-करके-दिखाएं</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/152/हिन्दुस्तान-शिखर-समागम-अखिलेश-यादव-ने-कहा-नोटबंदी-अच्छी-है-तो-फिर-से-करके-दिखाएं</guid>
+                    <category><![CDATA[उत्तर-प्रदेश]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/152/हिन्दुस्तान-शिखर-समागम-अखिलेश-यादव-ने-कहा-नोटबंदी-अच्छी-है-तो-फिर-से-करके-दिखाएं>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>उत्तर प्रदेश के  पूर्व मुख्यमंत्री अखिलेश यादव ने नोटबंदी पर सवाल खड़ा करते हुए केंद्र सरकार पर जमकर प्रहार किया। लखनऊ में हिन्दुस्तान शिखर समागम 2018 में अखिलेश यादव ने</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>नई दिल्ली:अहिंसा दिवस पर ही किसानों से हिंसा-क्या है इस बर्बरता का कारण?</title>
+                            <link>http://localhost/newsportal/राष्ट्रीय/details/151/नई-दिल्ली-अहिंसा-दिवस-पर-ही-किसानों-से-हिंसा-क्या-है-इस-बर्बरता-का-कारण?</link>
+                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>नई दिल्ली: भारतीय किसान यूनियन के बैनर तले नई दिल्ली में 9 दिनों की यात्रा करने के बाद देश के लाखों किसान दिल्ली की सीमा पर पहुंच चुके हैं, किसानों</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540554175.jpg</url>
+                        <title>नई दिल्ली:अहिंसा दिवस पर ही किसानों से हिंसा-क्या है इस बर्बरता का कारण?</title>
+                        <link>http://localhost/newsportal/राष्ट्रीय/details/151/नई-दिल्ली-अहिंसा-दिवस-पर-ही-किसानों-से-हिंसा-क्या-है-इस-बर्बरता-का-कारण?</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/151/नई-दिल्ली-अहिंसा-दिवस-पर-ही-किसानों-से-हिंसा-क्या-है-इस-बर्बरता-का-कारण?</guid>
+                    <category><![CDATA[राष्ट्रीय]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/राष्ट्रीय/details/151/नई-दिल्ली-अहिंसा-दिवस-पर-ही-किसानों-से-हिंसा-क्या-है-इस-बर्बरता-का-कारण?>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>नई दिल्ली: भारतीय किसान यूनियन के बैनर तले नई दिल्ली में 9 दिनों की यात्रा करने के बाद देश के लाखों किसान दिल्ली की सीमा पर पहुंच चुके हैं, किसानों</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>Google आपको दे रहा है 1 लाख रुपये जीतने का मौका, बस करना होगा ये काम</title>
+                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/149/Google-आपको-दे-रहा-है-लाख-रुपये-जीतने-का-मौका-बस-करना-होगा-ये-काम</link>
+                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>हाल ही में Google ने अपनी पेमेंट एप तेज का नाम बदलकर Google Pay कर दिया। इसकी घोषणा नई दिल्ली में गूगल फॉर इंडिया कार्यक्रम के जरिए से की गई।</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540542320.png</url>
+                        <title>Google आपको दे रहा है 1 लाख रुपये जीतने का मौका, बस करना होगा ये काम</title>
+                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/149/Google-आपको-दे-रहा-है-लाख-रुपये-जीतने-का-मौका-बस-करना-होगा-ये-काम</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/149/Google-आपको-दे-रहा-है-लाख-रुपये-जीतने-का-मौका-बस-करना-होगा-ये-काम</guid>
+                    <category><![CDATA[टेक्नोलॉजी]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/149/Google-आपको-दे-रहा-है-लाख-रुपये-जीतने-का-मौका-बस-करना-होगा-ये-काम>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>हाल ही में Google ने अपनी पेमेंट एप तेज का नाम बदलकर Google Pay कर दिया। इसकी घोषणा नई दिल्ली में गूगल फॉर इंडिया कार्यक्रम के जरिए से की गई।</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>Oppo का ये स्मार्टफोन हुआ सस्ता, अब 9,990 रुपये में खरीदें</title>
+                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/148/Oppo-का-ये-स्मार्टफोन-हुआ-सस्ता-अब-रुपये-में-खरीदें</link>
+                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>चीनी स्मार्टफोन ब्रांड Oppo ने अपने Oppo A3s की कीमत घटा दी है. अब इस स्मार्टफोन की कीमत 2GB रैम और 16GB स्टोरेज मॉडल के लिए 9,990 रुपये हो गई</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540542164.jpg</url>
+                        <title>Oppo का ये स्मार्टफोन हुआ सस्ता, अब 9,990 रुपये में खरीदें</title>
+                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/148/Oppo-का-ये-स्मार्टफोन-हुआ-सस्ता-अब-रुपये-में-खरीदें</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/148/Oppo-का-ये-स्मार्टफोन-हुआ-सस्ता-अब-रुपये-में-खरीदें</guid>
+                    <category><![CDATA[टेक्नोलॉजी]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/148/Oppo-का-ये-स्मार्टफोन-हुआ-सस्ता-अब-रुपये-में-खरीदें>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>चीनी स्मार्टफोन ब्रांड Oppo ने अपने Oppo A3s की कीमत घटा दी है. अब इस स्मार्टफोन की कीमत 2GB रैम और 16GB स्टोरेज मॉडल के लिए 9,990 रुपये हो गई</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>Vodafone ने पेश किया 84 दिनों की वैलिडिटी वाला सबसे सस्ता प्लान</title>
+                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/147/Vodafone-ने-पेश-किया-दिनों-की-वैलिडिटी-वाला-सबसे-सस्ता-प्लान</link>
+                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>प्रतिकात्मक फोटो
+
+
+
+aajtak.in [Edited by: साकेत सिंह बघेल] &amp;lt;iframe frameborder=&quot;0&quot; id=&quot;twitter-widget-0&quot; scrolling=&quot;no&quot; src=&quot;https://platform.twitter.com/widgets/follow_button.7922da55a4ca5d4a2b1d31eedc0501e8.en.html#dnt=false&amp;id=twitter-widget-0⟪=en&amp;screen_name=saketsingh1993&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1540536974614&quot; title=&quot;Twitter Follow Button&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+
+नई दिल्ली, 26 अक्टूबर 2018, अपडेटेड 11:50 IST
+
+
+  
+  
+  
+  
+  
+
+
+ 
+
+Vodafone इंडिया ने प्रतिस्पर्धा को</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540537021.jpeg</url>
+                        <title>Vodafone ने पेश किया 84 दिनों की वैलिडिटी वाला सबसे सस्ता प्लान</title>
+                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/147/Vodafone-ने-पेश-किया-दिनों-की-वैलिडिटी-वाला-सबसे-सस्ता-प्लान</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/147/Vodafone-ने-पेश-किया-दिनों-की-वैलिडिटी-वाला-सबसे-सस्ता-प्लान</guid>
+                    <category><![CDATA[टेक्नोलॉजी]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/147/Vodafone-ने-पेश-किया-दिनों-की-वैलिडिटी-वाला-सबसे-सस्ता-प्लान>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>प्रतिकात्मक फोटो
+
+
+
+aajtak.in [Edited by: साकेत सिंह बघेल] &amp;lt;iframe frameborder=&quot;0&quot; id=&quot;twitter-widget-0&quot; scrolling=&quot;no&quot; src=&quot;https://platform.twitter.com/widgets/follow_button.7922da55a4ca5d4a2b1d31eedc0501e8.en.html#dnt=false&amp;id=twitter-widget-0⟪=en&amp;screen_name=saketsingh1993&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1540536974614&quot; title=&quot;Twitter Follow Button&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+
+नई दिल्ली, 26 अक्टूबर 2018, अपडेटेड 11:50 IST
+
+
+  
+  
+  
+  
+  
+
+
+ 
+
+Vodafone इंडिया ने प्रतिस्पर्धा को</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>LIVE: CBI केस पर CJI बोले- 2 हफ्ते में जांच पूरी करे CVC, SC करेगी निगरानी</title>
+                            <link>http://localhost/newsportal/अंतरराष्ट्रीय/details/146/LIVE-CBI-केस-पर-CJI-बोले-हफ्ते-में-जांच-पूरी-करे-CVC-SC-करेगी-निगरानी</link>
+                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>देश की सबसे बड़ी जांच एजेंसी सीबीआई में मचा घमासान अब देश की सबसे बड़ी अदालत के दर पर पहुंच गया है. छुट्टी पर भेजे गए सीबीआई डायरेक्टर आलोक वर्मा और एक एनजीओ द्वारा</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540535174.jpeg</url>
+                        <title>LIVE: CBI केस पर CJI बोले- 2 हफ्ते में जांच पूरी करे CVC, SC करेगी निगरानी</title>
+                        <link>http://localhost/newsportal/अंतरराष्ट्रीय/details/146/LIVE-CBI-केस-पर-CJI-बोले-हफ्ते-में-जांच-पूरी-करे-CVC-SC-करेगी-निगरानी</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/अंतरराष्ट्रीय/details/146/LIVE-CBI-केस-पर-CJI-बोले-हफ्ते-में-जांच-पूरी-करे-CVC-SC-करेगी-निगरानी</guid>
+                    <category><![CDATA[अंतरराष्ट्रीय]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/अंतरराष्ट्रीय/details/146/LIVE-CBI-केस-पर-CJI-बोले-हफ्ते-में-जांच-पूरी-करे-CVC-SC-करेगी-निगरानी>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>देश की सबसे बड़ी जांच एजेंसी सीबीआई में मचा घमासान अब देश की सबसे बड़ी अदालत के दर पर पहुंच गया है. छुट्टी पर भेजे गए सीबीआई डायरेक्टर आलोक वर्मा और एक एनजीओ द्वारा</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>अमेरिका ने कहा- भारत के साथ 2+2 वार्ता गहरे रणनीतिक साझेदारी के संकेत</title>
+                            <link>http://localhost/newsportal/world/details/145/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत</link>
+                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
                     <description>ट्रंप प्रशासन का कहना है कि अगले सप्ताह नयी दिल्ली में होने वाली पहली भारत-अमेरिका 2+2 वार्ता दोनों देशों के बीच मजबूत होती रणनीतिक साझेदारी का संकेत है। अमेरिका के विदेश</description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1540283230.jpg</url>
-                        <title> अमेरिका ने कहा- भारत के साथ 2+2 वार्ता गहरे रणनीतिक साझेदारी के संकेत</title>
-                        <link>http://localhost/newsportal/world/details/143/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत</link>
+                        <url>http://localhost/newsportal/uploads/1540532194.jpg</url>
+                        <title>अमेरिका ने कहा- भारत के साथ 2+2 वार्ता गहरे रणनीतिक साझेदारी के संकेत</title>
+                        <link>http://localhost/newsportal/world/details/145/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/143/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/145/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -113,7 +604,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/143/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/145/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -136,18 +627,18 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
                 <item>
                     <title>अमेरिका ने भारत को चेताया- रूस से हथियार खरीदा तो विशेष छूट मिलने की कोई गारंटी नहीं</title>
-                            <link>http://localhost/newsportal/world/details/142/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</link>
-                    <pubDate>Tuesday, 23 Oct, 2018</pubDate>  
-                    <author>Md Naeem Khan 1</author>     
+                            <link>http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</link>
+                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
                     <description>पेंटागन के एक शीर्ष अधिकारी ने भारत को आगाह किया है कि रूस से हथियारों की खरीद करने पर उसे अमेरिका से विशेष छूट मिलने की कोई गारंटी नहीं होगी।
 
 वाशिंगटन</description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1540283150.jpg</url>
+                        <url>http://localhost/newsportal/uploads/1540532125.jpg</url>
                         <title>अमेरिका ने भारत को चेताया- रूस से हथियार खरीदा तो विशेष छूट मिलने की कोई गारंटी नहीं</title>
-                        <link>http://localhost/newsportal/world/details/142/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</link>
+                        <link>http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/142/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -156,7 +647,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/142/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -181,16 +672,16 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
                 <item>
                     <title>चीन के युवाओं को चाहिए बड़ी आंखें और पतली नाक, प्लास्टिक सर्जरी कराने वाले युवाओं में 40% तक बढ़ोतरी</title>
-                            <link>http://localhost/newsportal/world/details/141/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी</link>
-                    <pubDate>Tuesday, 23 Oct, 2018</pubDate>  
-                    <author>Md Naeem Khan 1</author>     
+                            <link>http://localhost/newsportal/world/details/143/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी</link>
+                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
                     <description>चीन के युवाओं को अपनी छोटी-छोटी आंखें और छोटी सी दबी हुई नाक बिल्कुल पसंद नहीं है। उन्हें बड़ी पलकों के साथ बड़ी आंखें और पतली सी लंबी नाक चाहिए।</description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1540283041.jpg</url>
+                        <url>http://localhost/newsportal/uploads/1540532040.jpg</url>
                         <title>चीन के युवाओं को चाहिए बड़ी आंखें और पतली नाक, प्लास्टिक सर्जरी कराने वाले युवाओं में 40% तक बढ़ोतरी</title>
-                        <link>http://localhost/newsportal/world/details/141/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी</link>
+                        <link>http://localhost/newsportal/world/details/143/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/141/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/143/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी</guid>
                     <category><![CDATA[world]]></category>
 
                     <content:encoded>
@@ -199,7 +690,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/141/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी>
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/143/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -209,6 +700,92 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                               </header>
 
                                 <p>चीन के युवाओं को अपनी छोटी-छोटी आंखें और छोटी सी दबी हुई नाक बिल्कुल पसंद नहीं है। उन्हें बड़ी पलकों के साथ बड़ी आंखें और पतली सी लंबी नाक चाहिए।</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>रायबरेली में बड़ा ट्रेन हादसा कई लोगों की मौत बड़ी संख्या में लोग घायल-300 सौ से अधिक लोगों की फंसे होने की संभावना।</title>
+                            <link>http://localhost/newsportal/world/details/142/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।</link>
+                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>स्थानीय लोगों और हरचंदपुर स्टेशन के स्टाफ के साथ एनडीआरएफ की टीम स्क्यू ऑपरेशन में जुटी है.मामले में उत्तर रेलवे के एडीआरएम काजी महाराज अलाम ने बताया कि 14003 न्यू</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540471394.jpg</url>
+                        <title>रायबरेली में बड़ा ट्रेन हादसा कई लोगों की मौत बड़ी संख्या में लोग घायल-300 सौ से अधिक लोगों की फंसे होने की संभावना।</title>
+                        <link>http://localhost/newsportal/world/details/142/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/142/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।</guid>
+                    <category><![CDATA[world]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/142/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>स्थानीय लोगों और हरचंदपुर स्टेशन के स्टाफ के साथ एनडीआरएफ की टीम स्क्यू ऑपरेशन में जुटी है.मामले में उत्तर रेलवे के एडीआरएम काजी महाराज अलाम ने बताया कि 14003 न्यू</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>फ़तेहपुर:कलयुगी बेटे ने कर दी दिनदहाड़े अपने पिता की हत्या।</title>
+                            <link>http://localhost/newsportal/world/details/141/फ़तेहपुर-कलयुगी-बेटे-ने-कर-दी-दिनदहाड़े-अपने-पिता-की-हत्या।</link>
+                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>क्या है पूरा मामला..
+
+फ़तेहपुर:सदर कोतवाली क्षेत्र के शांतिनगर निवासी गोवर्धन मिश्रा अपने पुत्र देवेंद्र मिश्र के साथ क़रीब 12 बजे पटेल नगर स्थित एक प्राइवेट क्लिनिक में अपना ईलाज कराने</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540471044.jpg</url>
+                        <title>फ़तेहपुर:कलयुगी बेटे ने कर दी दिनदहाड़े अपने पिता की हत्या।</title>
+                        <link>http://localhost/newsportal/world/details/141/फ़तेहपुर-कलयुगी-बेटे-ने-कर-दी-दिनदहाड़े-अपने-पिता-की-हत्या।</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/141/फ़तेहपुर-कलयुगी-बेटे-ने-कर-दी-दिनदहाड़े-अपने-पिता-की-हत्या।</guid>
+                    <category><![CDATA[world]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/141/फ़तेहपुर-कलयुगी-बेटे-ने-कर-दी-दिनदहाड़े-अपने-पिता-की-हत्या।>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>क्या है पूरा मामला..
+
+फ़तेहपुर:सदर कोतवाली क्षेत्र के शांतिनगर निवासी गोवर्धन मिश्रा अपने पुत्र देवेंद्र मिश्र के साथ क़रीब 12 बजे पटेल नगर स्थित एक प्राइवेट क्लिनिक में अपना ईलाज कराने</p>
 
                               <footer>
                                 <!— Article footer goes here -->
@@ -291,543 +868,6 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                               </header>
 
                                 <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system,</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Contrary to popular belief, Lorem Ipsum is not simply</title>
-                            <link>http://localhost/newsportal/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>Contrary to popular belief, Lorem Ipsum is not simply</title>
-                        <link>http://localhost/newsportal/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/130/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>There are many variations of passages </title>
-                            <link>http://localhost/newsportal/world/details/129/There-are-many-variations-of-passages</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;#39;t look even slightly</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>There are many variations of passages </title>
-                        <link>http://localhost/newsportal/world/details/129/There-are-many-variations-of-passages</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/129/There-are-many-variations-of-passages</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/129/There-are-many-variations-of-passages>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;#39;t look even slightly</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Australian cricket team in Bangladesh in 2017</title>
-                            <link>http://localhost/newsportal/Sports/details/128/Australian-cricket-team-in-Bangladesh-in</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>TheÂ Australia cricket teamÂ are scheduled to tour Bangladesh in August and September 2017 to play twoÂ Test matchesÂ and a tour match.[1]Â It will be Australia&amp;#39;s first tour to BangladeshÂ since 2011.[2]
-
-Australia were originally scheduled</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>Australian cricket team in Bangladesh in 2017</title>
-                        <link>http://localhost/newsportal/Sports/details/128/Australian-cricket-team-in-Bangladesh-in</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Sports/details/128/Australian-cricket-team-in-Bangladesh-in</guid>
-                    <category><![CDATA[Sports]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/Sports/details/128/Australian-cricket-team-in-Bangladesh-in>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>TheÂ Australia cricket teamÂ are scheduled to tour Bangladesh in August and September 2017 to play twoÂ Test matchesÂ and a tour match.[1]Â It will be Australia&amp;#39;s first tour to BangladeshÂ since 2011.[2]
-
-Australia were originally scheduled</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Escalation of tension between India, China will be disruptive</title>
-                            <link>http://localhost/newsportal/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;#39;t look even slightly</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>Escalation of tension between India, China will be disruptive</title>
-                        <link>http://localhost/newsportal/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive</guid>
-                    <category><![CDATA[International]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/International/details/127/Escalation-of-tension-between-India-China-will-be-disruptive>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;#39;t look even slightly</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Lorem Ipsum which looks reasonable. The generated</title>
-                            <link>http://localhost/newsportal/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>Lorem Ipsum which looks reasonable. The generated</title>
-                        <link>http://localhost/newsportal/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated</guid>
-                    <category><![CDATA[Travel]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/Travel/details/125/Lorem-Ipsum-which-looks-reasonable-The-generated>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://localhost/newsportal/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://localhost/newsportal/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/124/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://localhost/newsportal/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://localhost/newsportal/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/123/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://localhost/newsportal/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://localhost/newsportal/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/122/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Business Page  praesentium voluptatum deleniti atque corrupti</title>
-                            <link>http://localhost/newsportal/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>Business Page  praesentium voluptatum deleniti atque corrupti</title>
-                        <link>http://localhost/newsportal/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/121/Business-Page-praesentium-voluptatum-deleniti-atque-corrupti>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://localhost/newsportal/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://localhost/newsportal/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/120/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://localhost/newsportal/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://localhost/newsportal/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
-                    <category><![CDATA[Sports]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/Sports/details/118/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://localhost/newsportal/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://localhost/newsportal/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
-                    <category><![CDATA[Health]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>There are many variations of passages of Lorem Ipsum available</title>
-                            <link>http://localhost/newsportal/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>There are many variations of passages of Lorem Ipsum available</title>
-                        <link>http://localhost/newsportal/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
-                    <category><![CDATA[Sports]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/Sports/details/116/There-are-many-variations-of-passages-of-Lorem-Ipsum-available>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</p>
 
                               <footer>
                                 <!— Article footer goes here -->

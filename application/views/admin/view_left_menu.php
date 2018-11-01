@@ -97,22 +97,22 @@ $selected = 'style="background-color:#dbdbdb;"';
                     </a>
                     <ul class="treeview-menu">
                         <li <?php echo (($slug3 == 'breaking_news') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Common/breaking_news"><i class="fa fa-angle-double-right"></i> <?php echo display('breaking_news')?></a></li>
-                        <li <?php echo (($slug == 'Pulling') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Pulling"><i class="fa fa-angle-double-right"></i> <?php echo display('polling')?></a></li>
+                         <li <?php echo (($slug == 'Pulling') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Pulling"><i class="fa fa-angle-double-right"></i> <?php echo display('polling')?></a></li> 
                     </ul>
                 </li>
 
-                <li>
+                 <li>
                     <a href="<?php echo $bu; ?>admin/Comments_manage/index">
                         <i class="fa fa-comments"></i> <?php echo display('comments');?></span>
                     </a>
-                </li>
+                </li> 
 
 
-                <li>
+                 <li>
                     <a href="<?php echo $bu; ?>admin/Subscriber_manage/index">
                         <i class="fa fa-suitcase"></i> <?php echo display('subscribers');?> </span>
                     </a>
-                </li>
+                </li> 
 
 
                 <li class="treeview ana">
@@ -145,9 +145,9 @@ $selected = 'style="background-color:#dbdbdb;"';
                         </li>
                        
                     </ul>
-                </li>
+                </li> 
 
-                <li class="treeview as">
+                 <li class="treeview as">
                     <a href="#">
                         <i class="fa fa-laptop"></i>
                         <span><?php echo display('advertise_settings')?></span>
@@ -157,7 +157,7 @@ $selected = 'style="background-color:#dbdbdb;"';
                         <li <?php echo (@$active ==1? $selected : '')?>><a href="<?php echo $bu; ?>admin/Ad"><i class="fa fa-angle-double-right"></i> <?php echo display('new_advertise')?></a></li>
                         <li <?php echo (($slug3 == 'view_ads') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Ad/view_ads"><i class="fa fa-angle-double-right"></i> <?php echo display('update_advertise')?></a></li>
                     </ul>
-                </li> 
+                </li>  
 
                 <li <?php echo (($slug3 == 'maximum_archive_settings_view') ? $selected : '')?>>
                     <a href="<?php echo $bu; ?>admin/Archive/maximum_archive_settings_view">
@@ -174,11 +174,11 @@ $selected = 'style="background-color:#dbdbdb;"';
                     <ul class="treeview-menu">
                         <li <?php echo (($slug1 == 'add_category') ? $selected : '')?>><a href="<?php echo $bu; ?>add_category"><i class="fa fa-angle-double-right"></i> <?php echo display('add_category')?></a></li>
                         <li <?php echo (($slug1 == 'list_of_categories') ? $selected : '')?>><a href="<?php echo $bu; ?>list_of_categories"><i class="fa fa-angle-double-right"></i> <?php echo display('category_list')?></a></li>
-                        <!-- <li><a href="<?php echo $bu; ?>add_sub_categories"><i class="fa fa-angle-double-right"></i> Create Sub Category<?php echo display('add_post')?></a></li> -->
+                         <li><a href="<?php echo $bu; ?>add_sub_categories"><i class="fa fa-angle-double-right"></i> Create Sub Category<?php echo display('add_post')?></a></li>
                     </ul>
                 </li>
                 <!-- pages area -->
-                <li class="treeview pages">
+                 <li class="treeview pages">
                     <a href="#">
                         <i class="fa fa-bar-chart-o"></i>
                         <span><?php echo display('page')?></span>
@@ -195,35 +195,13 @@ $selected = 'style="background-color:#dbdbdb;"';
                     <a href="<?php echo $bu; ?>admin/Menu"><i class="fa fa-angle-double-right"></i> <?php echo display('menu')?></a>
                 </li><!-- end menu area -->
                 
-                <li class="treeview usr">
-                    <a href="#">
-                        <i class="fa fa-user"></i>
-                        <span><?php echo display('user')?></span>
-                        <i class="fa fa-angle-left pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li <?php echo (($slug3 == 'registration') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Users/registration"><i class="fa fa-angle-double-right"></i> <?php echo display('registration')?></a></li>
-                        <li <?php echo (($slug3 == 'repoter_list') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Users/repoter_list"><i class="fa fa-angle-double-right"></i> <?php echo display('user_list')?></a></li>
-                        <li <?php echo (($slug3 == 'last_20_access') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Users/last_20_access"><i class="fa fa-angle-double-right"></i> <?php echo display('last_20_access')?></a></li>
-                        <li <?php echo (($slug == 'Reports_controller') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Reports_controller"><i class="fa fa-angle-double-right"></i> <?php echo display('reporter_news_list')?></a></li>
-                        <li class="treeview">
-                           <a href="#">
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                                <span><?php echo display('general_user');?></span>
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </a>
-                            <ul class="treeview-menu" style="display: none;">
-                                <li><a href="<?php echo $bu; ?>admin/General_user/user_list"><i class="fa fa-angle-double-right"></i> <?php echo display('user_list');?></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
+                 
 
                                                                     
 
                 </li>
 
-                <li class="treeview vs">
+                 <li class="treeview vs">
                     <a href="#">
                         <i class="fa fa-cogs" aria-hidden="true"></i>
                         <span><?php echo display('settings')?></span>
@@ -253,8 +231,8 @@ $selected = 'style="background-color:#dbdbdb;"';
 
                     </ul>
                 </li>
-
-                <li class="treeview seo">
+ 
+                 <li class="treeview seo">
                     <a href="#">
                         <i class="fa fa-laptop"></i>
                         <span><?php echo display('seo')?></span>
@@ -268,7 +246,7 @@ $selected = 'style="background-color:#dbdbdb;"';
                         <li <?php echo (($slug3 == 'fixed_keyword') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/fixed_keyword"><i class="fa fa-angle-double-right"></i> <?php echo display('fixed_keyword')?></a></li>
                         <li <?php echo (($slug3 == 'alexa') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/alexa"><i class="fa fa-angle-double-right"></i> <?php echo display('alexa')?></a></li>
                     </ul>
-                </li>
+                </li> 
 
                 <!--Themes Menu-->
             <!--     <li <?php echo (($slug == 'Theme') ? $selected : '')?>>
@@ -292,7 +270,7 @@ $selected = 'style="background-color:#dbdbdb;"';
                     <a href="<?php echo $bu; ?>admin/Language" class="theme_de">
                         <span ><i class="fa fa-bar-chart-o"></i> <?php echo display('language_settings');?></span>
                     </a>
-                </li>
+                </li>  
             </ul>
         </section>
         

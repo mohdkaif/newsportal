@@ -78,9 +78,10 @@ class Common_model extends CI_Model {
         $bu = base_url();
         $LN = array();
         // $day7 = time() - (7 * 86400); // 7 days ago
-        $this->db->select('news_mst.news_id,news_mst.title,news_mst.image,news_mst.videos,news_mst.page,news_mst.time_stamp,news_mst.post_date,news_mst.news,news_mst.post_by,user_info.id,user_info.photo,user_info.name');
+        $this->db->select('news_mst.news_id,news_mst.title,news_mst.image,news_mst.videos,news_mst.page,news_mst.time_stamp,news_mst.post_date,news_mst.news,news_mst.post_by,user_info.id,user_info.photo,user_info.name,categories.category_imgae');
         $this->db->from('news_mst');
         $this->db->join('user_info', 'user_info.id=news_mst.post_by');
+        $this->db->join('categories', 'categories.category_name=news_mst.page');
         $this->db->where('news_mst.publish_date <=',date("Y-m-d"));
         $this->db->where('news_mst.is_latest', 1);
         $this->db->where('news_mst.status', 0);
@@ -90,6 +91,7 @@ class Common_model extends CI_Model {
 
         $i = 1;
         foreach ($result as $key => $data){
+
             $splited_TITLE = $this->string_clean($this->explodedtitle($data->title));
             @$page = $data->page;
             @$news_id = $data->news_id;
@@ -101,6 +103,8 @@ class Common_model extends CI_Model {
             @$post_by = $data->name;
             @$post_by_img = $data->photo;
             @$videos = $data->videos;
+            @$category_image = $data->category_imgae;
+
             // news title with link
             $LN['title_' . $i] = '<a href="' . $bu . @$page . '/' . $news_id . '/' . $splited_TITLE . '">' . $title . '</a>';
             // video
@@ -131,8 +135,11 @@ class Common_model extends CI_Model {
             $LN['image_thumb_' . $i] = base_url() . 'uploads/thumb/' . $image;
             //Large Image 
             $LN['image_large_' . $i] = base_url() . 'uploads/' . $image;
+
+            $LN['category_image_' . $i] = base_url()  . $category_image;
             $i++;
         }
+
         return $LN;
     }
     

@@ -18,13 +18,40 @@ if (isset($ads) && is_array($ads)) {
                     </a>
                 </div>
             </div> --> 
-            <div class="col-xs-8 col-md-8 col-sm-8">
+            <div class="col-xs-12 col-md-3 col-sm-12">
                 
                 <div class="header-bann">
                     <!-- <?php  echo '<h2 class="white-text">YUGANTARPRAVAH</h2>'?> -->
-                    <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantarlogo.png')?>" alt="" />
+                    <div class="logo_img">
+                        <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantarlogo.png')?>" alt="" />
+                    </div>
                     <h1>युगान्तर प्रवाह</h1>
                 </div>
+            </div>
+            <div class="col-md-9 col-sm-12 col-xs-12">
+                <?php
+                @$social_link = json_decode('[' . $social_link . ']');
+            ?>
+
+           
+                <div class="top_header_icon">
+                    <span class="top_header_icon_wrap">
+                        <a target="_blank" href="<?php if (isset($social_link[0]->tw)) echo @$social_link[0]->tw; ?>" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    </span>
+                    <span class="top_header_icon_wrap">
+                        <a target="_blank" href="<?php if (isset($social_link[0]->fb)) echo @$social_link[0]->fb; ?>" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    </span>
+                    <span class="top_header_icon_wrap">
+                        <a target="_blank" href="<?php if (isset($social_link[0]->google)) echo @$social_link[0]->google; ?>" title="Google"><i class="fa fa-google-plus"></i></a>
+                    </span>
+                    <span class="top_header_icon_wrap">
+                        <a target="_blank" href="<?php if (isset($social_link[0]->vimo)) echo @$social_link[0]->vimo; ?>" title="Vimeo"><i class="fa fa-vimeo"></i></a>
+                    </span>
+                    <span class="top_header_icon_wrap">
+                        <a target="_blank" href="<?php if (isset($social_link[0]->pin)) echo @$social_link[0]->pin; ?>" title="Pintereset"><i class="fa fa-pinterest-p"></i></a>
+                    </span>
+                </div>
+
             </div>
         </div>
 </div>
