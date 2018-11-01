@@ -52,51 +52,10 @@
                     </div>
                 </div>
                 <!-- Search Area-->
-
-             
-               
-                <div class="hidden-xs col-sm-3 col-padding">
-                    <?php 
-                        for($i=2;$i<=3;$i++){
-                            if(!isset($hn['news_title_'.$i]))
-                                continue
-                    ?>
-                    <div class="post-wrapper post-grid-1 wow fadeIn" data-wow-duration="2s">
-                        <div class="post-thumb">
-                            <?php
-                                if (@$hn['image_check_'.$i]!=NULL){
-                                    echo'<a href="'.@$hn['news_link_'.$i].'">
-                                            <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt="">
-                                        </a>';
-                                } else {
-                                    echo '<a class="entry-thumb" href="'.@$hn['news_link_'.$i].'"><img  src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" /></a>';
-                                }
-                            ?>     
-                        </div>
-
-                        <div class="post-info">
-                            <span class="color-3"><?php echo @$hn['category_'.$i]?></span>
-                            <h3 class="post-title post-title-size"><a href="<?php echo @$hn['news_link_'.$i];?>" rel="bookmark"> <?php echo @$hn['news_title_'.$i];?></a></h3>
-                            <div class="post-editor-date">
-                                <div class="post-date">
-                                    <i class="pe-7s-clock"></i><?php echo (date('l, d M, Y', @$hn['ptime_' . $i])); ?>
-                                </div>
-                                <?php if(@$hn['video_'.$i]!=NULL) {?>
-                                <a class="playvideo pull-right" href="<?php echo @$hn['news_link_'.$i];?>"><i class="fa fa-play-circle-o"></i></a>
-                                <?php } else{?>
-                                <a class="readmore pull-right" href="<?php echo @$hn['news_link_'.$i];?>"><i class="pe-7s-angle-right"></i></a>
-                                 <?php } ?>
-                            </div>
-                        </div>
-                    </div>
-                    <?php }?>
-                </div>
-
-
-                <div class="col-sm-6 col-padding">
+                 <div class="col-sm-6 col-padding">
                 <?php if(@$hn['news_title_1']!=NULL) {?>
                     <div class="post-wrapper post-grid-3 effects">
-                        <div class="post-thumb">
+                        <div class="post-thumb polaroid">
                             <?php
                                 if (@$hn['image_check_1']!=NULL) {
                                     echo' <div class="videoWrapper-1"><a href="'.@$hn['news_link_1'].'">
@@ -131,6 +90,47 @@
                     </div>
                     <?php } ?>
                 </div>
+             
+               
+                <div class="hidden-xs col-sm-3 col-padding">
+                    <?php 
+                        for($i=2;$i<=3;$i++){
+                            if(!isset($hn['news_title_'.$i]))
+                                continue
+                    ?>
+                    <div class="post-wrapper post-grid-1 wow fadeIn" data-wow-duration="2s">
+                        <div class="post-thumb polaroid">
+                            <?php
+                                if (@$hn['image_check_'.$i]!=NULL){
+                                    echo'<a href="'.@$hn['news_link_'.$i].'">
+                                            <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt="">
+                                        </a>';
+                                } else {
+                                    echo '<a class="entry-thumb" href="'.@$hn['news_link_'.$i].'"><img  src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" /></a>';
+                                }
+                            ?>     
+                        </div>
+
+                        <div class="post-info">
+                            <span class="color-3"><?php echo @$hn['category_'.$i]?></span>
+                            <h3 class="post-title post-title-size"><a href="<?php echo @$hn['news_link_'.$i];?>" rel="bookmark"> <?php echo @$hn['news_title_'.$i];?></a></h3>
+                            <div class="post-editor-date">
+                                <div class="post-date">
+                                    <i class="pe-7s-clock"></i><?php echo (date('l, d M, Y', @$hn['ptime_' . $i])); ?>
+                                </div>
+                                <?php if(@$hn['video_'.$i]!=NULL) {?>
+                                <a class="playvideo pull-right" href="<?php echo @$hn['news_link_'.$i];?>"><i class="fa fa-play-circle-o"></i></a>
+                                <?php } else{?>
+                                <a class="readmore pull-right" href="<?php echo @$hn['news_link_'.$i];?>"><i class="pe-7s-angle-right"></i></a>
+                                 <?php } ?>
+                            </div>
+                        </div>
+                    </div>
+                    <?php }?>
+                </div>
+
+
+               
 
                 <div class="hidden-xs col-sm-3 col-padding">
                     <?php 
@@ -139,7 +139,7 @@
                                 continue
                     ?>
                     <div class="post-wrapper post-grid-4 wow fadeIn" data-wow-duration="2s">
-                        <div class="post-thumb">
+                        <div class="post-thumb polaroid">
                             <?php
                             if (@$hn['image_check_'.$i]!=NULL) {
                                 echo' <a href="'.@$hn['news_link_'.$i].'">
@@ -347,7 +347,7 @@
                                             <div class="col-xs-6 col-md-6 col-sm-6 post-padding">
                                                 <div class="home2-post effects">
                                                     <!-- post image -->
-                                                    <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                                                    <div class="post-thumb polaroid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                                         <?php
                                                             if (@$pn['position_2']['image_check_'.$i]!=NULL) {
                                                                 echo'<img class="img-responsive" src="'. $pn['position_2']['image_thumb_'.$i].'" alt="">';
@@ -424,7 +424,7 @@
                                             <div class="col-xs-6 col-md-6 col-sm-6 post-padding">
                                                 <div class="home2-post effects">
                                                     <!-- post image -->
-                                                    <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                                                    <div class="post-thumb wow fadeIn polaroid" data-wow-duration="1s" data-wow-delay="0.2s">
                                                             <?php
                                                                 if (@$pn['position_2']['image_check_'.$i]) {
                                                                   echo'<img class="img-responsive" src="'.@$pn['position_2']['image_thumb_'.$i].'" alt="">';

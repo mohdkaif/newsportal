@@ -113,7 +113,7 @@ class Home_model extends CI_Model {
                 ->order_by('t2.news_id', 'DESC')
                 ->get()
                 ->result();
-                
+               
         $bu = base_url();
         $i = 1;
         @$HN = array();

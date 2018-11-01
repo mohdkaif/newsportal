@@ -119,7 +119,7 @@ a:hover {
 }
 
 .col-padding {
-    padding: 0px
+    padding: 3px;
 }
 
 .col-padding-1 {
@@ -1203,6 +1203,7 @@ ul.newsticker {
 
 .post-wrapper {
     position: relative;
+        padding: 4px;
 }
 
 .post-wrapper .post-thumb {
@@ -1218,6 +1219,7 @@ ul.newsticker {
 
 .post-wrapper .post-thumb img {
     width: 100%;
+
    
 }
 

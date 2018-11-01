@@ -4,7 +4,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <title>YugantarPravah RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>31-10-2018</lastBuildDate>
+<lastBuildDate>01-11-2018</lastBuildDate>
 <image>
                     <title>YugantarPravahRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
@@ -12,9 +12,261 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </image>
 
                 <item>
+                    <title>testing</title>
+                            <link>http://localhost/newsportal/राष्ट्रीय/details/171/testing</link>
+                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>testing testing testing
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1541058176.jpeg</url>
+                        <title>testing</title>
+                        <link>http://localhost/newsportal/राष्ट्रीय/details/171/testing</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/171/testing</guid>
+                    <category><![CDATA[राष्ट्रीय]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/राष्ट्रीय/details/171/testing>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>testing testing testing
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>#MeToo: मानहानि मामले में पूर्व केंद्रीय मंत्री एमजे अकबर ने कोर्ट में दर्ज कराया अपना बयान</title>
+                            <link>http://localhost/newsportal/राष्ट्रीय/details/170/#MeToo-मानहानि-मामले-में-पूर्व-केंद्रीय-मंत्री-एमजे-अकबर-ने-कोर्ट-में-दर्ज-कराया-अपना-बयान</link>
+                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>भारत में #MeToo अभियान की जद में आने वाले पूर्व केंद्रीय मंत्री एमजे अकबर पत्रकार प्रिया रमानी के खिलाफ मानहानि मामले में आज यानी बुधवार को दिल्ली की एक अदालत</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1541056608.jpg</url>
+                        <title>#MeToo: मानहानि मामले में पूर्व केंद्रीय मंत्री एमजे अकबर ने कोर्ट में दर्ज कराया अपना बयान</title>
+                        <link>http://localhost/newsportal/राष्ट्रीय/details/170/#MeToo-मानहानि-मामले-में-पूर्व-केंद्रीय-मंत्री-एमजे-अकबर-ने-कोर्ट-में-दर्ज-कराया-अपना-बयान</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/170/#MeToo-मानहानि-मामले-में-पूर्व-केंद्रीय-मंत्री-एमजे-अकबर-ने-कोर्ट-में-दर्ज-कराया-अपना-बयान</guid>
+                    <category><![CDATA[राष्ट्रीय]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/राष्ट्रीय/details/170/#MeToo-मानहानि-मामले-में-पूर्व-केंद्रीय-मंत्री-एमजे-अकबर-ने-कोर्ट-में-दर्ज-कराया-अपना-बयान>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>भारत में #MeToo अभियान की जद में आने वाले पूर्व केंद्रीय मंत्री एमजे अकबर पत्रकार प्रिया रमानी के खिलाफ मानहानि मामले में आज यानी बुधवार को दिल्ली की एक अदालत</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
+                            <link>http://localhost/newsportal/राष्ट्रीय/details/169/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</link>
+                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description> 
+
+अहमदाबाद: सरदार वल्लभ भाई पटेल (Sardar Vallabhbhai Patel) की 182 मीटर ऊंची प्रतिमा &amp;#39;स्टैच्यू ऑफ यूनिटी&amp;#39; (Statue of Unity) का आज यानी 31 अक्टूबर को उनकी जयंती पर उद्घाटन हो गया. प्रधानमंत्री नरेंद्र मोदी</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1541056004.jpg</url>
+                        <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
+                        <link>http://localhost/newsportal/राष्ट्रीय/details/169/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/169/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</guid>
+                    <category><![CDATA[राष्ट्रीय]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/राष्ट्रीय/details/169/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p> 
+
+अहमदाबाद: सरदार वल्लभ भाई पटेल (Sardar Vallabhbhai Patel) की 182 मीटर ऊंची प्रतिमा &amp;#39;स्टैच्यू ऑफ यूनिटी&amp;#39; (Statue of Unity) का आज यानी 31 अक्टूबर को उनकी जयंती पर उद्घाटन हो गया. प्रधानमंत्री नरेंद्र मोदी</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>81 फीसद भारतीय यूजर्स के स्मार्टफोन में नहीं हैं उनके मन मुताबिक फीचर्स: सर्वे</title>
+                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/168/फीसद-भारतीय-यूजर्स-के-स्मार्टफोन-में-नहीं-हैं-उनके-मन-मुताबिक-फीचर्स-सर्वे</link>
+                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>इनमें से 21 फीसद यूजर्स को लगता है कि इन सभी स्मार्टफोन्स में वाटरप्रुफ फीचर्स होना चाहिए जो कि उनके डिवाइस में नहीं है। इसके बाद नंबर आता है क्विक</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1541055293.jpg</url>
+                        <title>81 फीसद भारतीय यूजर्स के स्मार्टफोन में नहीं हैं उनके मन मुताबिक फीचर्स: सर्वे</title>
+                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/168/फीसद-भारतीय-यूजर्स-के-स्मार्टफोन-में-नहीं-हैं-उनके-मन-मुताबिक-फीचर्स-सर्वे</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/168/फीसद-भारतीय-यूजर्स-के-स्मार्टफोन-में-नहीं-हैं-उनके-मन-मुताबिक-फीचर्स-सर्वे</guid>
+                    <category><![CDATA[टेक्नोलॉजी]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/168/फीसद-भारतीय-यूजर्स-के-स्मार्टफोन-में-नहीं-हैं-उनके-मन-मुताबिक-फीचर्स-सर्वे>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>इनमें से 21 फीसद यूजर्स को लगता है कि इन सभी स्मार्टफोन्स में वाटरप्रुफ फीचर्स होना चाहिए जो कि उनके डिवाइस में नहीं है। इसके बाद नंबर आता है क्विक</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>जानें क्या है Masked Aadhar और कैसे करें इसे डाउनलोड</title>
+                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/167/जानें-क्या-है-Masked-Aadhar-और-कैसे-करें-इसे-डाउनलोड</link>
+                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>भारत में लगभग 100 करोड़ लोगों के पास भारतीय विशिष्ट पहचान प्राधिकरण द्वारा जारी आधार कार्ड है। ऐसे में आधार कार्ड का डाटा सुरक्षा UIDAI (भारतीय विशिष्ट पहचान प्राधिकरण) के</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1541055205.jpg</url>
+                        <title>जानें क्या है Masked Aadhar और कैसे करें इसे डाउनलोड</title>
+                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/167/जानें-क्या-है-Masked-Aadhar-और-कैसे-करें-इसे-डाउनलोड</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/167/जानें-क्या-है-Masked-Aadhar-और-कैसे-करें-इसे-डाउनलोड</guid>
+                    <category><![CDATA[टेक्नोलॉजी]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/167/जानें-क्या-है-Masked-Aadhar-और-कैसे-करें-इसे-डाउनलोड>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>भारत में लगभग 100 करोड़ लोगों के पास भारतीय विशिष्ट पहचान प्राधिकरण द्वारा जारी आधार कार्ड है। ऐसे में आधार कार्ड का डाटा सुरक्षा UIDAI (भारतीय विशिष्ट पहचान प्राधिकरण) के</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>WhatsApp ने 4 नए फीचर किए पेश, ऑडियो मैसेज से लेकर नए इंटरफेस तक हुए ये बदलाव</title>
+                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/166/WhatsApp-ने-नए-फीचर-किए-पेश-ऑडियो-मैसेज-से-लेकर-नए-इंटरफेस-तक-हुए-ये-बदलाव</link>
+                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>नई दिल्ली (टेक डेस्क)। वॉट्सऐप ने अपने यूजर्स के अनुभव को और बेहतर बनाने के लिए नए फीचर्स जोड़ने का सिलसिला जारी रखा है। वॉट्सऐप ने अपने iOS प्लेटफॉर्म पर कुछ</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1541055090.jpg</url>
+                        <title>WhatsApp ने 4 नए फीचर किए पेश, ऑडियो मैसेज से लेकर नए इंटरफेस तक हुए ये बदलाव</title>
+                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/166/WhatsApp-ने-नए-फीचर-किए-पेश-ऑडियो-मैसेज-से-लेकर-नए-इंटरफेस-तक-हुए-ये-बदलाव</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/166/WhatsApp-ने-नए-फीचर-किए-पेश-ऑडियो-मैसेज-से-लेकर-नए-इंटरफेस-तक-हुए-ये-बदलाव</guid>
+                    <category><![CDATA[टेक्नोलॉजी]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/166/WhatsApp-ने-नए-फीचर-किए-पेश-ऑडियो-मैसेज-से-लेकर-नए-इंटरफेस-तक-हुए-ये-बदलाव>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>नई दिल्ली (टेक डेस्क)। वॉट्सऐप ने अपने यूजर्स के अनुभव को और बेहतर बनाने के लिए नए फीचर्स जोड़ने का सिलसिला जारी रखा है। वॉट्सऐप ने अपने iOS प्लेटफॉर्म पर कुछ</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
                     <title>यूपी: कई जिलों में रहस्यमयी बुखार ने मचाया आतंक, एक दिन में 11 लोगों की मौत</title>
                             <link>http://localhost/newsportal/उत्तर-प्रदेश/details/165/यूपी-कई-जिलों-में-रहस्यमयी-बुखार-ने-मचाया-आतंक-एक-दिन-में-लोगों-की-मौत</link>
-                    <pubDate>Tuesday, 30 Oct, 2018</pubDate>  
+                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>यूपी के कुछ जिलों में संक्रामक बुखार विकराल हो चुका है। बदायूं में शनिवार को 11 लोगों की मौत हो गई। आसपास के क्षेत्रों में बुखार से मरने वालों की</description>
                     <image>
@@ -55,7 +307,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 <item>
                     <title> सिंबा नहीं केदारनाथ से ही डेब्यू करेंगी सारा, ऐसा है नया पोस्टर</title>
                             <link>http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर</link>
-                    <pubDate>Tuesday, 30 Oct, 2018</pubDate>  
+                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>सैफ अली खान की बेटी सारा अली खान बहुत जल्द बॉलीवुड में डेब्यू करने जा रही हैं. केदारनाथ की रिलीज डेट को लेकर लगातार बने हुए कन्फ्यूजन के चलते हालांकि यह साफ नहीं हो</description>
                     <image>
@@ -96,7 +348,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 <item>
                     <title>Asian Games 2018: शरत-मणिका और अमलराज-मधुरिका की जो़ड़ी प्री-क्वार्टरफाइनल में पहुंची</title>
                             <link>http://localhost/newsportal/खेल/details/163/Asian-Games-शरत-मणिका-और-अमलराज-मधुरिका-की-जो़ड़ी-प्री-क्वार्टरफाइनल-में-पहुंची</link>
-                    <pubDate>Tuesday, 30 Oct, 2018</pubDate>  
+                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>भारतीय टेबल टेनिस जोड़ी अचंत शरत कमल और मणिका बत्रा ने भी अच्छी शुरुआत कर 18वें एशियाई खेलों में बुधवार को मिश्रित युगल स्पर्धा के अंतिम-16 दौर में प्रवेश कर</description>
                     <image>
@@ -137,7 +389,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 <item>
                     <title>खुद की गलती से सड़क दुर्घटना हुई तो बीमा नहीं – सुप्रीम कोर्ट</title>
                             <link>http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट</link>
-                    <pubDate>Tuesday, 30 Oct, 2018</pubDate>  
+                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>सुप्रीम कोर्ट ने शनिवार को कहा कि यदि कोई व्यक्ति वाहन चलाते समय स्वयं कोई दुर्घटना करता है और उसमें कोई दूसरा वाहन शामिल न हो तो परिजन मुआवजे का</description>
                     <image>
@@ -264,7 +516,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 <item>
                     <title>महागठबंधन राजनीतिक शरारत से ज्यादा कुछ नहीं- योगी आदित्यनाथ</title>
                             <link>http://localhost/newsportal/उत्तर-प्रदेश/details/154/महागठबंधन-राजनीतिक-शरारत-से-ज्यादा-कुछ-नहीं-योगी-आदित्यनाथ</link>
-                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
+                    <pubDate>Saturday, 27 Oct, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>मुख्यमंत्री योगी आदित्यनाथ ने कहा है कि देश में राजनीतिक अस्थिरता पैदा करने के लिए महागठबंधन बन रहा है। यह एक राजनीतिक शरारत से ज्यादा कुछ नहीं है। वर्ष 2019</description>
                     <image>
@@ -305,7 +557,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 <item>
                     <title>हिन्दुस्तान शिखर समागम 2018: अखिलेश यादव ने कहा- नोटबंदी अच्छी है तो फिर से करके दिखाएं</title>
                             <link>http://localhost/newsportal/उत्तर-प्रदेश/details/152/हिन्दुस्तान-शिखर-समागम-अखिलेश-यादव-ने-कहा-नोटबंदी-अच्छी-है-तो-फिर-से-करके-दिखाएं</link>
-                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>उत्तर प्रदेश के  पूर्व मुख्यमंत्री अखिलेश यादव ने नोटबंदी पर सवाल खड़ा करते हुए केंद्र सरकार पर जमकर प्रहार किया। लखनऊ में हिन्दुस्तान शिखर समागम 2018 में अखिलेश यादव ने</description>
                     <image>
@@ -346,7 +598,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 <item>
                     <title>नई दिल्ली:अहिंसा दिवस पर ही किसानों से हिंसा-क्या है इस बर्बरता का कारण?</title>
                             <link>http://localhost/newsportal/राष्ट्रीय/details/151/नई-दिल्ली-अहिंसा-दिवस-पर-ही-किसानों-से-हिंसा-क्या-है-इस-बर्बरता-का-कारण?</link>
-                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>नई दिल्ली: भारतीय किसान यूनियन के बैनर तले नई दिल्ली में 9 दिनों की यात्रा करने के बाद देश के लाखों किसान दिल्ली की सीमा पर पहुंच चुके हैं, किसानों</description>
                     <image>
@@ -387,7 +639,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 <item>
                     <title>Google आपको दे रहा है 1 लाख रुपये जीतने का मौका, बस करना होगा ये काम</title>
                             <link>http://localhost/newsportal/टेक्नोलॉजी/details/149/Google-आपको-दे-रहा-है-लाख-रुपये-जीतने-का-मौका-बस-करना-होगा-ये-काम</link>
-                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>हाल ही में Google ने अपनी पेमेंट एप तेज का नाम बदलकर Google Pay कर दिया। इसकी घोषणा नई दिल्ली में गूगल फॉर इंडिया कार्यक्रम के जरिए से की गई।</description>
                     <image>
@@ -469,7 +721,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 <item>
                     <title>Vodafone ने पेश किया 84 दिनों की वैलिडिटी वाला सबसे सस्ता प्लान</title>
                             <link>http://localhost/newsportal/टेक्नोलॉजी/details/147/Vodafone-ने-पेश-किया-दिनों-की-वैलिडिटी-वाला-सबसे-सस्ता-प्लान</link>
-                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>प्रतिकात्मक फोटो
 
@@ -546,7 +798,7 @@ Vodafone इंडिया ने प्रतिस्पर्धा को</
                 <item>
                     <title>LIVE: CBI केस पर CJI बोले- 2 हफ्ते में जांच पूरी करे CVC, SC करेगी निगरानी</title>
                             <link>http://localhost/newsportal/अंतरराष्ट्रीय/details/146/LIVE-CBI-केस-पर-CJI-बोले-हफ्ते-में-जांच-पूरी-करे-CVC-SC-करेगी-निगरानी</link>
-                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>देश की सबसे बड़ी जांच एजेंसी सीबीआई में मचा घमासान अब देश की सबसे बड़ी अदालत के दर पर पहुंच गया है. छुट्टी पर भेजे गए सीबीआई डायरेक्टर आलोक वर्मा और एक एनजीओ द्वारा</description>
                     <image>
@@ -587,7 +839,7 @@ Vodafone इंडिया ने प्रतिस्पर्धा को</
                 <item>
                     <title>अमेरिका ने कहा- भारत के साथ 2+2 वार्ता गहरे रणनीतिक साझेदारी के संकेत</title>
                             <link>http://localhost/newsportal/world/details/145/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत</link>
-                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
+                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>ट्रंप प्रशासन का कहना है कि अगले सप्ताह नयी दिल्ली में होने वाली पहली भारत-अमेरिका 2+2 वार्ता दोनों देशों के बीच मजबूत होती रणनीतिक साझेदारी का संकेत है। अमेरिका के विदेश</description>
                     <image>
@@ -614,260 +866,6 @@ Vodafone इंडिया ने प्रतिस्पर्धा को</
                               </header>
 
                                 <p>ट्रंप प्रशासन का कहना है कि अगले सप्ताह नयी दिल्ली में होने वाली पहली भारत-अमेरिका 2+2 वार्ता दोनों देशों के बीच मजबूत होती रणनीतिक साझेदारी का संकेत है। अमेरिका के विदेश</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>अमेरिका ने भारत को चेताया- रूस से हथियार खरीदा तो विशेष छूट मिलने की कोई गारंटी नहीं</title>
-                            <link>http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</link>
-                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>पेंटागन के एक शीर्ष अधिकारी ने भारत को आगाह किया है कि रूस से हथियारों की खरीद करने पर उसे अमेरिका से विशेष छूट मिलने की कोई गारंटी नहीं होगी।
-
-वाशिंगटन</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540532125.jpg</url>
-                        <title>अमेरिका ने भारत को चेताया- रूस से हथियार खरीदा तो विशेष छूट मिलने की कोई गारंटी नहीं</title>
-                        <link>http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>पेंटागन के एक शीर्ष अधिकारी ने भारत को आगाह किया है कि रूस से हथियारों की खरीद करने पर उसे अमेरिका से विशेष छूट मिलने की कोई गारंटी नहीं होगी।
-
-वाशिंगटन</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>चीन के युवाओं को चाहिए बड़ी आंखें और पतली नाक, प्लास्टिक सर्जरी कराने वाले युवाओं में 40% तक बढ़ोतरी</title>
-                            <link>http://localhost/newsportal/world/details/143/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी</link>
-                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>चीन के युवाओं को अपनी छोटी-छोटी आंखें और छोटी सी दबी हुई नाक बिल्कुल पसंद नहीं है। उन्हें बड़ी पलकों के साथ बड़ी आंखें और पतली सी लंबी नाक चाहिए।</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540532040.jpg</url>
-                        <title>चीन के युवाओं को चाहिए बड़ी आंखें और पतली नाक, प्लास्टिक सर्जरी कराने वाले युवाओं में 40% तक बढ़ोतरी</title>
-                        <link>http://localhost/newsportal/world/details/143/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/143/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/143/चीन-के-युवाओं-को-चाहिए-बड़ी-आंखें-और-पतली-नाक-प्लास्टिक-सर्जरी-कराने-वाले-युवाओं-में-%-तक-बढ़ोतरी>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>चीन के युवाओं को अपनी छोटी-छोटी आंखें और छोटी सी दबी हुई नाक बिल्कुल पसंद नहीं है। उन्हें बड़ी पलकों के साथ बड़ी आंखें और पतली सी लंबी नाक चाहिए।</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>रायबरेली में बड़ा ट्रेन हादसा कई लोगों की मौत बड़ी संख्या में लोग घायल-300 सौ से अधिक लोगों की फंसे होने की संभावना।</title>
-                            <link>http://localhost/newsportal/world/details/142/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।</link>
-                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>स्थानीय लोगों और हरचंदपुर स्टेशन के स्टाफ के साथ एनडीआरएफ की टीम स्क्यू ऑपरेशन में जुटी है.मामले में उत्तर रेलवे के एडीआरएम काजी महाराज अलाम ने बताया कि 14003 न्यू</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540471394.jpg</url>
-                        <title>रायबरेली में बड़ा ट्रेन हादसा कई लोगों की मौत बड़ी संख्या में लोग घायल-300 सौ से अधिक लोगों की फंसे होने की संभावना।</title>
-                        <link>http://localhost/newsportal/world/details/142/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/142/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/142/रायबरेली-में-बड़ा-ट्रेन-हादसा-कई-लोगों-की-मौत-बड़ी-संख्या-में-लोग-घायल-सौ-से-अधिक-लोगों-की-फंसे-होने-की-संभावना।>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>स्थानीय लोगों और हरचंदपुर स्टेशन के स्टाफ के साथ एनडीआरएफ की टीम स्क्यू ऑपरेशन में जुटी है.मामले में उत्तर रेलवे के एडीआरएम काजी महाराज अलाम ने बताया कि 14003 न्यू</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>फ़तेहपुर:कलयुगी बेटे ने कर दी दिनदहाड़े अपने पिता की हत्या।</title>
-                            <link>http://localhost/newsportal/world/details/141/फ़तेहपुर-कलयुगी-बेटे-ने-कर-दी-दिनदहाड़े-अपने-पिता-की-हत्या।</link>
-                    <pubDate>Thursday, 25 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>क्या है पूरा मामला..
-
-फ़तेहपुर:सदर कोतवाली क्षेत्र के शांतिनगर निवासी गोवर्धन मिश्रा अपने पुत्र देवेंद्र मिश्र के साथ क़रीब 12 बजे पटेल नगर स्थित एक प्राइवेट क्लिनिक में अपना ईलाज कराने</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540471044.jpg</url>
-                        <title>फ़तेहपुर:कलयुगी बेटे ने कर दी दिनदहाड़े अपने पिता की हत्या।</title>
-                        <link>http://localhost/newsportal/world/details/141/फ़तेहपुर-कलयुगी-बेटे-ने-कर-दी-दिनदहाड़े-अपने-पिता-की-हत्या।</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/141/फ़तेहपुर-कलयुगी-बेटे-ने-कर-दी-दिनदहाड़े-अपने-पिता-की-हत्या।</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/141/फ़तेहपुर-कलयुगी-बेटे-ने-कर-दी-दिनदहाड़े-अपने-पिता-की-हत्या।>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>क्या है पूरा मामला..
-
-फ़तेहपुर:सदर कोतवाली क्षेत्र के शांतिनगर निवासी गोवर्धन मिश्रा अपने पुत्र देवेंद्र मिश्र के साथ क़रीब 12 बजे पटेल नगर स्थित एक प्राइवेट क्लिनिक में अपना ईलाज कराने</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Lorem Ipsum is simply dummy text of the printing</title>
-                            <link>http://localhost/newsportal/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>Lorem Ipsum is simply dummy text of the printing</title>
-                        <link>http://localhost/newsportal/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/132/Lorem-Ipsum-is-simply-dummy-text-of-the-printing>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>But I must explain to you how all this mistaken idea</title>
-                            <link>http://localhost/newsportal/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea</link>
-                    <pubDate>Thursday, 01 Feb, 2018</pubDate>  
-                    <author>Md Tuhin</author>     
-                    <description>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system,</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
-                        <title>But I must explain to you how all this mistaken idea</title>
-                        <link>http://localhost/newsportal/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/131/But-I-must-explain-to-you-how-all-this-mistaken-idea>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system,</p>
 
                               <footer>
                                 <!— Article footer goes here -->
