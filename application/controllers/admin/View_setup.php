@@ -290,13 +290,13 @@ class View_setup extends CI_Controller {
 
         $exception  = '';
         if ($footer_data['email'] == '') {
-            $exception .= "Please give Email.";
+            $exception .= " Please give Email.";
         }
         if ($footer_data['phone'] == '') {
-            $exception .= "Please give Phone Number.";
+            $exception .= " Please give Phone Number.";
         }
         if ($footer_data['address'] == '') {
-            $exception .= "Please give Address.";
+            $exception .= " Please give Address.";
         }
         // checking that error is exist or not
         if (@$exception) {
