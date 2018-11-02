@@ -14,7 +14,7 @@ class View_setting_model extends CI_model {
         $this->db->update($table_name, $data);
     }
 
-#-------------------------------------------------
+#---------------------s----------------------------
 #      To check settings exist
 #-------------------------------------------------  
     public function check_settings_exist($table_name, $id) {

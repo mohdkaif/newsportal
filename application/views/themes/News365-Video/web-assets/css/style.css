@@ -259,7 +259,10 @@ li {
     position: relative;
     margin-bottom: 50px;
 }
-
+.ads img{
+    width:500px;
+    height:200px;
+}
 .all-category-inner {
     position: relative;
     margin-bottom: 20px;

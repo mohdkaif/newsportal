@@ -274,14 +274,29 @@ class View_setup extends CI_Controller {
     public function save_website_footer() {
 
         $error = array();
-        $data['website_footer'] = @$this->input->post("website_footer");
+        //$data['website_footer'] = @$this->input->post("website_footer");
+        $footer_data['email'] = @$this->input->post("email");
+        $footer_data['phone'] = @$this->input->post("phone");
+        $footer_data['address'] = @$this->input->post("address");
+
         $data['copy_right'] = @$this->input->post("copy_right",FALSE);
+        $data['website_footer'] = json_encode($footer_data);
+
         $JSON_data = json_encode($data);
         $settings_data['id'] = 13;
         $settings_data['event'] = 'website_footer';
+
         $settings_data['details'] = $JSON_data;
-        if ($data['website_footer'] == '') {
-            $exception = "Please give website footer.";
+
+        $exception  = '';
+        if ($footer_data['email'] == '') {
+            $exception .= "Please give Email.";
+        }
+        if ($footer_data['phone'] == '') {
+            $exception .= "Please give Phone Number.";
+        }
+        if ($footer_data['address'] == '') {
+            $exception .= "Please give Address.";
         }
         // checking that error is exist or not
         if (@$exception) {
