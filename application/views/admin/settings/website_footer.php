@@ -16,6 +16,11 @@ $this->load->view('admin/view_left_menu.php');
             echo $this->session->flashdata('message');
             echo '</b></div>';
         }
+        if ($this->session->flashdata('exception')) {
+            echo '<div class="alert alert-success"><button class="close" data-dismiss="alert">&times;</button><b>';
+            echo $this->session->flashdata('exception');
+            echo '</b></div>';
+        }
         $attributs = array('method' =>'post' );
         echo form_open('admin/View_setup/save_website_footer',$attributs);
         ?>
@@ -56,7 +61,7 @@ $this->load->view('admin/view_left_menu.php');
                         <input type="submit" name="save" value="<?php echo display('update')?>" class="btn btn-primary">
                     </div>
                 </div> 
-            </div>                      
+            </div>                     
        <?php echo form_close();?>
     </section>
 </aside>
