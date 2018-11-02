@@ -704,7 +704,7 @@ header {
 }
 
 .top_header_icon_wrap a {
-    color: #ffffff;
+    color: #bb1919;
     padding: 10px 6px;
     display: inline-block;
     transition: color 0.3s ease 0s;
@@ -783,7 +783,7 @@ ul.newsticker {
 
 .top_banner_wrap {
     background-color: #FFF;
-    /* border-bottom: 1px solid #000; */
+    border-bottom: 1px solid #bb1919;
 }
 
 .header-logo {
