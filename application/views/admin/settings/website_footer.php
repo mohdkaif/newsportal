@@ -21,11 +21,29 @@ $this->load->view('admin/view_left_menu.php');
         ?>
         <div class="form-group">
                 <div class="row single_field">
+                    <div class="col-sm-3"><label>Email: </label></div>
+                    <div class="col-sm-9">
+                        <input type="text" name="email" class="form-control" required="1" id="per_page_view" value="<?php echo @$email; ?>">
+                    </div>
+                </div> 
+                <div class="row single_field">
+                    <div class="col-sm-3"><label>Phone: </label></div>
+                    <div class="col-sm-9">
+                        <input type="text" name="phone" class="form-control" required="1" id="per_page_view" value="<?php echo @$phone; ?>">
+                    </div>
+                </div> 
+                <div class="row single_field">
+                    <div class="col-sm-3"><label>Address: </label></div>
+                    <div class="col-sm-9">
+                        <input type="text" name="address" class="form-control" required="1" id="per_page_view" value="<?php echo @$address; ?>">
+                    </div>
+                </div> 
+<!--                 <div class="row single_field">
                     <div class="col-sm-3"><label><?php echo display('website_footer')?></label></div>
                     <div class="col-sm-9">
                         <input type="text" name="website_footer" class="form-control" required="1" id="per_page_view" value="<?php echo @$website_footer; ?>">
                     </div>
-                </div> 
+                </div>  -->
                 <div class="row single_field">
                     <div class="col-sm-3"><label><?php echo display('copy_right')?></label></div>
                     <div class="col-sm-9">

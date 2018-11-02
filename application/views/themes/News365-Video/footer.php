@@ -70,8 +70,19 @@ if (preg_match('/bot|crawl|curl|dataprovider|search|get|spider|find|java|majesti
             <div class="col-sm-5">
                 <div class="footer-box footer-logo-address header-bann"> <!-- address  -->
                     <img src="<?php echo base_url('uploads/images/footer_logo.png')?>" class="logo_img img-responsive" alt="">
+                        
+                            <?php    
+                            $arr[] = json_decode(@$website_footer['website_footer']);
+                            
+                            //echo @$website_footer['website_footer']; 
+                            ?>
+                        
                         <address>
-                            <?php echo @$website_footer['website_footer']; ?>
+                            <ul>
+                                <li><label>Email: </label><span class="email"><?php echo @$arr[0]->email; ?></span></li>
+                                <li><label>Phone: </label><span class="phone"><?php echo @$arr[0]->phone; ?></span></li>
+                                <li><label>Address: </label><span class="address"><?php echo @$arr[0]->address; ?></span></li>
+                            </ul>
                         </address>
                 <div class="subscribe" style="background: #e80042;  width: 100px; margin: 20px;">
                     <a style="color: #fff" href="<?php echo base_url();?>Subscription/index" class="btn">Subscribe</a>
@@ -88,8 +99,9 @@ if (preg_match('/bot|crawl|curl|dataprovider|search|get|spider|find|java|majesti
                          foreach (@$footer_menu as $key => $name) {}?>
                             <h3 class="category-headding"><?php echo @$name->menu_name;?></h3>
                             <div class="headding-border bg-color-4"></div>
+
                             <ul>
-                               <li>
+                               
                                     <?php
                                     $bu = base_url();
                                         if (isset($footer_menu) && is_array($footer_menu)) {
@@ -102,16 +114,15 @@ if (preg_match('/bot|crawl|curl|dataprovider|search|get|spider|find|java|majesti
                                                 }else{
                                                     $slug1 = $bu."#";
                                                 }
-                                                $menu .= '<i class="fa fa-dot-circle-o"></i><a href="' . $slug1 . '">' . $value->menu_lavel . ' </a>';
+                                                $menu .= '<li><i class="fa fa-dot-circle-o"></i><a href="' . $slug1 . '">' . $value->menu_lavel . ' </a></li>';
                                             }
                                             echo rtrim($menu);
                                         }
                                     ?>
-                                </li>
+                                
                             </ul>
                         </div>
                     </div>
-
 
                     <div class="col-sm-6">
                         <div class="footer-box">
@@ -157,17 +168,26 @@ $social_link = json_decode('[' . $social_link . ']');
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <p><p><?php echo @$website_footer['copy_right'];?></p></p>
-                <div class="social">
-                    <ul>
-                        <li><a href="<?php if (isset($social_link[0]->fb)) echo @$social_link[0]->fb; ?>" class="facebook"><i class="fa  fa-facebook"></i> </a></li>
-                        <li><a href="<?php if (isset($social_link[0]->tw)) echo @$social_link[0]->tw; ?>" class="twitter"><i class="fa  fa-twitter"></i></a></li>
-                        <li><a href="<?php if (isset($social_link[0]->google)) echo @$social_link[0]->google; ?>" class="google"><i class="fa  fa-google-plus"></i></a></li>
-                        <li><a href="<?php if (isset($social_link[0]->flickr)) echo @$social_link[0]->flickr; ?>" class="flickr"><i class="fa fa-flickr"></i></a></li>
-                        <li><a href="<?php if (isset($social_link[0]->youtube)) echo @$social_link[0]->youtube; ?>" class="youtube"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="<?php if (isset($social_link[0]->vimo)) echo @$social_link[0]->vimo; ?>" class="vimeo"><i class="fa fa-vimeo"></i></a></li>
-                         <li><a href="<?php if (isset($social_link[0]->vk)) echo @$social_link[0]->vk; ?>" class="vk"><i class="fa fa-vk"></i></a></li>
-                    </ul>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p>Developed By <a href="http://www.igniterpro.com" target="_blank">IgniterPro</a></p>
+                    </div>
+                    <div  class="col-sm-4">
+                        <p><p><?php echo @$website_footer['copy_right'];?></p></p>
+                    </div>
+                    <div  class="col-sm-4">
+                        <div class="social">
+                            <ul>
+                                <li><a href="<?php if (isset($social_link[0]->fb)) echo @$social_link[0]->fb; ?>" class="facebook"><i class="fa  fa-facebook"></i> </a></li>
+                                <li><a href="<?php if (isset($social_link[0]->tw)) echo @$social_link[0]->tw; ?>" class="twitter"><i class="fa  fa-twitter"></i></a></li>
+                                <li><a href="<?php if (isset($social_link[0]->google)) echo @$social_link[0]->google; ?>" class="google"><i class="fa  fa-google-plus"></i></a></li>
+                                <li><a href="<?php if (isset($social_link[0]->flickr)) echo @$social_link[0]->flickr; ?>" class="flickr"><i class="fa fa-flickr"></i></a></li>
+                                <li><a href="<?php if (isset($social_link[0]->youtube)) echo @$social_link[0]->youtube; ?>" class="youtube"><i class="fa fa-youtube"></i></a></li>
+                                <li><a href="<?php if (isset($social_link[0]->vimo)) echo @$social_link[0]->vimo; ?>" class="vimeo"><i class="fa fa-vimeo"></i></a></li>
+                                 <li><a href="<?php if (isset($social_link[0]->vk)) echo @$social_link[0]->vk; ?>" class="vk"><i class="fa fa-vk"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -897,7 +897,7 @@ class CI_Session {
 	 * @return	void
 	 */
 	public function set_flashdata($data, $value = NULL)
-	{
+	{   	
 		$this->set_userdata($data, $value);
 		$this->mark_as_flash(is_array($data) ? array_keys($data) : $data);
 	}

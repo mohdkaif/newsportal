@@ -472,7 +472,7 @@
                             <!-- widget item -->
                            <?php 
                         
-                           for($i=0;$i<=1;$i++){
+                           for($i=0;$i<=0;$i++){
 
 
                             ?>
@@ -569,6 +569,29 @@
                             </div> <!-- / tab item -->
                         </div> <!-- / tab_content -->
                     </div> <!-- / tab -->
+                      <div>
+                            <!-- widget item -->
+                           <?php 
+                        
+                           for($i=1;$i<=1;$i++){
+
+
+                            ?>
+                                <div class="ad-item">
+                                    
+                                    <?php
+                                    $srcelem = @$ads['home_'.$i];
+                                        if (@$ads['home_'.$i]!=NULL) {
+                                              echo $srcelem;
+                                            } 
+                                        ?>
+                                   
+                                  
+                                
+                                </div>
+                            <?php } ?>
+                        
+                    </div>
 
         </div>
             <!-- side content end -->
