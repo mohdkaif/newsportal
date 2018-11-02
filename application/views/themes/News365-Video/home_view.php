@@ -176,7 +176,8 @@
     </section>
 
 <!------------------------------  TEchnology -->
-    <div class="container">
+<section class="technology_sec">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-sm-8">
                 
@@ -598,167 +599,169 @@
         </div>
         <!-- row end -->
     </div>
+</section>
     <!-- container end -->
 
 
     <!-- Video News Area
            <!-- Video News Area
  ============================================ -->
-        <?php if(@$home_page_positions[3]['status']==1){  
+    <?php if(@$home_page_positions[3]['status']==1){  
 
 
 
-            ?>
-        <section class="video-post-inner">
-            <div class="container">
+        ?>
+    <section class="video-post-inner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h3 class="category-headding "><img class="icon-img" src="<?php echo @$ci['category_image_3']; ?>"/><?php echo '  '. @$home_page_positions[3]['cat_name'];?></h3>
+                    <div class="headding-border"></div> 
                 <div class="row">
-                    <div class="col-sm-8">
-                        <h3 class="category-headding "><img class="icon-img" src="<?php echo @$ci['category_image_3']; ?>"/><?php echo '  '. @$home_page_positions[3]['cat_name'];?></h3>
-                        <div class="headding-border"></div> 
-                        <?php 
-                    for($i=1; $i<=3; $i++){ 
-                        if(!isset($pn['position_3']['news_title_'.$i]))
-                            continue
-                    ?>
-
-                    <div class="col-sm-4">
-                        <div class="post-style1">
-                            <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
-                                <!-- post image -->
-                                <?php
-                                    if(@$pn['position_3']['image_check_'.$i]!=NULL) {
-                                      echo'<a href="'.@$pn['position_3']['news_link_'.$i].'" class="video-img-icon"><i class="fa fa-play"></i>
-                                      <img class="img-responsive" src="'.@$pn['position_3']['image_thumb_'.$i].'">
-                                      </a>';
-                                    } else {
-
-                                        echo '<a href="'.@$pn['position_3']['news_link_'.$i].'" class="video-img-icon">
-                                                <i class="fa fa-play"></i>
-                                                <img  src="http://img.youtube.com/vi/'. @$pn['position_3']['video_' . $i].'/0.jpg" alt="" class="img-responsive">
-                                            </a>';
-                                    }
-                                ?>
-                                
-                            </div>
-                            <!-- post title -->
-                            <h3><a href="<?php echo @$pn['position_3']['news_link_'.$i]?>"><?php echo @$pn['position_3']['news_title_'.$i]?></a></h3>
-                            <div class="post-title-author-details">
-                                <div class="date">
-                                    <ul>
-                                        <li><img src="<?php echo @$pn['position_3']['post_by_image_'.$i]?>" class="img-responsive" alt=""></li>
-                                        <li>By <a title="" href="#"><span><?php echo @$pn['position_3']['post_by_name_'.$i]?></span></a> --</li>
-                                        <li><a title="" href="#"><?php echo @$pn['position_3']['ptime_'.$i]?></a> </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <?php }?>
-
-                    </div>
-                 
-                  <div class="col-sm-4 left-padding">
-                    <!-- slider widget -->
-                    <div class="widget-slider-inner">
-                        <h3 class="category-headding "><img class="icon-img" src="<?php echo base_url().'/uploads/editorchoice.png'; ?>"><?php echo  @$Editor['hn']['category_1']; ?></h3>
-                        <div class="headding-border"></div>
-                        <div id="widget-slider" class="owl-carousel owl-theme">
-                            <!-- widget item -->
-                           <?php 
-                           for($i=1;$i<=3;$i++){
-                            if(!isset($Editor['hn']['news_title_'.$i]))
-                            continue
-
-                            ?>
-                                <div class="item">
-                                    <a href="<?php echo @$Editor['hn']['news_link_'.$i]?>">
-                                    <?php
-                                        if (@$Editor['hn']['image_check_'.$i]!=NULL) {
-                                              echo'<img  src="'. @$Editor['hn']['image_thumb_'.$i].'" alt="">';
+                    <?php 
+                for($i=1; $i<=3; $i++){ 
+                    if(!isset($pn['position_3']['news_title_'.$i]))
+                        continue
+                        ?>
+                            <div class="col-sm-4">
+                                <div class="post-style1">
+                                    <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
+                                        <!-- post image -->
+                                        <?php
+                                            if(@$pn['position_3']['image_check_'.$i]!=NULL) {
+                                              echo'<a href="'.@$pn['position_3']['news_link_'.$i].'" class="video-img-icon"><i class="fa fa-play"></i>
+                                              <img class="img-responsive" src="'.@$pn['position_3']['image_thumb_'.$i].'">
+                                              </a>';
                                             } else {
-                                              echo'<img  class="img-responsive"  src="http://img.youtube.com/vi/'.@$Editor['hn']['video_'.$i].'/0.jpg" alt="photography" />';
+
+                                                echo '<a href="'.@$pn['position_3']['news_link_'.$i].'" class="video-img-icon">
+                                                        <i class="fa fa-play"></i>
+                                                        <img  src="http://img.youtube.com/vi/'. @$pn['position_3']['video_' . $i].'/0.jpg" alt="" class="img-responsive">
+                                                    </a>';
                                             }
                                         ?>
-                                    </a>
-                                    <h4><a href="<?php echo @$Editor['hn']['news_link_'.$i]?>"><?php echo @$Editor['hn']['news_title_'.$i]?></a></h4>
-                                    <div class="date">
-                                        <ul>
-                                            <li>By<a title="" href="#"><span><?php echo @$Editor['hn']['post_by_name_'.$i]?></span></a> --</li>
-                                            <li><a title="" href="#"><?php echo date('l, d M, Y', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
-                                        </ul>
+                                        
                                     </div>
-                                    <p>
-                                    <?php 
-                                        @$news_details = @$Editor['hn']['full_news_'.$i];
-                                     echo $exploded = implode(' ', array_slice(explode(' ', $news_details), 0, 20));
-                                    ?></p>
+                                    <!-- post title -->
+                                    <h3><a href="<?php echo @$pn['position_3']['news_link_'.$i]?>"><?php echo @$pn['position_3']['news_title_'.$i]?></a></h3>
+                                    <div class="post-title-author-details">
+                                        <div class="date">
+                                            <ul>
+                                                <li><img src="<?php echo @$pn['position_3']['post_by_image_'.$i]?>" class="img-responsive" alt=""></li>
+                                                <li>By <a title="" href="#"><span><?php echo @$pn['position_3']['post_by_name_'.$i]?></span></a> --</li>
+                                                <li><a title="" href="#"><?php echo @$pn['position_3']['ptime_'.$i]?></a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
-                            <?php } ?>
+                            </div>
+                    <?php }?>
+                </div>
+
+                </div>
+             
+              <div class="col-sm-4 left-padding">
+                <!-- slider widget -->
+                <div class="widget-slider-inner">
+                    <h3 class="category-headding "><img class="icon-img" src="<?php echo base_url().'/uploads/editorchoice.png'; ?>"><?php echo  @$Editor['hn']['category_1']; ?></h3>
+                    <div class="headding-border"></div>
+                    <div id="widget-slider" class="owl-carousel owl-theme">
+                        <!-- widget item -->
+                       <?php 
+                       for($i=1;$i<=3;$i++){
+                        if(!isset($Editor['hn']['news_title_'.$i]))
+                        continue
+
+                        ?>
+                            <div class="item">
+                                <a href="<?php echo @$Editor['hn']['news_link_'.$i]?>">
+                                <?php
+                                    if (@$Editor['hn']['image_check_'.$i]!=NULL) {
+                                          echo'<img  src="'. @$Editor['hn']['image_thumb_'.$i].'" alt="">';
+                                        } else {
+                                          echo'<img  class="img-responsive"  src="http://img.youtube.com/vi/'.@$Editor['hn']['video_'.$i].'/0.jpg" alt="photography" />';
+                                        }
+                                    ?>
+                                </a>
+                                <h4><a href="<?php echo @$Editor['hn']['news_link_'.$i]?>"><?php echo @$Editor['hn']['news_title_'.$i]?></a></h4>
+                                <div class="date">
+                                    <ul>
+                                        <li>By<a title="" href="#"><span><?php echo @$Editor['hn']['post_by_name_'.$i]?></span></a> --</li>
+                                        <li><a title="" href="#"><?php echo date('l, d M, Y', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
+                                    </ul>
+                                </div>
+                                <p>
+                                <?php 
+                                    @$news_details = @$Editor['hn']['full_news_'.$i];
+                                 echo $exploded = implode(' ', array_slice(explode(' ', $news_details), 0, 20));
+                                ?></p>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+                <!-- video -->
+                <?php if(@$home_page_positions[7]['status']==1){ ?>
+                    <!-- video -->
+                    <div class="video-headding"><?php echo display('video_striming')?></div>
+                    <div id="rypp-demo-4" class="RYPP r16-9" data-playlist="PLw8TejMbmHM6IegrJ4iECWNoFuG7RiCV_">
+                        <div class="RYPP-playlist">
+                            <script type="text/javascript" src="<?php echo base_url(); ?>movi/highslide-with-html.js"></script>
+                            <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>movi/highslide.css" />
+                            
+                            <script type="text/javascript">
+                                // Apply the Highslide settings
+                                hs.graphicsDir = '<?php echo base_url(); ?>movi/graphics/';
+                                hs.outlineType = 'rounded-white';
+                                hs.outlineWhileAnimating = true;
+                            </script>
+                            <div class="RYP-items">
+                                <ol>
+                                <?php 
+                                for($i=1;$i<=5;$i++){
+                                    if(!isset($pn['position_7']['news_title_'.$i]))
+                                    continue
+                                ?>
+                                   <li class="selected" >
+                                       <p class="title" style="width: 67%">
+                                       <a style="width: 67%; color: #fff;" href="http://www.youtube.com/embed/<?php echo @$pn['position_7']['video_'.$i]?>?rel=0&amp;wmode=transparent"
+                                            onclick="return hs.htmlExpand(this, {objectType: 'iframe', width: 480, height: 385, 
+                                                    allowSizeReduction: false, wrapperClassName: 'draggable-header no-footer', 
+                                                    preserveContent: false, objectLoadTime: 'after'})">
+                                       <?php echo @$pn['position_7']['news_title_'.$i]?>
+                                       </a>
+                                       <small class="author"><br><?php echo @$pn['position_7']['post_by_name_'.$i]?></small></p>
+                                            <a href="http://www.youtube.com/embed/<?php echo @$pn['position_7']['video_'.$i]?>?rel=0&amp;wmode=transparent"
+                                            onclick="return hs.htmlExpand(this, {objectType: 'iframe', width: 480, height: 385, 
+                                                    allowSizeReduction: false, wrapperClassName: 'draggable-header no-footer', 
+                                                    preserveContent: false, objectLoadTime: 'after'})">    
+                                        <?php
+                                            if (@$pn['position_7']['image_check_'.$i]!=NULL) {
+                                              echo'<img class="img-responsive" style="width: 85px" src="'.@$pn['position_7']['image_thumb_'.$i].'" alt="">';
+                                            } else {
+                                                echo'<img style="width: 85px" src="https://i.ytimg.com/vi/'. @$pn['position_7']['video_'.$i].'/default.jpg" class="thumb">';
+                                            }
+                                        ?>
+                                            </a>
+                                   </li>
+                                <?php } ?>
+                                </ol>   
+                            </div>
+
                         </div>
                     </div>
-                    <!-- video -->
-                    <?php if(@$home_page_positions[7]['status']==1){ ?>
-                        <!-- video -->
-                        <div class="video-headding"><?php echo display('video_striming')?></div>
-                        <div id="rypp-demo-4" class="RYPP r16-9" data-playlist="PLw8TejMbmHM6IegrJ4iECWNoFuG7RiCV_">
-                            <div class="RYPP-playlist">
-                                <script type="text/javascript" src="<?php echo base_url(); ?>movi/highslide-with-html.js"></script>
-                                <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>movi/highslide.css" />
-                                
-                                <script type="text/javascript">
-                                    // Apply the Highslide settings
-                                    hs.graphicsDir = '<?php echo base_url(); ?>movi/graphics/';
-                                    hs.outlineType = 'rounded-white';
-                                    hs.outlineWhileAnimating = true;
-                                </script>
-                                <div class="RYP-items">
-                                    <ol>
-                                    <?php 
-                                    for($i=1;$i<=5;$i++){
-                                        if(!isset($pn['position_7']['news_title_'.$i]))
-                                        continue
-                                    ?>
-                                       <li class="selected" >
-                                           <p class="title" style="width: 67%">
-                                           <a style="width: 67%; color: #fff;" href="http://www.youtube.com/embed/<?php echo @$pn['position_7']['video_'.$i]?>?rel=0&amp;wmode=transparent"
-                                                onclick="return hs.htmlExpand(this, {objectType: 'iframe', width: 480, height: 385, 
-                                                        allowSizeReduction: false, wrapperClassName: 'draggable-header no-footer', 
-                                                        preserveContent: false, objectLoadTime: 'after'})">
-                                           <?php echo @$pn['position_7']['news_title_'.$i]?>
-                                           </a>
-                                           <small class="author"><br><?php echo @$pn['position_7']['post_by_name_'.$i]?></small></p>
-                                                <a href="http://www.youtube.com/embed/<?php echo @$pn['position_7']['video_'.$i]?>?rel=0&amp;wmode=transparent"
-                                                onclick="return hs.htmlExpand(this, {objectType: 'iframe', width: 480, height: 385, 
-                                                        allowSizeReduction: false, wrapperClassName: 'draggable-header no-footer', 
-                                                        preserveContent: false, objectLoadTime: 'after'})">    
-                                            <?php
-                                                if (@$pn['position_7']['image_check_'.$i]!=NULL) {
-                                                  echo'<img class="img-responsive" style="width: 85px" src="'.@$pn['position_7']['image_thumb_'.$i].'" alt="">';
-                                                } else {
-                                                    echo'<img style="width: 85px" src="https://i.ytimg.com/vi/'. @$pn['position_7']['video_'.$i].'/default.jpg" class="thumb">';
-                                                }
-                                            ?>
-                                                </a>
-                                       </li>
-                                    <?php } ?>
-                                    </ol>   
-                                </div>
-
-                            </div>
-                        </div>
-                         <?php } ?>
-                    <!-- /.video -->
-                </div>
-                </div>
+                     <?php } ?>
+                <!-- /.video -->
             </div>
-        </section>
-        <?php } ?>
+            </div>
+        </div>
+    </section>
+    <?php } ?>
 
 
     <!-- Article Post
         ============================================ -->
     <section class="article-post-inner">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-8">
                     <div class="row">
@@ -1139,7 +1142,7 @@
     </section>
     <!-- pagination
 ============================================ -->
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-md-12 col-ofset-2">
             <div class="banner <?php echo (@$lg_status_15==0?'hidden-lg hidden-md':'')?> <?php echo (@$sm_status_15==0?'hidden-xs hidden-sm':'')?>">

@@ -65,7 +65,7 @@ if (preg_match('/bot|crawl|curl|dataprovider|search|get|spider|find|java|majesti
 <!-- footer Area
    ============================================ -->
 <footer>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-sm-5">
                 <div class="footer-box footer-logo-address header-bann"> <!-- address  -->
@@ -165,7 +165,7 @@ if (preg_match('/bot|crawl|curl|dataprovider|search|get|spider|find|java|majesti
 $social_link = json_decode('[' . $social_link . ']');
 ?>
 <div class="sub-footer">  <!-- sub footer -->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
                 <div class="row">

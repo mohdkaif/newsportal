@@ -66,6 +66,9 @@
         ?>
         <!-- google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+        <!-- noto font -->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
+
         <!-- Bootstrap -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>application/views/themes/<?php echo $default_theme; ?>/web-assets/css/bootstrap.min.css">
         <!-- Scrollbar css -->
