@@ -52,8 +52,8 @@
                     </div>
                 </div>
                 <!-- Search Area-->
-                 <div class="col-sm-6 col-padding">
-                <?php if(@$hn['news_title_1']!=NULL) {?>
+                 <div class="col-md-6 col-sm-6 col-padding">
+                    <?php if(@$hn['news_title_1']!=NULL) {?>
                     <div class="post-wrapper post-grid-3 effects">
                         <div class="post-thumb polaroid">
                             <?php
@@ -91,8 +91,7 @@
                     <?php } ?>
                 </div>
              
-               
-                <div class="hidden-xs col-sm-3 col-padding">
+                <div class="hidden-xs col-md-3 col-sm-6 col-padding">
                     <?php 
                         for($i=2;$i<=3;$i++){
                             if(!isset($hn['news_title_'.$i]))
@@ -127,12 +126,9 @@
                         </div>
                     </div>
                     <?php }?>
-                </div>
+                </div>               
 
-
-               
-
-                <div class="hidden-xs col-sm-3 col-padding">
+                <div class="hidden-xs hidden-sm col-sm-3 col-padding">
                     <?php 
                         for($i=4;$i<=5;$i++){
                             if(!isset($hn['news_title_'.$i]))
@@ -179,7 +175,7 @@
 <section class="technology_sec">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-8 col-sm-8">
+            <div class="col-md-8 col-sm-12">
                 
             <?php
                 if (@$home_page_positions[1]['status'] == 1) {
@@ -288,7 +284,7 @@
                 <section class="politics_wrapper">
                     <h3 class="category-headding "><img class="icon-img" src="<?php echo @$ci['category_image_2']; ?>"/><?php echo '  '. @$home_page_positions[2]['cat_name']; ?></h3>
                     <div class="headding-border"></div>
-                    <div class="row">
+                    <div class="">
                         <div id="content-slide-2" class="owl-carousel">
                             <!-- item-1 -->
                             <div class="item">
@@ -467,7 +463,7 @@
                 </div> -->
             </div>
             <!-- /.left content inner -->
-         <div class="col-sm-4 left-padding">
+         <div class="col-md-4 col-sm-12 left-padding">
                     <!-- slider widget -->
                    <div>
                             <!-- widget item -->
@@ -614,7 +610,7 @@
     <section class="video-post-inner">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-md-8 col-sm-12">
                     <h3 class="category-headding "><img class="icon-img" src="<?php echo @$ci['category_image_3']; ?>"/><?php echo '  '. @$home_page_positions[3]['cat_name'];?></h3>
                     <div class="headding-border"></div> 
                 <div class="row">
@@ -660,7 +656,7 @@
 
                 </div>
              
-              <div class="col-sm-4 left-padding">
+              <div class="col-md-4 col-sm-12 left-padding">
                 <!-- slider widget -->
                 <div class="widget-slider-inner">
                     <h3 class="category-headding "><img class="icon-img" src="<?php echo base_url().'/uploads/editorchoice.png'; ?>"><?php echo  @$Editor['hn']['category_1']; ?></h3>
@@ -763,7 +759,7 @@
     <section class="article-post-inner">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-md-8 col-sm-12">
                     <div class="row">
                     <?php if(@$home_page_positions[4]['status']==1){ 
                      ?>
@@ -947,7 +943,7 @@
                     <section class="politics_wrapper">
                         <h3 class="category-headding "><img class="icon-img" src="<?php echo $ci['category_image_6']; ?>"><?php echo '  '. @$home_page_positions[6]['cat_name']?></h3>
                         <div class="headding-border"></div>
-                        <div class="row">
+                        <div class="">
                             <div id="content-slide-3" class="owl-carousel">
                                 <!-- item-1 -->
                                 <div class="item">

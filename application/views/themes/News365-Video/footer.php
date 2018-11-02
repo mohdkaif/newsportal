@@ -67,7 +67,7 @@ if (preg_match('/bot|crawl|curl|dataprovider|search|get|spider|find|java|majesti
 <footer>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-5">
+            <div class="col-md-4 col-sm-12">
                 <div class="footer-box footer-logo-address header-bann"> <!-- address  -->
                     <img src="<?php echo base_url('uploads/images/footer_logo.png')?>" class="logo_img img-responsive" alt="">
                         
@@ -90,10 +90,10 @@ if (preg_match('/bot|crawl|curl|dataprovider|search|get|spider|find|java|majesti
                 </div> <!-- /.address  -->
             </div>
 
-            <div class="col-sm-7">
+            <div class="col-md-8 col-sm-12">
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="footer-box">
+                        <div class="footer-box link_sec">
                         <?php 
                            if($footer_menu>0)
                          foreach (@$footer_menu as $key => $name) {}?>
@@ -154,8 +154,6 @@ if (preg_match('/bot|crawl|curl|dataprovider|search|get|spider|find|java|majesti
                     </div>
                 </div>
             </div>
-
-       
         </div>
     </div>
 </footer>

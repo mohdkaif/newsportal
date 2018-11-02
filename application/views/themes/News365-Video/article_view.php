@@ -474,7 +474,7 @@
             </article>
         </div>
 
-        <div class="col-sm-4 left-padding">
+        <div class="col-md-4 col-sm-12 left-padding">
             <aside class="sidebar">
                 <div class="banner-add <?php echo (@$lg_status_35==0?'hidden-lg hidden-md':'')?> <?php echo (@$sm_status_35==0?'hidden-xs hidden-sm':'')?>"> <!-- add -->
                     <span class="add-title"></span>

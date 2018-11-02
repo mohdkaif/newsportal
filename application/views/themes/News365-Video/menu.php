@@ -18,7 +18,7 @@ if (isset($ads) && is_array($ads)) {
                     </a>
                 </div>
             </div> --> 
-            <div class="col-xs-12 col-md-3 col-sm-12">
+            <div class=" col-md-3 col-sm-4 col-xs-12">
                 
                 <div class="header-bann">
                     <!-- <?php  echo '<h2 class="white-text">YUGANTARPRAVAH</h2>'?> -->
@@ -28,7 +28,7 @@ if (isset($ads) && is_array($ads)) {
                     <h1>युगान्तर प्रवाह</h1>
                 </div>
             </div>
-            <div class="col-md-9 col-sm-12 col-xs-12">
+            <div class="col-md-9 col-sm-8 col-xs-12">
                 <?php
                 @$social_link = json_decode('[' . $social_link . ']');
             ?>
