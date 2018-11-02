@@ -8,9 +8,9 @@ if (isset($ads) && is_array($ads)) {
     $selected = 'style="background-color:#f60d2b;color:#fff;"';
 ?>
 
-<div class="container-fluid top_banner_wrap" style="background:#bb1919">
+<div class="container-fluid top_banner_wrap">
    
-        <div class="row" style="background:#bb1919">
+        <div class="row">
           <!--   <div class="col-xs-12 col-md-4 col-sm-4">
                 <div class="header-logo">  <!-- logo -->
                 <!--     <a href="<?php echo $bu; ?>">
@@ -61,11 +61,11 @@ if (isset($ads) && is_array($ads)) {
 
 ?>
 <!-- navber -->
-<div class="container-fluid hidden-xs"  style="background:#bb1919;">
-    <nav class="navbar" style="background:#bb1919;">
-        <div class="collapse navbar-collapse" style="background:#bb1919">
+<div class="container-fluid hidden-xs">
+    <nav class="navbar">
+        <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="<?php echo $bu ?>" class="category01 active"><?php echo @$lan['home']?></a></li>
+                <li class="active"><a href="<?php echo $bu ?>" class="active"><?php echo @$lan['home']?></a></li>
             <?php
                 $i = 2;
                 foreach ($main_menu as $key => $value) {
@@ -82,7 +82,7 @@ if (isset($ads) && is_array($ads)) {
 
                     if ($num_rows1) {
                         echo '<li class="dropdown">';
-                        echo '<a  href="' . $slug1 . '" class="dropdown-toggle category0' . $i++ . '" data-toggle="dropdown">' . $value->menu_lavel . '<span class="pe-7s-angle-down"></span></a>';
+                        echo '<a  href="' . $slug1 . '" class="dropdown-toggle ' . $i++ . '" data-toggle="dropdown">' . $value->menu_lavel . '<span class="pe-7s-angle-down"></span></a>';
                         echo '<ul class="dropdown-menu menu-slide">';
                         foreach ($num_rows1 as $key1 => $value1) {
                             if($value1->slug!=NULL){
@@ -99,7 +99,7 @@ if (isset($ads) && is_array($ads)) {
                         if($value->parents_id!=NULL){
 
                         }else{
-                        echo '<li> <a '.(($value->slug == $menu_slug) ? $selected : '').' href="' . $slug1 . '" class="category0' . $i++ . '">' . $value->menu_lavel . '</a>';
+                        echo '<li> <a '.(($value->slug == $menu_slug) ? $selected : '').' href="' . $slug1 . '" class="' . $i++ . '">' . $value->menu_lavel . '</a>';
                             }            
                         }
                     echo '</li>';
