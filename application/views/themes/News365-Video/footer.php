@@ -79,9 +79,9 @@ if (preg_match('/bot|crawl|curl|dataprovider|search|get|spider|find|java|majesti
                         
                         <address>
                             <ul>
-                                <li><label>Email: </label><span class="email"><?php echo @$arr[0]->email; ?></span></li>
-                                <li><label>Phone: </label><span class="phone"><?php echo @$arr[0]->phone; ?></span></li>
-                                <li><label>Address: </label><span class="address"><?php echo @$arr[0]->address; ?></span></li>
+                                <li class="email"><label>Email: </label><span><?php echo @$arr[0]->email; ?></span></li>
+                                <li class="phone"><label>Phone: </label><span><?php echo @$arr[0]->phone; ?></span></li>
+                                <li class="address"><label>Address: </label><span><?php echo @$arr[0]->address; ?></span></li>
                             </ul>
                         </address>
                 <div class="subscribe" style="background: #e80042;  width: 100px; margin: 20px;">
@@ -171,7 +171,7 @@ $social_link = json_decode('[' . $social_link . ']');
                         <p>Developed By <a href="http://www.igniterpro.com" target="_blank">IgniterPro</a></p>
                     </div>
                     <div  class="col-sm-4">
-                        <p><p><?php echo @$website_footer['copy_right'];?></p></p>
+                        <?php echo @$website_footer['copy_right'];?>
                     </div>
                     <div  class="col-sm-4">
                         <div class="social">

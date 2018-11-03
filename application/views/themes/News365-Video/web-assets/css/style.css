@@ -4700,18 +4700,29 @@ footer {
 
 .footer-logo-address address ul li {
     position: relative;
-    padding-left: 0px;
+    padding-left: 20px;
 }
 
 .footer-logo-address address ul li:after {
     content: "";
-    content: none;
     position: absolute;
     height: 15px;
     width: 15px;
-    left: 0;
-    background: #000;
+    left: 0;    
     top: 8px;
+}
+
+.footer-logo-address address ul li.email:after {
+    background: url(../images/emailicon.png) center center transparent no-repeat;
+    background-size: contain;
+}
+.footer-logo-address address ul li.phone:after {
+    background: url(../images/phoneicon.jpg) center center transparent no-repeat;
+    background-size: contain;
+}
+.footer-logo-address address ul li.address:after {
+    background: url(../images/addressicon.jpg) center center transparent no-repeat;
+    background-size: contain;
 }
 
 .link_sec ul {
@@ -4850,7 +4861,7 @@ footer {
     }
 
     .sub-footer .col-sm-4 {
-        padding: 6px 15px;
+        padding: 0px 15px;
     }
 
     .sub-footer .social {
