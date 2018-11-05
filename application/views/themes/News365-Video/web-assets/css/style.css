@@ -1,4 +1,4 @@
-@charset "utf-8";
+.category-headding@charset "utf-8";
 
 
 
@@ -310,11 +310,11 @@ if it's not present, don't show loader */
 
 .category-headding {
     margin-top: 0px;
-    font-size: 16px;
+    font-size:30px;
     color: rgb(34, 34, 34);
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    /*font-family: 'Lato', sans-serif;*/
+    font-weight: 500;
     letter-spacing: 0.5px;
 }
 
@@ -1387,13 +1387,13 @@ ul.newsticker {
 }
 
 .post-title-author-details h5 {
-    font-size: 14px;
+    font-size: 18px;font-weight:700;line-height: 26px;
 }
 
 .post-editor-date {
     font-weight: 500;
-    font-family: 'Lato', sans-serif;
-    font-size: 11px;
+    /*font-family: 'Lato', sans-serif;*/
+    font-size: 14px;
 }
 
 .post-author-comment {
@@ -1636,7 +1636,8 @@ ul.newsticker {
 }
 
 .tab-inner .box-item .td-module-title {
-    font-size: 13px;
+    font-size: 18px;
+    font-weight: 700;
     line-height: 16px;
 }
 
@@ -2245,7 +2246,7 @@ footer ul li a {
     color: #000;
     font-weight: 500;
     font-family: 'Lato', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 footer ul li .fa {
@@ -4593,7 +4594,7 @@ div.polaroid {
 }
 
 .breaking-news {
-    margin-bottom: 40px;
+    margin-bottom: 44px;
 }
 
 .technology_sec {
@@ -4659,6 +4660,7 @@ footer {
 .home2-post h3 a {
     line-height: 24px;
     font-size: 16px;
+    font-weight: 700;
 }
 
 .post-wrapper h4 a {
@@ -4669,18 +4671,21 @@ footer {
 .home2-post h4 a {
     font-size: 16px;
     line-height: 24px;
+    font-weight: 700;
 }
 
 .video-post-inner h3 a {
-    font-size: 16px;
+    font-size: 18px;font-weight:700;line-height: 26px;
 }
 
 .item h4 a {
-    font-size: 16px;
+    font-size: 18px;font-weight:500;
 }
 
 .post-wrapper h3, .item h3 {
     font-size: 18px;
+    /*font-size: 18px;*/
+    font-weight: 700;
     line-height: 26px;
 }
 
@@ -4728,7 +4733,9 @@ footer {
 .link_sec ul {
     column-count: 2;
 }
-
+/*.navbar-nav > li > a{
+    font-size:16px;
+}*/
 
 /*media queries*/
 
@@ -4745,9 +4752,9 @@ footer {
         padding-left: 20px;
     }
     .post-wrapper h3, .item h3 {
-        font-size: 14px;
+        /*font-size: 14px;
         line-height: 22px;
-        min-height: 45px;
+        min-height: 45px;*/
     }
     .col-sm-7 .footer-box ul li a {
         font-size: 12px;
@@ -4799,7 +4806,7 @@ footer {
         padding: 5px 0;
     }
     .home2-post h3 a {
-        font-size: 14px;
+        /*font-size: 14px;*/
     }
     .video-post-inner {
         padding: 30px 10px 20px;
@@ -4823,8 +4830,9 @@ footer {
     }
 
     .headding-news {
-        padding-top: 20px;
-        margin-bottom: 20px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
     }
     #content-slide-3 .item {
         margin: 0;
@@ -4851,7 +4859,7 @@ footer {
 
 
     .search-area {
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
     .sub-footer p {
