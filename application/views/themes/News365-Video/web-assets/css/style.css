@@ -1387,7 +1387,7 @@ ul.newsticker {
 }
 
 .post-title-author-details h5 {
-    font-size: 18px;font-weight:700;line-height: 26px;
+    font-size: 16px;font-weight:700;line-height: 26px;
 }
 
 .post-editor-date {
@@ -4675,15 +4675,15 @@ footer {
 }
 
 .video-post-inner h3 a {
-    font-size: 18px;font-weight:700;line-height: 26px;
+    font-size: 16px;font-weight:700;line-height: 26px;
 }
 
 .item h4 a {
-    font-size: 18px;font-weight:500;
+    font-size: 16px;font-weight:700;
 }
 
 .post-wrapper h3, .item h3 {
-    font-size: 18px;
+    font-size: 16px;
     /*font-size: 18px;*/
     font-weight: 700;
     line-height: 26px;
