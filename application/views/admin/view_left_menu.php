@@ -8,7 +8,7 @@
         var segment_1 = '<?php echo $this->uri->segment(1); ?>';
         var segment_2 = '<?php echo $this->uri->segment(2); ?>';
         var segment_3 = '<?php echo $this->uri->segment(3); ?>';
-       /* if (segment_2 === 'Photo_upload' || segment_2 === 'Photo_list') {
+        if (segment_2 === 'Photo_upload' || segment_2 === 'Photo_list') {
             $('.ml').addClass('active');
         }
         else if (segment_3 === 'breaking_news' || segment_2 === 'Pulling') {
@@ -17,31 +17,30 @@
         else if (segment_2 === 'Ad' || segment_3 === 'View_ads') {
             $('.as').addClass('active');
         }
-       */ else if (segment_1 === 'add_category' || segment_1 === 'list_of_categories' || segment_1 === 'add_sub_categories' ) {
+        else if (segment_1 === 'add_category' || segment_1 === 'list_of_categories' || segment_1 === 'add_sub_categories' ) {
             $('.cat').addClass('active');
         }
-        /*
         else if (segment_3 === 'registration' || segment_3 === 'repoter_list' || segment_3 === 'last_20_access' || segment_2 === 'Reports_controller') {
             $('.usr').addClass('active');
         }
         else if (segment_2 === 'View_setup' || segment_2 === 'Demo') {
             $('.vs').addClass('active');
         }
-        else if (segment_2 === 'Seo') {
+        /*else if (segment_2 === 'Seo') {
             $('.seo').addClass('active');
-        }
-        */else if (segment_2 === 'News_list') {
+        }*/
+        else if (segment_2 === 'News_list') {
             $('.news_list').addClass('active');
         }
        /* else if (segment_2 === 'Theme') {
             $('.theme').addClass('active');
         }*/
-/*        else if (segment_3 === 'Create_new_page'|| segment_3 == 'Pages') {
+        else if (segment_3 === 'Create_new_page'|| segment_3 == 'Pages') {
             $('.pages').addClass('active');
         }
         else if (segment_2 === 'User_analytics'|| segment_2 == 'User_analytics') {
             $('.ana').addClass('active');
-        }*/
+        }
     });
 </script>
 
@@ -77,7 +76,7 @@ $selected = 'style="background-color:#dbdbdb;"';
                         <i class="fa fa-th"></i> <span><?php echo display('positioning')?></span>
                     </a>
                 </li> 
-<!-- 
+
                 <li class="treeview ml">
                     <a href="#">
                         <i class="fa fa-bar-chart-o"></i>
@@ -89,8 +88,8 @@ $selected = 'style="background-color:#dbdbdb;"';
                         <li <?php echo (($slug == 'Photo_list') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Photo_list"><i class="fa fa-angle-double-right"></i> <?php echo display('picture_list')?></a></li>
                     </ul>
                 </li>
- -->
-<!--                 <li class="treeview op">
+
+                <li class="treeview op">
                     <a href="#">
                         <i class="fa fa-bar-chart-o"></i>
                         <span><?php echo display('other_post')?></span>
@@ -98,25 +97,25 @@ $selected = 'style="background-color:#dbdbdb;"';
                     </a>
                     <ul class="treeview-menu">
                         <li <?php echo (($slug3 == 'breaking_news') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Common/breaking_news"><i class="fa fa-angle-double-right"></i> <?php echo display('breaking_news')?></a></li>
-                         <li <?php echo (($slug == 'Pulling') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Pulling"><i class="fa fa-angle-double-right"></i> <?php echo display('polling')?></a></li> 
+                       <!--  <li <?php echo (($slug == 'Pulling') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Pulling"><i class="fa fa-angle-double-right"></i> <?php echo display('polling')?></a></li> -->
                     </ul>
                 </li>
- -->
-<!--                  <li>
+
+                <li>
                     <a href="<?php echo $bu; ?>admin/Comments_manage/index">
                         <i class="fa fa-comments"></i> <?php echo display('comments');?></span>
                     </a>
-                </li> 
- -->
+                </li>
 
-            <!--      <li>
+
+                <li>
                     <a href="<?php echo $bu; ?>admin/Subscriber_manage/index">
                         <i class="fa fa-suitcase"></i> <?php echo display('subscribers');?> </span>
                     </a>
-                </li>  -->
+                </li>
 
 
-              <!--   <li class="treeview ana">
+                <li class="treeview ana">
                     <a href="#">
                         <i class="fa fa-mail-forward "></i>
                         <span> <?php echo display('analytics');?> </span>
@@ -146,9 +145,9 @@ $selected = 'style="background-color:#dbdbdb;"';
                         </li>
                        
                     </ul>
-                </li>  -->
-<!-- 
-                 <li class="treeview as">
+                </li>
+
+                <li class="treeview as">
                     <a href="#">
                         <i class="fa fa-laptop"></i>
                         <span><?php echo display('advertise_settings')?></span>
@@ -158,14 +157,14 @@ $selected = 'style="background-color:#dbdbdb;"';
                         <li <?php echo (@$active ==1? $selected : '')?>><a href="<?php echo $bu; ?>admin/Ad"><i class="fa fa-angle-double-right"></i> <?php echo display('new_advertise')?></a></li>
                         <li <?php echo (($slug3 == 'view_ads') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Ad/view_ads"><i class="fa fa-angle-double-right"></i> <?php echo display('update_advertise')?></a></li>
                     </ul>
-                </li>  
- --><!-- 
+                </li> 
+
                 <li <?php echo (($slug3 == 'maximum_archive_settings_view') ? $selected : '')?>>
                     <a href="<?php echo $bu; ?>admin/Archive/maximum_archive_settings_view">
                         <i class="fa fa-dashboard"></i> <span><?php echo display('archive_setting')?></span>
                     </a>
                 </li>
- -->
+
                 <li class="treeview cat">
                     <a href="#">
                         <i class="fa fa-bar-chart-o"></i>
@@ -175,11 +174,11 @@ $selected = 'style="background-color:#dbdbdb;"';
                     <ul class="treeview-menu">
                         <li <?php echo (($slug1 == 'add_category') ? $selected : '')?>><a href="<?php echo $bu; ?>add_category"><i class="fa fa-angle-double-right"></i> <?php echo display('add_category')?></a></li>
                         <li <?php echo (($slug1 == 'list_of_categories') ? $selected : '')?>><a href="<?php echo $bu; ?>list_of_categories"><i class="fa fa-angle-double-right"></i> <?php echo display('category_list')?></a></li>
-                         <li><a href="<?php echo $bu; ?>add_sub_categories"><i class="fa fa-angle-double-right"></i> Create Sub Category<?php echo display('add_post')?></a></li>
+                        <!-- <li><a href="<?php echo $bu; ?>add_sub_categories"><i class="fa fa-angle-double-right"></i> Create Sub Category<?php echo display('add_post')?></a></li> -->
                     </ul>
                 </li>
                 <!-- pages area -->
-            <!--      <li class="treeview pages">
+                <li class="treeview pages">
                     <a href="#">
                         <i class="fa fa-bar-chart-o"></i>
                         <span><?php echo display('page')?></span>
@@ -189,20 +188,42 @@ $selected = 'style="background-color:#dbdbdb;"';
                         <li <?php echo (($slug3 == 'Create_new_page') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Page/Create_new_page"><i class="fa fa-angle-double-right"></i> <?php echo display('add_new_page')?></a></li>
                         <li <?php echo (($slug3 == 'Pages') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Page/Pages"><i class="fa fa-angle-double-right"></i> <?php echo display('page_list')?></a></li>
                     </ul>
-                </li><!-- end pag es area -->
+                </li><!-- end pages area -->
 
                 <!-- Menu area -->
                 <li <?php echo (($slug == 'Menu') ? $selected : '')?> class="menu">
                     <a href="<?php echo $bu; ?>admin/Menu"><i class="fa fa-angle-double-right"></i> <?php echo display('menu')?></a>
                 </li><!-- end menu area -->
                 
-                 
+                <li class="treeview usr">
+                    <a href="#">
+                        <i class="fa fa-user"></i>
+                        <span><?php echo display('user')?></span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li <?php echo (($slug3 == 'registration') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Users/registration"><i class="fa fa-angle-double-right"></i> <?php echo display('registration')?></a></li>
+                        <li <?php echo (($slug3 == 'repoter_list') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Users/repoter_list"><i class="fa fa-angle-double-right"></i> <?php echo display('user_list')?></a></li>
+                        <li <?php echo (($slug3 == 'last_20_access') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Users/last_20_access"><i class="fa fa-angle-double-right"></i> <?php echo display('last_20_access')?></a></li>
+                        <li <?php echo (($slug == 'Reports_controller') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Reports_controller"><i class="fa fa-angle-double-right"></i> <?php echo display('reporter_news_list')?></a></li>
+                        <li class="treeview">
+                           <a href="#">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <span><?php echo display('general_user');?></span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu" style="display: none;">
+                                <li><a href="<?php echo $bu; ?>admin/General_user/user_list"><i class="fa fa-angle-double-right"></i> <?php echo display('user_list');?></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
 
                                                                     
 
                 </li>
- <li <?php echo (($slug3 == 'home_view_settings') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/View_setup/home_view_settings"><i class="fa fa-angle-double-right"></i> <?php echo display('home_page')?></a></li>
-                 <li class="treeview vs">
+
+                <li class="treeview vs">
                     <a href="#">
                         <i class="fa fa-cogs" aria-hidden="true"></i>
                         <span><?php echo display('settings')?></span>
@@ -217,8 +238,8 @@ $selected = 'style="background-color:#dbdbdb;"';
                         <li <?php echo (($slug3 == 'website_logo') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/View_setup/website_logo"><i class="fa fa-angle-double-right"></i> <?php echo display('website_logo')?></a></li>
                         <li <?php echo (($slug3 == 'website_favicon') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/View_setup/website_favicon"><i class="fa fa-angle-double-right"></i> <?php echo display('website_favicon')?></a></li>
                         <li <?php echo (($slug3 == 'website_timezone') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/View_setup/website_timezone"><i class="fa fa-angle-double-right"></i> <?php echo display('website_timezone')?></a></li>
-                        <li <?php echo (($slug == 'Demo') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Demo"><i class="fa fa-angle-double-right"></i> Delete Demo Data </a></li>
-                        
+                       <!--  <li <?php echo (($slug == 'Demo') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Demo"><i class="fa fa-angle-double-right"></i> Delete Demo Data </a></li>
+                         -->
                         <li class="treeview">
                            <a href="#">
                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
@@ -232,8 +253,8 @@ $selected = 'style="background-color:#dbdbdb;"';
 
                     </ul>
                 </li>
- 
-          <!--        <li class="treeview seo">
+
+               <!--  <li class="treeview seo">
                     <a href="#">
                         <i class="fa fa-laptop"></i>
                         <span><?php echo display('seo')?></span>
@@ -247,21 +268,21 @@ $selected = 'style="background-color:#dbdbdb;"';
                         <li <?php echo (($slug3 == 'fixed_keyword') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/fixed_keyword"><i class="fa fa-angle-double-right"></i> <?php echo display('fixed_keyword')?></a></li>
                         <li <?php echo (($slug3 == 'alexa') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/alexa"><i class="fa fa-angle-double-right"></i> <?php echo display('alexa')?></a></li>
                     </ul>
-                </li> 
-
+                </li>
+ -->
                 <!--Themes Menu-->
             <!--     <li <?php echo (($slug == 'Theme') ? $selected : '')?>>
                     <a href="<?php echo $bu; ?>admin/Theme"><i class="glyphicon glyphicon-picture"></i> <?php echo display('theme_activation')?></a>
                 </li>
                  -->
 
-            <!--     <li <?php echo (($slug == 'Social_auth_setting') ? $selected : '')?>>
+                <!-- <li <?php echo (($slug == 'Social_auth_setting') ? $selected : '')?>>
                     <a href="<?php echo $bu; ?>admin/Social_auth_setting" class="theme_de">
                         <span ><i class="fa fa-bar-chart-o"></i> <?php echo display('social_authentication');?>  </span>
                     </a>
                 </li>
-                
-                <li <?php echo (($slug1 == 'cache') ? $selected : '')?>>
+                <!--Themes Menu-->
+                <!--<li <?php echo (($slug1 == 'cache') ? $selected : '')?>>
                     <a href="<?php echo $bu; ?>cache" class="theme_de">
                         <span ><i class="fa fa-bar-chart-o"></i> <?php echo display('cache_system')?></span>
                     </a>
@@ -271,7 +292,7 @@ $selected = 'style="background-color:#dbdbdb;"';
                     <a href="<?php echo $bu; ?>admin/Language" class="theme_de">
                         <span ><i class="fa fa-bar-chart-o"></i> <?php echo display('language_settings');?></span>
                     </a>
-                </li>   --> 
+                </li> -->
             </ul>
         </section>
         
@@ -291,5 +312,3 @@ $selected = 'style="background-color:#dbdbdb;"';
             });
         });
     </script>
-
-

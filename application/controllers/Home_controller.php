@@ -58,7 +58,7 @@ class Home_controller extends CI_Controller {
         $data['main_menu'] = $this->settings->main_menu();
         $data['menus'] = $this->settings->menu_position_3();
         $data['footer_menu'] = $this->settings->footer_menu();
-
+               
         $this->load->view('themes/' . $default_theme . '/header', $data);
         $this->load->view('themes/' . $default_theme . '/breaking', $data);
         $this->load->view('themes/' . $default_theme . '/menu');

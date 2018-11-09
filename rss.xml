@@ -4,55 +4,12 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <title>YugantarPravah RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>01-11-2018</lastBuildDate>
+<lastBuildDate>08-11-2018</lastBuildDate>
 <image>
                     <title>YugantarPravahRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
                     <link>http://localhost/newsportal/</link>
                 </image>
-
-                <item>
-                    <title>testing</title>
-                            <link>http://localhost/newsportal/राष्ट्रीय/details/171/testing</link>
-                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>testing testing testing
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1541058176.jpeg</url>
-                        <title>testing</title>
-                        <link>http://localhost/newsportal/राष्ट्रीय/details/171/testing</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/171/testing</guid>
-                    <category><![CDATA[राष्ट्रीय]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/राष्ट्रीय/details/171/testing>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>testing testing testing
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
 
                 <item>
                     <title>#MeToo: मानहानि मामले में पूर्व केंद्रीय मंत्री एमजे अकबर ने कोर्ट में दर्ज कराया अपना बयान</title>
@@ -866,6 +823,51 @@ Vodafone इंडिया ने प्रतिस्पर्धा को</
                               </header>
 
                                 <p>ट्रंप प्रशासन का कहना है कि अगले सप्ताह नयी दिल्ली में होने वाली पहली भारत-अमेरिका 2+2 वार्ता दोनों देशों के बीच मजबूत होती रणनीतिक साझेदारी का संकेत है। अमेरिका के विदेश</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>अमेरिका ने भारत को चेताया- रूस से हथियार खरीदा तो विशेष छूट मिलने की कोई गारंटी नहीं</title>
+                            <link>http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</link>
+                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>पेंटागन के एक शीर्ष अधिकारी ने भारत को आगाह किया है कि रूस से हथियारों की खरीद करने पर उसे अमेरिका से विशेष छूट मिलने की कोई गारंटी नहीं होगी।
+
+वाशिंगटन</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540532125.jpg</url>
+                        <title>अमेरिका ने भारत को चेताया- रूस से हथियार खरीदा तो विशेष छूट मिलने की कोई गारंटी नहीं</title>
+                        <link>http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं</guid>
+                    <category><![CDATA[world]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/world/details/144/अमेरिका-ने-भारत-को-चेताया-रूस-से-हथियार-खरीदा-तो-विशेष-छूट-मिलने-की-कोई-गारंटी-नहीं>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>पेंटागन के एक शीर्ष अधिकारी ने भारत को आगाह किया है कि रूस से हथियारों की खरीद करने पर उसे अमेरिका से विशेष छूट मिलने की कोई गारंटी नहीं होगी।
+
+वाशिंगटन</p>
 
                               <footer>
                                 <!— Article footer goes here -->

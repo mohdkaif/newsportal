@@ -34,7 +34,7 @@ $selected = 'style="background-color:#dbdbdb;"';
                         <i class="fa fa-th"></i> <span> <?php echo display('picture_list')?></span>
                     </a>
                 </li>
-                <!-- <li class="treeview op">
+                 <li class="treeview op">
                     <a href="#">
                         <i class="fa fa-bar-chart-o"></i>
                         <span><?php echo display('other_post')?></span>
@@ -42,15 +42,15 @@ $selected = 'style="background-color:#dbdbdb;"';
                     </a>
                     <ul class="treeview-menu">
                         <li <?php echo (($slug3 == 'breaking_news') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Common/breaking_news"><i class="fa fa-angle-double-right"></i> <?php echo display('breaking_news')?></a></li>
-                        <li><a href="<?php echo $bu; ?>admin/Pulling"><i class="fa fa-angle-double-right"></i> <?php echo display('polling')?></a></li>
+                        <!-- <li><a href="<?php echo $bu; ?>admin/Pulling"><i class="fa fa-angle-double-right"></i> <?php echo display('polling')?></a></li> -->
                     </ul>
-                </li> -->
+                </li>
 
             </ul>
         </section> 
-       <!--  <div class="navbar-brand" style="font-size: 15px;">
+         <div class="navbar-brand" style="font-size: 15px;">
             <img src="<?php echo base_url().$website_logo->website_logo; ?>" class="img-responsive" width="60%"/>
-        </div> -->
+        </div> 
     </aside>
 
 

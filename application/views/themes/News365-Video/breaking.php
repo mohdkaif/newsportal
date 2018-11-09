@@ -1,4 +1,5 @@
 <!-- top header -->
+
 <div class="top_header hidden-xs">
     <div class="container-fluid">
         <div class="row">
@@ -6,9 +7,22 @@
                 <div class="top_header_menu_wrap">
                     <ul class="top-header-menu">
                         <li><?php echo date("l, M j G:i:s T Y"); ?></li>
-                        <li><a href="<?php echo base_url();?>Registration/index" target="__blank"><span class="glyphicon glyphicon-log-in"></span> LOGIN </a></li>
-                        <li><a href="<?php echo base_url();?>Registration/index"><?php echo display('login_and_registration')?></a></li>
+                        <li><?php if($this->session->userdata('name')!=null)
+                        { echo $this->session->userdata('name'); }
+                        else{ ?>
+                            <a href="<?php echo base_url();?>Registration/index" target="__blank"><span class="glyphicon glyphicon-log-in"></span> LOGIN </a>
+                            <?php } ?>
+                        </li>
 
+                        <li><?php if($this->session->userdata('name')!=null){?>
+                         <a href="<?php echo base_url();?>Signout/index" class="popup-with-zoom-anim">Signout</a></li>
+                     <?php }
+
+                        else{ 
+                            ?>
+                            <li><a href="<?php echo base_url();?>Registration/index" ><?php echo display('login_and_registration');?></a></li>
+                        <?php } ?>
+                       
                         <li><a href="<?php echo base_url();?>Contact/index"><?php echo display('contact')?></a></li>
                     </ul>
                 </div>

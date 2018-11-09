@@ -126,7 +126,7 @@ class Subscription extends CI_Controller {
                     $user_data = array(
                         'name'      =>$name,
                         'email'     =>$email,
-                        'phone'  =>$phone,
+                        'phone'     =>$phone,
                         'category'  =>json_encode($category),
                         'frequency'  =>$frequency,
                         'number_of_news'  =>$news_number
