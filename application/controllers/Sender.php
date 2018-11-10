@@ -77,7 +77,7 @@ public function index(){
                                      </tr>";
                     }
 
-                    $template .= "<p>If you leve here, click to <a href='".base_url()."Subscription/unsubscription/".md5($value->subs_id)."'>Unsubscribe</a></p>"; 
+                    $template .= "<p>If you leave here, click to <a href='".base_url()."Subscription/unsubscription/".md5($value->subs_id)."'>Unsubscribe</a></p>"; 
                     $template .= "</table>"; 
     
     echo $template; exit;

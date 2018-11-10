@@ -121,7 +121,7 @@ class Subscription extends CI_Controller {
 
                 $check_status = $this->db->select('*')->from('subscription')->where('phone',$phone)->where('email',$email)->get()->row();        
                 if ($check_status) {
-                    $this->session->set_flashdata('exception', "You already Subscription.");
+                    $this->session->set_flashdata('exception', "You have already Subscribed.");
                 } else{
                     $user_data = array(
                         'name'      =>$name,

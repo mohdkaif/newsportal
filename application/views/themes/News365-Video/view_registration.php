@@ -57,7 +57,7 @@
                                 <label class="checkbox-inline"><input type="checkbox" value=""><?php echo display('remember_me')?></label>
                                 <button type="submit" class="btn btn-style"><?php echo display('login')?></button>
                                 <div class="foeget"><a href="#"><?php echo display('forget_username_password')?></a></div>
-                                <div class="row">
+                             <!--   <div class="row">
                                     <div class="col-sm-6">
                                         <div class="social_icon">
                                             <div class="social_icon_box social_icon_box_1">
@@ -74,7 +74,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             <?php echo form_close();?>
                         </div>
                     </div>
