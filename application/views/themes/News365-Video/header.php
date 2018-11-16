@@ -93,6 +93,9 @@
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/views/themes/<?php echo $default_theme; ?>/web-assets/css/flaticon.css"/>
         <!-- custom css -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>application/views/themes/<?php echo $default_theme; ?>/web-assets/css/style.css">
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'application/views/themes/News365-Video/web-assets/jssocials/jssocials.css' ?> ">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'application/views/themes/News365-Video/web-assets/jssocials/jssocials-theme-flat.css' ?>">
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script type="text/javascript" src="<?php echo base_url(); ?>application/views/themes/<?php echo $default_theme; ?>/web-assets/js/jquery.min.js"></script>
 
