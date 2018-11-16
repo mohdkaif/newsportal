@@ -26,9 +26,9 @@
         else if (segment_2 === 'View_setup' || segment_2 === 'Demo') {
             $('.vs').addClass('active');
         }
-        /*else if (segment_2 === 'Seo') {
+        else if (segment_2 === 'Seo') {
             $('.seo').addClass('active');
-        }*/
+        }
         else if (segment_2 === 'News_list') {
             $('.news_list').addClass('active');
         }
@@ -254,22 +254,22 @@ $selected = 'style="background-color:#dbdbdb;"';
                     </ul>
                 </li>
 
-               <!--  <li class="treeview seo">
+               <li class="treeview seo">
                     <a href="#">
                         <i class="fa fa-laptop"></i>
                         <span><?php echo display('seo')?></span>
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li <?php echo (($slug3 == 'google_analytics') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/google_analytics"><i class="fa fa-angle-double-right"></i> <?php echo display('googleanalytics')?></a></li>
+                        <!-- <li <?php echo (($slug3 == 'google_analytics') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/google_analytics"><i class="fa fa-angle-double-right"></i> <?php echo display('googleanalytics')?></a></li> -->
                         <li <?php echo (($slug3 == 'social_sites') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/social_sites"><i class="fa fa-angle-double-right"></i> <?php echo display('social_sites')?></a></li>
-                        <li <?php echo (($slug3 == 'social_link') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/social_link"><i class="fa fa-angle-double-right"></i> <?php echo display('social_site_link')?></a></li>
-                        <li <?php echo (($slug3 == 'comments') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/comments"><i class="fa fa-angle-double-right"></i> <?php echo display('comments')?></a></li>
+                         <li <?php echo (($slug3 == 'social_link') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/social_link"><i class="fa fa-angle-double-right"></i> <?php echo display('social_site_link')?></a></li> 
+                        <!-- <li <?php echo (($slug3 == 'comments') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/comments"><i class="fa fa-angle-double-right"></i> <?php echo display('comments')?></a></li>
                         <li <?php echo (($slug3 == 'fixed_keyword') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/fixed_keyword"><i class="fa fa-angle-double-right"></i> <?php echo display('fixed_keyword')?></a></li>
-                        <li <?php echo (($slug3 == 'alexa') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/alexa"><i class="fa fa-angle-double-right"></i> <?php echo display('alexa')?></a></li>
+                        <li <?php echo (($slug3 == 'alexa') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/alexa"><i class="fa fa-angle-double-right"></i> <?php echo display('alexa')?></a></li> -->
                     </ul>
                 </li>
- -->
+ 
                 <!--Themes Menu-->
             <!--     <li <?php echo (($slug == 'Theme') ? $selected : '')?>>
                     <a href="<?php echo $bu; ?>admin/Theme"><i class="glyphicon glyphicon-picture"></i> <?php echo display('theme_activation')?></a>
