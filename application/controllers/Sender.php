@@ -91,7 +91,7 @@ public function index(){
 
                     //send email 
                     $this->load->library('email', array('mailtype'=>'html'));
-                    $this->email->from('Newspaper@gmail.com',"NewsPaper365");
+                    $this->email->from('mkaif906@gmail.com',"Md Kaif");
                     $this->email->to($value->email);
                     $this->email->subject("News Mail");
                     $this->email->message($template);
