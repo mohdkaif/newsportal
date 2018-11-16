@@ -23,7 +23,7 @@ if (isset($ads) && is_array($ads)) {
                 <div class="header-bann">
                     <!-- <?php  echo '<h2 class="white-text">YUGANTARPRAVAH</h2>'?> -->
                     <div class="logo_img">
-                        <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantarlogo.png')?>" alt="" />
+                        <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantarlogo.png')?>" alt="" /></a>
                     </div>
                     <h1>युगान्तर प्रवाह</h1>
                 </div>
