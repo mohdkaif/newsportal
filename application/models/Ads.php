@@ -15,21 +15,52 @@ class Ads extends CI_Model {
         $query = $this->db->get();
         if ($query->num_rows() > 0) {
             $result = $query->result();
+            $i=0;
             foreach ($result as $key => $value) {
+                
                 if ($value->page == 1) {
                     $page = 'home';
-                } elseif ($value->page == 2) {
-                    $page = 'category';
-                } elseif ($value->page == 3) {
-                    $page = 'news_view';
+                
+                    $ads[$page . '_' . $value->ad_position] = $value->embed_code;
+                    $ads['lg_status_'. $value->ad_position] = $value->large_status;
+                    $ads['sm_status_'. $value->ad_position] = $value->mobile_status;
+                    $ads2[$page . '_' . $i] = $value->embed_code;
+                    $ads2['lg_status_'. $i] = $value->large_status;
+                    $ads2['sm_status_'. $i] = $value->mobile_status;
+                    $i++;
                 }
-                $ads[$page . '_' . $value->ad_position] = $value->embed_code;
-                $ads['lg_status_'. $value->ad_position] = $value->large_status;
-                $ads['sm_status_'. $value->ad_position] = $value->mobile_status;
-                $ads2[$page][$page . '_' . $key] = $value->embed_code;
-                $ads2[$page]['lg_status_'. $key] = $value->large_status;
-                $ads2[$page]['sm_status_'. $key] = $value->mobile_status;
             }
+            $i=0;
+            foreach ($result as $key => $value) {
+
+                if ($value->page == 2) {
+                    $page = 'category';
+                    $ads[$page . '_' . $value->ad_position] = $value->embed_code;
+                    $ads['lg_status_'. $value->ad_position] = $value->large_status;
+                    $ads['sm_status_'. $value->ad_position] = $value->mobile_status;
+                    $ads2[$page . '_' . $i] = $value->embed_code;
+                    $ads2['lg_status_'. $i] = $value->large_status;
+                    $ads2['sm_status_'. $i] = $value->mobile_status;
+                    $i++;
+                } 
+                
+            }
+            $i=0;
+            foreach ($result as $key => $value) {
+                
+                if ($value->page == 3) {
+                    $page = 'news_view';
+                    $ads[$page . '_' . $value->ad_position] = $value->embed_code;
+                    $ads['lg_status_'. $value->ad_position] = $value->large_status;
+                    $ads['sm_status_'. $value->ad_position] = $value->mobile_status;
+                    $ads2[$page . '_' . $i] = $value->embed_code;
+                    $ads2['lg_status_'. $i] = $value->large_status;
+                    $ads2['sm_status_'. $i] = $value->mobile_status;
+                    $i++;
+                }
+                
+            }
+           
             return $ads2;
         } else {
             return false;

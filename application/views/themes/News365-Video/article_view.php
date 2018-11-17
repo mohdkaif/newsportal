@@ -673,15 +673,15 @@
                             <!-- widget item -->
                            <?php 
                         
-                           foreach($ads as $key => $value){
+                           for($i=0;$i<=0;$i++){
 
 
                             ?>
                                 <div class="ad-item">
                                     
                                     <?php
-                                    $srcelem = @$ads['news_view'.$key];
-                                        if (@$ads['news_view'.$key]!=NULL) {
+                                    $srcelem = @$ads['news_view_'.$i];
+                                        if (@$ads['news_view_'.$i]!=NULL) {
                                               echo $srcelem;
                                             } 
                                         ?>
