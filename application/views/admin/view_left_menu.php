@@ -261,7 +261,7 @@ $selected = 'style="background-color:#dbdbdb;"';
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <!-- <li <?php echo (($slug3 == 'google_analytics') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/google_analytics"><i class="fa fa-angle-double-right"></i> <?php echo display('googleanalytics')?></a></li> -->
+                        <li <?php echo (($slug3 == 'google_analytics') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/google_analytics"><i class="fa fa-angle-double-right"></i> <?php echo display('googleanalytics')?></a></li>
                         <li <?php echo (($slug3 == 'social_sites') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/social_sites"><i class="fa fa-angle-double-right"></i> <?php echo display('social_sites')?></a></li>
                          <li <?php echo (($slug3 == 'social_link') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/social_link"><i class="fa fa-angle-double-right"></i> <?php echo display('social_site_link')?></a></li> 
                         <!-- <li <?php echo (($slug3 == 'comments') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/Seo/comments"><i class="fa fa-angle-double-right"></i> <?php echo display('comments')?></a></li>
@@ -282,17 +282,17 @@ $selected = 'style="background-color:#dbdbdb;"';
                     </a>
                 </li>
                 <!--Themes Menu-->
-                <!--<li <?php echo (($slug1 == 'cache') ? $selected : '')?>>
+               <!--  <li <?php echo (($slug1 == 'cache') ? $selected : '')?>>
                     <a href="<?php echo $bu; ?>cache" class="theme_de">
                         <span ><i class="fa fa-bar-chart-o"></i> <?php echo display('cache_system')?></span>
                     </a>
-                </li>
+                </li> -->
                 
-                <li <?php echo (($slug == 'Language') ? $selected : '')?>>
+              <!--   <li <?php echo (($slug == 'Language') ? $selected : '')?>>
                     <a href="<?php echo $bu; ?>admin/Language" class="theme_de">
                         <span ><i class="fa fa-bar-chart-o"></i> <?php echo display('language_settings');?></span>
                     </a>
-                </li> -->
+                </li>  -->
             </ul>
         </section>
         
