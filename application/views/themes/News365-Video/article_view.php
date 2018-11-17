@@ -672,7 +672,7 @@
             <div>
                             <!-- widget item -->
                            <?php 
-                        
+
                            for($i=0;$i<=0;$i++){
 
 
@@ -680,8 +680,9 @@
                                 <div class="ad-item">
                                     
                                     <?php
-                                    $srcelem = @$ads['news_view_'.$i];
+                                    
                                         if (@$ads['news_view_'.$i]!=NULL) {
+                                            $srcelem = @$ads['news_view_'.$i];
                                               echo $srcelem;
                                             } 
                                         ?>

@@ -453,7 +453,41 @@
                         </div>
                     </div>
                     <!-- /.row -->
+
+
+                        <div class="horizontal-banner" style="width:1000px;height:100px">
+                            <!-- widget item -->
+                           <?php 
+                        
+                           for($i=3;$i<=3;$i++){
+
+
+                            ?>
+                                <div class="ad-item">
+                                    
+                                    <?php
+                                    
+                                        if (@$ads['home_'.$i]!=NULL) {
+                                            $srcelem = @$ads['home_'.$i];
+                                              echo $srcelem;
+                                            } 
+                                        ?>
+                                   
+                                  
+                                
+                                </div>
+                            <?php } ?>
+                        
+                        </div>
+
+
+
+
                 </section>
+
+
+
+
             <?php
                 }
             ?>
@@ -476,8 +510,9 @@
                                 <div class="ad-item">
                                     
                                     <?php
-                                    $srcelem = @$ads['home_'.$i];
+                                    
                                         if (@$ads['home_'.$i]!=NULL) {
+                                            $srcelem = @$ads['home_'.$i];
                                               echo $srcelem;
                                             } 
                                         ?>
@@ -569,15 +604,16 @@
                       <div>
                             <!-- widget item -->
                            <?php 
-                           for($i=1;$i<=1;$i++){
+                           for($i=1;$i<=2;$i++){
 
 
                             ?>
                                 <div class="ad-item">
                                     
                                     <?php
-                                    $srcelem = @$ads['home_'.$i];
+                                    
                                         if (@$ads['home_'.$i]!=NULL) {
+                                            $srcelem = @$ads['home_'.$i];
                                               echo $srcelem;
                                             } 
                                         ?>
@@ -933,6 +969,35 @@
                         </div>
                         <?php } ?>
                     </div>
+
+                     <div class="horizontal-banner" style="width:1000px;height:100px">
+                            <!-- widget item -->
+                           <?php 
+                        
+                           for($i=4;$i<=4;$i++){
+
+
+                            ?>
+                                <div class="ad-item">
+                                    
+                                    <?php
+                                    
+                                        if (@$ads['home_'.$i]!=NULL) {
+                                            $srcelem = @$ads['home_'.$i];
+                                              echo $srcelem;
+                                            } 
+                                        ?>
+                                   
+                                  
+                                
+                                </div>
+                            <?php } ?>
+                        
+                        </div>
+
+
+
+
                     <?php if(@$home_page_positions[6]['status']==1){ 
 
 
