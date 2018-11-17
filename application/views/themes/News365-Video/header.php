@@ -97,8 +97,10 @@
         <link rel="stylesheet" type="text/css" href="<?php echo base_url().'application/views/themes/News365-Video/web-assets/jssocials/jssocials.css' ?> ">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url().'application/views/themes/News365-Video/web-assets/jssocials/jssocials-theme-flat.css' ?>">
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="<?php echo base_url().'application/views/themes/News365-Video/web-assets/clipboard.js-master/dist/clipboard.min.js'; ?>"></script>
+        <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>application/views/themes/<?php echo $default_theme; ?>/web-assets/js/jquery.min.js"></script>
-
+        
     </head>
 
 

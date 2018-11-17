@@ -148,7 +148,6 @@ class Home_model extends CI_Model {
             $HN['title_' . $i] = '<a href="' . $bu . $HN['category_' . $i] . '/' . $HN['news_id_' . $i] . '/' . $HN['splited_title_' . $i] . '">' . $HN['news_title_' . $i] . '</a>';
             //Only News Link 
             $HN['news_link_' . $i] = base_url() .$HN['category_' . $i] . '/details/' . $HN['news_id_' . $i] . '/' . $HN['splited_title_' . $i];
-            
             //full news
             $HN['full_news_' . $i] = strip_tags($value1->news, '<p><a>'); //$value1->news                           
             //Image ID
@@ -199,7 +198,6 @@ class Home_model extends CI_Model {
         } else {
             $PN = '';
         }
-      
         return array('hn' => $HN, 'pn' => $PN , 'ci' => $CI);
     }
 
