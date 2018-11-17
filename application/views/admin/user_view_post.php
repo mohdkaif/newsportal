@@ -141,8 +141,8 @@ if (($user_type == 3) || ($user_type == 4)) {
                 <table width="100%">
                     <tr>
                         <td colspan="2">
-                            <?php echo display('keyword');?>: <input name="meta_keyword" id="tags" class="form-control" />
-                           <?php echo display('description');?>:<textarea class="form-control" name="meta_description"><?php echo @$seo_info['meta_description']; ?></textarea>
+                            <?php echo display('meta_keyword');?>: <input name="meta_keyword" id="tags" class="form-control" />
+                           <?php echo display('meta_description');?>:<textarea class="form-control" name="meta_description"><?php echo @$seo_info['meta_description']; ?></textarea>
                         </td>
                     </tr>
                     <tr>
