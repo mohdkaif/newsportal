@@ -4,7 +4,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <title>YugantarPravah RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>10-11-2018</lastBuildDate>
+<lastBuildDate>16-11-2018</lastBuildDate>
 <image>
                     <title>YugantarPravahRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
@@ -12,19 +12,19 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </image>
 
                 <item>
-                    <title>lko</title>
-                            <link>http://localhost/newsportal/home/details/173/lko</link>
-                    <pubDate>Friday, 09 Nov, 2018</pubDate>  
-                    <author>Md Jahangir alom</author>     
-                    <description>lko lko lko
+                    <title>serdfghj</title>
+                            <link>http://localhost/newsportal/techno/details/180/serdfghj</link>
+                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>awsdfghkopoiutfdszxfhjkl
 </description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1541753085.png</url>
-                        <title>lko</title>
-                        <link>http://localhost/newsportal/home/details/173/lko</link>
+                        <url>http://localhost/newsportal/uploads/1542369152.jpeg</url>
+                        <title>serdfghj</title>
+                        <link>http://localhost/newsportal/techno/details/180/serdfghj</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/home/details/173/lko</guid>
-                    <category><![CDATA[home]]></category>
+                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/180/serdfghj</guid>
+                    <category><![CDATA[techno]]></category>
 
                     <content:encoded>
                     <![CDATA[
@@ -32,7 +32,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/home/details/173/lko>
+                            <link rel="canonical" href=http://localhost/newsportal/techno/details/180/serdfghj>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -41,8 +41,219 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                                 <!— Article header goes here -->
                               </header>
 
-                                <p>lko lko lko
+                                <p>awsdfghkopoiutfdszxfhjkl
 </p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sdgsrg</title>
+                            <link>http://localhost/newsportal/techno/details/179/sdgsrg</link>
+                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>fgedgfefwfewf
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542368987.png</url>
+                        <title>sdgsrg</title>
+                        <link>http://localhost/newsportal/techno/details/179/sdgsrg</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/179/sdgsrg</guid>
+                    <category><![CDATA[techno]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/techno/details/179/sdgsrg>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>fgedgfefwfewf
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>ias lucknow up </title>
+                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/178/ias-lucknow-up</link>
+                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>ias lucknow up
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542367025.png</url>
+                        <title>ias lucknow up </title>
+                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/178/ias-lucknow-up</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/178/ias-lucknow-up</guid>
+                    <category><![CDATA[उत्तर-प्रदेश]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/178/ias-lucknow-up>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>ias lucknow up
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>ias up lucknow kanput</title>
+                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/177/ias-up-lucknow-kanput</link>
+                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description></description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542366961.png</url>
+                        <title>ias up lucknow kanput</title>
+                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/177/ias-up-lucknow-kanput</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/177/ias-up-lucknow-kanput</guid>
+                    <category><![CDATA[उत्तर-प्रदेश]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/177/ias-up-lucknow-kanput>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p></p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>ias did a b c d e f g hid  up lucknow </title>
+                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/176/ias-did-a-b-c-d-e-f-g-hid-up-lucknow</link>
+                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>ias did a b c d e f g hid  up lucknow 
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542366934.jpeg</url>
+                        <title>ias did a b c d e f g hid  up lucknow </title>
+                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/176/ias-did-a-b-c-d-e-f-g-hid-up-lucknow</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/176/ias-did-a-b-c-d-e-f-g-hid-up-lucknow</guid>
+                    <category><![CDATA[उत्तर-प्रदेश]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/176/ias-did-a-b-c-d-e-f-g-hid-up-lucknow>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>ias did a b c d e f g hid  up lucknow 
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>मोदी का कांग्रेस को चैलेंज- अगर नेहरू की वजह से मैं प्रधानमंत्री बना तो...</title>
+                            <link>http://localhost/newsportal/home/details/175/मोदी-का-कांग्रेस-को-चैलेंज-अगर-नेहरू-की-वजह-से-मैं-प्रधानमंत्री-बना-तो</link>
+                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>मध्य प्रदेश विधानसभा चुनाव में शुक्रवार रैलियों का दिन है. बीजेपी और कांग्रेस के दिग्गज नेता चुनावी बिगुल फूंकने के लिए मैदान में उतर रहे हैं. प्रधानमंत्री नरेंद्र मोदी, बीजेपी</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542357961.jpeg</url>
+                        <title>मोदी का कांग्रेस को चैलेंज- अगर नेहरू की वजह से मैं प्रधानमंत्री बना तो...</title>
+                        <link>http://localhost/newsportal/home/details/175/मोदी-का-कांग्रेस-को-चैलेंज-अगर-नेहरू-की-वजह-से-मैं-प्रधानमंत्री-बना-तो</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/home/details/175/मोदी-का-कांग्रेस-को-चैलेंज-अगर-नेहरू-की-वजह-से-मैं-प्रधानमंत्री-बना-तो</guid>
+                    <category><![CDATA[home]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/home/details/175/मोदी-का-कांग्रेस-को-चैलेंज-अगर-नेहरू-की-वजह-से-मैं-प्रधानमंत्री-बना-तो>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>मध्य प्रदेश विधानसभा चुनाव में शुक्रवार रैलियों का दिन है. बीजेपी और कांग्रेस के दिग्गज नेता चुनावी बिगुल फूंकने के लिए मैदान में उतर रहे हैं. प्रधानमंत्री नरेंद्र मोदी, बीजेपी</p>
 
                               <footer>
                                 <!— Article footer goes here -->
@@ -625,247 +836,6 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                               </header>
 
                                 <p>नई दिल्ली: भारतीय किसान यूनियन के बैनर तले नई दिल्ली में 9 दिनों की यात्रा करने के बाद देश के लाखों किसान दिल्ली की सीमा पर पहुंच चुके हैं, किसानों</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Google आपको दे रहा है 1 लाख रुपये जीतने का मौका, बस करना होगा ये काम</title>
-                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/149/Google-आपको-दे-रहा-है-लाख-रुपये-जीतने-का-मौका-बस-करना-होगा-ये-काम</link>
-                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>हाल ही में Google ने अपनी पेमेंट एप तेज का नाम बदलकर Google Pay कर दिया। इसकी घोषणा नई दिल्ली में गूगल फॉर इंडिया कार्यक्रम के जरिए से की गई।</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540542320.png</url>
-                        <title>Google आपको दे रहा है 1 लाख रुपये जीतने का मौका, बस करना होगा ये काम</title>
-                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/149/Google-आपको-दे-रहा-है-लाख-रुपये-जीतने-का-मौका-बस-करना-होगा-ये-काम</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/149/Google-आपको-दे-रहा-है-लाख-रुपये-जीतने-का-मौका-बस-करना-होगा-ये-काम</guid>
-                    <category><![CDATA[टेक्नोलॉजी]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/149/Google-आपको-दे-रहा-है-लाख-रुपये-जीतने-का-मौका-बस-करना-होगा-ये-काम>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>हाल ही में Google ने अपनी पेमेंट एप तेज का नाम बदलकर Google Pay कर दिया। इसकी घोषणा नई दिल्ली में गूगल फॉर इंडिया कार्यक्रम के जरिए से की गई।</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Oppo का ये स्मार्टफोन हुआ सस्ता, अब 9,990 रुपये में खरीदें</title>
-                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/148/Oppo-का-ये-स्मार्टफोन-हुआ-सस्ता-अब-रुपये-में-खरीदें</link>
-                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>चीनी स्मार्टफोन ब्रांड Oppo ने अपने Oppo A3s की कीमत घटा दी है. अब इस स्मार्टफोन की कीमत 2GB रैम और 16GB स्टोरेज मॉडल के लिए 9,990 रुपये हो गई</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540542164.jpg</url>
-                        <title>Oppo का ये स्मार्टफोन हुआ सस्ता, अब 9,990 रुपये में खरीदें</title>
-                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/148/Oppo-का-ये-स्मार्टफोन-हुआ-सस्ता-अब-रुपये-में-खरीदें</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/148/Oppo-का-ये-स्मार्टफोन-हुआ-सस्ता-अब-रुपये-में-खरीदें</guid>
-                    <category><![CDATA[टेक्नोलॉजी]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/148/Oppo-का-ये-स्मार्टफोन-हुआ-सस्ता-अब-रुपये-में-खरीदें>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>चीनी स्मार्टफोन ब्रांड Oppo ने अपने Oppo A3s की कीमत घटा दी है. अब इस स्मार्टफोन की कीमत 2GB रैम और 16GB स्टोरेज मॉडल के लिए 9,990 रुपये हो गई</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Vodafone ने पेश किया 84 दिनों की वैलिडिटी वाला सबसे सस्ता प्लान</title>
-                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/147/Vodafone-ने-पेश-किया-दिनों-की-वैलिडिटी-वाला-सबसे-सस्ता-प्लान</link>
-                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>प्रतिकात्मक फोटो
-
-
-
-aajtak.in [Edited by: साकेत सिंह बघेल] &amp;lt;iframe frameborder=&quot;0&quot; id=&quot;twitter-widget-0&quot; scrolling=&quot;no&quot; src=&quot;https://platform.twitter.com/widgets/follow_button.7922da55a4ca5d4a2b1d31eedc0501e8.en.html#dnt=false&amp;id=twitter-widget-0⟪=en&amp;screen_name=saketsingh1993&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1540536974614&quot; title=&quot;Twitter Follow Button&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
-
-नई दिल्ली, 26 अक्टूबर 2018, अपडेटेड 11:50 IST
-
-
-  
-  
-  
-  
-  
-
-
- 
-
-Vodafone इंडिया ने प्रतिस्पर्धा को</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540537021.jpeg</url>
-                        <title>Vodafone ने पेश किया 84 दिनों की वैलिडिटी वाला सबसे सस्ता प्लान</title>
-                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/147/Vodafone-ने-पेश-किया-दिनों-की-वैलिडिटी-वाला-सबसे-सस्ता-प्लान</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/147/Vodafone-ने-पेश-किया-दिनों-की-वैलिडिटी-वाला-सबसे-सस्ता-प्लान</guid>
-                    <category><![CDATA[टेक्नोलॉजी]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/147/Vodafone-ने-पेश-किया-दिनों-की-वैलिडिटी-वाला-सबसे-सस्ता-प्लान>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>प्रतिकात्मक फोटो
-
-
-
-aajtak.in [Edited by: साकेत सिंह बघेल] &amp;lt;iframe frameborder=&quot;0&quot; id=&quot;twitter-widget-0&quot; scrolling=&quot;no&quot; src=&quot;https://platform.twitter.com/widgets/follow_button.7922da55a4ca5d4a2b1d31eedc0501e8.en.html#dnt=false&amp;id=twitter-widget-0⟪=en&amp;screen_name=saketsingh1993&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1540536974614&quot; title=&quot;Twitter Follow Button&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
-
-नई दिल्ली, 26 अक्टूबर 2018, अपडेटेड 11:50 IST
-
-
-  
-  
-  
-  
-  
-
-
- 
-
-Vodafone इंडिया ने प्रतिस्पर्धा को</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>LIVE: CBI केस पर CJI बोले- 2 हफ्ते में जांच पूरी करे CVC, SC करेगी निगरानी</title>
-                            <link>http://localhost/newsportal/अंतरराष्ट्रीय/details/146/LIVE-CBI-केस-पर-CJI-बोले-हफ्ते-में-जांच-पूरी-करे-CVC-SC-करेगी-निगरानी</link>
-                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>देश की सबसे बड़ी जांच एजेंसी सीबीआई में मचा घमासान अब देश की सबसे बड़ी अदालत के दर पर पहुंच गया है. छुट्टी पर भेजे गए सीबीआई डायरेक्टर आलोक वर्मा और एक एनजीओ द्वारा</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540535174.jpeg</url>
-                        <title>LIVE: CBI केस पर CJI बोले- 2 हफ्ते में जांच पूरी करे CVC, SC करेगी निगरानी</title>
-                        <link>http://localhost/newsportal/अंतरराष्ट्रीय/details/146/LIVE-CBI-केस-पर-CJI-बोले-हफ्ते-में-जांच-पूरी-करे-CVC-SC-करेगी-निगरानी</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/अंतरराष्ट्रीय/details/146/LIVE-CBI-केस-पर-CJI-बोले-हफ्ते-में-जांच-पूरी-करे-CVC-SC-करेगी-निगरानी</guid>
-                    <category><![CDATA[अंतरराष्ट्रीय]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/अंतरराष्ट्रीय/details/146/LIVE-CBI-केस-पर-CJI-बोले-हफ्ते-में-जांच-पूरी-करे-CVC-SC-करेगी-निगरानी>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>देश की सबसे बड़ी जांच एजेंसी सीबीआई में मचा घमासान अब देश की सबसे बड़ी अदालत के दर पर पहुंच गया है. छुट्टी पर भेजे गए सीबीआई डायरेक्टर आलोक वर्मा और एक एनजीओ द्वारा</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>अमेरिका ने कहा- भारत के साथ 2+2 वार्ता गहरे रणनीतिक साझेदारी के संकेत</title>
-                            <link>http://localhost/newsportal/world/details/145/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत</link>
-                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>ट्रंप प्रशासन का कहना है कि अगले सप्ताह नयी दिल्ली में होने वाली पहली भारत-अमेरिका 2+2 वार्ता दोनों देशों के बीच मजबूत होती रणनीतिक साझेदारी का संकेत है। अमेरिका के विदेश</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540532194.jpg</url>
-                        <title>अमेरिका ने कहा- भारत के साथ 2+2 वार्ता गहरे रणनीतिक साझेदारी के संकेत</title>
-                        <link>http://localhost/newsportal/world/details/145/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/world/details/145/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत</guid>
-                    <category><![CDATA[world]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/world/details/145/अमेरिका-ने-कहा-भारत-के-साथ-+-वार्ता-गहरे-रणनीतिक-साझेदारी-के-संकेत>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>ट्रंप प्रशासन का कहना है कि अगले सप्ताह नयी दिल्ली में होने वाली पहली भारत-अमेरिका 2+2 वार्ता दोनों देशों के बीच मजबूत होती रणनीतिक साझेदारी का संकेत है। अमेरिका के विदेश</p>
 
                               <footer>
                                 <!— Article footer goes here -->

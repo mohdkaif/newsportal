@@ -46,21 +46,25 @@
                 </div>
                 <div class="paragraph-padding">
                     <!-- Shear button -->
-                    <div class="shareBtm" style="margin-top: 12px;">
-                         <div class="shareMedia">
+                    <div class="" style="margin-top: 12px;">
+                         <div class="">
                     <div> 
                       <a href="javascript:void(0);"><i style="font-size:20px" class="fa"></i></a>
                     </div>
-                    <div>Share</div>
+                   <!--  <div>Share</div> -->
                   
-                    <span id="share" style="" class="jssocials"><div class="jssocials-shares"><div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div><div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+                    <span id="share" style="" class="jssocials">
+
+                    <div class="jssocials-shares"><div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div><div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
                    <!--  <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-google jssocials-share-logo"></i><span class="jssocials-share-label">+1</span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div> -->
 
                     <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60 " class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div></div></span>
 
-                    <input type="hidden" value="<?php echo $_SERVER['REQUEST_URI'];?>" id="myInput">
-                    <div class="jssocials-share "><button onclick="myFunction()" class="jssocials-share-link"><img width="50px" height="50px" src="<?php echo base_url().'/uploads/images/copy.png'; ?>" /></button></div>
+                    <!-- <input type="hidden" value="<?php echo $_SERVER['REQUEST_URI'];?>" id="myInput">
+                    <div class="jssocials-share "><button onclick="myFunction()"><img width="50px" height="50px" src="<?php echo base_url().'/uploads/images/copy.png'; ?>" /></button></div> -->
+
+
                     <script>
                         $(document).ready(function(){
                             $(".shareMedia").click(function(){
@@ -71,21 +75,35 @@
                             });
                         });
 
-                        function myFunction() {
+                        
+                        /*function myFunction() {
   
                             var copyText = document.getElementById("myInput");
 
-                              /* Select the text field */
+                              /* Select the text field 
                             copyText.select();
 
-                              /* Copy the text inside the text field */
+                               Copy the text inside the text field 
                             document.execCommand("copy");
 
-                              /* Alert the copied text */
+                              /* Alert the copied text *
+
                             alert("Copied the text: " + copyText.value);
                         }
-               
+               */
                     </script>
+
+                    <!-- <input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
+
+
+                    <button class="btn" data-clipboard-target="#foo">
+                        <img src="assets/clippy.svg" alt="Copy to clipboard">
+                    </button> -->
+
+                    <button class="btn" data-clipboard-text="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" background-image="url('<?php  echo base_url().'/uploads/images/copy.png'; ?> ')" >
+                        Copy to clipboard
+                    </button>
+                    <script type="text/javascript"> new ClipboardJS('.btn'); </script>
                     </div>
                         <!-- <div class="shareButton">
                             <div class="bss" >
@@ -104,7 +122,7 @@
                         </div> -->
                     </div>
                     <div class="pull-right zoom" style="padding-right: 10px;">               
-                        <a href="<?php echo $bu . 'Print_article/print_page/' . $news_id; ?>" class="icon_n_d"  target="_blank" title="Click to Print"><img src="<?php echo $bu; ?>assets/icon/print.jpg" height="23" width="25" alt="No icon"/></a>
+                        <a href="<?php echo $bu . 'Print_article/print_page/' . $news_id; ?>" class="icon_n_d"  target="_blank" title="Click to Print"><img src="<?php echo $bu; ?>assets/icon/print.jpg" height="23" width="25" alt="YugantarPravah"/></a>
                     </div>
                     <!-- <p class="short-head"><?php echo @$stitle;?></p> -->
                     <h1><?php echo $title; ?></h1>
@@ -177,11 +195,11 @@
                                                     if (@$sn['hn']['image_check_' . $i]!=NULL) {
                                                 ?>
                                                 <a href="<?php echo @$sn['hn']['news_link_' . $i]?>">
-                                                    <img class="img-responsive" src="<?php echo @$sn['hn']['image_thumb_' . $i];?>" alt="">
+                                                    <img class="img-responsive" src="<?php echo @$sn['hn']['image_thumb_' . $i];?>" alt="YugantarPravah">
                                                 </a>
                                                 <?php 
                                                     } else {
-                                                    echo '<img width="250" src="http://img.youtube.com/vi/'.$sn['hn']['video_'.$i].'/0.jpg" alt="photography" class="img-responsive"/>';
+                                                    echo '<img width="250" src="http://img.youtube.com/vi/'.$sn['hn']['video_'.$i].'/0.jpg" alt="YugantarPravah" class="img-responsive"/>';
                                                 }
                                                 ?>  
                                                 
@@ -314,9 +332,9 @@
                                             <!-- Avatar -->
                                             <div class="comment-avatar">
                                                 <?php if($comment->photo!=NULL){?>
-                                                <img src="<?php echo base_url(). $comment->photo;?>" class="img-responsive" alt="">
+                                                <img src="<?php echo base_url(). $comment->photo;?>" class="img-responsive" alt="YugantarPravah">
                                                 <?php } else{ ?>
-                                                <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="">
+                                                <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="YugantarPravah">
                                                 <?php } ?>
                                             </div>
                                             <!-- Contenedor del Comentario -->
@@ -375,9 +393,9 @@
                                                 <!-- Avatar -->
                                             <div class="comment-avatar">
                                                 <?php if($reply->photo!=NULL){?>
-                                                <img src="<?php echo base_url(). $reply->photo;?>" class="img-responsive" alt="">
+                                                <img src="<?php echo base_url(). $reply->photo;?>" class="img-responsive" alt="YugantarPravah">
                                                 <?php } else{ ?>
-                                                <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="">
+                                                <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="YugantarPravah">
                                                 <?php } ?>
                                             </div>
                                                 <!-- Contenedor del Comentario -->
@@ -439,9 +457,9 @@
                                                         <!-- Avatar -->
                                                          <div class="comment-avatar">
                                                             <?php if(@$reply1->photo!=NULL){?>
-                                                            <img src="<?php echo base_url(). $reply1->photo;?>" class="img-responsive" alt="">
+                                                            <img src="<?php echo base_url(). $reply1->photo;?>" class="img-responsive" alt="YugantarPravah">
                                                             <?php } else{ ?>
-                                                            <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="">
+                                                            <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="YugantarPravah">
                                                             <?php } ?>
                                                         </div>
                                                         <!-- Contenedor del Comentario -->
@@ -536,11 +554,11 @@
                                     <div class="img-thumb">
                                         <?php if(@$ln['image_check_' . $i]!=NULL){?>
                                         <a href="<?php echo @$ln['news_link_'.$i];?>" rel="bookmark">
-                                             <img class="entry-thumb" src="<?php echo @$ln['image_thumb_' . $i]; ?>" alt="" height="80" width="90">
+                                             <img class="entry-thumb" src="<?php echo @$ln['image_thumb_' . $i]; ?>" alt="YugantarPravah" height="80" width="90">
                                         </a>
                                        <?php } else{?>
                                         <a href="<?php echo @$ln['news_link_'.$i];?>" rel="bookmark">
-                                        <img  src="http://img.youtube.com/vi/<?php echo @$ln['video_' . $i]; ?>/0.jpg" alt=""  height="80" width="90">
+                                        <img  src="http://img.youtube.com/vi/<?php echo @$ln['video_' . $i]; ?>/0.jpg" alt="YugantarPravah"  height="80" width="90">
                                        </a>  
                                         <?php }?>
                                     </div>
@@ -571,10 +589,10 @@
                                 <div class="box-item">
                                     <div class="img-thumb">
                                         <?php if(@$mr['image_check_' . $i]!=Null){?>
-                                            <a href="<?php echo @$mr['news_link_'.$i];?>" rel="bookmark"><img class="entry-thumb" src="<?php echo @$mr['image_thumb_' . $i]; ?>" alt="" height="80" width="90"></a>
+                                            <a href="<?php echo @$mr['news_link_'.$i];?>" rel="bookmark"><img class="entry-thumb" src="<?php echo @$mr['image_thumb_' . $i]; ?>" alt="YugantarPravah" height="80" width="90"></a>
                                         <?php } else{?>
                                             <a href="<?php echo @$mr['news_link_'.$i];?>" rel="bookmark">
-                                            <img  src="http://img.youtube.com/vi/<?php echo @$mr['video_' . $i]; ?>/0.jpg" alt=""  height="80" width="90">
+                                            <img  src="http://img.youtube.com/vi/<?php echo @$mr['video_' . $i]; ?>/0.jpg" alt="YugantarPravah"  height="80" width="90">
                                            </a>
                                         <?php }?>
                                
@@ -615,7 +633,7 @@
                                     <a href="<?php echo @$Editor['hn']['news_link_'.$i]?>">
                                     <?php
                                         if (@$Editor['hn']['image_check_'.$i]!=NULL) {
-                                              echo'<img  src="'. @$Editor['hn']['image_thumb_'.$i].'" alt="">';
+                                              echo'<img  src="'. @$Editor['hn']['image_thumb_'.$i].'" alt="YugantarPravah">';
                                             } else {
                                                 echo '<img  class="img-responsive"  src="http://img.youtube.com/vi/' . @$Editor['hn']['video_'.$i] . '/0.jpg" alt="photography" />';
                                             }

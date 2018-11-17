@@ -18,7 +18,7 @@
                 <div id="breaking" class="breaking-news col-sm-12 col-md-12">
                     <div class="row">
                         <div class="col-md-3 col-xs-12 col-sm-12" style="padding-left: 0;">
-                            <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/download.jpg');?>" alt="" width="250px" height="50px"/>
+                            <img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/download.jpg');?>" alt="YugantarPravah" width="250px" height="50px"/>
                         </div>
                         <div class="center col-md-6 col-xs-12 col-sm-12">
                             <div class="newsticker-inner">
@@ -59,11 +59,11 @@
                             <?php
                                 if (@$hn['image_check_1']!=NULL) {
                                     echo' <div class="videoWrapper-1"><a href="'.@$hn['news_link_1'].'">
-                                            <img  src="'. @$hn['image_large_1'].'" alt="">
+                                            <img  src="'. @$hn['image_large_1'].'" alt="YugantarPravah">
                                         </a></div>';
                                 } else {
                                   echo' <div class="videoWrapper-1"><a href="'.@$hn['news_link_1'].'">
-                                    <img  src="http://img.youtube.com/vi/' . @$hn['video_1'] . '/0.jpg" />
+                                    <img alt="YugantarPravah"  src="http://img.youtube.com/vi/' . @$hn['video_1'] . '/0.jpg" />
                                     </a></div>';
                                 }
                             ?>     
@@ -102,7 +102,7 @@
                             <?php
                                 if (@$hn['image_check_'.$i]!=NULL){
                                     echo'<a href="'.@$hn['news_link_'.$i].'">
-                                            <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt="">
+                                            <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt="YugantarPravah">
                                         </a>';
                                 } else {
                                     echo '<a class="entry-thumb" href="'.@$hn['news_link_'.$i].'"><img  src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" /></a>';
@@ -139,10 +139,10 @@
                             <?php
                             if (@$hn['image_check_'.$i]!=NULL) {
                                 echo' <a href="'.@$hn['news_link_'.$i].'">
-                                                <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt="">
+                                                <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt="YugantarPravah">
                                             </a>';
                                 } else {
-                                      echo '<a href="'.@$hn['news_link_'.$i].'"><img width="100%" src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" alt="photography" /></a>';
+                                      echo '<a href="'. @$hn['news_link_'.$i].'"><img width="100%" src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" alt="photography" /></a>';
                                 }
                             ?>
                         </div>
@@ -202,7 +202,7 @@
                                             <?php
                                                 if (@$pn['position_1']['image_check_'.$i]!=NULL) {
                                                 echo' <a href="'.@$pn['position_1']['news_link_'.$i].'">
-                                                            <img class="img-responsive" src="'. @$pn['position_1']['image_thumb_'.$i].'" alt="">
+                                                            <img class="img-responsive" src="'. @$pn['position_1']['image_thumb_'.$i].'" alt="YugantarPravah">
                                                         </a>';
                                                 } else {
                                                     echo '<a href="'.@$pn['position_1']['news_link_'.$i].'">
@@ -242,7 +242,7 @@
                                             <?php
                                                 if (@$pn['position_1']['image_check_'.$i]!=NULL) {
                                                   echo' <a href="'.@$pn['position_1']['news_link_'.$i].'">
-                                                            <img class="img-responsive" src="'. @$pn['position_1']['image_thumb_'.$i].'" alt="">
+                                                            <img class="img-responsive" src="'. @$pn['position_1']['image_thumb_'.$i].'" alt="YugantarPravah">
                                                         </a>';
                                                 } else {
                                                     echo '<a href="'.@$pn['position_1']['news_link_'.$i].'">
@@ -302,7 +302,7 @@
                                             <?php
                                                 if (@$pn['position_2']['image_check_1']!=NULL) {
                                                             echo' <a href="'.@$pn['position_2']['news_link_1'].'">
-                                                                <img class="img-responsive" src="'. @$pn['position_2']['image_thumb_1'].'" alt="">
+                                                                <img class="img-responsive" src="'. @$pn['position_2']['image_thumb_1'].'" alt="YugantarPravah">
                                                             </a>';
                                                  } else {
                                                      echo '<a href="'.@$pn['position_2']['news_link_1'].'">
@@ -347,7 +347,7 @@
                                                     <div class="post-thumb polaroid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                                         <?php
                                                             if (@$pn['position_2']['image_check_'.$i]!=NULL) {
-                                                                echo'<img class="img-responsive" src="'. $pn['position_2']['image_thumb_'.$i].'" alt="">';
+                                                                echo'<img class="img-responsive" src="'. $pn['position_2']['image_thumb_'.$i].'" alt="YugantarPravah">';
                                                             } else {
                                                                 echo '<img width="100%" src="http://img.youtube.com/vi/' . @$pn['position_2']['video_' . $i] . '/0.jpg" alt="photography" />';
                                                             }
@@ -385,9 +385,9 @@
                                             <div class="post-thumb polaroid">
                                                 <a href="<?php echo @$pn['position_2']['news_link_6']; ?>">
                                                    <?php if(@$pn['position_2']['image_check_6']){?>
-                                                    <img src="<?php echo @$pn['position_2']['image_large_6']; ?>" class="img-responsive" alt="">
+                                                    <img src="<?php echo @$pn['position_2']['image_large_6']; ?>" class="img-responsive" alt="YugantarPravah">
                                                     <?php }else{?>
-                                                     <img src="<?php echo @$pn['position_2']['vodeo_6']; ?>" class="img-responsive" alt="">
+                                                     <img src="<?php echo @$pn['position_2']['vodeo_6']; ?>" class="img-responsive" alt="YugantarPravah">
                                                     <?php } ?>
                                                     <div class="overlay">
                                                         <?php if(@$pn['position_2']['video_6']!=NULL) {?>
@@ -424,7 +424,7 @@
                                                     <div class="post-thumb wow fadeIn polaroid" data-wow-duration="1s" data-wow-delay="0.2s">
                                                             <?php
                                                                 if (@$pn['position_2']['image_check_'.$i]) {
-                                                                  echo'<img class="img-responsive" src="'.@$pn['position_2']['image_thumb_'.$i].'" alt="">';
+                                                                  echo'<img class="img-responsive" src="'.@$pn['position_2']['image_thumb_'.$i].'" alt="YugantarPravah">';
                                                                 } else {
                                                                     echo '<img width="100%" src="http://img.youtube.com/vi/' . @$pn['position_2']['video_'.$i] . '/0.jpg" alt="photography" />';
                                                                 }
@@ -504,11 +504,11 @@
                                     <div class="img-thumb">
                                         <?php if(@$ln['image_check_'.$i]!=NULL){?>
                                           <a href="<?php echo @$ln['news_link_'.$i];?>" rel="bookmark">
-                                             <img class="entry-thumb" src="<?php echo @$ln['image_thumb_' . $i]; ?>" alt="" height="80" width="90">
+                                             <img class="entry-thumb" src="<?php echo @$ln['image_thumb_' . $i]; ?>" alt="YugantarPravah" height="80" width="90">
                                         </a>
                                        <?php } else{?>
                                        <a href="<?php echo @$ln['news_link_'.$i];?>" rel="bookmark">
-                                        <img  src="http://img.youtube.com/vi/<?php echo @$ln['video_' . $i]; ?>/0.jpg" alt=""  height="80" width="90">
+                                        <img  src="http://img.youtube.com/vi/<?php echo @$ln['video_' . $i]; ?>/0.jpg" alt="YugantarPravah"  height="80" width="90">
                                        </a>
                                         
                                         <?php }?>
@@ -539,10 +539,10 @@
                                 <div class="box-item">
                                     <div class="img-thumb">
                                         <?php if(@$mr['image_check_' . $i]!=NULL){?>
-                                         <a href="<?php echo @$mr['news_link_'.$i];?>" rel="bookmark"><img class="entry-thumb" src="<?php echo @$mr['image_thumb_' . $i]; ?>" alt="" height="80" width="90"></a>
+                                         <a href="<?php echo @$mr['news_link_'.$i];?>" rel="bookmark"><img class="entry-thumb" src="<?php echo @$mr['image_thumb_' . $i]; ?>" alt="YugantarPravah" height="80" width="90"></a>
                                         <?php } else{?>
                                         <a href="<?php echo @$mr['news_link_'.$i];?>" rel="bookmark">
-                                            <img  src="http://img.youtube.com/vi/<?php echo @$mr['video_' . $i]; ?>/0.jpg" alt=""  height="80" width="90">
+                                            <img  src="http://img.youtube.com/vi/<?php echo @$mr['video_' . $i]; ?>/0.jpg" alt="YugantarPravah"  height="80" width="90">
                                        </a>
                                         <?php }?>
                                     </div>
@@ -632,7 +632,7 @@
 
                                                 echo '<a href="'.@$pn['position_3']['news_link_'.$i].'" class="video-img-icon">
                                                         <i class="fa fa-play"></i>
-                                                        <img  src="http://img.youtube.com/vi/'. @$pn['position_3']['video_' . $i].'/0.jpg" alt="" class="img-responsive">
+                                                        <img  src="http://img.youtube.com/vi/'. @$pn['position_3']['video_' . $i].'/0.jpg" alt="YugantarPravah" class="img-responsive">
                                                     </a>';
                                             }
                                         ?>
@@ -643,7 +643,7 @@
                                     <div class="post-title-author-details">
                                         <div class="date">
                                             <ul>
-                                                <li><img src="<?php echo @$pn['position_3']['post_by_image_'.$i]?>" class="img-responsive" alt=""></li>
+                                                <li><img src="<?php echo @$pn['position_3']['post_by_image_'.$i]?>" class="img-responsive" alt="YugantarPravah"></li>
                                                 <li>By <a title="" href="#"><span><?php echo @$pn['position_3']['post_by_name_'.$i]?></span></a> --</li>
                                                 <li><a title="" href="#"><?php echo @$pn['position_3']['ptime_'.$i]?></a> </li>
                                             </ul>
@@ -673,7 +673,7 @@
                                 <a href="<?php echo @$Editor['hn']['news_link_'.$i]?>">
                                 <?php
                                     if (@$Editor['hn']['image_check_'.$i]!=NULL) {
-                                          echo'<img  src="'. @$Editor['hn']['image_thumb_'.$i].'" alt="">';
+                                          echo'<img  src="'. @$Editor['hn']['image_thumb_'.$i].'" alt="YugantarPravah">';
                                         } else {
                                           echo'<img  class="img-responsive"  src="http://img.youtube.com/vi/'.@$Editor['hn']['video_'.$i].'/0.jpg" alt="photography" />';
                                         }
@@ -732,7 +732,7 @@
                                                     preserveContent: false, objectLoadTime: 'after'})">    
                                         <?php
                                             if (@$pn['position_7']['image_check_'.$i]!=NULL) {
-                                              echo'<img class="img-responsive" style="width: 85px" src="'.@$pn['position_7']['image_thumb_'.$i].'" alt="">';
+                                              echo'<img class="img-responsive" style="width: 85px" src="'.@$pn['position_7']['image_thumb_'.$i].'" alt="YugantarPravah">';
                                             } else {
                                                 echo'<img style="width: 85px" src="https://i.ytimg.com/vi/'. @$pn['position_7']['video_'.$i].'/default.jpg" class="thumb">';
                                             }
@@ -777,7 +777,7 @@
                                     <div class="post-thumb polaroid">
                                         <?php
                                                 if (@$pn['position_4']['image_check_1']) {
-                                                  echo'<img class="img-responsive" src="'.@$pn['position_4']['image_thumb_1'].'" alt="">';
+                                                  echo'<img class="img-responsive" src="'.@$pn['position_4']['image_thumb_1'].'" alt="YugantarPravah">';
                                                 } else {
                                                     echo '<img  class="img-responsive"  src="http://img.youtube.com/vi/' . @$pn['position_4']['video_1'] . '/0.jpg" alt="photography" />';
                                                 }
@@ -815,7 +815,7 @@
                                             
                                             <?php
                                                     if (@$pn['position_4']['image_check_'.$i]) {
-                                                      echo'<img class="entry-thumb" src="'.@$pn['position_4']['image_thumb_'.$i].'" alt=""  height="70" width="100">';
+                                                      echo'<img class="entry-thumb" src="'.@$pn['position_4']['image_thumb_'.$i].'" alt="YugantarPravah"  height="70" width="100">';
                                                     } else {
                                                         echo '<img  class="entry-thumb"  height="70" width="100"  src="http://img.youtube.com/vi/' . @$pn['position_4']['video_'.$i] . '/0.jpg" alt="photography" />';
                                                     }
@@ -865,7 +865,7 @@
                                     <div class="post-thumb polaroid">
                                             <?php
                                                 if (@$pn['position_5']['image_check_1']!=NULL) {
-                                                  echo'<img class="img-responsive" src="'.@$pn['position_5']['image_large_1'].'" alt="">';
+                                                  echo'<img class="img-responsive" src="'.@$pn['position_5']['image_large_1'].'" alt="YugantarPravah">';
                                                 } else {
                                                     echo '<img  class="img-responsive"  src="http://img.youtube.com/vi/' . @$pn['position_5']['video_1'] . '/0.jpg" alt="photography" />';
                                                 }
@@ -902,7 +902,7 @@
                                         
                                         <?php
                                                 if (@$pn['position_5']['image_check_'.$i]!=NULL) {
-                                                  echo'<img class="entry-thumb" src="'.@$pn['position_5']['image_thumb_'.$i].'" alt=""  height="70" width="100">';
+                                                  echo'<img class="entry-thumb" src="'.@$pn['position_5']['image_thumb_'.$i].'" alt="YugantarPravah"  height="70" width="100">';
                                                 } else {
                                                     echo'<img  class="entry-thumb"  height="70" width="100"  src="http://img.youtube.com/vi/' . @$pn['position_5']['video_'.$i] . '/0.jpg" alt="photography" />';
                                                 }
@@ -958,7 +958,7 @@
                                                 <div class="post-thumb polaroid">
                                             <?php
                                                 if (@$pn['position_6']['image_check_1']!=NULL) {
-                                                  echo'<img class="img-responsive" src="'.@$pn['position_6']['image_large_1'].'" alt="">';
+                                                  echo'<img class="img-responsive" src="'.@$pn['position_6']['image_large_1'].'" alt="YugantarPravah">';
                                                 } else {
                                                   echo'<img  class="img-responsive"  src="http://img.youtube.com/vi/' . @$pn['position_6']['video_1'] . '/0.jpg" alt="photography" />';
                                                 }
@@ -999,7 +999,7 @@
                                             
                                             <?php
                                                 if (@$pn['position_6']['image_check_'.$i]!=NULL) {
-                                                  echo'<img class="img-responsive" src="'.@$pn['position_6']['image_thumb_'.$i].'" alt="">';
+                                                  echo'<img class="img-responsive" src="'.@$pn['position_6']['image_thumb_'.$i].'" alt="YugantarPravah">';
                                                 } else {
                                                    echo'<img  class="img-responsive"  src="http://img.youtube.com/vi/' . @$pn['position_6']['video_'.$i] . '/0.jpg" alt="photography" />';
                                                 }
@@ -1038,7 +1038,7 @@
                                                 <div class="post-thumb">
                                             <?php
                                                 if (@$pn['position_6']['image_check_6']!=NULL) {
-                                                  echo'<img class="img-responsive" src="'.@$pn['position_6']['image_large_6'].'" alt="">';
+                                                  echo'<img class="img-responsive" src="'.@$pn['position_6']['image_large_6'].'" alt="YugantarPravah">';
                                                 } else {
                                                     echo'<img  class="img-responsive"  src="http://img.youtube.com/vi/' . @$pn['position_6']['video_6'] . '/0.jpg" alt="photography" />';
                                                 }
@@ -1078,7 +1078,7 @@
                                                     <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                                     <?php
                                                         if (@$pn['position_6']['image_check_'.$i]!=NULL) {
-                                                          echo'<img class="img-responsive" src="'.@$pn['position_6']['image_thumb_'.$i].'" alt="">';
+                                                          echo'<img class="img-responsive" src="'.@$pn['position_6']['image_thumb_'.$i].'" alt="YugantarPravah">';
                                                         } else {
                                                             echo'<img  class="img-responsive"  src="http://img.youtube.com/vi/' . @$pn['position_6']['video_'.$i] . '/0.jpg" alt="photography" />';
                                                         }
