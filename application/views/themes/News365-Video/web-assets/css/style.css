@@ -4875,7 +4875,6 @@ footer {
         padding: 3px 0;
     }
 
-
     .search-area {
         margin-bottom: 5px;
     }
@@ -4903,9 +4902,11 @@ footer {
     }
 
     .top_banner_wrap {
-        margin-top: 45px;
+        margin-top: 54px;
     }
-
+    .top_banner_wrap .col-md-3 {
+        display: none;
+    }
     .sub-footer {
         padding: 7px 0;
     }
@@ -4922,6 +4923,82 @@ footer {
     .post-wrapper h3, 
     .item h3 {
         min-height: 0;
+    }
+    .mobile-menu-area .top_header_icon {
+        display: none;
+    }
+
+    .mob-logo h1 {
+        display: inline-block;
+        color: #fff;
+        margin-top: 8px;
+        font-size: 20px;
+    }
+
+    .mob-logo {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .mobile-menu-area .nav-icon {
+        margin-top: 25px;
+    }
+    .mob-logo .logo_img img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .mobile-menu-area .nav-icon {
+        margin-top: 16px;
+    }
+
+    .mobile-menu-area {
+        padding: 5px 0;
+    }
+    .paragraph-padding {
+        padding-left: 0;
+    }
+
+    .jssocials-share {
+        margin-top: 0;
+        margin-right: 0.6em;
+    }
+
+    .jssocials-shares {
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    .shareBtm button.jssocials-share-link img {
+        height: 20px;
+        width: 20px;
+    }
+
+    span#share {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    button.jssocials-share-link {
+        padding: 0.4em .5em;
+    }
+
+    .jssocials-share:last-child {
+        margin-right: .6em;
+    }
+
+    .jssocials-share.jssocials-share-twitter {
+        margin-right: .8em;
+    }
+    #share .jssocials-shares {
+        margin-top: 0;
+    }
+
+    span#share {
+        margin-right: 8px;
+    }
+    .content {
+        margin-top: 30px;
     }
 } 
 
