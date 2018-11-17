@@ -316,6 +316,7 @@ if it's not present, don't show loader */
     /*font-family: 'Lato', sans-serif;*/
     font-weight: 500;
     letter-spacing: 0.5px;
+    font-family: inherit;
 }
 
 .headding-border {
@@ -1602,6 +1603,10 @@ ul.newsticker {
 
 .td-module-title a {
     color: #111;
+    font-family: Arial, Mukta, arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
 }
 
 .box-item .item-details {
@@ -4593,11 +4598,11 @@ div.polaroid {
 }
 
 .headding-news {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .breaking-news {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 .technology_sec {
@@ -4610,6 +4615,26 @@ div.polaroid {
 
 .ad-item {
     text-align: right;
+}
+
+.headding-news .col-md-6 .post-wrapper .post-title a {
+    font-size: 32px;
+}
+
+.horizontal-banner .ad-item {
+    width: 100%;
+    height: 100px;
+}
+
+.horizontal-banner .ad-item a {
+    display: block;
+    height: 100px;
+    width: 100%;
+}
+
+.horizontal-banner .ad-item a img {
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -5104,4 +5129,13 @@ footer {
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+}
+.jssocials-shares {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+span#share {
+    display: inline-block;
+    vertical-align: middle;
 }

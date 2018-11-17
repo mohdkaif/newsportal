@@ -663,34 +663,34 @@
                             </div>
                     <?php }?>
                 </div>
+                    
+                    <div class="horizontal-banner">
+                        <!-- widget item -->
+                       <?php 
+                    
+                       for($i=3;$i<=3;$i++){
+
+
+                        ?>
+                            <div class="ad-item">
+                                
+                                <?php
+                                
+                                    if (@$ads['home_'.$i]!=NULL) {
+                                        $srcelem = @$ads['home_'.$i];
+                                          echo $srcelem;
+                                        } 
+                                    ?>
+                               
+                              
+                            
+                            </div>
+                        <?php } ?>
+                    
+                    </div>
 
                 </div>
 
-
-                 <div class="horizontal-banner" style="width:1000px;height:100px">
-                            <!-- widget item -->
-                           <?php 
-                        
-                           for($i=3;$i<=3;$i++){
-
-
-                            ?>
-                                <div class="ad-item">
-                                    
-                                    <?php
-                                    
-                                        if (@$ads['home_'.$i]!=NULL) {
-                                            $srcelem = @$ads['home_'.$i];
-                                              echo $srcelem;
-                                            } 
-                                        ?>
-                                   
-                                  
-                                
-                                </div>
-                            <?php } ?>
-                        
-                        </div>
              
               <div class="col-md-4 col-sm-12 left-padding">
                 <!-- slider widget -->
@@ -969,9 +969,8 @@
                             <!-- /.international -->
                         </div>
                         <?php } ?>
-                    </div>
-
-                     <div class="horizontal-banner" style="width:1000px;height:100px">
+                    
+                        <div class="horizontal-banner">
                             <!-- widget item -->
                            <?php 
                         
@@ -988,16 +987,14 @@
                                               echo $srcelem;
                                             } 
                                         ?>
-                                   
-                                  
-                                
                                 </div>
                             <?php } ?>
                         
                         </div>
 
+                    </div>
 
-
+                    
 
                     <?php if(@$home_page_positions[6]['status']==1){ 
 
