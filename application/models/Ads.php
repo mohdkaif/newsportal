@@ -26,11 +26,10 @@ class Ads extends CI_Model {
                 $ads[$page . '_' . $value->ad_position] = $value->embed_code;
                 $ads['lg_status_'. $value->ad_position] = $value->large_status;
                 $ads['sm_status_'. $value->ad_position] = $value->mobile_status;
-                $ads2[$page . '_' . $key] = $value->embed_code;
-                $ads2['lg_status_'. $key] = $value->large_status;
-                $ads2['sm_status_'. $key] = $value->mobile_status;
+                $ads2[$page][$page . '_' . $key] = $value->embed_code;
+                $ads2[$page]['lg_status_'. $key] = $value->large_status;
+                $ads2[$page]['sm_status_'. $key] = $value->mobile_status;
             }
-           
             return $ads2;
         } else {
             return false;

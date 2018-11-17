@@ -469,15 +469,14 @@
                             <!-- widget item -->
                            <?php 
                         
-                           for($i=0;$i<=0;$i++){
-
+                           foreach($ads['home'] as $ad_key => $ad_value){
 
                             ?>
                                 <div class="ad-item">
                                     
                                     <?php
-                                    $srcelem = @$ads['home_'.$i];
-                                        if (@$ads['home_'.$i]!=NULL) {
+                                    $srcelem = @$ads['home']['home_'.$ad_key];
+                                        if ($ad_key==0 && @$ads['home']['home_'.$ad_key]!=NULL) {
                                               echo $srcelem;
                                             } 
                                         ?>
@@ -569,16 +568,15 @@
                       <div>
                             <!-- widget item -->
                            <?php 
-                        
-                           for($i=1;$i<=1;$i++){
+                            foreach($ads['home'] as $key => $value){
 
 
                             ?>
                                 <div class="ad-item">
                                     
                                     <?php
-                                    $srcelem = @$ads['home_'.$i];
-                                        if (@$ads['home_'.$i]!=NULL) {
+                                    $srcelem = @$ads['home']['home_'.$key];
+                                        if ($key==1 && @$ads['home']['home_'.$key]!=NULL) {
                                               echo $srcelem;
                                             } 
                                         ?>

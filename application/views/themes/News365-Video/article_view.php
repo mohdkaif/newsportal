@@ -47,7 +47,7 @@
                 <div class="paragraph-padding">
                     <!-- Shear button -->
                     <div class="" style="margin-top: 12px;">
-                         <div class="">
+                         <div class="shareMedia">
                     <div> 
                       <a href="javascript:void(0);"><i style="font-size:20px" class="fa"></i></a>
                     </div>
@@ -55,11 +55,13 @@
                   
                     <span id="share" style="" class="jssocials">
 
-                    <div class="jssocials-shares"><div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div><div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+                    <div class="jssocials-shares"><div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=<?php echo urlencode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" )?>" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+
+                    <div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="https://facebook.com/sharer/sharer.php?u=<?php echo urlencode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" )?>" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
                    <!--  <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-google jssocials-share-logo"></i><span class="jssocials-share-label">+1</span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div> -->
 
-                    <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60 " class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div></div></span>
+                    <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=<?php echo urlencode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" )?>" class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div></div></span>
 
                     <!-- <input type="hidden" value="<?php echo $_SERVER['REQUEST_URI'];?>" id="myInput">
                     <div class="jssocials-share "><button onclick="myFunction()"><img width="50px" height="50px" src="<?php echo base_url().'/uploads/images/copy.png'; ?>" /></button></div> -->
@@ -615,7 +617,7 @@
                                 <?php } ?>
                             </div> <!-- / tab item -->
                         </div> <!-- / tab_content -->
-                    </div> <!-- / tab -->
+                </div> <!-- / tab -->
                 <!-- / tab -->
                
                 <!-- slider widget -->
@@ -666,6 +668,29 @@
                         <input  class="form-control col-md-3" onchange="submit()" placeholder="<?php echo display('archive')?>" type="text" id="archive-date" name="date">
                     </div> 
                 <?php echo form_close();?> 
+            </div>
+            <div>
+                            <!-- widget item -->
+                           <?php 
+                        
+                           foreach($ads as $key => $value){
+
+
+                            ?>
+                                <div class="ad-item">
+                                    
+                                    <?php
+                                    $srcelem = @$ads['news_view'.$key];
+                                        if (@$ads['news_view'.$key]!=NULL) {
+                                              echo $srcelem;
+                                            } 
+                                        ?>
+                                   
+                                  
+                                
+                                </div>
+                            <?php } ?>
+                        
             </div>
           
             </aside>
