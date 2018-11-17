@@ -51,7 +51,6 @@ if (isset($ads) && is_array($ads)) {
                         <a target="_blank" href="<?php if (isset($social_link[0]->pin)) echo @$social_link[0]->pin; ?>" title="Pintereset"><i class="fa fa-pinterest-p"></i></a>
                     </span>
                 </div>
-
             </div>
         </div>
 </div>
