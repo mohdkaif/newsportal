@@ -749,6 +749,7 @@
                             <div class="RYP-items">
                                 <ol>
                                 <?php 
+                               
                                 for($i=1;$i<=5;$i++){
                                     if(!isset($pn['position_7']['news_title_'.$i]))
                                     continue

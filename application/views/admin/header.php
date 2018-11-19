@@ -36,6 +36,9 @@
         <link href="<?php echo base_url(); ?>assets/tagsinput/jquery.tagsinput.css" rel="stylesheet" type="text/css" />
         <!-- BEGIN PAGE LEVEL PLUGINS -->
         <link href="<?php echo base_url(); ?>assets/datatables/datatables.min.css" rel="stylesheet" type="text/css" />
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/jssocials/jssocials.css' ?> ">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/jssocials/jssocials-theme-flat.css' ?>">
         <!-- END PAGE LEVEL PLUGINS -->
         <script src="<?php echo base_url(); ?>assets/ckeditor/ckeditor.js"></script>
 
@@ -50,6 +53,8 @@
         <!-- jQuery 2.0.2 -->
         <script src="<?php echo base_url(); ?>assets/js/jquery-1.10.2.js"></script>
         <script src="<?php echo base_url(); ?>assets/js/function.js" type="text/javascript"></script> 
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsSocials/1.5.0/jssocials.js" ></script>
+        
 
     </head>
     <body class="skin-blue">
