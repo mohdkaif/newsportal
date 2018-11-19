@@ -4884,6 +4884,7 @@ footer {
     }
 }
 
+
 @media (max-width: 767px){
 
     .top_banner_wrap .col-md-9 {
@@ -5000,6 +5001,8 @@ footer {
         height: 20px;
         width: 20px;
     }
+
+
 
     span#share {
         display: inline-block;
