@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss  xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>YugantarPravah RSS Feed RSS</title>
+<link>http://localhost/newsportal/</link>
+<description></description>
+<image>
+                    <title>YugantarPravahRSS Feed</title>
+                    <url>http://localhost/newsportal/uploads/images/logo.png</url>
+                    <link>http://localhost/newsportal/</link>
+              </image>
+                <item>
+                    <news_id>203</news_id>
+                    <category>मनोरंजन</category>
+                    <title>sad</title>
+                    <link>http://localhost/newsportal/मनोरंजन/details/203/sad</link>
+                    <description>asfdas
+</description>
+                    <pubDate>17-11-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542455424.png</url>
+                        <title>sad</title>
+                        <link>http://localhost/newsportal/मनोरंजन/details/203/sad</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/मनोरंजन/details/203/sad</guid>
+                    <image>http://localhost/newsportal/uploads/1542455424.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1542455424.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>186</news_id>
+                    <category>मनोरंजन</category>
+                    <title>D</title>
+                    <link>http://localhost/newsportal/मनोरंजन/details/186/D</link>
+                    <description>DAD
+</description>
+                    <pubDate>17-11-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542449683.png</url>
+                        <title>D</title>
+                        <link>http://localhost/newsportal/मनोरंजन/details/186/D</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/मनोरंजन/details/186/D</guid>
+                    <image>http://localhost/newsportal/uploads/1542449683.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1542449683.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>164</news_id>
+                    <category>मनोरंजन</category>
+                    <title> सिंबा नहीं केदारनाथ से ही डेब्यू करेंगी सारा, ऐसा है नया पोस्टर</title>
+                    <link>http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर</link>
+                    <description>सैफ अली खान की बेटी सारा अली खान बहुत जल्द बॉलीवुड में डेब्यू करने जा रही हैं. केदारनाथ की रिलीज डेट को लेकर लगातार बने हुए कन्फ्यूजन के चलते हालांकि यह साफ नहीं हो</description>
+                    <pubDate>31-10-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540969938.jpeg</url>
+                        <title> सिंबा नहीं केदारनाथ से ही डेब्यू करेंगी सारा, ऐसा है नया पोस्टर</title>
+                        <link>http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर</guid>
+                    <image>http://localhost/newsportal/uploads/1540969938.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1540969938.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+</channel>
+</rss>

@@ -100,6 +100,8 @@
         <script src="<?php echo base_url().'application/views/themes/News365-Video/web-assets/clipboard.js-master/dist/clipboard.min.js'; ?>"></script>
         <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>application/views/themes/<?php echo $default_theme; ?>/web-assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsSocials/1.5.0/jssocials.js" ></script>
+        
         
     </head>
 

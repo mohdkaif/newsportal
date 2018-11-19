@@ -10,21 +10,39 @@
                     <link>http://localhost/newsportal/</link>
               </image>
                 <item>
-                    <news_id>171</news_id>
+                    <news_id>197</news_id>
                     <category>राष्ट्रीय</category>
-                    <title>asdfgh</title>
-                    <link>http://localhost/newsportal/राष्ट्रीय/details/171/asdfgh</link>
-                    <description>sdaffhhjlkjhgfdfvghjmjhgfdsa
+                    <title>sadad</title>
+                    <link>http://localhost/newsportal/राष्ट्रीय/details/197/sadad</link>
+                    <description>asdad
 </description>
-                    <pubDate>06-11-2018</pubDate>       
+                    <pubDate>17-11-2018</pubDate>       
                     <image>
-                        <url>http://localhost/newsportal/uploads/1541486168.png</url>
-                        <title>asdfgh</title>
-                        <link>http://localhost/newsportal/राष्ट्रीय/details/171/asdfgh</link>
+                        <url>http://localhost/newsportal/uploads/1542454076.png</url>
+                        <title>sadad</title>
+                        <link>http://localhost/newsportal/राष्ट्रीय/details/197/sadad</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/171/asdfgh</guid>
-                    <image>http://localhost/newsportal/uploads/1541486168.png</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/1541486168.png</thumb>
+                    <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/197/sadad</guid>
+                    <image>http://localhost/newsportal/uploads/1542454076.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1542454076.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
                     
                 </item>
 
@@ -172,24 +190,6 @@
                     <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/151/नई-दिल्ली-अहिंसा-दिवस-पर-ही-किसानों-से-हिंसा-क्या-है-इस-बर्बरता-का-कारण?</guid>
                     <image>http://localhost/newsportal/uploads/1540554175.jpg</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1540554175.jpg</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
                     
                 </item>
 

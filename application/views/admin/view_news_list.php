@@ -97,12 +97,27 @@ if (($user_type == 3) || ($user_type == 4)) {
                     <th width="65"><?php echo display('last_update');?></th>
                     <th width="65"><?php echo display('status');?></th>
                     <th colspan="2"><?php echo display('action');?></th>
+                    <th colspan="3"><?php echo display('share');?></th>
                 </tr>
 
 
                 <?php
                     $sl = 1;
                     foreach ($pp as $row) {
+                       
+
+                    @$splited_TITLE = @trim(@implode('-', @preg_split("/[\s,-\:,()]+/", @$row['title'])), '');
+
+                    $splited_TITLE = str_replace(' ', '', $splited_TITLE); 
+                    $text = preg_replace('/[^A-Za-z0-9\-]/', '', $splited_TITLE);
+
+                    /*if($row['other_page']==0){
+                        $page = 'home';
+                    }elseif($data['other_page']!=0){
+                        $page = $data['other_page'];
+                    }*/
+                    $news_link = base_url() . $row['page'] . '/details/' . $row['news_id'].'/'.$text;
+
                     $bgcolor = ($sl % 2 == 0) ? 'EEE' : 'CCC';                    
                 ?>
                     <tr  id="tr_<?php echo $sl; ?>" onclick="change_color('<?php echo $sl; ?>', '#<?php echo $bgcolor; ?>');">
@@ -135,6 +150,48 @@ if (($user_type == 3) || ($user_type == 4)) {
                         </td>
                         <th width="40"><a href="<?php echo base_url(); ?>admin/News_edit/index/<?php echo $row['news_id']; ?>"><i class="fa fa-edit fa-2x"></i></a></th>
                         <th width="50"><a onclick="delete_cnf('<?php echo base_url(); ?>admin/delete/singal/<?php echo $row['news_id']; ?>')" href="#"><i class="fa fa-trash-o fa-2x"></i></a></th>
+                        <th width="100">
+                            <div class="shareMedia">
+                    <span id="share" style="" class="jssocials">
+
+                        <div class="jssocials-shares"><div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=<?php echo urlencode($news_link);?>" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+
+                        <div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[summary]=SUMMARY&p[url]=<?php echo urlencode($news_link)?>&p[title]=YugantarPravah" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+
+                       <!--  <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-google jssocials-share-logo"></i><span class="jssocials-share-label">+1</span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div> -->
+
+                        <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=<?php echo urlencode($news_link); ?>" class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div></div>
+                    </span>
+                    <script>
+                        $(document).ready(function(){
+                            $(".shareMedia").click(function(){
+                                $("#share").toggle();
+                                $("#share").jsSocials({
+                                    shares: ["twitter", "facebook", "googleplus", "whatsapp"]
+                                });
+                            });
+                        });
+
+                        
+                        /*function myFunction() {
+  
+                            var copyText = document.getElementById("myInput");
+
+                              /* Select the text field 
+                            copyText.select();
+
+                               Copy the text inside the text field 
+                            document.execCommand("copy");
+
+                              /* Alert the copied text *
+
+                            alert("Copied the text: " + copyText.value);
+                        }
+               */
+                    </script>
+</div>
+
+    </th>
                     </tr>
                     <?php
                     $sl++;

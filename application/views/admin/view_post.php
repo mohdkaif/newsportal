@@ -24,6 +24,7 @@ if (($user_type == 3) || ($user_type == 4)) {
     <?php
         if($this->session->flashdata('message')){
     ?>
+        
         <div class="row">
             <div class="alert alert-success fade in">
                 <span class="close" data-dismiss="alert">×</span>
@@ -194,7 +195,7 @@ if (($user_type == 3) || ($user_type == 4)) {
                         </td>
                         <td align="right">
                             <input type="reset" value="<?php echo display('reset');?>" class="btn btn-danger" />
-                            <input type="submit" name="" value="<?php echo display('post');?>" class="btn btn-primary" />
+                            <input type="submit" id="post" name="post" value="<?php echo display('post');?>" class="btn btn-primary" />
                         </td>
                     </tr>
                 </table>
@@ -206,8 +207,13 @@ if (($user_type == 3) || ($user_type == 4)) {
         ?>
 
         </div>
+
+       
+        
     </section><!-- /.content -->
 </aside><!-- /.right-side -->
 
 
+
+       
 

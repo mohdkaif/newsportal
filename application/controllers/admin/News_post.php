@@ -9,6 +9,8 @@ public function __construct() {
     parent::__construct();
     #----------------------------------------
         $this->load->library('session');
+        $this->load->library('javascript');
+        $this->load->library('javascript/jquery');
         $session_id = $this->session->userdata('session_id'); 
         if($session_id == NULL ) {
          redirect('admin/Sign_out');
@@ -136,7 +138,24 @@ public function get_youtube_id_from_url($url)
             $post_meta['news_id'] = $result['news_id'];
             $this->npost->save_meta_on_page_seo('post_seo_onpage', $post_meta);
         }
+       /* @$splited_TITLE = @trim(@implode('-', @preg_split("/[\s,-\:,()]+/", @$data['title'])), '');
+
+        $splited_TITLE = str_replace(' ', '', $splited_TITLE); 
+        $text = preg_replace('/[^A-Za-z0-9\-]/', '', $splited_TITLE);
+
+        if($data['other_page']==0){
+            $page = 'home';
+        }elseif($data['other_page']!=0){
+            $page = $data['other_page'];
+        }
+        $news_link = base_url() . $page . '/details/' . $result['news_id'].'/'.$text;
+        $this->load->library("session");
+
+        $this->session->set_userdata("share_url","<?php echo $news_link;?>");
+*/
+       
         $this->session->set_flashdata('message', display('news_post_msg'));
+         
         redirect("admin/News_post");
     }
 

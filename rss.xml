@@ -4,7 +4,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <title>YugantarPravah RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>16-11-2018</lastBuildDate>
+<lastBuildDate>17-11-2018</lastBuildDate>
 <image>
                     <title>YugantarPravahRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
@@ -12,521 +12,18 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </image>
 
                 <item>
-                    <title>serdfghj</title>
-                            <link>http://localhost/newsportal/techno/details/180/serdfghj</link>
-                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
+                    <title>sad</title>
+                            <link>http://localhost/newsportal/मनोरंजन/details/203/sad</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
                     <author>Md Kaif</author>     
-                    <description>awsdfghkopoiutfdszxfhjkl
+                    <description>asfdas
 </description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1542369152.jpeg</url>
-                        <title>serdfghj</title>
-                        <link>http://localhost/newsportal/techno/details/180/serdfghj</link>
+                        <url>http://localhost/newsportal/uploads/1542455424.png</url>
+                        <title>sad</title>
+                        <link>http://localhost/newsportal/मनोरंजन/details/203/sad</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/180/serdfghj</guid>
-                    <category><![CDATA[techno]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/techno/details/180/serdfghj>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>awsdfghkopoiutfdszxfhjkl
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>sdgsrg</title>
-                            <link>http://localhost/newsportal/techno/details/179/sdgsrg</link>
-                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>fgedgfefwfewf
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542368987.png</url>
-                        <title>sdgsrg</title>
-                        <link>http://localhost/newsportal/techno/details/179/sdgsrg</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/179/sdgsrg</guid>
-                    <category><![CDATA[techno]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/techno/details/179/sdgsrg>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>fgedgfefwfewf
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>ias lucknow up </title>
-                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/178/ias-lucknow-up</link>
-                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>ias lucknow up
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542367025.png</url>
-                        <title>ias lucknow up </title>
-                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/178/ias-lucknow-up</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/178/ias-lucknow-up</guid>
-                    <category><![CDATA[उत्तर-प्रदेश]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/178/ias-lucknow-up>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>ias lucknow up
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>ias up lucknow kanput</title>
-                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/177/ias-up-lucknow-kanput</link>
-                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description></description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542366961.png</url>
-                        <title>ias up lucknow kanput</title>
-                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/177/ias-up-lucknow-kanput</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/177/ias-up-lucknow-kanput</guid>
-                    <category><![CDATA[उत्तर-प्रदेश]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/177/ias-up-lucknow-kanput>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p></p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>ias did a b c d e f g hid  up lucknow </title>
-                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/176/ias-did-a-b-c-d-e-f-g-hid-up-lucknow</link>
-                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>ias did a b c d e f g hid  up lucknow 
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542366934.jpeg</url>
-                        <title>ias did a b c d e f g hid  up lucknow </title>
-                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/176/ias-did-a-b-c-d-e-f-g-hid-up-lucknow</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/176/ias-did-a-b-c-d-e-f-g-hid-up-lucknow</guid>
-                    <category><![CDATA[उत्तर-प्रदेश]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/176/ias-did-a-b-c-d-e-f-g-hid-up-lucknow>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>ias did a b c d e f g hid  up lucknow 
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>मोदी का कांग्रेस को चैलेंज- अगर नेहरू की वजह से मैं प्रधानमंत्री बना तो...</title>
-                            <link>http://localhost/newsportal/home/details/175/मोदी-का-कांग्रेस-को-चैलेंज-अगर-नेहरू-की-वजह-से-मैं-प्रधानमंत्री-बना-तो</link>
-                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>मध्य प्रदेश विधानसभा चुनाव में शुक्रवार रैलियों का दिन है. बीजेपी और कांग्रेस के दिग्गज नेता चुनावी बिगुल फूंकने के लिए मैदान में उतर रहे हैं. प्रधानमंत्री नरेंद्र मोदी, बीजेपी</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542357961.jpeg</url>
-                        <title>मोदी का कांग्रेस को चैलेंज- अगर नेहरू की वजह से मैं प्रधानमंत्री बना तो...</title>
-                        <link>http://localhost/newsportal/home/details/175/मोदी-का-कांग्रेस-को-चैलेंज-अगर-नेहरू-की-वजह-से-मैं-प्रधानमंत्री-बना-तो</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/home/details/175/मोदी-का-कांग्रेस-को-चैलेंज-अगर-नेहरू-की-वजह-से-मैं-प्रधानमंत्री-बना-तो</guid>
-                    <category><![CDATA[home]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/home/details/175/मोदी-का-कांग्रेस-को-चैलेंज-अगर-नेहरू-की-वजह-से-मैं-प्रधानमंत्री-बना-तो>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>मध्य प्रदेश विधानसभा चुनाव में शुक्रवार रैलियों का दिन है. बीजेपी और कांग्रेस के दिग्गज नेता चुनावी बिगुल फूंकने के लिए मैदान में उतर रहे हैं. प्रधानमंत्री नरेंद्र मोदी, बीजेपी</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>#MeToo: मानहानि मामले में पूर्व केंद्रीय मंत्री एमजे अकबर ने कोर्ट में दर्ज कराया अपना बयान</title>
-                            <link>http://localhost/newsportal/राष्ट्रीय/details/170/#MeToo-मानहानि-मामले-में-पूर्व-केंद्रीय-मंत्री-एमजे-अकबर-ने-कोर्ट-में-दर्ज-कराया-अपना-बयान</link>
-                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>भारत में #MeToo अभियान की जद में आने वाले पूर्व केंद्रीय मंत्री एमजे अकबर पत्रकार प्रिया रमानी के खिलाफ मानहानि मामले में आज यानी बुधवार को दिल्ली की एक अदालत</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1541056608.jpg</url>
-                        <title>#MeToo: मानहानि मामले में पूर्व केंद्रीय मंत्री एमजे अकबर ने कोर्ट में दर्ज कराया अपना बयान</title>
-                        <link>http://localhost/newsportal/राष्ट्रीय/details/170/#MeToo-मानहानि-मामले-में-पूर्व-केंद्रीय-मंत्री-एमजे-अकबर-ने-कोर्ट-में-दर्ज-कराया-अपना-बयान</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/170/#MeToo-मानहानि-मामले-में-पूर्व-केंद्रीय-मंत्री-एमजे-अकबर-ने-कोर्ट-में-दर्ज-कराया-अपना-बयान</guid>
-                    <category><![CDATA[राष्ट्रीय]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/राष्ट्रीय/details/170/#MeToo-मानहानि-मामले-में-पूर्व-केंद्रीय-मंत्री-एमजे-अकबर-ने-कोर्ट-में-दर्ज-कराया-अपना-बयान>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>भारत में #MeToo अभियान की जद में आने वाले पूर्व केंद्रीय मंत्री एमजे अकबर पत्रकार प्रिया रमानी के खिलाफ मानहानि मामले में आज यानी बुधवार को दिल्ली की एक अदालत</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
-                            <link>http://localhost/newsportal/राष्ट्रीय/details/169/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</link>
-                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description> 
-
-अहमदाबाद: सरदार वल्लभ भाई पटेल (Sardar Vallabhbhai Patel) की 182 मीटर ऊंची प्रतिमा &amp;#39;स्टैच्यू ऑफ यूनिटी&amp;#39; (Statue of Unity) का आज यानी 31 अक्टूबर को उनकी जयंती पर उद्घाटन हो गया. प्रधानमंत्री नरेंद्र मोदी</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1541056004.jpg</url>
-                        <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
-                        <link>http://localhost/newsportal/राष्ट्रीय/details/169/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/169/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</guid>
-                    <category><![CDATA[राष्ट्रीय]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/राष्ट्रीय/details/169/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p> 
-
-अहमदाबाद: सरदार वल्लभ भाई पटेल (Sardar Vallabhbhai Patel) की 182 मीटर ऊंची प्रतिमा &amp;#39;स्टैच्यू ऑफ यूनिटी&amp;#39; (Statue of Unity) का आज यानी 31 अक्टूबर को उनकी जयंती पर उद्घाटन हो गया. प्रधानमंत्री नरेंद्र मोदी</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>81 फीसद भारतीय यूजर्स के स्मार्टफोन में नहीं हैं उनके मन मुताबिक फीचर्स: सर्वे</title>
-                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/168/फीसद-भारतीय-यूजर्स-के-स्मार्टफोन-में-नहीं-हैं-उनके-मन-मुताबिक-फीचर्स-सर्वे</link>
-                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>इनमें से 21 फीसद यूजर्स को लगता है कि इन सभी स्मार्टफोन्स में वाटरप्रुफ फीचर्स होना चाहिए जो कि उनके डिवाइस में नहीं है। इसके बाद नंबर आता है क्विक</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1541055293.jpg</url>
-                        <title>81 फीसद भारतीय यूजर्स के स्मार्टफोन में नहीं हैं उनके मन मुताबिक फीचर्स: सर्वे</title>
-                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/168/फीसद-भारतीय-यूजर्स-के-स्मार्टफोन-में-नहीं-हैं-उनके-मन-मुताबिक-फीचर्स-सर्वे</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/168/फीसद-भारतीय-यूजर्स-के-स्मार्टफोन-में-नहीं-हैं-उनके-मन-मुताबिक-फीचर्स-सर्वे</guid>
-                    <category><![CDATA[टेक्नोलॉजी]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/168/फीसद-भारतीय-यूजर्स-के-स्मार्टफोन-में-नहीं-हैं-उनके-मन-मुताबिक-फीचर्स-सर्वे>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>इनमें से 21 फीसद यूजर्स को लगता है कि इन सभी स्मार्टफोन्स में वाटरप्रुफ फीचर्स होना चाहिए जो कि उनके डिवाइस में नहीं है। इसके बाद नंबर आता है क्विक</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>जानें क्या है Masked Aadhar और कैसे करें इसे डाउनलोड</title>
-                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/167/जानें-क्या-है-Masked-Aadhar-और-कैसे-करें-इसे-डाउनलोड</link>
-                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>भारत में लगभग 100 करोड़ लोगों के पास भारतीय विशिष्ट पहचान प्राधिकरण द्वारा जारी आधार कार्ड है। ऐसे में आधार कार्ड का डाटा सुरक्षा UIDAI (भारतीय विशिष्ट पहचान प्राधिकरण) के</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1541055205.jpg</url>
-                        <title>जानें क्या है Masked Aadhar और कैसे करें इसे डाउनलोड</title>
-                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/167/जानें-क्या-है-Masked-Aadhar-और-कैसे-करें-इसे-डाउनलोड</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/167/जानें-क्या-है-Masked-Aadhar-और-कैसे-करें-इसे-डाउनलोड</guid>
-                    <category><![CDATA[टेक्नोलॉजी]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/167/जानें-क्या-है-Masked-Aadhar-और-कैसे-करें-इसे-डाउनलोड>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>भारत में लगभग 100 करोड़ लोगों के पास भारतीय विशिष्ट पहचान प्राधिकरण द्वारा जारी आधार कार्ड है। ऐसे में आधार कार्ड का डाटा सुरक्षा UIDAI (भारतीय विशिष्ट पहचान प्राधिकरण) के</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>WhatsApp ने 4 नए फीचर किए पेश, ऑडियो मैसेज से लेकर नए इंटरफेस तक हुए ये बदलाव</title>
-                            <link>http://localhost/newsportal/टेक्नोलॉजी/details/166/WhatsApp-ने-नए-फीचर-किए-पेश-ऑडियो-मैसेज-से-लेकर-नए-इंटरफेस-तक-हुए-ये-बदलाव</link>
-                    <pubDate>Thursday, 01 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>नई दिल्ली (टेक डेस्क)। वॉट्सऐप ने अपने यूजर्स के अनुभव को और बेहतर बनाने के लिए नए फीचर्स जोड़ने का सिलसिला जारी रखा है। वॉट्सऐप ने अपने iOS प्लेटफॉर्म पर कुछ</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1541055090.jpg</url>
-                        <title>WhatsApp ने 4 नए फीचर किए पेश, ऑडियो मैसेज से लेकर नए इंटरफेस तक हुए ये बदलाव</title>
-                        <link>http://localhost/newsportal/टेक्नोलॉजी/details/166/WhatsApp-ने-नए-फीचर-किए-पेश-ऑडियो-मैसेज-से-लेकर-नए-इंटरफेस-तक-हुए-ये-बदलाव</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/टेक्नोलॉजी/details/166/WhatsApp-ने-नए-फीचर-किए-पेश-ऑडियो-मैसेज-से-लेकर-नए-इंटरफेस-तक-हुए-ये-बदलाव</guid>
-                    <category><![CDATA[टेक्नोलॉजी]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/टेक्नोलॉजी/details/166/WhatsApp-ने-नए-फीचर-किए-पेश-ऑडियो-मैसेज-से-लेकर-नए-इंटरफेस-तक-हुए-ये-बदलाव>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>नई दिल्ली (टेक डेस्क)। वॉट्सऐप ने अपने यूजर्स के अनुभव को और बेहतर बनाने के लिए नए फीचर्स जोड़ने का सिलसिला जारी रखा है। वॉट्सऐप ने अपने iOS प्लेटफॉर्म पर कुछ</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>यूपी: कई जिलों में रहस्यमयी बुखार ने मचाया आतंक, एक दिन में 11 लोगों की मौत</title>
-                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/165/यूपी-कई-जिलों-में-रहस्यमयी-बुखार-ने-मचाया-आतंक-एक-दिन-में-लोगों-की-मौत</link>
-                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>यूपी के कुछ जिलों में संक्रामक बुखार विकराल हो चुका है। बदायूं में शनिवार को 11 लोगों की मौत हो गई। आसपास के क्षेत्रों में बुखार से मरने वालों की</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540972976.jpg</url>
-                        <title>यूपी: कई जिलों में रहस्यमयी बुखार ने मचाया आतंक, एक दिन में 11 लोगों की मौत</title>
-                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/165/यूपी-कई-जिलों-में-रहस्यमयी-बुखार-ने-मचाया-आतंक-एक-दिन-में-लोगों-की-मौत</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/165/यूपी-कई-जिलों-में-रहस्यमयी-बुखार-ने-मचाया-आतंक-एक-दिन-में-लोगों-की-मौत</guid>
-                    <category><![CDATA[उत्तर-प्रदेश]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/165/यूपी-कई-जिलों-में-रहस्यमयी-बुखार-ने-मचाया-आतंक-एक-दिन-में-लोगों-की-मौत>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>यूपी के कुछ जिलों में संक्रामक बुखार विकराल हो चुका है। बदायूं में शनिवार को 11 लोगों की मौत हो गई। आसपास के क्षेत्रों में बुखार से मरने वालों की</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title> सिंबा नहीं केदारनाथ से ही डेब्यू करेंगी सारा, ऐसा है नया पोस्टर</title>
-                            <link>http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर</link>
-                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>सैफ अली खान की बेटी सारा अली खान बहुत जल्द बॉलीवुड में डेब्यू करने जा रही हैं. केदारनाथ की रिलीज डेट को लेकर लगातार बने हुए कन्फ्यूजन के चलते हालांकि यह साफ नहीं हो</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540969938.jpeg</url>
-                        <title> सिंबा नहीं केदारनाथ से ही डेब्यू करेंगी सारा, ऐसा है नया पोस्टर</title>
-                        <link>http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/मनोरंजन/details/203/sad</guid>
                     <category><![CDATA[मनोरंजन]]></category>
 
                     <content:encoded>
@@ -535,7 +32,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/मनोरंजन/details/164/सिंबा-नहीं-केदारनाथ-से-ही-डेब्यू-करेंगी-सारा-ऐसा-है-नया-पोस्टर>
+                            <link rel="canonical" href=http://localhost/newsportal/मनोरंजन/details/203/sad>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -544,7 +41,8 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                                 <!— Article header goes here -->
                               </header>
 
-                                <p>सैफ अली खान की बेटी सारा अली खान बहुत जल्द बॉलीवुड में डेब्यू करने जा रही हैं. केदारनाथ की रिलीज डेट को लेकर लगातार बने हुए कन्फ्यूजन के चलते हालांकि यह साफ नहीं हो</p>
+                                <p>asfdas
+</p>
 
                               <footer>
                                 <!— Article footer goes here -->
@@ -557,17 +55,18 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </item>
 
                 <item>
-                    <title>Asian Games 2018: शरत-मणिका और अमलराज-मधुरिका की जो़ड़ी प्री-क्वार्टरफाइनल में पहुंची</title>
-                            <link>http://localhost/newsportal/खेल/details/163/Asian-Games-शरत-मणिका-और-अमलराज-मधुरिका-की-जो़ड़ी-प्री-क्वार्टरफाइनल-में-पहुंची</link>
-                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
+                    <title>sadf</title>
+                            <link>http://localhost/newsportal/खेल/details/202/sadf</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
                     <author>Md Kaif</author>     
-                    <description>भारतीय टेबल टेनिस जोड़ी अचंत शरत कमल और मणिका बत्रा ने भी अच्छी शुरुआत कर 18वें एशियाई खेलों में बुधवार को मिश्रित युगल स्पर्धा के अंतिम-16 दौर में प्रवेश कर</description>
+                    <description>asd
+</description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1540969560.jpg</url>
-                        <title>Asian Games 2018: शरत-मणिका और अमलराज-मधुरिका की जो़ड़ी प्री-क्वार्टरफाइनल में पहुंची</title>
-                        <link>http://localhost/newsportal/खेल/details/163/Asian-Games-शरत-मणिका-और-अमलराज-मधुरिका-की-जो़ड़ी-प्री-क्वार्टरफाइनल-में-पहुंची</link>
+                        <url>http://localhost/newsportal/uploads/1542455025.png</url>
+                        <title>sadf</title>
+                        <link>http://localhost/newsportal/खेल/details/202/sadf</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/खेल/details/163/Asian-Games-शरत-मणिका-और-अमलराज-मधुरिका-की-जो़ड़ी-प्री-क्वार्टरफाइनल-में-पहुंची</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/खेल/details/202/sadf</guid>
                     <category><![CDATA[खेल]]></category>
 
                     <content:encoded>
@@ -576,7 +75,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/खेल/details/163/Asian-Games-शरत-मणिका-और-अमलराज-मधुरिका-की-जो़ड़ी-प्री-क्वार्टरफाइनल-में-पहुंची>
+                            <link rel="canonical" href=http://localhost/newsportal/खेल/details/202/sadf>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -585,7 +84,8 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                                 <!— Article header goes here -->
                               </header>
 
-                                <p>भारतीय टेबल टेनिस जोड़ी अचंत शरत कमल और मणिका बत्रा ने भी अच्छी शुरुआत कर 18वें एशियाई खेलों में बुधवार को मिश्रित युगल स्पर्धा के अंतिम-16 दौर में प्रवेश कर</p>
+                                <p>asd
+</p>
 
                               <footer>
                                 <!— Article footer goes here -->
@@ -598,17 +98,61 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </item>
 
                 <item>
-                    <title>खुद की गलती से सड़क दुर्घटना हुई तो बीमा नहीं – सुप्रीम कोर्ट</title>
-                            <link>http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट</link>
-                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
+                    <title>sad</title>
+                            <link>http://localhost/newsportal/खेल/details/201/sad</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
                     <author>Md Kaif</author>     
-                    <description>सुप्रीम कोर्ट ने शनिवार को कहा कि यदि कोई व्यक्ति वाहन चलाते समय स्वयं कोई दुर्घटना करता है और उसमें कोई दूसरा वाहन शामिल न हो तो परिजन मुआवजे का</description>
+                    <description>sad
+</description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1540969399.png</url>
-                        <title>खुद की गलती से सड़क दुर्घटना हुई तो बीमा नहीं – सुप्रीम कोर्ट</title>
-                        <link>http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट</link>
+                        <url>http://localhost/newsportal/uploads/1542454904.png</url>
+                        <title>sad</title>
+                        <link>http://localhost/newsportal/खेल/details/201/sad</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/खेल/details/201/sad</guid>
+                    <category><![CDATA[खेल]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/खेल/details/201/sad>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sad
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sdfdsff</title>
+                            <link>http://localhost/newsportal/क्राइम/details/200/sdfdsff</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>saefwefdf
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542454546.png</url>
+                        <title>sdfdsff</title>
+                        <link>http://localhost/newsportal/क्राइम/details/200/sdfdsff</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/क्राइम/details/200/sdfdsff</guid>
                     <category><![CDATA[क्राइम]]></category>
 
                     <content:encoded>
@@ -617,7 +161,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट>
+                            <link rel="canonical" href=http://localhost/newsportal/क्राइम/details/200/sdfdsff>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -626,7 +170,8 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                                 <!— Article header goes here -->
                               </header>
 
-                                <p>सुप्रीम कोर्ट ने शनिवार को कहा कि यदि कोई व्यक्ति वाहन चलाते समय स्वयं कोई दुर्घटना करता है और उसमें कोई दूसरा वाहन शामिल न हो तो परिजन मुआवजे का</p>
+                                <p>saefwefdf
+</p>
 
                               <footer>
                                 <!— Article footer goes here -->
@@ -639,103 +184,18 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </item>
 
                 <item>
-                    <title>भारतीय रेल की नई ट्रेन: हादसा होने पर भी सुरक्षित रहेंगे लोग</title>
-                            <link>http://localhost/newsportal//details/161/भारतीय-रेल-की-नई-ट्रेन-हादसा-होने-पर-भी-सुरक्षित-रहेंगे-लोग</link>
-                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
+                    <title>safdsf</title>
+                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/199/safdsf</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
                     <author>Md Kaif</author>     
-                    <description>चेन्नई में इंटिग्रल कोच फैक्ट्री (आईसीएफ) द्वारा सौ करोड़ रूपये की लागत से तैयार देश की पहली मेट्रो जैसी ‘ट्रेन 18’ का अनावरण रेलवे बोर्ड के अध्यक्ष अश्विनी लोहानी ने</description>
+                    <description>asfsafasf
+</description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1540969233.jpg</url>
-                        <title>भारतीय रेल की नई ट्रेन: हादसा होने पर भी सुरक्षित रहेंगे लोग</title>
-                        <link>http://localhost/newsportal//details/161/भारतीय-रेल-की-नई-ट्रेन-हादसा-होने-पर-भी-सुरक्षित-रहेंगे-लोग</link>
+                        <url>http://localhost/newsportal/uploads/1542454234.png</url>
+                        <title>safdsf</title>
+                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/199/safdsf</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details/161/भारतीय-रेल-की-नई-ट्रेन-हादसा-होने-पर-भी-सुरक्षित-रहेंगे-लोग</guid>
-                    <category><![CDATA[]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal//details/161/भारतीय-रेल-की-नई-ट्रेन-हादसा-होने-पर-भी-सुरक्षित-रहेंगे-लोग>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>चेन्नई में इंटिग्रल कोच फैक्ट्री (आईसीएफ) द्वारा सौ करोड़ रूपये की लागत से तैयार देश की पहली मेट्रो जैसी ‘ट्रेन 18’ का अनावरण रेलवे बोर्ड के अध्यक्ष अश्विनी लोहानी ने</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>जानलेवा हुई दिल्ली की धुंध, पुरानी गाड़ियों पर रोक</title>
-                            <link>http://localhost/newsportal//details/155/जानलेवा-हुई-दिल्ली-की-धुंध-पुरानी-गाड़ियों-पर-रोक</link>
-                    <pubDate>Wednesday, 31 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>सीपीसीबी ने चेतावनी दी है कि हाल-फिलहाल में हालात में बदलाव नहीं आएंगे और दिवाली तक स्थिति और बिगड़ सकती है.
-
-उत्तरी दिल्ली में जहांगीरपुरी, पश्चिम दिल्ली में मुंडका, दक्षिणी दिल्ली</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540968805.jpeg</url>
-                        <title>जानलेवा हुई दिल्ली की धुंध, पुरानी गाड़ियों पर रोक</title>
-                        <link>http://localhost/newsportal//details/155/जानलेवा-हुई-दिल्ली-की-धुंध-पुरानी-गाड़ियों-पर-रोक</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details/155/जानलेवा-हुई-दिल्ली-की-धुंध-पुरानी-गाड़ियों-पर-रोक</guid>
-                    <category><![CDATA[]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal//details/155/जानलेवा-हुई-दिल्ली-की-धुंध-पुरानी-गाड़ियों-पर-रोक>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>सीपीसीबी ने चेतावनी दी है कि हाल-फिलहाल में हालात में बदलाव नहीं आएंगे और दिवाली तक स्थिति और बिगड़ सकती है.
-
-उत्तरी दिल्ली में जहांगीरपुरी, पश्चिम दिल्ली में मुंडका, दक्षिणी दिल्ली</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>महागठबंधन राजनीतिक शरारत से ज्यादा कुछ नहीं- योगी आदित्यनाथ</title>
-                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/154/महागठबंधन-राजनीतिक-शरारत-से-ज्यादा-कुछ-नहीं-योगी-आदित्यनाथ</link>
-                    <pubDate>Saturday, 27 Oct, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>मुख्यमंत्री योगी आदित्यनाथ ने कहा है कि देश में राजनीतिक अस्थिरता पैदा करने के लिए महागठबंधन बन रहा है। यह एक राजनीतिक शरारत से ज्यादा कुछ नहीं है। वर्ष 2019</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1540625675.jpg</url>
-                        <title>महागठबंधन राजनीतिक शरारत से ज्यादा कुछ नहीं- योगी आदित्यनाथ</title>
-                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/154/महागठबंधन-राजनीतिक-शरारत-से-ज्यादा-कुछ-नहीं-योगी-आदित्यनाथ</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/154/महागठबंधन-राजनीतिक-शरारत-से-ज्यादा-कुछ-नहीं-योगी-आदित्यनाथ</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/199/safdsf</guid>
                     <category><![CDATA[उत्तर-प्रदेश]]></category>
 
                     <content:encoded>
@@ -744,7 +204,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/154/महागठबंधन-राजनीतिक-शरारत-से-ज्यादा-कुछ-नहीं-योगी-आदित्यनाथ>
+                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/199/safdsf>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -753,7 +213,8 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                                 <!— Article header goes here -->
                               </header>
 
-                                <p>मुख्यमंत्री योगी आदित्यनाथ ने कहा है कि देश में राजनीतिक अस्थिरता पैदा करने के लिए महागठबंधन बन रहा है। यह एक राजनीतिक शरारत से ज्यादा कुछ नहीं है। वर्ष 2019</p>
+                                <p>asfsafasf
+</p>
 
                               <footer>
                                 <!— Article footer goes here -->
@@ -766,18 +227,19 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </item>
 
                 <item>
-                    <title>हिन्दुस्तान शिखर समागम 2018: अखिलेश यादव ने कहा- नोटबंदी अच्छी है तो फिर से करके दिखाएं</title>
-                            <link>http://localhost/newsportal/उत्तर-प्रदेश/details/152/हिन्दुस्तान-शिखर-समागम-अखिलेश-यादव-ने-कहा-नोटबंदी-अच्छी-है-तो-फिर-से-करके-दिखाएं</link>
-                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
+                    <title>asegtujk</title>
+                            <link>http://localhost/newsportal/राजनीति/details/198/asegtujk</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
                     <author>Md Kaif</author>     
-                    <description>उत्तर प्रदेश के  पूर्व मुख्यमंत्री अखिलेश यादव ने नोटबंदी पर सवाल खड़ा करते हुए केंद्र सरकार पर जमकर प्रहार किया। लखनऊ में हिन्दुस्तान शिखर समागम 2018 में अखिलेश यादव ने</description>
+                    <description>sdfxcghjn
+</description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1540555415.jpg</url>
-                        <title>हिन्दुस्तान शिखर समागम 2018: अखिलेश यादव ने कहा- नोटबंदी अच्छी है तो फिर से करके दिखाएं</title>
-                        <link>http://localhost/newsportal/उत्तर-प्रदेश/details/152/हिन्दुस्तान-शिखर-समागम-अखिलेश-यादव-ने-कहा-नोटबंदी-अच्छी-है-तो-फिर-से-करके-दिखाएं</link>
+                        <url>http://localhost/newsportal/uploads/1542454183.png</url>
+                        <title>asegtujk</title>
+                        <link>http://localhost/newsportal/राजनीति/details/198/asegtujk</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/उत्तर-प्रदेश/details/152/हिन्दुस्तान-शिखर-समागम-अखिलेश-यादव-ने-कहा-नोटबंदी-अच्छी-है-तो-फिर-से-करके-दिखाएं</guid>
-                    <category><![CDATA[उत्तर-प्रदेश]]></category>
+                    <guid isPermaLink='false'>http://localhost/newsportal/राजनीति/details/198/asegtujk</guid>
+                    <category><![CDATA[राजनीति]]></category>
 
                     <content:encoded>
                     <![CDATA[
@@ -785,7 +247,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/उत्तर-प्रदेश/details/152/हिन्दुस्तान-शिखर-समागम-अखिलेश-यादव-ने-कहा-नोटबंदी-अच्छी-है-तो-फिर-से-करके-दिखाएं>
+                            <link rel="canonical" href=http://localhost/newsportal/राजनीति/details/198/asegtujk>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -794,7 +256,8 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                                 <!— Article header goes here -->
                               </header>
 
-                                <p>उत्तर प्रदेश के  पूर्व मुख्यमंत्री अखिलेश यादव ने नोटबंदी पर सवाल खड़ा करते हुए केंद्र सरकार पर जमकर प्रहार किया। लखनऊ में हिन्दुस्तान शिखर समागम 2018 में अखिलेश यादव ने</p>
+                                <p>sdfxcghjn
+</p>
 
                               <footer>
                                 <!— Article footer goes here -->
@@ -807,17 +270,18 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </item>
 
                 <item>
-                    <title>नई दिल्ली:अहिंसा दिवस पर ही किसानों से हिंसा-क्या है इस बर्बरता का कारण?</title>
-                            <link>http://localhost/newsportal/राष्ट्रीय/details/151/नई-दिल्ली-अहिंसा-दिवस-पर-ही-किसानों-से-हिंसा-क्या-है-इस-बर्बरता-का-कारण?</link>
-                    <pubDate>Friday, 26 Oct, 2018</pubDate>  
+                    <title>sadad</title>
+                            <link>http://localhost/newsportal/राष्ट्रीय/details/197/sadad</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
                     <author>Md Kaif</author>     
-                    <description>नई दिल्ली: भारतीय किसान यूनियन के बैनर तले नई दिल्ली में 9 दिनों की यात्रा करने के बाद देश के लाखों किसान दिल्ली की सीमा पर पहुंच चुके हैं, किसानों</description>
+                    <description>asdad
+</description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1540554175.jpg</url>
-                        <title>नई दिल्ली:अहिंसा दिवस पर ही किसानों से हिंसा-क्या है इस बर्बरता का कारण?</title>
-                        <link>http://localhost/newsportal/राष्ट्रीय/details/151/नई-दिल्ली-अहिंसा-दिवस-पर-ही-किसानों-से-हिंसा-क्या-है-इस-बर्बरता-का-कारण?</link>
+                        <url>http://localhost/newsportal/uploads/1542454076.png</url>
+                        <title>sadad</title>
+                        <link>http://localhost/newsportal/राष्ट्रीय/details/197/sadad</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/151/नई-दिल्ली-अहिंसा-दिवस-पर-ही-किसानों-से-हिंसा-क्या-है-इस-बर्बरता-का-कारण?</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/राष्ट्रीय/details/197/sadad</guid>
                     <category><![CDATA[राष्ट्रीय]]></category>
 
                     <content:encoded>
@@ -826,7 +290,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/राष्ट्रीय/details/151/नई-दिल्ली-अहिंसा-दिवस-पर-ही-किसानों-से-हिंसा-क्या-है-इस-बर्बरता-का-कारण?>
+                            <link rel="canonical" href=http://localhost/newsportal/राष्ट्रीय/details/197/sadad>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -835,7 +299,567 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                                 <!— Article header goes here -->
                               </header>
 
-                                <p>नई दिल्ली: भारतीय किसान यूनियन के बैनर तले नई दिल्ली में 9 दिनों की यात्रा करने के बाद देश के लाखों किसान दिल्ली की सीमा पर पहुंच चुके हैं, किसानों</p>
+                                <p>asdad
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>QAEYUI</title>
+                            <link>http://localhost/newsportal/राजनीति/details/196/QAEYUI</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>HJGB
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542454041.png</url>
+                        <title>QAEYUI</title>
+                        <link>http://localhost/newsportal/राजनीति/details/196/QAEYUI</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/राजनीति/details/196/QAEYUI</guid>
+                    <category><![CDATA[राजनीति]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/राजनीति/details/196/QAEYUI>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>HJGB
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>ewf</title>
+                            <link>http://localhost/newsportal/स्वास्थ/details/195/ewf</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>ef
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542451960.png</url>
+                        <title>ewf</title>
+                        <link>http://localhost/newsportal/स्वास्थ/details/195/ewf</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/स्वास्थ/details/195/ewf</guid>
+                    <category><![CDATA[स्वास्थ]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/स्वास्थ/details/195/ewf>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>ef
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sa</title>
+                            <link>http://localhost/newsportal/home/details/194/sa</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sa
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542451699.png</url>
+                        <title>sa</title>
+                        <link>http://localhost/newsportal/home/details/194/sa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/home/details/194/sa</guid>
+                    <category><![CDATA[home]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/home/details/194/sa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sa
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sa</title>
+                            <link>http://localhost/newsportal/home/details/193/sa</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sa
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542451578.png</url>
+                        <title>sa</title>
+                        <link>http://localhost/newsportal/home/details/193/sa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/home/details/193/sa</guid>
+                    <category><![CDATA[home]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/home/details/193/sa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sa
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sa</title>
+                            <link>http://localhost/newsportal/home/details/192/sa</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sa
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542451501.png</url>
+                        <title>sa</title>
+                        <link>http://localhost/newsportal/home/details/192/sa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/home/details/192/sa</guid>
+                    <category><![CDATA[home]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/home/details/192/sa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sa
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sa</title>
+                            <link>http://localhost/newsportal/home/details/191/sa</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sa
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542451396.png</url>
+                        <title>sa</title>
+                        <link>http://localhost/newsportal/home/details/191/sa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/home/details/191/sa</guid>
+                    <category><![CDATA[home]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/home/details/191/sa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sa
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sa</title>
+                            <link>http://localhost/newsportal/home/details/190/sa</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sa
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542451277.png</url>
+                        <title>sa</title>
+                        <link>http://localhost/newsportal/home/details/190/sa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/home/details/190/sa</guid>
+                    <category><![CDATA[home]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/home/details/190/sa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sa
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>as</title>
+                            <link>http://localhost/newsportal/home/details/189/as</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sda
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542451138.png</url>
+                        <title>as</title>
+                        <link>http://localhost/newsportal/home/details/189/as</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/home/details/189/as</guid>
+                    <category><![CDATA[home]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/home/details/189/as>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sda
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sdf</title>
+                            <link>http://localhost/newsportal/नौकर-शाही/details/188/sdf</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sdf
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542450749.png</url>
+                        <title>sdf</title>
+                        <link>http://localhost/newsportal/नौकर-शाही/details/188/sdf</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/नौकर-शाही/details/188/sdf</guid>
+                    <category><![CDATA[नौकर-शाही]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/नौकर-शाही/details/188/sdf>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sdf
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>FAS</title>
+                            <link>http://localhost/newsportal/ज्योतिष/details/187/FAS</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>vds
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542449762.png</url>
+                        <title>FAS</title>
+                        <link>http://localhost/newsportal/ज्योतिष/details/187/FAS</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/ज्योतिष/details/187/FAS</guid>
+                    <category><![CDATA[ज्योतिष]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/ज्योतिष/details/187/FAS>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>vds
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>D</title>
+                            <link>http://localhost/newsportal/मनोरंजन/details/186/D</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>DAD
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542449683.png</url>
+                        <title>D</title>
+                        <link>http://localhost/newsportal/मनोरंजन/details/186/D</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/मनोरंजन/details/186/D</guid>
+                    <category><![CDATA[मनोरंजन]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/मनोरंजन/details/186/D>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>DAD
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>asd</title>
+                            <link>http://localhost/newsportal/स्वास्थ/details/185/asd</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sad
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542449569.png</url>
+                        <title>asd</title>
+                        <link>http://localhost/newsportal/स्वास्थ/details/185/asd</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/स्वास्थ/details/185/asd</guid>
+                    <category><![CDATA[स्वास्थ]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/स्वास्थ/details/185/asd>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sad
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sa</title>
+                            <link>http://localhost/newsportal/स्वास्थ/details/184/sa</link>
+                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sad
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542447851.png</url>
+                        <title>sa</title>
+                        <link>http://localhost/newsportal/स्वास्थ/details/184/sa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/स्वास्थ/details/184/sa</guid>
+                    <category><![CDATA[स्वास्थ]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/स्वास्थ/details/184/sa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sad
+</p>
 
                               <footer>
                                 <!— Article footer goes here -->
