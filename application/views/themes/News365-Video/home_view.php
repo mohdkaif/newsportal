@@ -974,31 +974,30 @@
                         </div>
                         <?php } ?>
                     
-                        <div class="horizontal-banner">
-                            <!-- widget item -->
-                           <?php 
-                        
-                           for($i=4;$i<=4;$i++){
-
-
-                            ?>
-                                <div class="ad-item">
-                                    
-                                    <?php
-                                    
-                                        if (@$ads['home_'.$i]!=NULL) {
-                                            $srcelem = @$ads['home_'.$i];
-                                              echo $srcelem;
-                                            } 
-                                        ?>
-                                </div>
-                            <?php } ?>
-                        
-                        </div>
 
                     </div>
 
+                    <div class="horizontal-banner">
+                        <!-- widget item -->
+                       <?php 
                     
+                       for($i=4;$i<=4;$i++){
+
+
+                        ?>
+                            <div class="ad-item">
+                                
+                                <?php
+                                
+                                    if (@$ads['home_'.$i]!=NULL) {
+                                        $srcelem = @$ads['home_'.$i];
+                                          echo $srcelem;
+                                        } 
+                                    ?>
+                            </div>
+                        <?php } ?>
+                    
+                    </div>
 
                     <?php if(@$home_page_positions[6]['status']==1){ 
 
@@ -1232,9 +1231,9 @@
     function shareFile() {
         var hiddenItem = document.createElement("input");
         hiddenItem.type = "text";
-        hiddenItem.name = "abc";
+        hiddenItem.name = "copy_element";
         document.querySelector("body").appendChild(hiddenItem);
-       // hiddenItem.setAttribute("style","display: none");
+        //hiddenItem.setAttribute("style","display: none");
         hiddenItem.value = "<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>";
         hiddenItem.select();
         console.log(hiddenItem.value);

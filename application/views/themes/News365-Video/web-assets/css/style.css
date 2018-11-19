@@ -5142,3 +5142,8 @@ span#share {
     display: inline-block;
     vertical-align: middle;
 }
+input[name="copy_element"] {
+    position: absolute;
+    bottom: 0;
+    color: transparent;
+}
