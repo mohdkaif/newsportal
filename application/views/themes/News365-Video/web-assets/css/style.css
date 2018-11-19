@@ -1603,8 +1603,8 @@ ul.newsticker {
 
 .td-module-title a {
     color: #111;
-    font-family: Arial, Mukta, arial, sans-serif;
-    font-size: 16px;
+    /*font-family: Arial, Mukta, arial, sans-serif;*/
+    font-size: 14px;
     line-height: 20px;
     display: block;
 }
