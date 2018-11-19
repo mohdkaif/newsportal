@@ -54,7 +54,18 @@
         <script src="<?php echo base_url(); ?>assets/js/jquery-1.10.2.js"></script>
         <script src="<?php echo base_url(); ?>assets/js/function.js" type="text/javascript"></script> 
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsSocials/1.5.0/jssocials.js" ></script>
-        
+        <script language="javascript">
+            document.onmousedown=disableclick;
+            status="Right Click Disabled";
+            Function disableclick(e)
+            {
+              if(event.button==2)
+               {
+                 alert(status);
+                 return false;  
+               }
+            }
+        </script>
 
     </head>
     <body class="skin-blue">

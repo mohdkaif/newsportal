@@ -704,6 +704,15 @@
         </div>
     </div>
 </div>
+<input id="url-text" name="url-text" type="text" value="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" >
+
+<script type="text/javascript">
+    jQuery(document).on('copy', function(e){ 
+    var copyText = document.getElementById("url-text");
+  copyText.select();
+  document.execCommand("copy");
+    });
+</script>
 
 
 

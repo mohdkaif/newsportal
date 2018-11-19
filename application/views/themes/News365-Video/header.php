@@ -102,6 +102,7 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>application/views/themes/<?php echo $default_theme; ?>/web-assets/js/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsSocials/1.5.0/jssocials.js" ></script>
         
+        
     </head>
 
 
