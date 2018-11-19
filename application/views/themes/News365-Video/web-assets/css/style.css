@@ -5146,4 +5146,5 @@ input[name="copy_element"] {
     position: absolute;
     bottom: 0;
     color: transparent;
+    opacity:0;
 }
