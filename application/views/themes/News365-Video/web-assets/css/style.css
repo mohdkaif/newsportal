@@ -81,7 +81,7 @@ This file contains the common info of this theme.
 
 body {
     font-family: 'Noto Sans', sans-serif;
-    color: #797986;
+    color: #000;
 }
 
 a,
@@ -149,10 +149,11 @@ h6 a {
 
 p {
     font-family: 'Noto Sans', sans-serif;
-    color: #7E7E7E;
+    color: #000;
     font-weight: 400;
     letter-spacing: .1px;
     margin: 0 0 20px;
+    font-size: 16px;
 }
 
 ul,
@@ -988,10 +989,9 @@ ul.newsticker {
     top: 0;
     z-index: 1000;
     left: -250px;
-    background: #222;
+    background: #bb1919;
     position: fixed;
-    border: 5px solid #333;
-    background-image: url(../images/side-menu.jpg);
+    border: 1px solid #ab1717;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -1008,7 +1008,7 @@ ul.newsticker {
 }
 
 .sidebar-nav .sidebar-search {
-    padding: 30px 15px;
+    padding: 50px 15px;
 }
 
 .sidebar-nav .sidebar-search .form-control {
@@ -2475,7 +2475,7 @@ footer ul li a:hover {
 }
 
 article p {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 20px;
     line-height: 26px;
 }
@@ -4031,6 +4031,35 @@ a.expand12 {
     margin-bottom: 10px;
 }
 
+.post-wrapper .post-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    bottom: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.post-date {
+    display: none;
+}
+
+.headding-news .post-info span {
+    display: none;
+}
+
+.headding-news .post-editor-date {
+    display: none;
+}
+
+.post-wrapper .post-title {
+    position: static;
+    min-height: 40px;
+}
+.headding-news .col-md-6 .post-wrapper .post-title {
+    padding: 6px 0;
+}
 
 /*** Responsive
 -------------------------------------------*/
@@ -4618,7 +4647,8 @@ div.polaroid {
 }
 
 .headding-news .col-md-6 .post-wrapper .post-title a {
-    font-size: 32px;
+    font-size: 30px;
+    line-height: 36px;
 }
 
 .horizontal-banner .ad-item {
@@ -4669,7 +4699,7 @@ footer {
     padding: 40px 10px 0px;
 }
 .post-wrapper .post-title a {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .category-headding .icon-img {
@@ -4858,9 +4888,9 @@ footer {
     }
 
     .headding-news {
-            padding-top: 20px;
-            padding-bottom: 10px;
-            margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
     #content-slide-3 .item {
         margin: 0;
@@ -4889,6 +4919,15 @@ footer {
 
     .top_banner_wrap .col-md-9 {
         display: none;
+    }
+    .widget-slider-inner p {
+        font-size: 16px;
+    }
+
+    .mobile-menu-area .nav-icon.open {
+        position: relative;
+        z-index: 9990;
+        float: right;
     }
 
     .top_header_icon {
@@ -4960,7 +4999,9 @@ footer {
         display: inline-block;
         color: #fff;
         margin-top: 8px;
-        font-size: 20px;
+        font-size: 22px;
+        text-shadow: 5px 5px 5px #000;
+        margin-left:5px;
     }
 
     .mob-logo {
@@ -4972,12 +5013,12 @@ footer {
         margin-top: 25px;
     }
     .mob-logo .logo_img img {
-        height: 40px;
-        width: 40px;
+        height: 45px;
+        width: 45px;
     }
 
     .mobile-menu-area .nav-icon {
-        margin-top: 16px;
+        margin-top: 14px;
     }
 
     .mobile-menu-area {
@@ -5001,8 +5042,6 @@ footer {
         height: 20px;
         width: 20px;
     }
-
-
 
     span#share {
         display: inline-block;
@@ -5030,6 +5069,55 @@ footer {
     .content {
         margin-top: 30px;
     }
+    .category-headding {
+        font-size: 24px;
+    }
+    .post-title-author-details .post-date {
+        color: #000;
+    }
+    .post-date {
+        color: #000;
+        font-size: 14px;
+    }
+
+    .video-post-inner .category-headding {
+        font-size: 24px;
+    }
+
+    .date ul li a, .date ul li {
+        color: #000;
+    }
+
+    .widget-slider-inner {
+        padding-top: 20px;
+    }
+
+    .sidebar-nav .sidebar-search .form-control {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    button.btn.mobile-menu-btn {
+        border-radius: 0 2px 2px 0;
+    }
+
+    .sidebar-nav .sidebar-search .form-control {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    button.btn.mobile-menu-btn {
+        border-radius: 0 2px 2px 0;
+    }
+
+    .mobile-menu-area .nav-icon {
+        float: left;
+    }
+
+    .mob-logo {
+        float: right;
+    }
+
 } 
 
 @media (max-width: 480px){
