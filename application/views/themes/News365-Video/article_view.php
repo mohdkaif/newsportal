@@ -76,7 +76,7 @@
                     <script>
                         $(document).ready(function(){
                             $(".shareMedia").click(function(){
-                                $("#share").toggle();
+                                /*$("#share").toggle();*/
                                 $("#share").jsSocials({
                                     shares: ["twitter", "facebook", "googleplus", "whatsapp"]
                                 });
@@ -108,7 +108,7 @@
                         <img src="assets/clippy.svg" alt="Copy to clipboard">
                     </button> -->
 
-                    <button class="btn copy-img" data-clipboard-text="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>">
+                    <button class="btn copy-img" data-clipboard-text="<?php echo urldecode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"); ?>">
                         <img src="<?php echo base_url().'uploads/images/copy.png'; ?>">
                     </button>
                     <script type="text/javascript"> new ClipboardJS('.btn'); </script>
@@ -724,7 +724,7 @@
         hiddenItem.name = "copy_element";
         document.querySelector("body").appendChild(hiddenItem);
         //hiddenItem.setAttribute("style","display: none");
-        hiddenItem.value = "<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>";
+        hiddenItem.value = "<?php echo urldecode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");?>";
         hiddenItem.select();
         console.log(hiddenItem.value);
         document.execCommand("copy");

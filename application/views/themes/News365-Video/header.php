@@ -124,6 +124,9 @@
             <div class="mobile-menu-area navbar-fixed-top hidden-sm hidden-md hidden-lg">
                 <nav class="mobile-menu" id="mobile-menu">
                     <div class="sidebar-nav">
+                        <div class="sidebar-nav-logo">
+                            <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantarlogo.png')?>" alt="" /></a>
+                        </div>
                         <ul class="nav side-menu">
                             <li class="sidebar-search">
                                 <div class="input-group custom-search-form">
