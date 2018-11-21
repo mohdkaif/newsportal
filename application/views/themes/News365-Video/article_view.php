@@ -57,13 +57,13 @@
 
                     <div class="jssocials-shares">
 
-                    <div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=<?php echo urlencode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" )?>" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+                    <div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
-                    <div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[summary]=SUMMARY&p[url]=<?php  echo urlencode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ); ?>&p[title]=YugantarPravah" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+                    <div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[summary]=SUMMARY&p[url]=<?php  echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ; ?>&p[title]=YugantarPravah" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
                    <!--  <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-google jssocials-share-logo"></i><span class="jssocials-share-label">+1</span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div> -->
 
-                    <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=<?php echo urlencode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" );?>" class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+                    <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ;?>" class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
                     </div>
 
@@ -108,8 +108,8 @@
                         <img src="assets/clippy.svg" alt="Copy to clipboard">
                     </button> -->
 
-                    <button class="btn" data-clipboard-text="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" background-image="url('<?php  echo base_url().'/uploads/images/copy.png'; ?> ')" >
-                        Copy to clipboard
+                    <button class="btn copy-img" data-clipboard-text="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>">
+                        <img src="<?php echo base_url().'uploads/images/copy.png'; ?>">
                     </button>
                     <script type="text/javascript"> new ClipboardJS('.btn'); </script>
                     </div>
@@ -130,7 +130,7 @@
                         </div> -->
                     </div>
                     <div class="pull-right zoom" style="padding-right: 10px;">               
-                        <a href="<?php echo $bu . 'Print_article/print_page/' . $news_id; ?>" class="icon_n_d"  target="_blank" title="Click to Print"><img src="<?php echo $bu; ?>assets/icon/print.jpg" height="23" width="25" alt="YugantarPravah"/></a>
+                        <a href="<?php echo $bu . 'Print_article/print_page/' . $news_id; ?>" class="icon_n_d"  target="_blank" title="Click to Print"><img src="<?php echo $bu; ?>assets/icon/print.jpg" height="23" width="25" alt=""/></a>
                     </div>
                     <!-- <p class="short-head"><?php echo @$stitle;?></p> -->
                     <h1><?php echo $title; ?></h1>
@@ -203,11 +203,11 @@
                                                     if (@$sn['hn']['image_check_' . $i]!=NULL) {
                                                 ?>
                                                 <a href="<?php echo @$sn['hn']['news_link_' . $i]?>">
-                                                    <img class="img-responsive" src="<?php echo @$sn['hn']['image_thumb_' . $i];?>" alt="YugantarPravah">
+                                                    <img class="img-responsive" src="<?php echo @$sn['hn']['image_thumb_' . $i];?>" alt="">
                                                 </a>
                                                 <?php 
                                                     } else {
-                                                    echo '<img width="250" src="http://img.youtube.com/vi/'.$sn['hn']['video_'.$i].'/0.jpg" alt="YugantarPravah" class="img-responsive"/>';
+                                                    echo '<img width="250" src="http://img.youtube.com/vi/'.$sn['hn']['video_'.$i].'/0.jpg" alt="" class="img-responsive"/>';
                                                 }
                                                 ?>  
                                                 
@@ -340,9 +340,9 @@
                                             <!-- Avatar -->
                                             <div class="comment-avatar">
                                                 <?php if($comment->photo!=NULL){?>
-                                                <img src="<?php echo base_url(). $comment->photo;?>" class="img-responsive" alt="YugantarPravah">
+                                                <img src="<?php echo base_url(). $comment->photo;?>" class="img-responsive" alt="">
                                                 <?php } else{ ?>
-                                                <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="YugantarPravah">
+                                                <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="">
                                                 <?php } ?>
                                             </div>
                                             <!-- Contenedor del Comentario -->
@@ -401,9 +401,9 @@
                                                 <!-- Avatar -->
                                             <div class="comment-avatar">
                                                 <?php if($reply->photo!=NULL){?>
-                                                <img src="<?php echo base_url(). $reply->photo;?>" class="img-responsive" alt="YugantarPravah">
+                                                <img src="<?php echo base_url(). $reply->photo;?>" class="img-responsive" alt="">
                                                 <?php } else{ ?>
-                                                <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="YugantarPravah">
+                                                <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="">
                                                 <?php } ?>
                                             </div>
                                                 <!-- Contenedor del Comentario -->
@@ -465,9 +465,9 @@
                                                         <!-- Avatar -->
                                                          <div class="comment-avatar">
                                                             <?php if(@$reply1->photo!=NULL){?>
-                                                            <img src="<?php echo base_url(). $reply1->photo;?>" class="img-responsive" alt="YugantarPravah">
+                                                            <img src="<?php echo base_url(). $reply1->photo;?>" class="img-responsive" alt="">
                                                             <?php } else{ ?>
-                                                            <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="YugantarPravah">
+                                                            <img src="<?php echo base_url();?> uploads/user/user.png" class="img-responsive" alt="">
                                                             <?php } ?>
                                                         </div>
                                                         <!-- Contenedor del Comentario -->
@@ -562,11 +562,11 @@
                                     <div class="img-thumb">
                                         <?php if(@$ln['image_check_' . $i]!=NULL){?>
                                         <a href="<?php echo @$ln['news_link_'.$i];?>" rel="bookmark">
-                                             <img class="entry-thumb" src="<?php echo @$ln['image_thumb_' . $i]; ?>" alt="YugantarPravah" height="80" width="90">
+                                             <img class="entry-thumb" src="<?php echo @$ln['image_thumb_' . $i]; ?>" alt="" height="80" width="90">
                                         </a>
                                        <?php } else{?>
                                         <a href="<?php echo @$ln['news_link_'.$i];?>" rel="bookmark">
-                                        <img  src="http://img.youtube.com/vi/<?php echo @$ln['video_' . $i]; ?>/0.jpg" alt="YugantarPravah"  height="80" width="90">
+                                        <img  src="http://img.youtube.com/vi/<?php echo @$ln['video_' . $i]; ?>/0.jpg" alt=""  height="80" width="90">
                                        </a>  
                                         <?php }?>
                                     </div>
@@ -597,10 +597,10 @@
                                 <div class="box-item">
                                     <div class="img-thumb">
                                         <?php if(@$mr['image_check_' . $i]!=Null){?>
-                                            <a href="<?php echo @$mr['news_link_'.$i];?>" rel="bookmark"><img class="entry-thumb" src="<?php echo @$mr['image_thumb_' . $i]; ?>" alt="YugantarPravah" height="80" width="90"></a>
+                                            <a href="<?php echo @$mr['news_link_'.$i];?>" rel="bookmark"><img class="entry-thumb" src="<?php echo @$mr['image_thumb_' . $i]; ?>" alt="" height="80" width="90"></a>
                                         <?php } else{?>
                                             <a href="<?php echo @$mr['news_link_'.$i];?>" rel="bookmark">
-                                            <img  src="http://img.youtube.com/vi/<?php echo @$mr['video_' . $i]; ?>/0.jpg" alt="YugantarPravah"  height="80" width="90">
+                                            <img  src="http://img.youtube.com/vi/<?php echo @$mr['video_' . $i]; ?>/0.jpg" alt=""  height="80" width="90">
                                            </a>
                                         <?php }?>
                                
@@ -641,7 +641,7 @@
                                     <a href="<?php echo @$Editor['hn']['news_link_'.$i]?>">
                                     <?php
                                         if (@$Editor['hn']['image_check_'.$i]!=NULL) {
-                                              echo'<img  src="'. @$Editor['hn']['image_thumb_'.$i].'" alt="YugantarPravah">';
+                                              echo'<img  src="'. @$Editor['hn']['image_thumb_'.$i].'" alt="">';
                                             } else {
                                                 echo '<img  class="img-responsive"  src="http://img.youtube.com/vi/' . @$Editor['hn']['video_'.$i] . '/0.jpg" alt="photography" />';
                                             }
@@ -704,14 +704,35 @@
         </div>
     </div>
 </div>
-<input id="url-text" name="url-text" type="text" value="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" >
-
+<!-- <input id="url-text" name="url-text" type="text" value="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" >
+ -->
 <script type="text/javascript">
     jQuery(document).on('copy', function(e){ 
-    var copyText = document.getElementById("url-text");
-  copyText.select();
-  document.execCommand("copy");
+   /* var copyText = document.getElementById("url-text");
+    copyText.select();
+    document.execCommand("copy");*/
+    shareFile();
+
     });
+    $('img').on("error", function() {
+      $(this).attr('src', '<?php echo base_url('/uploads/default.jpg');?>');
+    });
+
+    function shareFile() {
+        var hiddenItem = document.createElement("input");
+        hiddenItem.type = "text";
+        hiddenItem.name = "copy_element";
+        document.querySelector("body").appendChild(hiddenItem);
+        //hiddenItem.setAttribute("style","display: none");
+        hiddenItem.value = "<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>";
+        hiddenItem.select();
+        console.log(hiddenItem.value);
+        document.execCommand("copy");
+       
+        return false;
+
+    }
+
 </script>
 
 

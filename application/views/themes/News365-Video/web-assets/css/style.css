@@ -99,6 +99,14 @@ a:hover {
     color: #f60d2b;
     text-decoration: none;
 }
+.paragraph-padding button.copy-img {
+    background-color: #fff;
+   
+}
+
+button.btn.copy-img img {
+    height: 36px;
+}
 
 @media (min-width: 1200px) {
     .container {
@@ -1603,8 +1611,8 @@ ul.newsticker {
 
 .td-module-title a {
     color: #111;
-    font-family: Arial, Mukta, arial, sans-serif;
-    font-size: 16px;
+    /*font-family: Arial, Mukta, arial, sans-serif;*/
+    font-size: 14px;
     line-height: 20px;
     display: block;
 }
@@ -5229,4 +5237,10 @@ footer {
 span#share {
     display: inline-block;
     vertical-align: middle;
+}
+input[name="copy_element"] {
+    position: absolute;
+    bottom: 0;
+    color: transparent;
+    opacity:0;
 }
