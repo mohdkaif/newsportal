@@ -322,7 +322,7 @@
                                                 <h4><a href="<?php echo @$sn['hn']['news_link_' . $i] ?>"><?php echo @$sn['hn']['news_title_' . $i]; ?></a></h4>
                                                 <div class="post-editor-date">
                                                     <div class="post-date">
-                                                        <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y', @$hn['ptime_' . $i])); ?>
+                                                        <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y, g:i A', @$hn['ptime_' . $i])); ?>
                                                     </div>
                                                 </div>
                                             </div>
@@ -750,7 +750,7 @@
                                     <div class="date">
                                         <ul>
                                             <li>By<a title="" href="#"><span><?php echo @$Editor['hn']['post_by_name_'.$i]?></span></a> --</li>
-                                            <li><a title="" href="#"><?php echo date('l, d M, Y', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
+                                            <li><a title="" href="#"><?php echo date('l, d M, Y, g:i A', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
                                         </ul>
                                     </div>
                                     <p>
