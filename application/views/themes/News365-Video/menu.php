@@ -25,7 +25,7 @@ if (isset($ads) && is_array($ads)) {
                     <div class="logo_img">
                         <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantarlogo.png')?>" alt="" /></a>
                     </div>
-                    <h1>युगान्तर प्रवाह</h1>
+                    <a href="<?php echo base_url(); ?>"><h1>युगान्तर प्रवाह</h1></a>
                 </div>
             </div>
             <div class="col-md-9 col-sm-8 col-xs-12">

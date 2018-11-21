@@ -152,44 +152,47 @@ if (($user_type == 3) || ($user_type == 4)) {
                         <th width="50"><a onclick="delete_cnf('<?php echo base_url(); ?>admin/delete/singal/<?php echo $row['news_id']; ?>')" href="#"><i class="fa fa-trash-o fa-2x"></i></a></th>
                         <th width="100">
                             <div class="shareMedia">
-                    <span id="share" style="" class="jssocials">
+                                <span id="share" style="" class="jssocials">
 
-                        <div class="jssocials-shares"><div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=<?php echo urldecode($news_link);?>" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+                                    <div class="jssocials-shares">
 
-                        <div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[summary]=SUMMARY&p[url]=<?php echo urldecode($news_link); ?>&p[title]=YugantarPravah" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+                                    <div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=<?php echo urldecode($news_link);?>" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
-                       <!--  <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-google jssocials-share-logo"></i><span class="jssocials-share-label">+1</span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div> -->
+                                    <div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[summary]=SUMMARY&p[url]=<?php echo urldecode($news_link); ?>&p[title]=YugantarPravah" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
-                        <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=<?php echo urldecode($news_link); ?>" class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div></div>
-                    </span>
-                    <script>
-                        $(document).ready(function(){
-                            $(".shareMedia").click(function(){
-                               /* $("#share").toggle();*/
-                                $("#share").jsSocials({
-                                    shares: ["twitter", "facebook", "googleplus", "whatsapp"]
-                                });
-                            });
-                        });
+                                    <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=<?php echo urldecode($news_link);?>" class="jssocials-share-link"><i class="fa fa-google jssocials-share-logo"></i><span class="jssocials-share-label">+1</span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
-                        
-                        /*function myFunction() {
-  
-                            var copyText = document.getElementById("myInput");
+                                   
+                                    </div>
+                                </span>
+                                <script>
+                                    $(document).ready(function(){
+                                        $(".shareMedia").click(function(){
+                                           /* $("#share").toggle();*/
+                                            $("#share").jsSocials({
+                                                shares: ["twitter", "facebook","googleplus", "whatsapp"]
+                                            });
+                                        });
+                                    });
 
-                              /* Select the text field 
-                            copyText.select();
+                                    
+                                    /*function myFunction() {
+              
+                                        var copyText = document.getElementById("myInput");
 
-                               Copy the text inside the text field 
-                            document.execCommand("copy");
+                                          /* Select the text field 
+                                        copyText.select();
 
-                              /* Alert the copied text *
+                                           Copy the text inside the text field 
+                                        document.execCommand("copy");
 
-                            alert("Copied the text: " + copyText.value);
-                        }
-               */
-                    </script>
-</div>
+                                          /* Alert the copied text *
+
+                                        alert("Copied the text: " + copyText.value);
+                                    }
+                           */
+                                </script>
+                            </div>
 
     </th>
                     </tr>

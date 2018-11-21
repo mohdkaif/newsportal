@@ -128,6 +128,7 @@
                     <div class="sidebar-nav">
                         <div class="sidebar-nav-logo">
                             <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantarlogo.png')?>" alt="" /></a>
+                            <a href="<?php echo base_url(); ?>"><h1>युगान्तर प्रवाह</h1></a>
                         </div>
                         <ul class="nav side-menu">
                             <li class="sidebar-search">
