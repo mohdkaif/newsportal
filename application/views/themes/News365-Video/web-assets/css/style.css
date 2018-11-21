@@ -99,6 +99,14 @@ a:hover {
     color: #f60d2b;
     text-decoration: none;
 }
+.paragraph-padding button.copy-img {
+    background-color: #fff;
+   
+}
+
+button.btn.copy-img img {
+    height: 36px;
+}
 
 @media (min-width: 1200px) {
     .container {

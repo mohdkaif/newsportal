@@ -48,20 +48,21 @@
                 </item>
 
                 <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
+                    <news_id>205</news_id>
+                    <category>techno</category>
+                    <title>wq</title>
+                    <link>http://localhost/newsportal/techno/details/205/wq</link>
+                    <description>wqwqqqqqqqqqqqqqqqqqqqqqqqqq
+</description>
+                    <pubDate>21-11-2018</pubDate>       
                     <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
+                        <url>http://localhost/newsportal/uploads/1542786444.png</url>
+                        <title>wq</title>
+                        <link>http://localhost/newsportal/techno/details/205/wq</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/205/wq</guid>
+                    <image>http://localhost/newsportal/uploads/1542786444.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1542786444.png</thumb>
                     
                 </item>
 

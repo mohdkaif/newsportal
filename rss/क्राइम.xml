@@ -10,6 +10,25 @@
                     <link>http://localhost/newsportal/</link>
               </image>
                 <item>
+                    <news_id>204</news_id>
+                    <category>क्राइम</category>
+                    <title>headline nws</title>
+                    <link>http://localhost/newsportal/क्राइम/details/204/headline-nws</link>
+                    <description>qwertyuioplkjhgfnxmwadkqwiudbkhjdoqiudhiqdhqiowdhiq
+</description>
+                    <pubDate>21-11-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542786206.png</url>
+                        <title>headline nws</title>
+                        <link>http://localhost/newsportal/क्राइम/details/204/headline-nws</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/क्राइम/details/204/headline-nws</guid>
+                    <image>http://localhost/newsportal/uploads/1542786206.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1542786206.png</thumb>
+                    
+                </item>
+
+                <item>
                     <news_id>200</news_id>
                     <category>क्राइम</category>
                     <title>sdfdsff</title>
@@ -43,24 +62,6 @@
                     <guid isPermaLink='false'>http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट</guid>
                     <image>http://localhost/newsportal/uploads/1540969399.png</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1540969399.png</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
                     
                 </item>
 

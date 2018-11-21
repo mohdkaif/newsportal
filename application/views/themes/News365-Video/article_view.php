@@ -57,13 +57,13 @@
 
                     <div class="jssocials-shares">
 
-                    <div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=<?php echo urlencode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" )?>" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+                    <div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
-                    <div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[summary]=SUMMARY&p[url]=<?php  echo urlencode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ); ?>&p[title]=YugantarPravah" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+                    <div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[summary]=SUMMARY&p[url]=<?php  echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ; ?>&p[title]=YugantarPravah" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
                    <!--  <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-google jssocials-share-logo"></i><span class="jssocials-share-label">+1</span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div> -->
 
-                    <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=<?php echo urlencode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" );?>" class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+                    <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ;?>" class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
                     </div>
 
@@ -108,8 +108,8 @@
                         <img src="assets/clippy.svg" alt="Copy to clipboard">
                     </button> -->
 
-                    <button class="btn" data-clipboard-text="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" background-image="url('<?php  echo base_url().'/uploads/images/copy.png'; ?> ')" >
-                        Copy to clipboard
+                    <button class="btn copy-img" data-clipboard-text="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>">
+                        <img src="<?php echo base_url().'uploads/images/copy.png'; ?>">
                     </button>
                     <script type="text/javascript"> new ClipboardJS('.btn'); </script>
                     </div>
