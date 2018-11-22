@@ -1036,8 +1036,9 @@ ul.newsticker {
     color: #fff;
 }
 .sidebar-nav-logo {
-    max-width: calc(100% - 40px);
+    max-width: 100%;
     padding: 10px;
+    padding-bottom: 20px;
 }
 
 .sidebar-nav-logo a img {
@@ -5018,8 +5019,10 @@ footer {
 
     .mob-logo h1 {
         display: inline-block;
+        margin-top: 8px;        
+    }
+    .mob-logo h1 a{
         color: #fff;
-        margin-top: 8px;
         font-size: 22px;
         text-shadow: 5px 5px 5px #000;
         margin-left:5px;
