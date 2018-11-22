@@ -32,7 +32,16 @@
                             width: 100%;
                         }
                     </style>
-                <div class="video-container">
+                <h1><?php echo $title; ?></h1>
+                 <div class="date">
+                        <ul>
+                            <li>By <a title="" href="#"><span><?php echo $name; ?></span></a> --</li>
+                           
+                            <li><a title="" href="#"><?php echo date('l, d M, Y ,g:i A',$time_stamp); ?></a> </li>
+                        </ul>
+                    </div>
+
+               <!--  <div class="video-container">
                     <?php $img_url = (is_file('uploads/' . $image)) ? $bu . 'uploads/' . $image : $bu . 'uploads/' . $image; ?>
                     
                     <?php
@@ -43,7 +52,7 @@
                     ';
                     }
                     ?>
-                </div>
+                </div> -->
                 <div class="paragraph-padding">
                     <!-- Shear button -->
                     <div class="" style="margin-top: 12px;">
@@ -61,7 +70,7 @@
 
                     <div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[summary]=SUMMARY&p[url]=<?php  echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ; ?>&p[title]=YugantarPravah" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
-                   <!--  <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Faapsworld.in%2Fdoctor-info%3Fdid%3D184%26sid%3D60" class="jssocials-share-link"><i class="fa fa-google jssocials-share-logo"></i><span class="jssocials-share-label">+1</span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div> -->
+                    <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" class="jssocials-share-link"><i class="fa fa-google jssocials-share-logo"></i><span class="jssocials-share-label">+1</span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
                     <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ;?>" class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
@@ -133,15 +142,20 @@
                         <a href="<?php echo $bu . 'Print_article/print_page/' . $news_id; ?>" class="icon_n_d"  target="_blank" title="Click to Print"><img src="<?php echo $bu; ?>assets/icon/print.jpg" height="23" width="25" alt=""/></a>
                     </div>
                     <!-- <p class="short-head"><?php echo @$stitle;?></p> -->
-                    <h1><?php echo $title; ?></h1>
+                    <!-- <h1><?php echo $title; ?></h1> -->
+                    <div class="video-container">
+                    <?php $img_url = (is_file('uploads/' . $image)) ? $bu . 'uploads/' . $image : $bu . 'uploads/' . $image; ?>
                     
-                    <div class="date">
-                        <ul>
-                            <li>By <a title="" href="#"><span><?php echo $name; ?></span></a> --</li>
-                            <li><a title="" href="#"><?php echo date('l, d M, Y',$time_stamp); ?></a> </li>
-                        </ul>
-                    </div>
-
+                    <?php
+                    if ($videos!=NULL) {
+                        echo '<iframe width="100%" height="370px" src="https://www.youtube.com/embed/' . $videos . '" frameborder="0" allowfullscreen></iframe>';
+                    }else{
+                        echo'<img src="'. $img_url.'" class="img-responsive" width="100%">
+                    ';
+                    }
+                    ?>
+                </div>
+                   
                      <div class="ad-s <?php echo (@$lg_status_32==0?'hidden-lg hidden-md':'')?> <?php echo (@$sm_status_32==0?'hidden-xs hidden-sm':'')?>">
                         <?php echo @$news_view_32; ?>
                     </div>
@@ -178,7 +192,92 @@
                         }
                         ?>
                     </ul>
-                </div>  
+                </div> 
+                 <div class="paragraph-padding">
+                    <!-- Shear button -->
+                    <div class="" style="margin-top: 12px;">
+                    <div class="shareMedia">
+                    <div> 
+                      <!-- <a href="javascript:void(0);"><i style="font-size:20px" class="fa"></i></a> -->
+                    </div>
+                   <!--  <div>Share</div> -->
+                  
+                    <span id="share" style="" class="jssocials">
+
+                    <div class="jssocials-shares">
+
+                    <div class="jssocials-share jssocials-share-twitter"><a target="_blank" href="https://twitter.com/share?url=<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" class="jssocials-share-link"><i class="fa fa-twitter jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Tweet --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+
+                    <div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[summary]=SUMMARY&p[url]=<?php  echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ; ?>&p[title]=YugantarPravah" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+
+                    <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" class="jssocials-share-link"><i class="fa fa-google jssocials-share-logo"></i><span class="jssocials-share-label">+1</span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+
+                    <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ;?>" class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+
+                    </div>
+
+                    </span>
+
+                    <!-- <input type="hidden" value="<?php echo $_SERVER['REQUEST_URI'];?>" id="myInput">
+                    <div class="jssocials-share "><button onclick="myFunction()"><img width="50px" height="50px" src="<?php echo base_url().'/uploads/images/copy.png'; ?>" /></button></div> -->
+
+
+                    <script>
+                        $(document).ready(function(){
+                            $(".shareMedia").click(function(){
+                                /*$("#share").toggle();*/
+                                $("#share").jsSocials({
+                                    shares: ["twitter", "facebook", "googleplus", "whatsapp"]
+                                });
+                            });
+                        });
+
+                        
+                        /*function myFunction() {
+  
+                            var copyText = document.getElementById("myInput");
+
+                              /* Select the text field 
+                            copyText.select();
+
+                               Copy the text inside the text field 
+                            document.execCommand("copy");
+
+                              /* Alert the copied text *
+
+                            alert("Copied the text: " + copyText.value);
+                        }
+               */
+                    </script>
+
+                    <!-- <input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
+
+
+                    <button class="btn" data-clipboard-target="#foo">
+                        <img src="assets/clippy.svg" alt="Copy to clipboard">
+                    </button> -->
+
+                    <button class="btn copy-img" data-clipboard-text="<?php echo urldecode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"); ?>">
+                        <img src="<?php echo base_url().'uploads/images/copy.png'; ?>">
+                    </button>
+                    <script type="text/javascript"> new ClipboardJS('.btn'); </script>
+                    </div>
+                        <!-- <div class="shareButton">
+                            <div class="bss" >
+                                <span class='st_googleplus_hcount' displayText='Google +'></span>
+                                <span class='st_sharethis_hcount' displayText='ShareThis'></span>
+                                <span class='st_facebook_hcount' displayText='Facebook'></span>
+                                <span class='st_twitter_hcount' displayText='Tweet'></span>
+                                <span class='st_linkedin_hcount' displayText='LinkedIn'></span>
+                                <span class='st_pinterest_hcount' displayText='Pinterest'></span>
+                                <span class='st_email_hcount' displayText='Email'></span>
+
+                                <script type="text/javascript">var switchTo5x = true;</script>
+                                <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+                                <script type="text/javascript">stLight.options({publisher: "5dc9678d-5925-46e1-8f2c-e74ca68e941d", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+                            </div>
+                        </div> -->
+                    </div> 
                 <!-- Related news area
                 ============================================ -->
                 <div class="related-news-inner">
@@ -223,7 +322,7 @@
                                                 <h4><a href="<?php echo @$sn['hn']['news_link_' . $i] ?>"><?php echo @$sn['hn']['news_title_' . $i]; ?></a></h4>
                                                 <div class="post-editor-date">
                                                     <div class="post-date">
-                                                        <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y', @$hn['ptime_' . $i])); ?>
+                                                        <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y, g:i A', @$hn['ptime_' . $i])); ?>
                                                     </div>
                                                 </div>
                                             </div>
@@ -651,7 +750,7 @@
                                     <div class="date">
                                         <ul>
                                             <li>By<a title="" href="#"><span><?php echo @$Editor['hn']['post_by_name_'.$i]?></span></a> --</li>
-                                            <li><a title="" href="#"><?php echo date('l, d M, Y', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
+                                            <li><a title="" href="#"><?php echo date('l, d M, Y, g:i A', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
                                         </ul>
                                     </div>
                                     <p>

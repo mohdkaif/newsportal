@@ -77,7 +77,7 @@ background-image: url('<?php echo base_url().@$cat_imgae->category_imgae;?>');"
                                     <ul>
                                         <li><img src="<?php echo @$pn['post_by_image_'.$i];?>" class="img-responsive" alt=""></li>
                                         <li>By<a title="" href="#"><span><?php echo @$pn['post_by_name_'.$i];?></span></a> --</li>
-                                        <li><a title="" href="#"><?php echo date('d-M-Y',@$pn['ptime_'.$i]);?></a> </li>
+                                        <li><a title="" href="#"><?php echo date('d-M-Y,g:i A',@$pn['ptime_'.$i]);?></a> </li>
                                     </ul>
                                 </div>
                              <p>

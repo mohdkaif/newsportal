@@ -27,7 +27,6 @@ class Home_model extends CI_Model {
             $this->db->order_by('t2.position', 'ASC');
             $this->db->limit(50);  
             $result = $this->db->get()->result_array();
-           
             $i = 1;
             foreach ($result as $data) {
                 $news_id = $data['news_id']; 
@@ -55,7 +54,7 @@ class Home_model extends CI_Model {
                 // editor name
                 $PN['position_' . $position]['post_by_name_' . $i] = $post_by_name;
                 // post time
-                $PN['position_' . $position]['ptime_' . $i] =  date('l, d M, Y', $ptime);
+                $PN['position_' . $position]['ptime_' . $i] =  date('l, d M, Y,g:i A', $ptime);
                 // post date
                 $PN['position_' . $position]['post_date_' . $i] = $post_date;
                 // News Title
@@ -94,7 +93,6 @@ class Home_model extends CI_Model {
                 }
             }
         }    
-
         return $PN;
 }
 #------------------------------------------------

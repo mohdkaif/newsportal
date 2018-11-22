@@ -86,7 +86,7 @@
                             <div class="post-editor-date">
                                 <!-- post date -->
                                 <div class="post-date">
-                                    <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y', @$hn['ptime_1'])); ?>
+                                    <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y, g:i A', @$hn['ptime_1'])); ?>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                             <h3 class="post-title post-title-size"><a href="<?php echo @$hn['news_link_'.$i];?>" rel="bookmark"> <?php echo @$hn['news_title_'.$i];?></a></h3>
                             <div class="post-editor-date">
                                 <div class="post-date">
-                                    <i class="pe-7s-clock"></i><?php echo (date('l, d M, Y', @$hn['ptime_' . $i])); ?>
+                                    <i class="pe-7s-clock"></i><?php echo (date('l, d M, Y, g:i A', @$hn['ptime_' . $i])); ?>
                                 </div>
                                 <?php if(@$hn['video_'.$i]!=NULL) {?>
                                 <a class="playvideo pull-right" href="<?php echo @$hn['news_link_'.$i];?>"><i class="fa fa-play-circle-o"></i></a>
@@ -156,7 +156,7 @@
                             <div class="post-editor-date">
                                 <!-- post date -->
                                 <div class="post-date">
-                                    <i class="pe-7s-clock"></i><?php echo (date('l, d M, Y', @$hn['ptime_' . $i])); ?>
+                                    <i class="pe-7s-clock"></i><?php echo (date('l, d M, Y, g:i A', @$hn['ptime_' . $i])); ?>
                                 </div>
                                 <?php if (@$hn['video_'.$i]!=NULL) {?>
                                 <a class="playvideo pull-right" href="<?php echo @$hn['news_link_'.$i];?>"><i class="fa fa-play-circle-o"></i></a>
@@ -722,7 +722,7 @@
                                 <div class="date">
                                     <ul>
                                         <li>By<a title="" href="#"><span><?php echo @$Editor['hn']['post_by_name_'.$i]?></span></a> --</li>
-                                        <li><a title="" href="#"><?php echo date('l, d M, Y', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
+                                        <li><a title="" href="#"><?php echo date('l, d M, Y, g:i A', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
                                     </ul>
                                 </div>
                                 <p>
