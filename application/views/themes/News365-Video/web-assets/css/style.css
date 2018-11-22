@@ -998,13 +998,18 @@ ul.newsticker {
     z-index: 1000;
     left: -250px;
     background: #bb1919;
+    background: url(../images/side-menu.jpg) center center no-repeat;
     position: fixed;
-    border: 1px solid #ab1717;
+    border: 5px solid #000;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
 }
-
+.sidebar-nav-logo.mob-logo {
+    float: none;
+    display: block;
+    padding-bottom: 0;
+}
 .mobile-menu.mobile-menu-open {
     left: 0px;
 }
