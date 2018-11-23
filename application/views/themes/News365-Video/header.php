@@ -218,9 +218,9 @@ $selected = 'style="background-color:#f60d2b;color:#fff;"';
                     <div class="mob-logo">
                         <!-- <?php  echo '<h2 class="white-text">YUGANTARPRAVAH</h2>'?> -->
                         <div class="logo_img">
-                            <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantarlogo.png')?>" alt="" /></a>
+                            <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantarpravahlogo.jpg')?>" alt="" /></a>
                         </div>
-                        <h1><a href="<?php echo base_url(); ?>">युगान्तर प्रवाह</a></h1>
+                        <!-- <h1><a href="<?php echo base_url(); ?>">युगान्तर प्रवाह</a></h1> -->
                     </div>
                     <div id="showLeft" class="nav-icon">
                         <span></span>

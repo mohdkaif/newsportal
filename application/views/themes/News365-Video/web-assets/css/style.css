@@ -4829,7 +4829,7 @@ footer {
     .technology_sec .left-padding {
         padding-left: 20px;
     }
-
+    
     .social span {
         max-width: 100%;
     }
@@ -4861,6 +4861,15 @@ footer {
         text-align: left;
     }
 
+    .mob-logo .logo_img img {
+        height: 60px;
+        width: auto;
+        border-radius: 0;
+    }
+    .logo_img {
+        border-radius: 0;
+        border: 0;
+    }
     footer {
         padding: 20px 10px 0px;
     }
@@ -5041,11 +5050,6 @@ footer {
     .mobile-menu-area .nav-icon {
         margin-top: 25px;
     }
-    .mob-logo .logo_img img {
-        height: 45px;
-        width: 45px;
-    }
-
     .mobile-menu-area .nav-icon {
         margin-top: 14px;
     }
