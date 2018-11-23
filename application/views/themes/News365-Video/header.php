@@ -127,7 +127,7 @@
                 <nav class="mobile-menu" id="mobile-menu">
                     <div class="sidebar-nav">
                         <div class="sidebar-nav-logo mob-logo">
-                            <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugantarlogo.png')?>" alt="" /></a>
+                            <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url('application/views/themes/News365-Video/web-assets/images/yugartar_new.png')?>" alt="" /></a>
                             <!-- <h1><a href="<?php //echo base_url(); ?>">युगान्तर प्रवाह</a></h1> -->
                         </div>
                         <ul class="nav side-menu">

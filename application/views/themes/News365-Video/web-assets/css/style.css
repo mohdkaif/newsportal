@@ -448,7 +448,7 @@ if it's not present, don't show loader */
     background-color: #ff0042;
 }
 .top_header_icon_wrap a {
-    color: #bb1919;
+    color: #da251e;
 }
 
 .slide .btn_four:after {
@@ -527,7 +527,7 @@ header {
 }
 .top-header-div{
     height:30px;
-    background: #bb1919;
+    background: #da251e;
 }
 .top_header_menu_wrap {
     line-height: 24px;
@@ -717,7 +717,7 @@ header {
 }
 
 .top_header_icon_wrap a {
-    color: #bb1919;
+    color: #da251e;
     padding: 10px 6px;
     display: inline-block;
     transition: color 0.3s ease 0s;
@@ -797,7 +797,7 @@ ul.newsticker {
 
 .top_banner_wrap {
     background-color: #FFF;
-    border-bottom: 1px solid #bb1919;
+    border-bottom: 1px solid #da251e;
 }
 
 .header-logo {
@@ -839,7 +839,7 @@ ul.newsticker {
     padding-top: 5px;
     padding-bottom: 5px;
     border-bottom: 1px solid transparent;
-    border-right: 1px solid #bb1919;
+    border-right: 1px solid #da251e;
 }
 
 .nav .open > a,
@@ -967,8 +967,8 @@ ul.newsticker {
 
 .navbar-nav > li > a:focus, .navbar-nav > li > a:hover, .navbar-nav > li > a.active {
     color: #fff;
-    background-color: #bb1919;
-    border-right: 1px solid #bb1919;
+    background-color: #da251e;
+    border-right: 1px solid #da251e;
 }
 
 
@@ -997,7 +997,7 @@ ul.newsticker {
     top: 0;
     z-index: 1000;
     left: -250px;
-    background: #bb1919;
+    background: #da251e;
     background: url(../images/side-menu.jpg) center center no-repeat;
     position: fixed;
     border: 5px solid #000;
@@ -4539,7 +4539,7 @@ margin-left: 0px;
     color:white;
 }
 .breaking-news{
-    background: #bb1919;
+    background: #da251e;
     width:100%;
     height:50px;
     margin-bottom:50px;
@@ -4865,6 +4865,7 @@ footer {
         height: 60px;
         width: auto;
         border-radius: 0;
+        margin-left: -15px;
     }
     .logo_img {
         border-radius: 0;
@@ -4924,8 +4925,8 @@ footer {
     }
 
     .headding-news {
-        padding-top: 20px;
-        padding-bottom: 10px;
+        padding-top: 30px;
+        padding-bottom: 0px;
         margin-bottom: 10px;
     }
     #content-slide-3 .item {
@@ -5001,7 +5002,7 @@ footer {
     }
     .mobile-menu-area {
         padding: 7px 0;
-        background: #bb1919;
+        background: #da251e;
     }
 
     .top_banner_wrap {
@@ -5051,7 +5052,7 @@ footer {
         margin-top: 25px;
     }
     .mobile-menu-area .nav-icon {
-        margin-top: 14px;
+        margin-top: 20px;
     }
 
     .mobile-menu-area {
