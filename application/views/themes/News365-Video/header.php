@@ -132,6 +132,9 @@
                         </div>
                         <ul class="nav side-menu">
                             <li class="sidebar-search">
+                                <?php
+                                $fa = array('method' =>'GET' ); 
+                                echo form_open('search',$fa);?>
                                 <div class="input-group custom-search-form">
                                     <input type="text" class="form-control" placeholder="Search...">
                                     <span class="input-group-btn">
@@ -140,6 +143,7 @@
                                         </button>
                                     </span>
                                 </div>
+                                <?php echo form_close();?>
                                 <!-- /input-group -->
                             </li>
 
