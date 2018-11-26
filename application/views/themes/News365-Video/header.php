@@ -101,6 +101,28 @@
         <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>application/views/themes/<?php echo $default_theme; ?>/web-assets/js/jquery.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url().'application/views/themes/News365-Video/web-assets/jssocials/jssocials.js' ?>" ></script>
+        <script type="text/javascript">
+           $(window).scroll(function() {    
+                var windowWidth = $(window).width();
+                var scroll = $(window).scrollTop();
+                 //>=, not <=
+                if (windowWidth <= 991 && scroll >=20) {
+                    //clearHeader, not clearheader - caps H
+                    $(".main_header").addClass("showTopHeaderIcon");
+                }else{
+                    $(".main_header").removeClass("showTopHeaderIcon");
+                }
+
+              
+
+                
+                
+            });  
+
+
+
+
+        </script>
         <style type="text/css">
             @import  url('https://fonts.googleapis.com/css?family=Noto+Sans');
         </style>
@@ -121,7 +143,7 @@
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
 
-        <header>
+        <header class="main_header">
             <!-- Mobile Menu Start -->
             <div class="mobile-menu-area navbar-fixed-top hidden-sm hidden-md hidden-lg">
                 <nav class="mobile-menu" id="mobile-menu">
@@ -204,19 +226,19 @@ $selected = 'style="background-color:#f60d2b;color:#fff;"';
                 <div class="container">
                     <div class="top_header_icon">
                         <span class="top_header_icon_wrap">
-                            <a target="_blank" href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a target="_blank" href="<?php if (isset($social_link[0]->tw)) echo @$social_link[0]->tw; ?>" title="Twitter"><i class="fa fa-twitter"></i></a>
                         </span>
                         <span class="top_header_icon_wrap">
-                            <a target="_blank" href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="<?php if (isset($social_link[0]->fb)) echo @$social_link[0]->fb; ?>" title="Facebook"><i class="fa fa-facebook"></i></a>
                         </span>
                         <span class="top_header_icon_wrap">
-                            <a target="_blank" href="#" title="Google"><i class="fa fa-google-plus"></i></a>
+                            <a target="_blank" href="<?php if (isset($social_link[0]->google)) echo @$social_link[0]->google; ?>" title="Google"><i class="fa fa-google-plus"></i></a>
                         </span>
                         <span class="top_header_icon_wrap">
-                            <a target="_blank" href="#" title="Vimeo"><i class="fa fa-vimeo"></i></a>
+                            <a target="_blank" href="<?php if (isset($social_link[0]->vimo)) echo @$social_link[0]->vimo; ?>" title="Vimeo"><i class="fa fa-vimeo"></i></a>
                         </span>
                         <span class="top_header_icon_wrap">
-                            <a target="_blank" href="#" title="Pintereset"><i class="fa fa-pinterest-p"></i></a>
+                            <a target="_blank" href="<?php if (isset($social_link[0]->pin)) echo @$social_link[0]->pin; ?>" title="Pintereset"><i class="fa fa-pinterest-p"></i></a>
                         </span>
                     </div>
                     <div class="mob-logo">
@@ -233,5 +255,27 @@ $selected = 'style="background-color:#f60d2b;color:#fff;"';
                         <span></span>
                     </div>
                 </div>
+            </div>
+
+            <div class="mobile-menu-area navbar-fixed-top hidden-sm hidden-md hidden-lg">
+                
+
+                <div class="top_header_icon">
+                        <span class="top_header_icon_wrap">
+                        <a target="_blank" href="<?php if (isset($social_link[0]->tw)) echo @$social_link[0]->tw; ?>" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        </span>
+                        <span class="top_header_icon_wrap">
+                            <a target="_blank" href="<?php if (isset($social_link[0]->fb)) echo @$social_link[0]->fb; ?>" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        </span>
+                        <span class="top_header_icon_wrap">
+                            <a target="_blank" href="<?php if (isset($social_link[0]->google)) echo @$social_link[0]->google; ?>" title="Google"><i class="fa fa-google-plus"></i></a>
+                        </span>
+                        <span class="top_header_icon_wrap">
+                            <a target="_blank" href="<?php if (isset($social_link[0]->vimo)) echo @$social_link[0]->vimo; ?>" title="Vimeo"><i class="fa fa-vimeo"></i></a>
+                        </span>
+                        <span class="top_header_icon_wrap">
+                            <a target="_blank" href="<?php if (isset($social_link[0]->pin)) echo @$social_link[0]->pin; ?>" title="Pintereset"><i class="fa fa-pinterest-p"></i></a>
+                        </span>
+                    </div>
             </div>
             <!-- Mobile Menu End -->
