@@ -297,7 +297,7 @@
                                         ?>
                                     
                                         <div class="col-xs-12 col-md-4 col-sm-4 padd">
-                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s"><!-- image -->
+                                            <div class="post-wrapper wow fadeIn related_news_container" data-wow-duration="2s"><!-- image -->
                                                 <div class="post-thumb">
                                                 <?php
                                                     if (@$sn['hn']['image_check_' . $i]!=NULL) {
