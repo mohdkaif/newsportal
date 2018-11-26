@@ -165,6 +165,7 @@
                     <?php if($reference!=NULL){?>
                         <b><?php echo $reference;?></b>
                     <?php } ?>
+                    <h4 class="related_news_link"><?php echo @$sn['hn']['title_2']; ?></h4>
                 </div>
                 <div class="<?php echo (@$lg_status_33==0?'hidden-lg hidden-md':'')?> <?php echo (@$sm_status_33==0?'hidden-xs hidden-sm':'')?>">
                  <?php echo @$news_view_33; ?>
