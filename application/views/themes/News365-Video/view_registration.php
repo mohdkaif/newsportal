@@ -19,7 +19,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                    <?php if(!empty(validation_errors())){?>
+                    <?php
+                     if(!empty(validation_errors())){?>
                        <div class="alert alert-danger ">
                             <a href="" class="text-center close" data-dismiss="alert" aria-label="close">&times;</a> <strong><?php  echo validation_errors(); ?></strong>
                        </div>

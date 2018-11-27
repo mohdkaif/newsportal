@@ -9,8 +9,8 @@ public function __construct() {
     parent::__construct();
     #----------------------------------------
         $this->load->library('session');
-        $this->load->library('javascript');
-        $this->load->library('javascript/jquery');
+       /* $this->load->library('javascript');
+        $this->load->library('javascript/jquery');*/
         $session_id = $this->session->userdata('session_id'); 
         if($session_id == NULL ) {
          redirect('admin/Sign_out');

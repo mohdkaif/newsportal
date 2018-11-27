@@ -925,8 +925,8 @@ if ( ! function_exists('validation_errors'))
 		{
 			return '';
 		}
-
 		return $OBJ->error_string($prefix, $suffix);
+
 	}
 }
 
