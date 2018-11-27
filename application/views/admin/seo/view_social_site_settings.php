@@ -24,7 +24,7 @@ $this->load->view('admin/view_left_menu');
                         <div class="col-sm-4"><label><?php echo display('facebook_url')?></label></div>
                         <div class="col-sm-8">
                             <textarea name="fb[URL]" class="form-control" rows="6">
-                                <?php if (isset($settings[0]->fb->URL)) echo @$settings[0]->fb->URL; ?>
+                                <?php  if (isset($settings[0]->fb->URL)) echo @$settings[0]->fb->URL; ?>
                             </textarea>
                         </div>                                        
                     </div>   
@@ -44,7 +44,7 @@ $this->load->view('admin/view_left_menu');
                 <br/>
 
                 <!--twitter-->
-                <div class="row">
+               <!--  <div class="row">
                     <div class="form-group">
                         <div class="col-sm-4"><label><?php echo display('twitter_url')?></label></div>
                         <div class="col-sm-8">
@@ -67,9 +67,9 @@ $this->load->view('admin/view_left_menu');
                 </div>   
                 <hr/>
                 <br/>
-
+ -->
                 <!--facebook-->
-                <div class="row">
+               <!--  <div class="row">
                     <div class="form-group">
                         <div class="col-sm-4"><label><?php echo display('google_plus')?></label></div>
                         <div class="col-sm-8">
@@ -92,9 +92,9 @@ $this->load->view('admin/view_left_menu');
                 </div>   
                 <hr/>
                 <br/>
-
+ -->
                 <!--Linkedin-->
-                <div class="row">
+               <!--  <div class="row">
                     <div class="form-group">
                         <div class="col-sm-4"><label><?php echo display('linkedin')?></label></div>
                         <div class="col-sm-8">
@@ -116,7 +116,7 @@ $this->load->view('admin/view_left_menu');
                     </div>   
                 </div>   
                 <hr/>
-                <br/>
+                <br/> -->
                 <div class="row">
                     <div class="col-sm-4"></div>
                     <div class="col-sm-8">

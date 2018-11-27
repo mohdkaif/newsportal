@@ -235,7 +235,7 @@ $selected = 'style="background-color:#f60d2b;color:#fff;"';
                             <a target="_blank" href="<?php if (isset($social_link[0]->google)) echo @$social_link[0]->google; ?>" title="Google"><i class="fa fa-google-plus"></i></a>
                         </span>
                         <span class="top_header_icon_wrap">
-                            <a target="_blank" href="<?php if (isset($social_link[0]->vimo)) echo @$social_link[0]->vimo; ?>" title="Vimeo"><i class="fa fa-vimeo"></i></a>
+                            <a target="_blank" href="<?php if (isset($social_link[0]->instagram)) echo @$social_link[0]->instagram; ?>" title="Instagram"><i class="fa fa-instagram"></i></a>
                         </span>
                         <span class="top_header_icon_wrap">
                             <a target="_blank" href="<?php if (isset($social_link[0]->pin)) echo @$social_link[0]->pin; ?>" title="Pintereset"><i class="fa fa-pinterest-p"></i></a>
@@ -286,10 +286,10 @@ $selected = 'style="background-color:#f60d2b;color:#fff;"';
                                             <a target="_blank" href="<?php if (isset($social_link[0]->google)) echo @$social_link[0]->google; ?>" title="Google"><i class="fa fa-google-plus"></i></a>
                                         </span>
                                         <span class="top_header_icon_wrap">
-                                            <a target="_blank" href="<?php if (isset($social_link[0]->vimo)) echo @$social_link[0]->vimo; ?>" title="Vimeo"><i class="fa fa-vimeo"></i></a>
+                                            <a target="_blank" href="<?php if (isset($social_link[0]->instagram)) echo @$social_link[0]->instagram; ?>" title="Instagram"><i class="fa fa-instagram"></i></a>
                                         </span>
                                         <span class="top_header_icon_wrap">
-                                            <a target="_blank" href="<?php if (isset($social_link[0]->pin)) echo @$social_link[0]->pin; ?>" title="Pintereset"><i class="fa fa-pinterest-p"></i></a>
+                                            <a target="_blank" href="<?php if (isset($social_link[0]->youtube)) echo @$social_link[0]->youtube; ?>" title="Youtube"><i class="fa fa-youtube"></i></a>
                                         </span>
                                     </div>
                                 </div>
