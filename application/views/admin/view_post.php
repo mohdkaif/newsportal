@@ -131,8 +131,16 @@ if (($user_type == 3) || ($user_type == 4)) {
             <fieldset><legend><?php echo display('news_title');?></legend>
                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
-                        <th><?php echo display('short_head');?></th><th> :  &nbsp;&nbsp;</th><td><input type="text" name="short_head" class="form-control"/></td>
-                       <th> &nbsp;&nbsp;&nbsp; <?php echo display('head_line');?></th><th> :  &nbsp;&nbsp;</th><td width="66%"><input type="text" name="head_line" style="width:99%;" class="form-control"/></td>
+                        <!-- <th><?php echo display('short_head');?></th><th> :  &nbsp;&nbsp;</th><td><input type="text" name="short_head" class="form-control"/></td> -->
+                       <!--  <th><?php echo display('slug');?></th><th> :  &nbsp;&nbsp;</th><td><input type="text" name="slug" class="form-control"/></td>  -->
+                        <th> <?php echo display('head_line');?></th><th> :  &nbsp;&nbsp;</th><td width="66%"><input type="text" name="head_line" style="width:99%;" class="form-control"/></td>
+                      
+                    </tr>
+                     <tr>
+                        <!-- <th><?php echo display('short_head');?></th><th> :  &nbsp;&nbsp;</th><td><input type="text" name="short_head" class="form-control"/></td> -->
+                       <!--  <th><?php echo display('slug');?></th><th> :  &nbsp;&nbsp;</th><td><input type="text" name="slug" class="form-control"/></td>  -->
+                        <th> <?php echo display('slug');?></th><th> :  &nbsp;&nbsp;</th><td width="66%"><input type="text" name="slug" style="width:99%;" class="form-control"/ required=""></td>
+                      
                     </tr>
                 </table>
             </fieldset>

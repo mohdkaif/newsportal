@@ -44,6 +44,8 @@ class Page_model extends CI_Model {
 
         foreach ($newses as $data){
             @$splited_TITLE = $this->string_clean($this->explodedtitle($data['title']));
+            @$splited_SLUG = $this->string_clean($this->explodedtitle($data['slug']));
+
             @$news_dtl = implode(' ', array_slice(explode(' ', $data['news']), 0, 30));
             
             //editor images
@@ -73,7 +75,7 @@ class Page_model extends CI_Model {
             // full news
             @$PN['full_news_' . $i] = strip_tags($data['news'], '<p><a>');
             //Only News Link Creation
-            @$PN['news_link_' . $i] = base_url() . $data['page'] . '/details/' . $data['news_id'] . '/' . $splited_TITLE;
+            @$PN['news_link_' . $i] = base_url() . $data['page'] . '/story/' . $data['news_id'] . '/' . $splited_SLUG;
             //Image name
             @$PN['image_' . $i] = $data['image'];
             // image chack

@@ -17,7 +17,7 @@ class Home_model extends CI_Model {
         foreach ($page_list as $page){
             list($page, $position) = explode('~', $page);
 
-            $this->db->select('t1.news_id,t1.time_stamp,t1.page,t1.stitle,t1.title,t1.image,t1.videos,t1.news,t1.reference,t1.ref_date,t1.reporter,t1.videos,t1.post_date,t1.post_by,t3.id,t3.photo,t3.name');
+            $this->db->select('t1.news_id,t1.time_stamp,t1.slug,t1.page,t1.stitle,t1.title,t1.image,t1.videos,t1.news,t1.reference,t1.ref_date,t1.reporter,t1.videos,t1.post_date,t1.post_by,t3.id,t3.photo,t3.name');
             $this->db->from('news_position t2');
             $this->db->where('t2.page', $page);
             $this->db->where('t2.status', '1');
@@ -33,7 +33,9 @@ class Home_model extends CI_Model {
                 $stitle = $data['stitle'];
                 $title = $data['title'];
                 $ptime = $data['time_stamp'];
+                $slug = $data['slug'];
                 @$splited_TITLE = $this->explodedtitle($title);
+                @$splited_SLUG = $this->explodedtitle($slug);
                 $image = $data['image'];
                 $videos = $data['videos'];
                 $news_dtl = implode(' ', array_slice(explode(' ', $data['news']), 0, $word_limit));
@@ -68,7 +70,7 @@ class Home_model extends CI_Model {
                 //News Title With Link
                 $PN['position_' . $position]['title_' . $i] = '<a href="' . $bu . @$page . '/' . $news_id . '/' . $this->string_clean($splited_TITLE) . '">' . $title . '</a>';
                 //Only News With Link 
-                $PN['position_' . $position]['news_link_' . $i] = base_url() . $page . '/details/' . $news_id.'/'.$this->string_clean($splited_TITLE);
+                $PN['position_' . $position]['news_link_' . $i] = base_url() . $page . '/story/' . $news_id.'/'.$this->string_clean($splited_SLUG);
                 //Short News
                 $PN['position_' . $position]['short_news_' . $i] = strip_tags($news_dtl . '<a href="' . base_url() . $page . $news_id . '/' . $splited_TITLE . '" >   </a>','<p><a>');
                // full_news
@@ -99,7 +101,7 @@ class Home_model extends CI_Model {
 # gatting home data
 #------------------------------------------------    
     public function home_data($page = 'home') {       
-        $result = $this->db->select('t1.news_id,t1.post_date,t1.time_stamp,t1.page,t1.stitle,t1.title,t1.image,t1.news,t1.reference,t1.ref_date,t1.publish_date,t1.post_by,t1.reporter,t1.status,t1.videos,t3.id,t3.name,t3.photo')
+        $result = $this->db->select('t1.news_id,t1.slug,t1.post_date,t1.time_stamp,t1.page,t1.stitle,t1.title,t1.image,t1.news,t1.reference,t1.ref_date,t1.publish_date,t1.post_by,t1.reporter,t1.status,t1.videos,t3.id,t3.name,t3.photo')
                 ->from('news_position t2')
                 ->join('news_mst t1', 't1.news_id=t2.news_id', 'left')
                 ->join('user_info t3', 't3.id=t1.post_by')
@@ -138,14 +140,19 @@ class Home_model extends CI_Model {
             $HN['news_title_' . $i] = $value1->title;
             //Short Title
             $HN['stitle_' . $i] = $value1->stitle;
+             //Slug Title
+            $HN['slug_' . $i] = $this->explodedtitle($value1->slug);
             //Spilt Title;              
              $HN['TITLE_'.$i] = $this->explodedtitle($HN['news_title_' . $i]);
+
              $HN['splited_title_' . $i] = $this->string_clean($HN['TITLE_'.$i]);
-        
+
+             $HN['splited_slug_' . $i] = $this->string_clean($HN['slug_'.$i]);
+
             //post Title With Link
             $HN['title_' . $i] = '<a href="' . $bu . $HN['category_' . $i] . '/' . $HN['news_id_' . $i] . '/' . $HN['splited_title_' . $i] . '">' . $HN['news_title_' . $i] . '</a>';
             //Only News Link 
-            $HN['news_link_' . $i] = base_url() .$HN['category_' . $i] . '/details/' . $HN['news_id_' . $i] . '/' . $HN['splited_title_' . $i];
+            $HN['news_link_' . $i] = base_url() .$HN['category_' . $i] . '/story/' . $HN['news_id_' . $i] . '/' . $HN['splited_slug_' . $i];
             //full news
             $HN['full_news_' . $i] = strip_tags($value1->news, '<p><a>'); //$value1->news                           
             //Image ID

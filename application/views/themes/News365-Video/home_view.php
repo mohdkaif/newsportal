@@ -62,6 +62,7 @@
                                     echo' <div class="videoWrapper-1"><a href="'.@$hn['news_link_1'].'">
                                             
                                             <img  src="'. @$hn['image_large_1'].'">
+                                            <span class="category_label">'.@$hn['category_1'].'</span>
                                             
                                         </a></div>';
                                 } else {
@@ -106,9 +107,11 @@
                                 if (@$hn['image_check_'.$i]!=NULL){
                                     echo'<a href="'.@$hn['news_link_'.$i].'">
                                             <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt="">
+                                            <span class="category_label">'.@$hn['category_'.$i].'</span>
                                         </a>';
                                 } else {
-                                    echo '<a class="entry-thumb" href="'.@$hn['news_link_'.$i].'"><img  src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" /></a>';
+                                    echo '<a class="entry-thumb" href="'.@$hn['news_link_'.$i].'"><img  src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" />
+                                    <span class="category_label">'.@$hn['category_'.$i].'</span></a>';
                                 }
                             ?>     
                         </div>
@@ -142,10 +145,12 @@
                             <?php
                             if (@$hn['image_check_'.$i]!=NULL) {
                                 echo' <a href="'.@$hn['news_link_'.$i].'">
-                                                <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt="">
+                                                <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt=""><span class="category_label">'.@$hn['category_'.$i].'</span>
                                             </a>';
                                 } else {
-                                      echo '<a href="'. @$hn['news_link_'.$i].'"><img width="100%" src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" alt="photography" /></a>';
+                                      echo '<a href="'. @$hn['news_link_'.$i].'"><img width="100%" src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" alt="photography" />
+                                      <span class="category_label">'.@$hn['category_'.$i].'</span>
+                                      </a>';
                                 }
                             ?>
                         </div>
@@ -206,6 +211,7 @@
                                                 if (@$pn['position_1']['image_check_'.$i]!=NULL) {
                                                 echo' <a href="'.@$pn['position_1']['news_link_'.$i].'">
                                                             <img class="img-responsive" src="'. @$pn['position_1']['image_thumb_'.$i].'" alt="">
+                                                            
                                                         </a>';
                                                 } else {
                                                     echo '<a href="'.@$pn['position_1']['news_link_'.$i].'">
@@ -245,6 +251,7 @@
                                             <?php
                                                 if (@$pn['position_1']['image_check_'.$i]!=NULL) {
                                                   echo' <a href="'.@$pn['position_1']['news_link_'.$i].'">
+                                                  
                                                             <img class="img-responsive" src="'. @$pn['position_1']['image_thumb_'.$i].'" alt="">
                                                         </a>';
                                                 } else {

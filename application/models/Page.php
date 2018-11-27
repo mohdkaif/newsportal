@@ -32,7 +32,7 @@ class Page extends CI_Model {
                 $news = $value->news;
                 $news = htmlspecialchars($news, ENT_QUOTES);
                 $splited_TITLE = $this->explodedtitle($value->title);
-                
+                $splited_SLUG = $this->explodedtitle($value->slug);
                 //new id
                 $pn['news_id_' . $i] = $value->news_id;
                 //news short title
@@ -48,7 +48,7 @@ class Page extends CI_Model {
                 // news title with link
                 $pn['title_' . $i] = '<a href="' . base_url() . $value->page . '/' . $value->news_id . '/' . $this->string_clean($splited_TITLE) . '" class="text-green" title=' . $value->title . '>' . $value->title . '</a>';
                 // only news link
-                $pn['news_link_' . $i] = base_url() .$value->page . '/details/' . $value->news_id . '/' . $splited_TITLE;
+                $pn['news_link_' . $i] = base_url() .$value->page . '/story/' . $value->news_id . '/' . $splited_SLUG;
                 // full news
                 $pn['full_news_' . $i] = html_entity_decode($news);
                 // image view from thumb

@@ -78,7 +78,7 @@ class Common_model extends CI_Model {
         $bu = base_url();
         $LN = array();
         // $day7 = time() - (7 * 86400); // 7 days ago
-        $this->db->select('news_mst.news_id,news_mst.title,news_mst.image,news_mst.videos,news_mst.page,news_mst.time_stamp,news_mst.post_date,news_mst.news,news_mst.post_by,user_info.id,user_info.photo,user_info.name,categories.category_imgae');
+        $this->db->select('news_mst.news_id,news_mst.title,news_mst.image,news_mst.slug,news_mst.videos,news_mst.page,news_mst.time_stamp,news_mst.post_date,news_mst.news,news_mst.post_by,user_info.id,user_info.photo,user_info.name,categories.category_imgae');
         $this->db->from('news_mst');
         $this->db->join('user_info', 'user_info.id=news_mst.post_by');
         $this->db->join('categories', 'categories.category_name=news_mst.page');
@@ -96,6 +96,8 @@ class Common_model extends CI_Model {
             @$page = $data->page;
             @$news_id = $data->news_id;
             @$title = $data->title;
+            @$slug = $data->slug;
+            $splited_SLUG = $this->string_clean($this->explodedtitle($slug));
             @$image = $data->image;
             @$ptime = $data->time_stamp;
             @$post_date = $data->post_date;
@@ -128,7 +130,7 @@ class Common_model extends CI_Model {
             // editor name
             $LN['post_by_name_' . $i] = @$post_by;
             //news link
-            $LN['news_link_' . $i] = $bu . @$page . '/details/' . $news_id . '/' . $splited_TITLE;
+            $LN['news_link_' . $i] = $bu . @$page . '/story/' . $news_id . '/' . $splited_SLUG;
             //Image 
             $LN['image_check_' . $i] = $image;
             // image thumb
@@ -152,7 +154,7 @@ class Common_model extends CI_Model {
         $i = 1;
         // $day7 = time() - (30 * 86400); 
 
-        $this->db->select('t1.news_id,t1.stitle,t1.title,t1.page,t1.image,t1.videos,t1.reader_hit,t1.time_stamp,t1.post_date,t1.news,t2.id,t2.name,t2.photo');
+        $this->db->select('t1.news_id,t1.stitle,t1.title,t1.slug,t1.page,t1.image,t1.videos,t1.reader_hit,t1.time_stamp,t1.post_date,t1.news,t2.id,t2.name,t2.photo');
         $this->db->from('news_mst t1');
         $this->db->join('user_info t2', 't2.id=t1.post_by');
         // $this->db->where('t1.time_stamp >=', $day7);
@@ -161,7 +163,8 @@ class Common_model extends CI_Model {
         $result = $this->db->get()->result_array();
 
         foreach ($result as $key => $rows) {
-            $splited_TITLE = $this->string_clean($this->explodedtitle($rows['title']));            
+            $splited_TITLE = $this->string_clean($this->explodedtitle($rows['title']));
+            $splited_SLUG = $this->string_clean($this->explodedtitle($rows['slug']));             
             // news title
             $MR['news_title_' . $i] = $rows['title'];
             // image name
@@ -189,7 +192,7 @@ class Common_model extends CI_Model {
             // editor image
             $MR['post_by_image_' . $i] =  base_url() . $rows['photo'];
             //News Link Creation
-            $MR['news_link_' . $i] = base_url() . $rows['page'] . '/details/' . $rows['news_id'] . '/' . $splited_TITLE;
+            $MR['news_link_' . $i] = base_url() . $rows['page'] . '/story/' . $rows['news_id'] . '/' . $splited_SLUG;
            
             $i++;
         }

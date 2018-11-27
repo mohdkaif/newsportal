@@ -7,7 +7,7 @@ function FormValidation()
 	var reference=document.forms['myform'].reference.value;	
 	var image = document.forms['myform'].file_select_machin.value;
 	var picture_name = document.forms['myform'].picture_name.value;
-	
+	var slug = document.forms['myform'].slug.value;
 	
 	if(home_page==0 && other_page==0)
 		{
@@ -32,6 +32,14 @@ function FormValidation()
 		document.forms['myform'].picture_name.style.background = 'Yellow';
 		document.forms['myform'].picture_name.focus();
 		return false;
+		}
+			
+	if(slug=='')
+		{
+			alert('Please enter slug');
+			document.forms['myform'].slug.style.background = 'Yellow';
+			document.forms['myform'].slug.focus();
+			return false;
 		}	
 		
 	}

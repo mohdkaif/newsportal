@@ -117,6 +117,7 @@ public function get_youtube_id_from_url($url)
             'picture_name' => $this->input->post('picture_name'),
             'videos' => $this->get_youtube_id_from_url($this->input->post('videos')),
             'stitle' => $this->input->post('short_head'),
+            'slug'   => $this->input->post('slug'),
             'title' => $this->input->post('head_line'),
             'reporter' => $this->input->post('reporter'),
             'news' => $this->input->post('details_news'),

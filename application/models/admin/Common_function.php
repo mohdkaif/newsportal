@@ -217,6 +217,7 @@ function pbnews_post($data, $total_news = 14) {
             'news_id' => $generate_id,
             'stitle' => $stitle,
             'title' => $title,
+            'slug'  => $slug,
             'news' => $news,
             'image' => $image,
             'videos' => $videos,

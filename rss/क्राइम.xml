@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss  xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>YugantarPravah RSS Feed RSS</title>
+<link>http://localhost/newsportal/</link>
+<description></description>
+<image>
+                    <title>YugantarPravahRSS Feed</title>
+                    <url>http://localhost/newsportal/uploads/images/logo.png</url>
+                    <link>http://localhost/newsportal/</link>
+              </image>
+                <item>
+                    <news_id>212</news_id>
+                    <category>क्राइम</category>
+                    <title>dsad</title>
+                    <link>http://localhost/newsportal/क्राइम/details/212/dsad</link>
+                    <description>dsadas
+</description>
+                    <pubDate>27-11-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1543319413.jpg</url>
+                        <title>dsad</title>
+                        <link>http://localhost/newsportal/क्राइम/details/212/dsad</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/क्राइम/details/212/dsad</guid>
+                    <image>http://localhost/newsportal/uploads/1543319413.jpg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1543319413.jpg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>204</news_id>
+                    <category>क्राइम</category>
+                    <title>headline nws</title>
+                    <link>http://localhost/newsportal/क्राइम/details/204/headline-nws</link>
+                    <description>qwertyuioplkjhgfnxmwadkqwiudbkhjdoqiudhiqdhqiowdhiq
+</description>
+                    <pubDate>21-11-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542786206.png</url>
+                        <title>headline nws</title>
+                        <link>http://localhost/newsportal/क्राइम/details/204/headline-nws</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/क्राइम/details/204/headline-nws</guid>
+                    <image>http://localhost/newsportal/uploads/1542786206.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1542786206.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>200</news_id>
+                    <category>क्राइम</category>
+                    <title>sdfdsff</title>
+                    <link>http://localhost/newsportal/क्राइम/details/200/sdfdsff</link>
+                    <description>saefwefdf
+</description>
+                    <pubDate>17-11-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1542454546.png</url>
+                        <title>sdfdsff</title>
+                        <link>http://localhost/newsportal/क्राइम/details/200/sdfdsff</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/क्राइम/details/200/sdfdsff</guid>
+                    <image>http://localhost/newsportal/uploads/1542454546.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1542454546.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>162</news_id>
+                    <category>क्राइम</category>
+                    <title>खुद की गलती से सड़क दुर्घटना हुई तो बीमा नहीं – सुप्रीम कोर्ट</title>
+                    <link>http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट</link>
+                    <description>सुप्रीम कोर्ट ने शनिवार को कहा कि यदि कोई व्यक्ति वाहन चलाते समय स्वयं कोई दुर्घटना करता है और उसमें कोई दूसरा वाहन शामिल न हो तो परिजन मुआवजे का</description>
+                    <pubDate>31-10-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1540969399.png</url>
+                        <title>खुद की गलती से सड़क दुर्घटना हुई तो बीमा नहीं – सुप्रीम कोर्ट</title>
+                        <link>http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/क्राइम/details/162/खुद-की-गलती-से-सड़क-दुर्घटना-हुई-तो-बीमा-नहीं-–-सुप्रीम-कोर्ट</guid>
+                    <image>http://localhost/newsportal/uploads/1540969399.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1540969399.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+</channel>
+</rss>
