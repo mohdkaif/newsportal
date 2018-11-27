@@ -4942,7 +4942,7 @@ footer {
     }
 
     .headding-news {
-        padding-top: 30px;
+        padding-top: 10px;
         padding-bottom: 0px;
         margin-bottom: 10px;
     }
@@ -5198,6 +5198,32 @@ footer {
     .video-container {
         margin-bottom: 20px;
     }
+    /*mob social icon*/
+    .social_media_icons .navbar-fixed-top {
+        position: static;
+        padding-bottom: 0;
+    }
+
+    .social_media_icons {
+        padding-top: 70px;
+    }
+
+    .social_media_icons .top_banner_wrap {
+        margin-top: 0px;
+        background: #da251e;
+        border-top: 1px solid #fff;
+        padding-top: 5px;
+    }
+
+    .social_media_icons .top_header_icon {
+        display: block;
+    }
+
+    .top_banner_wrap {
+        margin-top: 0;
+
+    }
+
 } 
 
 @media (max-width: 480px){
