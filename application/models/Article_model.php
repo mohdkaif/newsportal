@@ -12,12 +12,12 @@ class Article_model extends CI_Model {
 #----------------------------------------
 #   news details
 #----------------------------------------
-function article_select($news_id=NULL) {
+function article_select($slug=NULL) {
     
     $this->db->select('news_mst.*,user_info.id,user_info.name,user_info.photo');
     $this->db->from('news_mst');
     $this->db->join('user_info', 'user_info.id=news_mst.post_by');
-    $this->db->where('news_mst.news_id', $news_id);
+    $this->db->where('news_mst.slug', $slug);
     @$row = $this->db->get()->row_array();
     
     if (!empty($row)) {

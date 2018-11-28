@@ -25,8 +25,10 @@ public $default_theme;
 #    Geting news details
 #-----------------------------------  
     public function details() {
-
-        $data = $this->article_model->article_select($this->uri->segment(3));
+        $slug = $this->uri->segment(2);
+        $slug_url = str_replace("-"," ",$slug);
+        
+        $data = $this->article_model->article_select($slug_url);
 
         # ---------------------
         # website setting data        

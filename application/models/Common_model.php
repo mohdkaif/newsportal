@@ -130,7 +130,7 @@ class Common_model extends CI_Model {
             // editor name
             $LN['post_by_name_' . $i] = @$post_by;
             //news link
-            $LN['news_link_' . $i] = $bu . @$page . '/story/' . $news_id . '/' . $splited_SLUG;
+            $LN['news_link_' . $i] = $bu . 'story/' . $splited_SLUG;
             //Image 
             $LN['image_check_' . $i] = $image;
             // image thumb
@@ -192,7 +192,7 @@ class Common_model extends CI_Model {
             // editor image
             $MR['post_by_image_' . $i] =  base_url() . $rows['photo'];
             //News Link Creation
-            $MR['news_link_' . $i] = base_url() . $rows['page'] . '/story/' . $rows['news_id'] . '/' . $splited_SLUG;
+            $MR['news_link_' . $i] = base_url() .'story/'. $splited_SLUG;
            
             $i++;
         }

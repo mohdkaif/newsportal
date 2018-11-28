@@ -70,7 +70,8 @@ class Home_model extends CI_Model {
                 //News Title With Link
                 $PN['position_' . $position]['title_' . $i] = '<a href="' . $bu . @$page . '/' . $news_id . '/' . $this->string_clean($splited_TITLE) . '">' . $title . '</a>';
                 //Only News With Link 
-                $PN['position_' . $position]['news_link_' . $i] = base_url() . $page . '/story/' . $news_id.'/'.$this->string_clean($splited_SLUG);
+               /* $PN['position_' . $position]['news_link_' . $i] = base_url() . $page . '/story/' . $news_id.'/'.$this->string_clean($splited_SLUG);*/
+               $PN['position_' . $position]['news_link_' . $i] = base_url() . 'story/' .$this->string_clean($splited_SLUG);
                 //Short News
                 $PN['position_' . $position]['short_news_' . $i] = strip_tags($news_dtl . '<a href="' . base_url() . $page . $news_id . '/' . $splited_TITLE . '" >   </a>','<p><a>');
                // full_news
@@ -152,7 +153,8 @@ class Home_model extends CI_Model {
             //post Title With Link
             $HN['title_' . $i] = '<a href="' . $bu . $HN['category_' . $i] . '/' . $HN['news_id_' . $i] . '/' . $HN['splited_title_' . $i] . '">' . $HN['news_title_' . $i] . '</a>';
             //Only News Link 
-            $HN['news_link_' . $i] = base_url() .$HN['category_' . $i] . '/story/' . $HN['news_id_' . $i] . '/' . $HN['splited_slug_' . $i];
+            /*$HN['news_link_' . $i] = base_url() .$HN['category_' . $i] . '/story/' . $HN['news_id_' . $i] . '/' . $HN['splited_slug_' . $i];*/
+            $HN['news_link_' . $i] = base_url() . 'story/' . $HN['splited_slug_' . $i];
             //full news
             $HN['full_news_' . $i] = strip_tags($value1->news, '<p><a>'); //$value1->news                           
             //Image ID
