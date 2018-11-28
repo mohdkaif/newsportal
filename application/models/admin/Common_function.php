@@ -614,6 +614,7 @@ public function category_by_id($newsid){
             'stitle' => $stitle,
             'title' => $title,
             'news' => $news,
+            'slug' => $slug,
             'image' => $image,
             'videos' => $videos,
             'reporter' => $reporter,

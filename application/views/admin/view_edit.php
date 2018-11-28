@@ -143,9 +143,20 @@ if (($user_type == 3) || ($user_type == 4)) {
                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                         <td><input type="hidden"  name="post_by" value="<?php echo $row['post_by']; ?>"/></td>
-                        <th><?php echo display('short_head');?></th><th>: &nbsp;&nbsp;</th><td><input type="text" name="short_head" class="form-control" value="<?php echo $row['stitle']; ?>"/></td>
-                        <th> &nbsp;&nbsp;&nbsp; <?php echo display('head_line');?></th><th>:  &nbsp;&nbsp;</th><td width="66%"><input type="text" class="form-control" name="head_line" value="<?php echo $row['title']; ?>" style="width:99%;" /></td>
+
+                        <th><?php echo display('short_head');?></th><td><input type="text" name="short_head" class="form-control" value="<?php echo $row['stitle']; ?>"/></td>
+
+                        <th> <?php echo display('head_line');?></th>
+
+                        <td width="80%">
+                            <input type="text" class="form-control" name="head_line" value="<?php echo $row['title']; ?>" style="width:99%;" />
+                        </td>
                     </tr>
+                    <tr>
+                        <th> <?php echo display('slug');?></th>
+                        <td width="66%"><input type="text" name="slug" style="width:99%;" value="<?php echo $row['slug']; ?>" class="form-control"></td>
+                    </tr>
+
                 </table>
             </fieldset>
         </div>

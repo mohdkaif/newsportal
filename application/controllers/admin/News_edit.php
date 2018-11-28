@@ -108,6 +108,7 @@ public function get_youtube_id_from_url($url)
             'news_id'           => $this->input->post('news_id'),
             'home_page'         => $this->input->post('home_page'),
             'other_page'        => $this->input->post('other_page'),
+            'slug'              => $this->input->post('slug'),
             'other_position'    => $this->input->post('other_position'),
             'picture_name'      => $this->input->post('picture_name'),
             'image'             => $image,
