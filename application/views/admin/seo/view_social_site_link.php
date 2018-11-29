@@ -42,36 +42,36 @@
                         <input type="text" name="google" class="form-control" id="" value="<?php if (isset($settings[0]->google)) echo @$settings[0]->google; ?>">
                     </div>
                 </div>
-                <div class="row single_field">
+                <!-- <div class="row single_field">
                     <div class="col-sm-2"><label><?php echo display('pinterest')?></label></div>
                     <div class="col-sm-10">
                         <input type="text" name="pin" class="form-control" id="" value="<?php if (isset($settings[0]->pin)) echo @$settings[0]->pin; ?>">
                     </div>
-                </div>
+                </div> -->
                 <div class="row single_field">
                     <div class="col-sm-2"><label><!-- <?php echo display('instagram')?> -->Instagram</label></div>
                     <div class="col-sm-10">
                         <input type="text" name="instagram" class="form-control" id="" value="<?php if (isset($settings[0]->instagram)) echo @$settings[0]->instagram; ?>">
                     </div>
                 </div>
-                <!-- <div class="row single_field">
+                <div class="row single_field">
                     <div class="col-sm-2"><label><?php echo display('vimeo')?></label></div>
                     <div class="col-sm-10">
                         <input type="text" name="vimo" class="form-control" id="" value="<?php if (isset($settings[0]->vimo)) echo @$settings[0]->vimo; ?>">
                     </div>
-                </div>  -->
-                <div class="row single_field">
+                </div> 
+               <!--  <div class="row single_field">
                     <div class="col-sm-2"><label><?php echo display('youtube')?></label></div>
                     <div class="col-sm-10">
                         <input type="text" name="youtube" class="form-control" id="" value="<?php if (isset($settings[0]->youtube)) echo @$settings[0]->youtube; ?>">
                     </div>
-                </div>
-                <!-- <div class="row single_field">
+                </div> -->
+                <div class="row single_field">
                     <div class="col-sm-2"><label><?php echo display('flickr')?></label></div>
                     <div class="col-sm-10">
                         <input type="text" name="flickr" class="form-control" id="" value="<?php if (isset($settings[0]->flickr)) echo @$settings[0]->flickr; ?>">
                     </div>
-                </div> -->
+                </div>
                <!--  <div class="row single_field">
                     <div class="col-sm-2"><label><?php echo display('vk')?></label></div>
                     <div class="col-sm-10">
