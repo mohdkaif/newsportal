@@ -45,7 +45,8 @@
                                     <div class="input-group search-area"> <!-- search area -->
                                         <input type="text" class="form-control" placeholder="<?php echo display('search')?>" name="q">
                                         <div class="input-group-btn">
-                                            <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                            <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i>
+                                            </button>
                                         </div>
                                     </div> <!-- /.search area -->
                                 <?php echo form_close();?>

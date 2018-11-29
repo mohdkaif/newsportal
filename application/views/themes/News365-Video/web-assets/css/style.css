@@ -1908,7 +1908,7 @@ input[type='radio']:checked:before {
     background-color: #909AA0;
     font-size: 12px;
     text-align: center;
-    padding-top: 14px;
+    padding-top: 8px;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -1988,7 +1988,7 @@ input[type='radio']:checked:before {
 .social ul li a.vk::after{border-top-color: #507299;}
 
 .social ul li a i {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .social a span {
@@ -5006,18 +5006,26 @@ footer {
     }
     .mobile-menu-area .social ul{
         position: absolute;
+        top: -2px;
     }
+    .cross-btn:before {
+        content: "\f00d";
+    }
+
+
     .custom-search-form .form-control{
-       width: 0 !important;
+       width: 0;
        float: right;
        padding: 0;
        border: 0;
     }
     .custom_input{
         width: 100% !important;
+        padding: 8px !important;
     }
     .input-group.custom-search-form button {
         float: right;
+        /*top:1px;*/
     }
     .top_header_icon .social{
         margin-bottom: 0;
@@ -5230,7 +5238,7 @@ footer {
         margin-top: 0px;
         background: #da251e;
         border-top: 1px solid #fff;
-        padding-top: 5px;
+        padding: 3px 7px;
     }
 
     .social_media_icons .top_header_icon {
@@ -5405,6 +5413,15 @@ span.category_label {
     font-size: 1em;
 }
 .social .web-social li a {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 33px;
+}
+.top_header_icon .social{
+    margin-bottom: 0;
+}
+.breaking-news .search-area{
+    margin-bottom: 18px;
+}
+.social ul li a.instagram::after{
+    border-top-color: #909aa0;
 }

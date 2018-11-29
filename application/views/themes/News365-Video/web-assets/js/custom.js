@@ -236,9 +236,8 @@ $(document).ready(function() {
     });
 
     $(".mobile-menu-btn").click(function(){
-        // $(".custom-search-form input").addClass("custom_input");
-        $(this).parent().siblings().addClass("custom_input");
-        // $(this).parent().siblings()
+        $(this).parent().siblings().toggleClass("custom_input");
+        $(this).children().toggleClass("cross-btn");
     });
 
     /* ---------------------------------------------
