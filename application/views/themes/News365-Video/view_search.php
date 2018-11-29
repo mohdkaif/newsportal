@@ -41,21 +41,30 @@ if (isset($ads) && is_array($ads)) {
             $total = 0;
             if (is_array(@$search_newses)) {
                 foreach (@$search_newses as $key => $value) {
-                $exploded_TITLE = @trim(@implode('-', @preg_split("/[\s,-\:]+/", @$value->title)), '-')
+
+                $this->db->select('categories.*');
+                $this->db->from('categories');
+                $this->db->where('categories.category_name', $value->page);
+                @$slugrow = $this->db->get()->row_array();
+                
+                $exploded_SLUG = @trim(@implode('-', @preg_split("/[\s,-\:]+/", @$value->slug)), '-');
+
+                $exploded_TITLE = @trim(@implode('-', @preg_split("/[\s,-\:]+/", @$value->title)), '-');
             ?>
                     <div class="col-sm-12 col-md-12">
                         <!-- archive post -->
                         <div class="post-style2 archive-post-style-2">
                              <?php if($value->image!=NULL){?>
-                                <a href="<?php echo base_url() . $value->page . '/details/' . $value->news_id . '/' . $exploded_TITLE; ?>"><img src="<?php echo base_url() . 'uploads/thumb/' . $value->image; ?>" alt="" ></a> 
+                                <!-- <a href="<?php echo base_url() . $value->page . '/details/' . $value->news_id . '/' . $exploded_TITLE; ?>"><img src="<?php echo base_url() . 'uploads/thumb/' . $value->image; ?>" alt="" ></a>  -->
+                                <a href="<?php echo base_url() . 'Story/' . $slugrow['slug'] . '/' . $exploded_SLUG; ?>"><img src="<?php echo base_url() . 'uploads/thumb/' . $value->image; ?>" alt="" ></a>
 
                            <?php } else{?>
-                            <a href="<?php echo base_url() . $value->page . '/details/' . $value->news_id . '/' . $exploded_TITLE; ?>" rel="bookmark">
+                            <a href="<?php echo base_url() . 'Story/' . $slugrow['slug'] . '/' . $exploded_SLUG; ?>" rel="bookmark">
                             <img width="200" src="http://img.youtube.com/vi/<?php echo $value->videos; ?>/0.jpg" alt="" >
                            </a>
                             <?php }?>
                             <div class="post-style2-detail">
-                                <h4><a href="<?php echo base_url() . $value->page . '/details/' . $value->news_id . '/' . $exploded_TITLE; ?>" title=""><?php echo @$value->title; ?></a></h4>
+                                <h4><a href="<?php echo base_url() . 'Story/' . $slugrow['slug'] . '/' . $exploded_SLUG; ?>" title=""><?php echo @$value->title; ?></a></h4>
                                 <div class="date">
                                     <ul>
                                         <li>By<a title="" href="#"><span><?php echo @$value->name; ?></span></a> --</li>
@@ -66,7 +75,7 @@ if (isset($ads) && is_array($ads)) {
                                 </div>
                                 <?php
                                 echo implode(' ', array_slice(explode(' ', htmlspecialchars_decode(strip_tags(@$value->news))), 0, 35));
-                                ?><a href="<?php echo base_url() . $value->page . '/details/' . $value->news_id . '/' . $exploded_TITLE; ?>"> Read more...</a>
+                                ?><a href="<?php echo base_url(). 'Story/' . $slugrow['slug'] . '/' . $exploded_SLUG; ?>"> Read more...</a>
                             </div>
                         </div>
                     </div>

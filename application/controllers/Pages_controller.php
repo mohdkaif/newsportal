@@ -26,7 +26,6 @@ class Pages_controller extends CI_Controller {
 # view categroy page
 #--------------------------------- 
     public function index() {
-        
         // slug Name from URL
         $page_name = $this->uri->segment(1); 
         $page_data = $this->new_page->page_data($page_name);

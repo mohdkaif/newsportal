@@ -29,6 +29,13 @@ class Page extends CI_Model {
         if ($query->num_rows() > 0) {
             $i = 1;
             foreach ($query->result() as  $value) {
+
+                $this->db->select('categories.*');
+                $this->db->from('categories');
+                $this->db->where('categories.category_name', $value->page);
+                @$slugrow = $this->db->get()->row_array();
+
+                
                 $news = $value->news;
                 $news = htmlspecialchars($news, ENT_QUOTES);
                 $splited_TITLE = $this->explodedtitle($value->title);
@@ -48,7 +55,7 @@ class Page extends CI_Model {
                 // news title with link
                 $pn['title_' . $i] = '<a href="' . base_url() . $value->page . '/' . $value->news_id . '/' . $this->string_clean($splited_TITLE) . '" class="text-green" title=' . $value->title . '>' . $value->title . '</a>';
                 // only news link
-                $pn['news_link_' . $i] = base_url() .$value->page . '/story/' . $value->news_id . '/' . $splited_SLUG;
+                $pn['news_link_' . $i] = base_url() . 'Story/' .$slugrow['slug'] . '/' . $splited_SLUG;
                 // full news
                 $pn['full_news_' . $i] = html_entity_decode($news);
                 // image view from thumb

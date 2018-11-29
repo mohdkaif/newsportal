@@ -43,6 +43,12 @@ class Page_model extends CI_Model {
 
 
         foreach ($newses as $data){
+
+            $this->db->select('categories.*');
+            $this->db->from('categories');
+            $this->db->where('categories.category_name', $data['page']);
+            @$slugrow = $this->db->get()->row_array();
+
             @$splited_TITLE = $this->string_clean($this->explodedtitle($data['title']));
             @$splited_SLUG = $this->string_clean($this->explodedtitle($data['slug']));
 
@@ -75,7 +81,8 @@ class Page_model extends CI_Model {
             // full news
             @$PN['full_news_' . $i] = strip_tags($data['news'], '<p><a>');
             //Only News Link Creation
-            @$PN['news_link_' . $i] = base_url() . $data['page'] . '/story/' . $data['news_id'] . '/' . $splited_SLUG;
+           /* @$PN['news_link_' . $i] = base_url() . $data['page'] . '/story/' . $data['news_id'] . '/' . $splited_SLUG;*/
+            @$PN['news_link_' . $i] = base_url() . 'Story/' . $slugrow['slug'] . '/' . $splited_SLUG;
             //Image name
             @$PN['image_' . $i] = $data['image'];
             // image chack

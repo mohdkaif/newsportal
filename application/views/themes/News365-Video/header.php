@@ -225,7 +225,18 @@ $selected = 'style="background-color:#f60d2b;color:#fff;"';
 
                 <div class="container">
                     <div class="top_header_icon">
-                        <span class="top_header_icon_wrap">
+                        <div class="social">
+                            <ul>
+                                <li><a href="<?php if (isset($social_link[0]->fb)) echo @$social_link[0]->fb; ?>" class="facebook"><i class="fa  fa-facebook"></i> </a></li>
+                                <li><a href="<?php if (isset($social_link[0]->tw)) echo @$social_link[0]->tw; ?>" class="twitter"><i class="fa  fa-twitter"></i></a></li>
+                                <li><a href="<?php if (isset($social_link[0]->google)) echo @$social_link[0]->google; ?>" class="google"><i class="fa  fa-google-plus"></i></a></li>
+                                <!-- <li><a href="<?php if (isset($social_link[0]->flickr)) echo @$social_link[0]->flickr; ?>" class="flickr"><i class="fa fa-flickr"></i></a></li> -->
+                                <li><a href="<?php if (isset($social_link[0]->youtube)) echo @$social_link[0]->youtube; ?>" class="youtube"><i class="fa fa-youtube"></i></a></li>
+                                <li><a href="<?php if (isset($social_link[0]->instagram)) echo @$social_link[0]->instagram; ?>" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                 <!-- <li><a href="<?php if (isset($social_link[0]->vk)) echo @$social_link[0]->vk; ?>" class="vk"><i class="fa fa-vk"></i></a></li> -->
+                            </ul>
+                        </div>
+                        <!-- <span class="top_header_icon_wrap">
                         <a target="_blank" href="<?php if (isset($social_link[0]->tw)) echo @$social_link[0]->tw; ?>" title="Twitter"><i class="fa fa-twitter"></i></a>
                         </span>
                         <span class="top_header_icon_wrap">
@@ -239,7 +250,7 @@ $selected = 'style="background-color:#f60d2b;color:#fff;"';
                         </span>
                         <span class="top_header_icon_wrap">
                             <a target="_blank" href="<?php if (isset($social_link[0]->pin)) echo @$social_link[0]->pin; ?>" title="Pintereset"><i class="fa fa-pinterest-p"></i></a>
-                        </span>
+                        </span> -->
                     </div>
                     <div class="mob-logo">
                         <!-- <?php  echo '<h2 class="white-text">YUGANTARPRAVAH</h2>'?> -->
@@ -276,7 +287,31 @@ $selected = 'style="background-color:#f60d2b;color:#fff;"';
 
                                
                                     <div class="top_header_icon">
-                                        <span class="top_header_icon_wrap">
+                                        <div class="social">
+                                            <ul>
+                                                <li><a href="<?php if (isset($social_link[0]->fb)) echo @$social_link[0]->fb; ?>" class="facebook"><i class="fa  fa-facebook"></i> </a></li>
+                                                <li><a href="<?php if (isset($social_link[0]->tw)) echo @$social_link[0]->tw; ?>" class="twitter"><i class="fa  fa-twitter"></i></a></li>
+                                                <li><a href="<?php if (isset($social_link[0]->google)) echo @$social_link[0]->google; ?>" class="google"><i class="fa  fa-google-plus"></i></a></li>
+                                                <!-- <li><a href="<?php if (isset($social_link[0]->flickr)) echo @$social_link[0]->flickr; ?>" class="flickr"><i class="fa fa-flickr"></i></a></li> -->
+                                                <li><a href="<?php if (isset($social_link[0]->youtube)) echo @$social_link[0]->youtube; ?>" class="youtube"><i class="fa fa-youtube"></i></a></li>
+                                                <li><a href="<?php if (isset($social_link[0]->instagram)) echo @$social_link[0]->instagram; ?>" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                                 <!-- <li><a href="<?php if (isset($social_link[0]->vk)) echo @$social_link[0]->vk; ?>" class="vk"><i class="fa fa-vk"></i></a></li> -->
+                                            </ul>
+
+                                        </div>
+                                        <?php
+                                            $fa = array('method' =>'GET' ); 
+                                            echo form_open('search',$fa);?>
+                                            <div class="input-group custom-search-form">
+                                                <input type="text" class="form-control" placeholder="Search...">
+                                                <span class="input-group-btn">
+                                                    <button class="btn mobile-menu-btn" type="button">
+                                                        <i class="fa fa-search"></i>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        <?php echo form_close();?>
+<!--                                         <span class="top_header_icon_wrap">
                                             <a target="_blank" href="<?php if (isset($social_link[0]->tw)) echo @$social_link[0]->tw; ?>" title="Twitter"><i class="fa fa-twitter"></i></a>
                                         </span>
                                         <span class="top_header_icon_wrap">
@@ -290,7 +325,7 @@ $selected = 'style="background-color:#f60d2b;color:#fff;"';
                                         </span>
                                         <span class="top_header_icon_wrap">
                                             <a target="_blank" href="<?php if (isset($social_link[0]->youtube)) echo @$social_link[0]->youtube; ?>" title="Youtube"><i class="fa fa-youtube"></i></a>
-                                        </span>
+                                        </span> -->
                                     </div>
                                 </div>
                             </div>

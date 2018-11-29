@@ -10,6 +10,25 @@
                     <link>http://localhost/newsportal/</link>
               </image>
                 <item>
+                    <news_id>213</news_id>
+                    <category>techno</category>
+                    <title>china is blshih hyhg </title>
+                    <link>http://localhost/newsportal/techno/details/213/china-is-blshih-hyhg</link>
+                    <description>sdgfdhgfhjgfjhgjkghjkhjkjkhkgjdgew
+</description>
+                    <pubDate>29-11-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1543467547.png</url>
+                        <title>china is blshih hyhg </title>
+                        <link>http://localhost/newsportal/techno/details/213/china-is-blshih-hyhg</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/213/china-is-blshih-hyhg</guid>
+                    <image>http://localhost/newsportal/uploads/1543467547.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1543467547.png</thumb>
+                    
+                </item>
+
+                <item>
                     <news_id>210</news_id>
                     <category>techno</category>
                     <title>adfghjkl</title>
@@ -120,24 +139,6 @@
                     <guid isPermaLink='false'>http://localhost/newsportal/techno/details/180/serdfghj</guid>
                     <image>http://localhost/newsportal/uploads/1542369152.jpeg</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1542369152.jpeg</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
                     
                 </item>
 

@@ -138,6 +138,7 @@
                             </div>
                         </div> -->
                     </div>
+                    <h4 class="subtitle"><?php echo $stitle; ?></h4>
                     <div class="pull-right zoom" style="padding-right: 10px;">               
                         <a href="<?php echo $bu . 'Print_article/print_page/' . $news_id; ?>" class="icon_n_d"  target="_blank" title="Click to Print"><img src="<?php echo $bu; ?>assets/icon/print.jpg" height="23" width="25" alt=""/></a>
                     </div>
@@ -165,7 +166,8 @@
                     <?php if($reference!=NULL){?>
                         <b><?php echo $reference;?></b>
                     <?php } ?>
-                    <h4 class="related_news_link"><?php echo @$sn['hn']['title_2']; ?></h4>
+                    
+                    <a href="<?php echo @$sn['hn']['news_link_2'] ?>" class="related_news_link"><?php echo @$sn['hn']['title_2']; ?></a>
                 </div>
                 <div class="<?php echo (@$lg_status_33==0?'hidden-lg hidden-md':'')?> <?php echo (@$sm_status_33==0?'hidden-xs hidden-sm':'')?>">
                  <?php echo @$news_view_33; ?>

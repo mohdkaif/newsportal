@@ -28,6 +28,8 @@ $(document).ready(function() {
         dots: false,
         lazyLoad: true,
         navigation: true,
+        mouseDrag: false,
+        touchDrag: false,
         navigationText: [
             "<i class='fa pe-7s-angle-left'></i>",
             "<i class='fa pe-7s-angle-right'></i>"
@@ -49,6 +51,8 @@ $(document).ready(function() {
         dots: false,
         lazyLoad: true,
         navigation: true,
+        mouseDrag: false,
+        touchDrag: false,
         navigationText: [
             "<i class='fa pe-7s-angle-left'></i>",
             "<i class='fa pe-7s-angle-right'></i>"
@@ -70,6 +74,8 @@ $(document).ready(function() {
         dots: false,
         lazyLoad: true,
         navigation: true,
+        mouseDrag: false,
+        touchDrag: false,
         navigationText: [
             "<i class='fa pe-7s-angle-left'></i>",
             "<i class='fa pe-7s-angle-right'></i>"
@@ -91,6 +97,8 @@ $(document).ready(function() {
         pagination: false,
         dots: false,
         lazyLoad: true,
+        mouseDrag: false,
+        touchDrag: false,
         navigation: false
     });
 
@@ -106,6 +114,8 @@ $(document).ready(function() {
         dots: false,
         lazyLoad: true,
         navigation: true,
+        mouseDrag: false,
+        touchDrag: false,
         navigationText: [
             "<i class='fa pe-7s-angle-left'></i>",
             "<i class='fa pe-7s-angle-right'></i>"
@@ -126,6 +136,8 @@ $(document).ready(function() {
         dots: false,
         lazyLoad: true,
         navigation: true,
+        mouseDrag: false,
+        touchDrag: false,
         navigationText: [
             "<i class='fa pe-7s-angle-left'></i>",
             "<i class='fa pe-7s-angle-right'></i>"
@@ -148,6 +160,8 @@ $(document).ready(function() {
         dots: false,
         lazyLoad: true,
         navigation: true,
+        mouseDrag: false,
+        touchDrag: false,
         navigationText: [
             "<i class='fa pe-7s-angle-left'></i>",
             "<i class='fa pe-7s-angle-right'></i>"
@@ -169,6 +183,8 @@ $(document).ready(function() {
         dots: false,
         lazyLoad: true,
         navigation: true,
+        mouseDrag: false,
+        touchDrag: false,
         navigationText: [
             "<i class='fa pe-7s-angle-left left'></i>",
             "<i class='fa pe-7s-angle-right right'></i>"
@@ -219,6 +235,11 @@ $(document).ready(function() {
         return false;
     });
 
+    $(".mobile-menu-btn").click(function(){
+        // $(".custom-search-form input").addClass("custom_input");
+        $(this).parent().siblings().addClass("custom_input");
+        // $(this).parent().siblings()
+    });
 
     /* ---------------------------------------------
      Side Menu
