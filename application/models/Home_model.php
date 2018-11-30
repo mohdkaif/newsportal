@@ -17,9 +17,14 @@ class Home_model extends CI_Model {
         foreach ($page_list as $page){
             list($page, $position) = explode('~', $page);
 
+            $this->db->select('categories.*');
+            $this->db->from('categories');
+            $this->db->where('categories.category_name', $page);
+            @$slug_row = $this->db->get()->row_array();
+
             $this->db->select('t1.news_id,t1.time_stamp,t1.slug,t1.page,t1.stitle,t1.title,t1.image,t1.videos,t1.news,t1.reference,t1.ref_date,t1.reporter,t1.videos,t1.post_date,t1.post_by,t3.id,t3.photo,t3.name');
             $this->db->from('news_position t2');
-            $this->db->where('t2.page', $page);
+            $this->db->where('t2.page', $slug_row['slug']);
             $this->db->where('t2.status', '1');
             $this->db->join('news_mst t1', 't1.news_id=t2.news_id', 'left');
             $this->db->join('user_info t3', 't3.id=t1.post_by');
@@ -29,11 +34,11 @@ class Home_model extends CI_Model {
             $result = $this->db->get()->result_array();
             $i = 1;
             foreach ($result as $data) {
-
+                /*print_r($data);die();
                 $this->db->select('categories.*');
                 $this->db->from('categories');
                 $this->db->where('categories.category_name', $data['page']);
-                @$slugrow = $this->db->get()->row_array();
+                @$slugrow = $this->db->get()->row_array();*/
 
                 $news_id = $data['news_id']; 
                 $stitle = $data['stitle'];
@@ -77,7 +82,7 @@ class Home_model extends CI_Model {
                 $PN['position_' . $position]['title_' . $i] = '<a href="' . $bu . @$page . '/' . $news_id . '/' . $this->string_clean($splited_TITLE) . '">' . $title . '</a>';
                 //Only News With Link 
                /* $PN['position_' . $position]['news_link_' . $i] = base_url() . $page . '/story/' . $news_id.'/'.$this->string_clean($splited_SLUG);*/
-               $PN['position_' . $position]['news_link_' . $i] = base_url() . 'Story/' .$slugrow['slug'] . '/' . $this->string_clean($splited_SLUG);
+               $PN['position_' . $position]['news_link_' . $i] = base_url() . 'Story/' .$data['page'] . '/' . $this->string_clean($splited_SLUG);
                 //Short News
                 $PN['position_' . $position]['short_news_' . $i] = strip_tags($news_dtl . '<a href="' . base_url() . $page . $news_id . '/' . $splited_TITLE . '" >   </a>','<p><a>');
                // full_news
@@ -107,7 +112,14 @@ class Home_model extends CI_Model {
 #------------------------------------------------
 # gatting home data
 #------------------------------------------------    
-    public function home_data($page = 'home') {       
+    public function home_data($page = 'home') {    
+
+/*
+        $this->db->select('categories.*');
+        $this->db->from('categories');
+        $this->db->where('categories.category_name', $page);
+        @$slug_row = $this->db->get()->row_array();*/
+
         $result = $this->db->select('t1.news_id,t1.slug,t1.post_date,t1.time_stamp,t1.page,t1.stitle,t1.title,t1.image,t1.news,t1.reference,t1.ref_date,t1.publish_date,t1.post_by,t1.reporter,t1.status,t1.videos,t3.id,t3.name,t3.photo')
                 ->from('news_position t2')
                 ->join('news_mst t1', 't1.news_id=t2.news_id', 'left')
@@ -127,12 +139,12 @@ class Home_model extends CI_Model {
 
         foreach ($result as $key => $value1) {
              
-
+            /*print_r($value1);die();
             $this->db->select('categories.*');
             $this->db->from('categories');
             $this->db->where('categories.category_name', $value1->page);
             @$slugrow = $this->db->get()->row_array();
-
+*/
 
             
             //Category
@@ -169,7 +181,7 @@ class Home_model extends CI_Model {
             $HN['title_' . $i] = '<a href="' . $bu . $HN['category_' . $i] . '/' . $HN['news_id_' . $i] . '/' . $HN['splited_title_' . $i] . '">' . $HN['news_title_' . $i] . '</a>';
             //Only News Link 
             /*$HN['news_link_' . $i] = base_url() .$HN['category_' . $i] . '/story/' . $HN['news_id_' . $i] . '/' . $HN['splited_slug_' . $i];*/
-            $HN['news_link_' . $i] = base_url()  . 'Story/'  . $slugrow['slug'] . '/' . $HN['splited_slug_' . $i];
+            $HN['news_link_' . $i] = base_url()  . 'Story/'  . $value1->page . '/' . $HN['splited_slug_' . $i];
             //full news
             $HN['full_news_' . $i] = strip_tags($value1->news, '<p><a>'); //$value1->news                           
             //Image ID
@@ -198,12 +210,12 @@ class Home_model extends CI_Model {
            
             @$CI = array();
             foreach($cat_list as $key => $value){
+
                 $value = substr($value, 0, strpos($value, "~"));
-                
 
                 $this->db->select('category_imgae');
                 $this->db->from('categories');
-                $this->db->where('slug ', $value);
+                $this->db->where('category_name ', $value);
                 $result_category = $this->db->get()->result_array();
                 
                 foreach ($result_category as $data_cat) {
@@ -214,7 +226,6 @@ class Home_model extends CI_Model {
            
             
             $cat_list = implode(',', $cat_list);
-
             @$PN = $this->page_data_for_home($cat_list);
            
         } else {

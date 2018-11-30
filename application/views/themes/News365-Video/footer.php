@@ -183,6 +183,7 @@ $social_link = json_decode('[' . $social_link . ']');
                         <!-- <li><a href="<?php if (isset($social_link[0]->youtube)) echo @$social_link[0]->youtube; ?>" class="youtube"><i class="fa fa-youtube"></i></a></li>  -->
                         <li><a href="<?php if (isset($social_link[0]->vimo)) echo @$social_link[0]->vimo; ?>" class="vimeo"><i class="fa fa-vimeo"></i></a></li>
                         <!--  <li><a href="<?php if (isset($social_link[0]->vk)) echo @$social_link[0]->vk; ?>" class="vk"><i class="fa fa-vk"></i></a></li> -->
+                        <li><a href="<?php if (isset($social_link[0]->instagram)) echo @$social_link[0]->instagram; ?>" class="instagram"><i class="fa fa-instagram"></i></a></li>
                     
                                 
                             </ul>
