@@ -91,12 +91,12 @@ class Common_model extends CI_Model {
 
         $i = 1;
         foreach ($result as $key => $data){
-
             
-            $this->db->select('categories.*');
+            
+            /*$this->db->select('categories.*');
             $this->db->from('categories');
             $this->db->where('categories.category_name', $data->page);
-            @$slugrow = $this->db->get()->row_array();
+            @$slugrow = $this->db->get()->row_array();*/
 
             $splited_TITLE = $this->string_clean($this->explodedtitle($data->title));
             @$page = $data->page;
@@ -136,7 +136,7 @@ class Common_model extends CI_Model {
             // editor name
             $LN['post_by_name_' . $i] = @$post_by;
             //news link
-            $LN['news_link_' . $i] = $bu . 'Story/' . $slugrow['slug']. '/' . $splited_SLUG;
+            $LN['news_link_' . $i] = $bu . 'Story/' . $data->page. '/' . $splited_SLUG;
             //Image 
             $LN['image_check_' . $i] = $image;
             // image thumb
@@ -171,11 +171,11 @@ class Common_model extends CI_Model {
         foreach ($result as $key => $rows) {
 
             
-            $this->db->select('categories.*');
+            /*$this->db->select('categories.*');
             $this->db->from('categories');
             $this->db->where('categories.category_name', $rows['page']);
             @$slugrow = $this->db->get()->row_array();
-
+*/
             $splited_TITLE = $this->string_clean($this->explodedtitle($rows['title']));
             $splited_SLUG = $this->string_clean($this->explodedtitle($rows['slug']));             
             // news title
@@ -205,7 +205,7 @@ class Common_model extends CI_Model {
             // editor image
             $MR['post_by_image_' . $i] =  base_url() . $rows['photo'];
             //News Link Creation
-            $MR['news_link_' . $i] = base_url() .'Story/' .$slugrow['slug'] . '/' . $splited_SLUG;
+            $MR['news_link_' . $i] = base_url() .'Story/' .$rows['page'] . '/' . $splited_SLUG;
            
             $i++;
         }
