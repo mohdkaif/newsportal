@@ -113,6 +113,11 @@ class Common_model extends CI_Model {
             @$videos = $data->videos;
             @$category_image = $data->category_imgae;
 
+
+            $this->db->select('categories.*');
+            $this->db->from('categories');
+            $this->db->where('categories.category_name', $data->page);
+            @$newrow = $this->db->get()->row_array();
             // news title with link
             $LN['title_' . $i] = '<a href="' . $bu . @$page . '/' . $news_id . '/' . $splited_TITLE . '">' . $title . '</a>';
             // video
@@ -129,6 +134,8 @@ class Common_model extends CI_Model {
             $LN['news_' . $i] = @$news;
             // category
             $LN['category_' . $i] = $page;
+
+            $LN['category_name_' . $i] = $newrow['category_name'];
             // category link
             $LN['category_link_' . $i] = base_url().$page;
             // editor image
@@ -136,7 +143,7 @@ class Common_model extends CI_Model {
             // editor name
             $LN['post_by_name_' . $i] = @$post_by;
             //news link
-            $LN['news_link_' . $i] = $bu . 'Story/' . $data->page. '/' . $splited_SLUG;
+            $LN['news_link_' . $i] = $bu . 'Story/' . $newrow['slug']. '/' . $splited_SLUG;
             //Image 
             $LN['image_check_' . $i] = $image;
             // image thumb
@@ -175,7 +182,12 @@ class Common_model extends CI_Model {
             $this->db->from('categories');
             $this->db->where('categories.category_name', $rows['page']);
             @$slugrow = $this->db->get()->row_array();
-*/
+*/          
+            $this->db->select('categories.*');
+            $this->db->from('categories');
+            $this->db->where('categories.slug', $rows['page']);
+            @$newrow = $this->db->get()->row_array();
+
             $splited_TITLE = $this->string_clean($this->explodedtitle($rows['title']));
             $splited_SLUG = $this->string_clean($this->explodedtitle($rows['slug']));             
             // news title
@@ -194,6 +206,8 @@ class Common_model extends CI_Model {
             $MR['category_link_' . $i] = base_url().$rows['page'];
             // category name
             $MR['category_' . $i] = $rows['page'];
+
+            $MR['category_name_' . $i] = $newrow['category_name'];
             // read hit
             $MR['reader_hit_' . $i] = $rows['reader_hit'];
             // full news
@@ -205,7 +219,7 @@ class Common_model extends CI_Model {
             // editor image
             $MR['post_by_image_' . $i] =  base_url() . $rows['photo'];
             //News Link Creation
-            $MR['news_link_' . $i] = base_url() .'Story/' .$rows['page'] . '/' . $splited_SLUG;
+            $MR['news_link_' . $i] = base_url() .'Story/' .$newrow['slug'] . '/' . $splited_SLUG;
            
             $i++;
         }

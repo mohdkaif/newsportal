@@ -160,12 +160,28 @@ if (($user_type == 3) || ($user_type == 4)) {
 
                                     <div class="jssocials-share jssocials-share-facebook"><a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[summary]=SUMMARY&p[url]=<?php echo urldecode($news_link); ?>&p[title]=YugantarPravah" class="jssocials-share-link"><i class="fa fa-facebook jssocials-share-logo"></i><span class="jssocials-share-label"><!-- Like --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
-                                    <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=<?php echo urldecode($news_link);?>" class="jssocials-share-link"><i class="fa fa-google jssocials-share-logo"></i><span class="jssocials-share-label">+1</span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+                                    <div class="jssocials-share jssocials-share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=<?php echo urldecode($news_link);?>" class="jssocials-share-link"><i class="fa fa-googleplus jssocials-share-logo"></i><span class="jssocials-share-label"><!-- +1 --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
+
+                                    <div class="jssocials-share jssocials-share-whatsapp"><a target="_self" href="whatsapp://send?text=<?php echo urldecode($news_link);?>" class="jssocials-share-link"><i class="fa fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-label"><!-- WhatsApp --></span></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>
 
                                    
                                     </div>
                                 </span>
-                                <script>
+                              
+                            </div>
+
+    </th>
+                    </tr>
+                    <?php
+                    $sl++;
+                }
+                ?>
+            </table>
+            <?php echo $links; ?>
+        </div>
+    </section>
+</aside>
+  <script>
                                     $(document).ready(function(){
                                         $(".shareMedia").click(function(){
                                            /* $("#share").toggle();*/
@@ -192,16 +208,3 @@ if (($user_type == 3) || ($user_type == 4)) {
                                     }
                            */
                                 </script>
-                            </div>
-
-    </th>
-                    </tr>
-                    <?php
-                    $sl++;
-                }
-                ?>
-            </table>
-            <?php echo $links; ?>
-        </div>
-    </section>
-</aside>

@@ -63,12 +63,13 @@
                                     echo' <div class="videoWrapper-1"><a href="'.@$hn['news_link_1'].'">
                                             
                                             <img  src="'. @$hn['image_large_1'].'">
-                                            <span class="category_label">'.@$hn['category_1'].'</span>
+                                            <span class="category_label">'.@$hn['category_name_1'].'</span>
                                             
                                         </a></div>';
                                 } else {
                                   echo' <div class="videoWrapper-1"><a href="'.@$hn['news_link_1'].'">
                                     <img alt=""  src="http://img.youtube.com/vi/' . @$hn['video_1'] . '/0.jpg" />
+                                    <span class="category_label">'.@$hn['category_name_1'].'</span>
                                     </a></div>';
                                 }
                             ?>     
@@ -108,11 +109,11 @@
                                 if (@$hn['image_check_'.$i]!=NULL){
                                     echo'<a href="'.@$hn['news_link_'.$i].'">
                                             <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt="">
-                                            <span class="category_label">'.@$hn['category_'.$i].'</span>
+                                            <span class="category_label">'.@$hn['category_name_'.$i].'</span>
                                         </a>';
                                 } else {
                                     echo '<a class="entry-thumb" href="'.@$hn['news_link_'.$i].'"><img  src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" />
-                                    <span class="category_label">'.@$hn['category_'.$i].'</span></a>';
+                                    <span class="category_label">'.@$hn['category_name_'.$i].'</span></a>';
                                 }
                             ?>     
                         </div>
@@ -146,11 +147,11 @@
                             <?php
                             if (@$hn['image_check_'.$i]!=NULL) {
                                 echo' <a href="'.@$hn['news_link_'.$i].'">
-                                                <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt=""><span class="category_label">'.@$hn['category_'.$i].'</span>
+                                                <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt=""><span class="category_label">'.@$hn['category_name_'.$i].'</span>
                                             </a>';
                                 } else {
                                       echo '<a href="'. @$hn['news_link_'.$i].'"><img width="100%" src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" alt="photography" />
-                                      <span class="category_label">'.@$hn['category_'.$i].'</span>
+                                      <span class="category_label">'.@$hn['category_name_'.$i].'</span>
                                       </a>';
                                 }
                             ?>
@@ -537,7 +538,7 @@
 
                                     <div class="item-details">
                                         <h6 class="sub-category-title bg-color-1">
-                                            <a href="<?php echo @$ln['category_link_'.$i];?>"><?php echo @$ln['category_'.$i];?></a>
+                                            <a href="<?php echo @$ln['category_link_'.$i];?>"><?php echo @$ln['category_name_'.$i];?></a>
                                         </h6>
                                         <h3 class="td-module-title"><a href="<?php echo @$ln['news_link_'.$i];?>"><?php echo @$ln['news_title_'.$i];?></a></h3>
                                         <div class="post-editor-date">
@@ -570,7 +571,7 @@
                                     
                                     <div class="item-details">
                                         <h6 class="sub-category-title bg-color-5">
-                                            <a href="<?php echo @$mr['category_link_'.$i];?>"><?php echo @$mr['category_'.$i];?></a>
+                                            <a href="<?php echo @$mr['category_link_'.$i];?>"><?php echo @$mr['category_name_'.$i];?></a>
                                         </h6>
                                         <h3 class="td-module-title">
                                         <a href="<?php echo @$mr['news_link_'.$i];?>"><?php echo @$mr['news_title_'.$i];?></a>

@@ -25,6 +25,7 @@ class Page_model extends CI_Model {
 # page_data
 #-------------------------------
     function page_data($page=NULL) { 
+
         $PN = array();
         $bu = base_url();
         $i = 1;
@@ -46,20 +47,27 @@ class Page_model extends CI_Model {
 
             $this->db->select('categories.*');
             $this->db->from('categories');
-            $this->db->where('categories.category_name', $data['page']);
+            $this->db->where('categories.slug', $data['page']);
             @$slugrow = $this->db->get()->row_array();
+            
 
             @$splited_TITLE = $this->string_clean($this->explodedtitle($data['title']));
             @$splited_SLUG = $this->string_clean($this->explodedtitle($data['slug']));
 
             @$news_dtl = implode(' ', array_slice(explode(' ', $data['news']), 0, 30));
-            
+
+            $this->db->select('categories.*');
+            $this->db->from('categories');
+            $this->db->where('categories.slug', $data['page']);
+            @$newrow = $this->db->get()->row_array();
             //editor images
             @$PN['post_by_image_' . $i] =  base_url() . $data['photo'] ;
             // editor name
             @$PN['post_by_name_' . $i] = $data['name'];
             // category name
             @$PN['category_' . $i] = $data['page'];
+
+            @$PN['category_name_' . $i] = $newrow['category_name'];
             // category link
             @$PN['category_link_' . $i] = base_url().$data['page'];
             // video id

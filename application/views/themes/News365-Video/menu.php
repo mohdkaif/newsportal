@@ -102,6 +102,7 @@ if (isset($ads) && is_array($ads)) {
                         echo '<a  href="' . $slug1 . '" class="dropdown-toggle ' . $i++ . '" data-toggle="dropdown">' . $value->menu_lavel . '<span class="pe-7s-angle-down"></span></a>';
                         echo '<ul class="dropdown-menu menu-slide">';
                         foreach ($num_rows1 as $key1 => $value1) {
+
                             if($value1->slug!=NULL){
                                 $slug2 = $bu.$value1->slug;
                             }elseif ($value1->link_url!=NULL) {

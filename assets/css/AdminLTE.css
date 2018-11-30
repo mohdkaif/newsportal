@@ -32,6 +32,9 @@ a:focus {
 .wrapper {
   min-height: 100%;
 }
+i.fa.fa-googleplus.jssocials-share-logo:before {
+    content: "\f0d5";
+}
 .wrapper:before,
 .wrapper:after {
   display: table;

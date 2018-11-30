@@ -149,7 +149,7 @@
                     
                     <?php
                     if ($videos!=NULL) {
-                        echo '<iframe width="100%" height="370px" src="https://www.youtube.com/embed/' . $videos . '" frameborder="0" allowfullscreen></iframe>';
+                        echo '<iframe width="100%" height="370px" src="https://www.youtube.com/embed/' . $videos . '?autoplay=1" frameborder="0" autoplay allowfullscreen></iframe>';
                     }else{
                         echo'<img src="'. $img_url.'" class="img-responsive" width="100%">
                     ';
@@ -675,7 +675,7 @@
 
                                     <div class="item-details">
                                         <h6 class="sub-category-title bg-color-1">
-                                            <a href="<?php echo @$ln['category_link_'.$i];?>"><?php echo @$ln['category_'.$i];?></a>
+                                            <a href="<?php echo @$ln['category_link_'.$i];?>"><?php echo @$ln['category_name_'.$i];?></a>
                                         </h6>
                                         <h3 class="td-module-title"><a href="<?php echo @$ln['news_link_'.$i];?>"><?php echo @$ln['news_title_'.$i];?></a></h3>
                                         <div class="post-editor-date">
@@ -709,7 +709,7 @@
                                     </div>
                                     <div class="item-details">
                                         <h6 class="sub-category-title bg-color-5">
-                                            <a href="<?php echo @$mr['category_link_'.$i];?>"><?php echo @$mr['category_'.$i];?></a>
+                                            <a href="<?php echo @$mr['category_link_'.$i];?>"><?php echo @$mr['category_name_'.$i];?></a>
                                         </h6>
                                         <h3 class="td-module-title">
                                         <a href="<?php echo @$mr['news_link_'.$i];?>"><?php echo @$mr['news_title_'.$i];?></a>
@@ -976,6 +976,8 @@
         $(".replayCommentBox").not(replay).addClass('hide'); 
     });
 
-
+     $('img').on("error", function() {
+      $(this).attr('src', '<?php echo base_url('/uploads/default.jpg');?>');
+    });
 </script>       
 

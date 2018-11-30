@@ -55,9 +55,18 @@ class Home_model extends CI_Model {
                 $post_by_name = $data['name'];
                 $post_by_img = $data['photo'];
                 $post_date = $data['post_date'];
-              
+
+                $this->db->select('categories.*');
+                $this->db->from('categories');
+                $this->db->where('categories.slug', $data['page']);
+                @$newrow = $this->db->get()->row_array();
+            
+            //Category
+           
                 // category
                 $PN['position_' . $position]['category_' . $i] = $page;
+
+                $PN['position_' . $position]['category_name_' . $i] = $newrow['category_name'];
                 // category link
                 $PN['position_' . $position]['category_link_' . $i] = base_url().$page;
                 //Only news ID 
@@ -145,10 +154,14 @@ class Home_model extends CI_Model {
             $this->db->where('categories.category_name', $value1->page);
             @$slugrow = $this->db->get()->row_array();
 */
-
+            $this->db->select('categories.*');
+            $this->db->from('categories');
+            $this->db->where('categories.slug', $value1->page);
+            @$newrow = $this->db->get()->row_array();
             
             //Category
             $HN['category_' . $i] = $value1->page;
+            $HN['category_name_' . $i] = $newrow['category_name'];
             //category link
             $HN['category_link_' . $i] = base_url().$value1->page;
             // video id

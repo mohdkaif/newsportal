@@ -200,6 +200,8 @@ $(document).ready(function() {
         autoPlay: 5000, //Set AutoPlay to 5 seconds
         navigation: false,
         singleItem: true,
+        mouseDrag: false,
+        touchDrag: false,
         transitionStyle: "fade"
     });
 
@@ -235,7 +237,7 @@ $(document).ready(function() {
         return false;
     });
 
-    $(".mobile-menu-btn").click(function(){
+    $(".social_media_icons .mobile-menu-btn").click(function(){
         $(this).parent().siblings().toggleClass("custom_input");
         $(this).children().toggleClass("cross-btn");
     });
@@ -266,6 +268,8 @@ $(document).ready(function() {
         duration: 4000,
         autostart: 1,
         pauseOnHover: 0,
+        mouseDrag: false,
+        touchDrag: false,
         prevButton: $('#prev-button'),
         nextButton: $('#next-button'),
         stopButton: $('#stop-button'),

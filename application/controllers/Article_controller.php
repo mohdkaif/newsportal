@@ -49,7 +49,7 @@ public $default_theme;
         $data['pull'] = $this->cm->pulling();
         $data['Editor'] = $this->hm->home_data('Editor-Choice');
         
-        $curr_page = $this->uri->segment(1);
+        $curr_page = $this->uri->segment(2);
         $data['sn'] = $this->hm->home_data($curr_page);
         $data['seo']['analytics_code'] = $this->Settings->get_previous_settings('settings', 5);
         $data['seo']['alexa_code'] = $this->Settings->get_previous_settings('settings', 11);
