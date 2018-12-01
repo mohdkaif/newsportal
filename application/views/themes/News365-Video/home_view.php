@@ -744,7 +744,9 @@
                     </div>
                 </div>
                 <!-- video -->
-                <?php if(@$home_page_positions[7]['status']==1){ ?>
+                <?php if(@$home_page_positions[7]['status']==1){ 
+                    //print_r($pn['position_7']);die();
+                ?>
                     <!-- video -->
                     <div class="video-headding"><?php echo display('video_striming')?></div>
                     <div id="rypp-demo-4" class="RYPP r16-9" data-playlist="PLw8TejMbmHM6IegrJ4iECWNoFuG7RiCV_">

@@ -191,8 +191,10 @@ class Common_function extends CI_Model {
 function pbnews_post($data, $total_news = 14) {
         extract($data); 
         $generate_id = $this->max_id('news_mst') + 1;
-        date_default_timezone_set("Asia/Dhaka");
-        $time_stamp = strtotime($publish_date);
+        date_default_timezone_set("Asia/Kolkata");
+
+        $time_stamp = strtotime($publish_date.' '.date('g:i A',time()));
+        /*print_r(date('Y-m-d g:i A',$time_stamp));die();*/
         $post_date = date('Y-m-d');
         # publish status
         if($status1==1){

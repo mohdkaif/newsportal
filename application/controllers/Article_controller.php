@@ -29,6 +29,7 @@ public $default_theme;
         $slug_url = str_replace("-"," ",$slug);
         
         $data = $this->article_model->article_select($slug_url);
+
         # ---------------------
         # website setting data        
         $data['home_page_positions'] = $this->wsm->home_category_position();

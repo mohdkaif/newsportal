@@ -138,18 +138,27 @@
                             </div>
                         </div> -->
                     </div>
-                    <h4 class="subtitle"><?php echo $stitle; ?></h4>
+                    <h4 class="subtitle"><?php  echo $stitle; ?></h4>
                     <div class="pull-right zoom" style="padding-right: 10px;">               
                         <a href="<?php echo $bu . 'Print_article/print_page/' . $news_id; ?>" class="icon_n_d"  target="_blank" title="Click to Print"><img src="<?php echo $bu; ?>assets/icon/print.jpg" height="23" width="25" alt=""/></a>
                     </div>
                     <!-- <p class="short-head"><?php echo @$stitle;?></p> -->
                     <!-- <h1><?php echo $title; ?></h1> -->
-                    <div class="video-container">
+                    <div class="video-container show-tag">
+                        <div class="post-info hidden-xs" id="post-info">
+                                
+                                <h3 class="post-title"><a href="http://localhost/newsportal/Story/technology/ds-sd-sd-xy-xt" rel="bookmark">dsad</a></h3>
+                                <div class="post-editor-date">
+                                    <!-- post date -->
+                                    <div class="post-date">
+                                        <i class="pe-7s-clock"></i> Tuesday, 27 Nov, 2018, 12:30 AM                                </div>
+                                </div>
+                        </div>
                     <?php $img_url = (is_file('uploads/' . $image)) ? $bu . 'uploads/' . $image : $bu . 'uploads/' . $image; ?>
                     
                     <?php
                     if ($videos!=NULL) {
-                        echo '<iframe width="100%" height="370px" src="https://www.youtube.com/embed/' . $videos . '?autoplay=1" frameborder="0" autoplay allowfullscreen></iframe>';
+                        echo '<iframe width="100%" height="370px" src="https://www.youtube.com/embed/' . $videos . '?rel=0" frameborder="0" autoplay allowfullscreen></iframe>';
                     }else{
                         echo'<img src="'. $img_url.'" class="img-responsive" width="100%">
                     ';

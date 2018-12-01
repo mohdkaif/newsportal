@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss  xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>YugantarPravah RSS Feed RSS</title>
+<link>http://localhost/newsportal/</link>
+<description></description>
+<image>
+                    <title>YugantarPravahRSS Feed</title>
+                    <url>http://localhost/newsportal/uploads/images/logo.png</url>
+                    <link>http://localhost/newsportal/</link>
+              </image>
+                <item>
+                    <news_id>217</news_id>
+                    <category>business</category>
+                    <title>dsa</title>
+                    <link>http://localhost/newsportal/business/details/217/dsa</link>
+                    <description>asd
+</description>
+                    <pubDate>01-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1543657121.png</url>
+                        <title>dsa</title>
+                        <link>http://localhost/newsportal/business/details/217/dsa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/business/details/217/dsa</guid>
+                    <image>http://localhost/newsportal/uploads/1543657121.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1543657121.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>215</news_id>
+                    <category>business</category>
+                    <title>sad</title>
+                    <link>http://localhost/newsportal/business/details/215/sad</link>
+                    <description>asd
+</description>
+                    <pubDate>01-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1543655651.png</url>
+                        <title>sad</title>
+                        <link>http://localhost/newsportal/business/details/215/sad</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/business/details/215/sad</guid>
+                    <image>http://localhost/newsportal/uploads/1543655651.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1543655651.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>97</news_id>
+                    <category>Business</category>
+                    <title>blanditiis praesentium voluptatum deleniti atque corrupti </title>
+                    <link>http://localhost/newsportal/Business/details/97/blanditiis-praesentium-voluptatum-deleniti-atque-corrupti</link>
+                    <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took</description>
+                    <pubDate>2017-02-27</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>blanditiis praesentium voluptatum deleniti atque corrupti </title>
+                        <link>http://localhost/newsportal/Business/details/97/blanditiis-praesentium-voluptatum-deleniti-atque-corrupti</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Business/details/97/blanditiis-praesentium-voluptatum-deleniti-atque-corrupti</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>216</news_id>
+                    <category>business</category>
+                    <title>a</title>
+                    <link>http://localhost/newsportal/business/details/216/a</link>
+                    <description>As
+</description>
+                    <pubDate>01-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1543656865.png</url>
+                        <title>a</title>
+                        <link>http://localhost/newsportal/business/details/216/a</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/business/details/216/a</guid>
+                    <image>http://localhost/newsportal/uploads/1543656865.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1543656865.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>103</news_id>
+                    <category>Business</category>
+                    <title>UPdate Business  to popular belief, Lorem Ipsum is not simply random text</title>
+                    <link>http://localhost/newsportal/Business/details/103/UPdate-Business-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</link>
+                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu cursus lacus. Pellentesque tincidunt elit sit amet ligula viverra, ac congue diam sodales. Aenean elementum, felis vitae malesuada euismod, lorem</description>
+                    <pubDate>2017-02-27</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>UPdate Business  to popular belief, Lorem Ipsum is not simply random text</title>
+                        <link>http://localhost/newsportal/Business/details/103/UPdate-Business-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Business/details/103/UPdate-Business-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>89</news_id>
+                    <category>Business</category>
+                    <title>There are many variations of passages of Lorem Ipsum available</title>
+                    <link>http://localhost/newsportal/Business/details/89/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-19</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>There are many variations of passages of Lorem Ipsum available</title>
+                        <link>http://localhost/newsportal/Business/details/89/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Business/details/89/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>88</news_id>
+                    <category>Business</category>
+                    <title>There are many variations of passages of Lorem Ipsum available</title>
+                    <link>http://localhost/newsportal/Business/details/88/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-19</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>There are many variations of passages of Lorem Ipsum available</title>
+                        <link>http://localhost/newsportal/Business/details/88/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Business/details/88/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>87</news_id>
+                    <category>Business</category>
+                    <title>There are many variations of passages of Lorem Ipsum available</title>
+                    <link>http://localhost/newsportal/Business/details/87/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-19</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>There are many variations of passages of Lorem Ipsum available</title>
+                        <link>http://localhost/newsportal/Business/details/87/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Business/details/87/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>86</news_id>
+                    <category>Business</category>
+                    <title>There are many variations of passages of Lorem Ipsum</title>
+                    <link>http://localhost/newsportal/Business/details/86/There-are-many-variations-of-passages-of-Lorem-Ipsum</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-19</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>There are many variations of passages of Lorem Ipsum</title>
+                        <link>http://localhost/newsportal/Business/details/86/There-are-many-variations-of-passages-of-Lorem-Ipsum</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Business/details/86/There-are-many-variations-of-passages-of-Lorem-Ipsum</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>85</news_id>
+                    <category>Business</category>
+                    <title>There are many variations of passages of Lorem Ipsum</title>
+                    <link>http://localhost/newsportal/Business/details/85/There-are-many-variations-of-passages-of-Lorem-Ipsum</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-19</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>There are many variations of passages of Lorem Ipsum</title>
+                        <link>http://localhost/newsportal/Business/details/85/There-are-many-variations-of-passages-of-Lorem-Ipsum</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Business/details/85/There-are-many-variations-of-passages-of-Lorem-Ipsum</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>84</news_id>
+                    <category>Business</category>
+                    <title>Contrary to popular belief, Lorem Ipsum is not simply random text</title>
+                    <link>http://localhost/newsportal/Business/details/84/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-19</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>Contrary to popular belief, Lorem Ipsum is not simply random text</title>
+                        <link>http://localhost/newsportal/Business/details/84/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Business/details/84/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>83</news_id>
+                    <category>Business</category>
+                    <title>There are many variations of passages of Lorem Ipsum</title>
+                    <link>http://localhost/newsportal/Business/details/83/There-are-many-variations-of-passages-of-Lorem-Ipsum</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-19</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>There are many variations of passages of Lorem Ipsum</title>
+                        <link>http://localhost/newsportal/Business/details/83/There-are-many-variations-of-passages-of-Lorem-Ipsum</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Business/details/83/There-are-many-variations-of-passages-of-Lorem-Ipsum</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+</channel>
+</rss>

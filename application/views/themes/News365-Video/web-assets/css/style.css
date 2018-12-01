@@ -1257,7 +1257,26 @@ ul.newsticker {
 
    
 }
-
+.show-tag .post-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    bottom: 15px;
+    width:100%;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+.show-tag h3.post-title {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    /* color: #fff; */
+}
+.show-tag h3.post-title a {
+    color: #fff;
+    /* text-align: center; */
+}
 .post-wrapper .post-thumb a:last-child::before {
     bottom: 0px;
     content: "";

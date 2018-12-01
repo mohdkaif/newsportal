@@ -4,12 +4,141 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <title>YugantarPravah RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>30-11-2018</lastBuildDate>
+<lastBuildDate>01-12-2018</lastBuildDate>
 <image>
                     <title>YugantarPravahRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
                     <link>http://localhost/newsportal/</link>
                 </image>
+
+                <item>
+                    <title>dsa</title>
+                            <link>http://localhost/newsportal/business/details/217/dsa</link>
+                    <pubDate>Saturday, 01 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>asd
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1543657121.png</url>
+                        <title>dsa</title>
+                        <link>http://localhost/newsportal/business/details/217/dsa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/business/details/217/dsa</guid>
+                    <category><![CDATA[business]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/business/details/217/dsa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>asd
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>a</title>
+                            <link>http://localhost/newsportal/business/details/216/a</link>
+                    <pubDate>Saturday, 01 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>As
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1543656865.png</url>
+                        <title>a</title>
+                        <link>http://localhost/newsportal/business/details/216/a</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/business/details/216/a</guid>
+                    <category><![CDATA[business]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/business/details/216/a>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>As
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sad</title>
+                            <link>http://localhost/newsportal/business/details/215/sad</link>
+                    <pubDate>Tuesday, 19 Jan, 2038</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>asd
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1543655651.png</url>
+                        <title>sad</title>
+                        <link>http://localhost/newsportal/business/details/215/sad</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/business/details/215/sad</guid>
+                    <category><![CDATA[business]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/business/details/215/sad>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>asd
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
 
                 <item>
                     <title>फ़तेहपुर:बकेवर मिनी स्टेडियम में खेल-कूद का आयोजन-प्रतिभाओं को मिला मौका।</title>
@@ -742,135 +871,6 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                               </header>
 
                                 <p>asdad
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>QAEYUI</title>
-                            <link>http://localhost/newsportal/politics/details/196/QAEYUI</link>
-                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>HJGB
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542454041.png</url>
-                        <title>QAEYUI</title>
-                        <link>http://localhost/newsportal/politics/details/196/QAEYUI</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/politics/details/196/QAEYUI</guid>
-                    <category><![CDATA[politics]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/politics/details/196/QAEYUI>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>HJGB
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>ewf</title>
-                            <link>http://localhost/newsportal/uttar-pradesh/details/195/ewf</link>
-                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>ef
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542451960.png</url>
-                        <title>ewf</title>
-                        <link>http://localhost/newsportal/uttar-pradesh/details/195/ewf</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/195/ewf</guid>
-                    <category><![CDATA[uttar-pradesh]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/195/ewf>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>ef
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>sa</title>
-                            <link>http://localhost/newsportal/home/details/194/sa</link>
-                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>sa
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542451699.png</url>
-                        <title>sa</title>
-                        <link>http://localhost/newsportal/home/details/194/sa</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/home/details/194/sa</guid>
-                    <category><![CDATA[home]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/home/details/194/sa>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>sa
 </p>
 
                               <footer>
