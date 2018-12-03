@@ -230,7 +230,7 @@ $selected = 'style="background-color:#dbdbdb;"';
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li <?php echo (($slug3 == 'home_view_settings') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/View_setup/home_view_settings"><i class="fa fa-angle-double-right"></i> <?php echo display('home_page')?></a></li>
+                       <!--  <li <?php echo (($slug3 == 'home_view_settings') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/View_setup/home_view_settings"><i class="fa fa-angle-double-right"></i> <?php echo display('home_page')?></a></li> -->
                         <li <?php echo (($slug3 == 'contact_page_setup') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/View_setup/contact_page_setup"><i class="fa fa-angle-double-right"></i> <?php echo display('contact_page_setting')?></a></li>
                         <li <?php echo (($slug3 == 'view_language_settings') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/View_setup/view_language_settings"><i class="fa fa-angle-double-right"></i> <?php echo display('language_settings')?></a></li>
                         <li <?php echo (($slug3 == 'website_title') ? $selected : '')?>><a href="<?php echo $bu; ?>admin/View_setup/website_title"><i class="fa fa-angle-double-right"></i> <?php echo display('website_title')?></a></li>

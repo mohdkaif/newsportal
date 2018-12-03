@@ -8,54 +8,6 @@
                 </url>
 
                 <url>
-                    <loc>http://localhost/newsportal/International</loc>
-                    <changefreq> always </changefreq>
-                    <priority>1.0</priority>    
-                </url>
-
-                <url>
-                    <loc>http://localhost/newsportal/Travel</loc>
-                    <changefreq> always </changefreq>
-                    <priority>1.0</priority>    
-                </url>
-
-                <url>
-                    <loc>http://localhost/newsportal/Food</loc>
-                    <changefreq> always </changefreq>
-                    <priority>1.0</priority>    
-                </url>
-
-                <url>
-                    <loc>http://localhost/newsportal/Technology</loc>
-                    <changefreq> always </changefreq>
-                    <priority>1.0</priority>    
-                </url>
-
-                <url>
-                    <loc>http://localhost/newsportal/Lifestyle</loc>
-                    <changefreq> always </changefreq>
-                    <priority>1.0</priority>    
-                </url>
-
-                <url>
-                    <loc>http://localhost/newsportal/Editor-Choice</loc>
-                    <changefreq> always </changefreq>
-                    <priority>1.0</priority>    
-                </url>
-
-                <url>
-                    <loc>http://localhost/newsportal/Video</loc>
-                    <changefreq> always </changefreq>
-                    <priority>1.0</priority>    
-                </url>
-
-                <url>
-                    <loc>http://localhost/newsportal/Politics</loc>
-                    <changefreq> always </changefreq>
-                    <priority>1.0</priority>    
-                </url>
-
-                <url>
                     <loc>http://localhost/newsportal/About-us</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
@@ -134,7 +86,7 @@
                 </url>
 
                 <url>
-                    <loc>http://localhost/newsportal/व्यापार</loc>
+                    <loc>http://localhost/newsportal/business</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
@@ -225,6 +177,24 @@
 
                 <url>
                     <loc>http://localhost/newsportal/नौकर-शाही</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/Editor-Choice</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/techno</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/abc</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>

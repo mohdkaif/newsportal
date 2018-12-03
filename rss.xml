@@ -12,6 +12,92 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </image>
 
                 <item>
+                    <title>feesa</title>
+                            <link>http://localhost/newsportal/health/details/219/feesa</link>
+                    <pubDate>Saturday, 01 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sadasdasdasdsadasdsdsadsadasdsadasdasdas
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title>feesa</title>
+                        <link>http://localhost/newsportal/health/details/219/feesa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/health/details/219/feesa</guid>
+                    <category><![CDATA[health]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/health/details/219/feesa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sadasdasdasdsadasdsdsadsadasdsadasdasdas
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sdcsa</title>
+                            <link>http://localhost/newsportal/Uttar-pradesh/details/218/sdcsa</link>
+                    <pubDate>Saturday, 01 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sadsadas
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1543660825.png</url>
+                        <title>sdcsa</title>
+                        <link>http://localhost/newsportal/Uttar-pradesh/details/218/sdcsa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/218/sdcsa</guid>
+                    <category><![CDATA[Uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/Uttar-pradesh/details/218/sdcsa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sadsadas
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
                     <title>dsa</title>
                             <link>http://localhost/newsportal/business/details/217/dsa</link>
                     <pubDate>Saturday, 01 Dec, 2018</pubDate>  
@@ -785,92 +871,6 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                               </header>
 
                                 <p>asfsafasf
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>asegtujk</title>
-                            <link>http://localhost/newsportal/politics/details/198/asegtujk</link>
-                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>sdfxcghjn
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542454183.png</url>
-                        <title>asegtujk</title>
-                        <link>http://localhost/newsportal/politics/details/198/asegtujk</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/politics/details/198/asegtujk</guid>
-                    <category><![CDATA[politics]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/politics/details/198/asegtujk>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>sdfxcghjn
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>sadad</title>
-                            <link>http://localhost/newsportal/national/details/197/sadad</link>
-                    <pubDate>Friday, 16 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>asdad
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542454076.png</url>
-                        <title>sadad</title>
-                        <link>http://localhost/newsportal/national/details/197/sadad</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/national/details/197/sadad</guid>
-                    <category><![CDATA[national]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/national/details/197/sadad>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>asdad
 </p>
 
                               <footer>

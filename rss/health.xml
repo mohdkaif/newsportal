@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss  xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>YugantarPravah RSS Feed RSS</title>
+<link>http://localhost/newsportal/</link>
+<description></description>
+<image>
+                    <title>YugantarPravahRSS Feed</title>
+                    <url>http://localhost/newsportal/uploads/images/logo.png</url>
+                    <link>http://localhost/newsportal/</link>
+              </image>
+                <item>
+                    <news_id>219</news_id>
+                    <category>health</category>
+                    <title>feesa</title>
+                    <link>http://localhost/newsportal/health/details/219/feesa</link>
+                    <description>sadasdasdasdsadasdsdsadsadasdsadasdasdas
+</description>
+                    <pubDate>01-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title>feesa</title>
+                        <link>http://localhost/newsportal/health/details/219/feesa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/health/details/219/feesa</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>117</news_id>
+                    <category>Health</category>
+                    <title>There are many variations of passages of Lorem Ipsum available</title>
+                    <link>http://localhost/newsportal/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
+                    <pubDate>2017-08-13</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>There are many variations of passages of Lorem Ipsum available</title>
+                        <link>http://localhost/newsportal/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Health/details/117/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>114</news_id>
+                    <category>Health</category>
+                    <title>There are many variations of passages of Lorem Ipsum available</title>
+                    <link>http://localhost/newsportal/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum, neque ac vestibulum tincidunt, purus libero tristique tortor, euismod fermentum massa mi non nisi. Proin gravida dui non scelerisque dictum.</description>
+                    <pubDate>13-08-2017</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>There are many variations of passages of Lorem Ipsum available</title>
+                        <link>http://localhost/newsportal/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Health/details/114/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>62</news_id>
+                    <category>Health</category>
+                    <title>Lorem ipsum dolor sit amet, consectetur adipiscing eli</title>
+                    <link>http://localhost/newsportal/Health/details/62/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-eli</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-18</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>Lorem ipsum dolor sit amet, consectetur adipiscing eli</title>
+                        <link>http://localhost/newsportal/Health/details/62/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-eli</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Health/details/62/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-eli</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>61</news_id>
+                    <category>Health</category>
+                    <title>Contrary to popular belief, Lorem Ipsum is not simply random text</title>
+                    <link>http://localhost/newsportal/Health/details/61/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-18</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>Contrary to popular belief, Lorem Ipsum is not simply random text</title>
+                        <link>http://localhost/newsportal/Health/details/61/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Health/details/61/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>60</news_id>
+                    <category>Health</category>
+                    <title>Contrary to popular belief, Lorem Ipsum is not simply random text</title>
+                    <link>http://localhost/newsportal/Health/details/60/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-18</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>Contrary to popular belief, Lorem Ipsum is not simply random text</title>
+                        <link>http://localhost/newsportal/Health/details/60/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Health/details/60/Contrary-to-popular-belief-Lorem-Ipsum-is-not-simply-random-text</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>59</news_id>
+                    <category>Health</category>
+                    <title>There are many variations of passages of Lorem Ipsum</title>
+                    <link>http://localhost/newsportal/Health/details/59/There-are-many-variations-of-passages-of-Lorem-Ipsum</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-18</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>There are many variations of passages of Lorem Ipsum</title>
+                        <link>http://localhost/newsportal/Health/details/59/There-are-many-variations-of-passages-of-Lorem-Ipsum</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Health/details/59/There-are-many-variations-of-passages-of-Lorem-Ipsum</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>58</news_id>
+                    <category>Health</category>
+                    <title>Lorem ipsum dolor sit amet, consectetur adipiscing eli</title>
+                    <link>http://localhost/newsportal/Health/details/58/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-eli</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-18</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>Lorem ipsum dolor sit amet, consectetur adipiscing eli</title>
+                        <link>http://localhost/newsportal/Health/details/58/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-eli</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Health/details/58/Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-eli</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>57</news_id>
+                    <category>Health</category>
+                    <title>There are many variations of passages of Lorem Ipsum</title>
+                    <link>http://localhost/newsportal/Health/details/57/There-are-many-variations-of-passages-of-Lorem-Ipsum</link>
+                    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+                    <pubDate>2017-02-18</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1502887485.jpeg</url>
+                        <title>There are many variations of passages of Lorem Ipsum</title>
+                        <link>http://localhost/newsportal/Health/details/57/There-are-many-variations-of-passages-of-Lorem-Ipsum</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Health/details/57/There-are-many-variations-of-passages-of-Lorem-Ipsum</guid>
+                    <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id></news_id>
+                    <category></category>
+                    <title></title>
+                    <link>http://localhost/newsportal//details//</link>
+                    <description></description>
+                    <pubDate></pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title></title>
+                        <link>http://localhost/newsportal//details//</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+</channel>
+</rss>

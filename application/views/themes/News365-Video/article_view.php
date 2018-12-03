@@ -145,15 +145,17 @@
                     <!-- <p class="short-head"><?php echo @$stitle;?></p> -->
                     <!-- <h1><?php echo $title; ?></h1> -->
                     <div class="video-container show-tag">
+                        <?php if($image_name!=null){?>
                         <div class="post-info hidden-xs" id="post-info">
                                 
-                                <h3 class="post-title"><a href="http://localhost/newsportal/Story/technology/ds-sd-sd-xy-xt" rel="bookmark">dsad</a></h3>
+                                <h3 class="post-title"><a href="http://localhost/newsportal/Story/technology/ds-sd-sd-xy-xt" rel="bookmark"><?php  echo $image_name;?></a></h3>
                                 <div class="post-editor-date">
                                     <!-- post date -->
                                     <div class="post-date">
                                         <i class="pe-7s-clock"></i> Tuesday, 27 Nov, 2018, 12:30 AM                                </div>
                                 </div>
                         </div>
+                    <?php }?>
                     <?php $img_url = (is_file('uploads/' . $image)) ? $bu . 'uploads/' . $image : $bu . 'uploads/' . $image; ?>
                     
                     <?php
@@ -325,7 +327,7 @@
                                                 </div>
                                                 <div class="post-info meta-info-rn">
                                                     <div class="slide">
-                                                        <a target="_blank" href="<?php echo base_url().@$sn['hn']['category_' . $i]; ?>" class="post-badge btn_five"><?php echo @$sn['hn']['category_' . $i]; ?></a>
+                                                        <a target="_blank" href="<?php echo base_url().@$sn['hn']['category_' . $i]; ?>" class="post-badge btn_five"><?php echo @$sn['hn']['category_name_' . $i]; ?></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -360,7 +362,7 @@
                                                 </div>
                                                 <div class="post-info meta-info-rn">
                                                     <div class="slide">
-                                                        <a target="_blank" href="<?php echo @$sn['hn']['news_link_' . $i] ?>" class="post-badge btn_eight"><?php echo @$sn['hn']['category_' . $i]; ?></a>
+                                                        <a target="_blank" href="<?php echo @$sn['hn']['news_link_' . $i] ?>" class="post-badge btn_eight"><?php echo @$sn['hn']['category_name_' . $i]; ?></a>
                                                     </div>
                                                 </div>
                                             </div>
