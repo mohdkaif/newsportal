@@ -111,7 +111,7 @@ class Common_function extends CI_Model {
 #--------------------------------    
     function do_upload($FILES, $sizes) {
         // settings
-        $max_file_size = 1024 * 1024; // 1MB
+        $max_file_size = 5120 * 5120; // 1MB
         $valid_exts = array('jpeg', 'jpg', 'png', 'gif');
         $diractory = array('uploads/thumb', 'uploads');
         if ($FILES['size'] < $max_file_size) {

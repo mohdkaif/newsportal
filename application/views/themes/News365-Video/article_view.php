@@ -146,7 +146,7 @@
                     <!-- <h1><?php echo $title; ?></h1> -->
                     <div class="video-container show-tag">
                         <?php if($image_name!=null){?>
-                        <div class="post-info hidden-xs" id="post-info">
+                        <div class="post-info" id="post-info">
                                 
                                 <h3 class="post-title"><a href="http://localhost/newsportal/Story/technology/ds-sd-sd-xy-xt" rel="bookmark"><?php  echo $image_name;?></a></h3>
                                 <div class="post-editor-date">

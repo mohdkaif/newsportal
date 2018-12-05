@@ -4151,6 +4151,9 @@ body {
     .top_header_icon {
         float: left
     }
+    .show-tag .post-info{
+        display: block !important;
+    }
     .top_header_icon_wrap a {
         padding: 0 6px 3px;
         color: #fff;

@@ -12,6 +12,92 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 </image>
 
                 <item>
+                    <title>fsf</title>
+                            <link>http://localhost/newsportal/sports/details/222/fsf</link>
+                    <pubDate>Wednesday, 05 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sfsfs
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1543997777.jpg</url>
+                        <title>fsf</title>
+                        <link>http://localhost/newsportal/sports/details/222/fsf</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/sports/details/222/fsf</guid>
+                    <category><![CDATA[sports]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/sports/details/222/fsf>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sfsfs
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sad</title>
+                            <link>http://localhost/newsportal/entertainment/details/221/sad</link>
+                    <pubDate>Wednesday, 05 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sad
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1543997679.jpg</url>
+                        <title>sad</title>
+                        <link>http://localhost/newsportal/entertainment/details/221/sad</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/entertainment/details/221/sad</guid>
+                    <category><![CDATA[entertainment]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/entertainment/details/221/sad>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sad
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
                     <title>gfg</title>
                             <link>http://localhost/newsportal/politics/details/220/gfg</link>
                     <pubDate>Wednesday, 05 Dec, 2018</pubDate>  
@@ -797,92 +883,6 @@ hgvhghjgkh
                               </header>
 
                                 <p>asd
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>sad</title>
-                            <link>http://localhost/newsportal/sports/details/201/sad</link>
-                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>sad
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542454904.png</url>
-                        <title>sad</title>
-                        <link>http://localhost/newsportal/sports/details/201/sad</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/sports/details/201/sad</guid>
-                    <category><![CDATA[sports]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/sports/details/201/sad>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>sad
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>sdfdsff</title>
-                            <link>http://localhost/newsportal/crime/details/200/sdfdsff</link>
-                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>saefwefdf
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542454546.png</url>
-                        <title>sdfdsff</title>
-                        <link>http://localhost/newsportal/crime/details/200/sdfdsff</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/crime/details/200/sdfdsff</guid>
-                    <category><![CDATA[crime]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/crime/details/200/sdfdsff>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>saefwefdf
 </p>
 
                               <footer>
