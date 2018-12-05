@@ -19,7 +19,7 @@ function article_select($slug=NULL) {
     $this->db->join('user_info', 'user_info.id=news_mst.post_by');
     $this->db->where('news_mst.slug', $slug);
     @$row = $this->db->get()->row_array();
-
+    
     if($row['image']!=null){
         $this->db->select('photo_library.*');
         $this->db->from('photo_library');
@@ -27,6 +27,8 @@ function article_select($slug=NULL) {
         @$slug_row = $this->db->get()->row_array();
         @$row['image_name'] = $slug_row['picture_name'];
     }
+
+    
     
     if (!empty($row)) {
         $row['meta']['keyword'] = implode(', ', explode(' ', $row['title']));

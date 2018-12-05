@@ -67,7 +67,7 @@ if (isset($ads) && is_array($ads)) {
                                 <h4><a href="<?php echo base_url() . 'Story/' . $slugrow['slug'] . '/' . $exploded_SLUG; ?>" title=""><?php echo @$value->title; ?></a></h4>
                                 <div class="date">
                                     <ul>
-                                        <li>By<a title="" href="#"><span><?php echo @$value->name; ?></span></a> --</li>
+                                        <li>By<a title="" href="#"><span><?php if(@$value->reporter!=null){ echo @$value->reporter;} else{echo @$value->name;} ?></span></a> </li>
                                         <li><a title="" href="#"><?php echo date('l, d M, Y',$value->time_stamp) ; ?></a> --</li>
                                         <li><div class="comments"><a href="#"><?php echo @$value->reader_hit; ?></a></div></li>
 

@@ -78,7 +78,7 @@ class Common_model extends CI_Model {
         $bu = base_url();
         $LN = array();
         // $day7 = time() - (7 * 86400); // 7 days ago
-        $this->db->select('news_mst.news_id,news_mst.title,news_mst.image,news_mst.slug,news_mst.videos,news_mst.page,news_mst.time_stamp,news_mst.post_date,news_mst.news,news_mst.post_by,user_info.id,user_info.photo,user_info.name,categories.category_imgae');
+        $this->db->select('news_mst.news_id,news_mst.title,news_mst.reporter,news_mst.image,news_mst.slug,news_mst.videos,news_mst.page,news_mst.time_stamp,news_mst.post_date,news_mst.news,news_mst.post_by,user_info.id,user_info.photo,user_info.name,categories.category_imgae');
         $this->db->from('news_mst');
         $this->db->join('user_info', 'user_info.id=news_mst.post_by');
         $this->db->join('categories', 'categories.category_name=news_mst.page');
@@ -108,6 +108,7 @@ class Common_model extends CI_Model {
             @$ptime = $data->time_stamp;
             @$post_date = $data->post_date;
             @$news = $data->news;
+            @$reporter = $data->reporter;
             @$post_by = $data->name;
             @$post_by_img = $data->photo;
             @$videos = $data->videos;
@@ -141,7 +142,12 @@ class Common_model extends CI_Model {
             // editor image
             $LN['post_by_image_' . $i] =  base_url() . $post_by_img ;
             // editor name
-            $LN['post_by_name_' . $i] = @$post_by;
+            if($reporter !=null){
+                    $LN['post_by_name_' . $i] = @$reporter;
+                }else{
+                    $LN['post_by_name_' . $i] = @$post_by;
+            }
+            
             //news link
             $LN['news_link_' . $i] = $bu . 'Story/' . $newrow['slug']. '/' . $splited_SLUG;
             //Image 
@@ -167,7 +173,7 @@ class Common_model extends CI_Model {
         $i = 1;
         // $day7 = time() - (30 * 86400); 
 
-        $this->db->select('t1.news_id,t1.stitle,t1.title,t1.slug,t1.page,t1.image,t1.videos,t1.reader_hit,t1.time_stamp,t1.post_date,t1.news,t2.id,t2.name,t2.photo');
+        $this->db->select('t1.news_id,t1.stitle,t1.title,t1.reporter,t1.slug,t1.page,t1.image,t1.videos,t1.reader_hit,t1.time_stamp,t1.post_date,t1.news,t2.id,t2.name,t2.photo');
         $this->db->from('news_mst t1');
         $this->db->join('user_info t2', 't2.id=t1.post_by');
         // $this->db->where('t1.time_stamp >=', $day7);
@@ -215,7 +221,13 @@ class Common_model extends CI_Model {
             // post date
             $MR['post_date_' . $i] = $rows['post_date'];
             // editor name
-            $MR['post_by_name_' . $i] = $rows['name'];
+
+            if($rows['reporter'] !=null){
+                    $MR['post_by_name_' . $i] = $rows['reporter'];
+                }else{
+                     $MR['post_by_name_' . $i] = $rows['name'];
+            }
+           
             // editor image
             $MR['post_by_image_' . $i] =  base_url() . $rows['photo'];
             //News Link Creation

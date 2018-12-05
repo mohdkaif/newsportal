@@ -35,7 +35,7 @@
                 <h1><?php echo $title; ?></h1>
                  <div class="date">
                         <ul>
-                            <li>By <a title="" href="#"><span><?php echo $name; ?></span></a> --</li>
+                            <li>By <a title="" href="#"><span><?php if($reporter!=null){echo $reporter;} else {echo $name; }?></span></a> --</li>
                            
                             <li><a title="" href="#"><?php echo date('l, d M, Y ,g:i A',$time_stamp); ?></a> </li>
                         </ul>

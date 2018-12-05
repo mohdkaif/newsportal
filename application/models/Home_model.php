@@ -52,6 +52,7 @@ class Home_model extends CI_Model {
                 $news_dtl = implode(' ', array_slice(explode(' ', $data['news']), 0, $word_limit));
                 $news_full = $data['news'];
                 @$page = $data['page'];
+                $reporter = $data['reporter'];
                 $post_by_name = $data['name'];
                 $post_by_img = $data['photo'];
                 $post_date = $data['post_date'];
@@ -74,7 +75,13 @@ class Home_model extends CI_Model {
                 // post by image
                 $PN['position_' . $position]['post_by_image_' . $i] = base_url() . $post_by_img;
                 // editor name
-                $PN['position_' . $position]['post_by_name_' . $i] = $post_by_name;
+
+                if($reporter !=null){
+                    $PN['position_' . $position]['post_by_name_' . $i] = $reporter;
+                }else{
+                    $PN['position_' . $position]['post_by_name_' . $i] = $post_by_name;
+                }
+                
                 // post time
                 $PN['position_' . $position]['ptime_' . $i] =  date('l, d M, Y,g:i A', $ptime);
                 // post date
@@ -174,7 +181,13 @@ class Home_model extends CI_Model {
             // post by images
             $HN['post_by_image_' . $i] =  base_url() . $value1->photo;
             // post by name
-            $HN['post_by_name_' . $i] = $value1->name;
+            if($value1->reporter !=null){
+                $HN['post_by_name_' . $i] = $value1->reporter;
+            }else{
+                $HN['post_by_name_' . $i] = $value1->name;
+            }
+
+            
             //Only news ID 
             $HN['news_id_' . $i] = $value1->news_id;
             //post Title

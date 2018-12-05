@@ -63,7 +63,12 @@ class Page_model extends CI_Model {
             //editor images
             @$PN['post_by_image_' . $i] =  base_url() . $data['photo'] ;
             // editor name
-            @$PN['post_by_name_' . $i] = $data['name'];
+            if($data['reporter'] !=null){
+                    @$PN['post_by_name_' . $i] = $data['reporter'];
+                }else{
+                     @$PN['post_by_name_' . $i] = $data['name'];
+            }
+           
             // category name
             @$PN['category_' . $i] = $data['page'];
 
