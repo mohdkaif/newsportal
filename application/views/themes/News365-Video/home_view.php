@@ -112,7 +112,7 @@
                                             <span class="category_label">'.@$hn['category_name_'.$i].'</span>
                                         </a>';
                                 } else {
-                                    echo '<a class="entry-thumb" href="'.@$hn['news_link_'.$i].'"><img  src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" />
+                                    echo '<a class="entry-thumb" href="'.@$hn['news_link_'.$i].'"><img class="entry-thumb" src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" />
                                     <span class="category_label">'.@$hn['category_name_'.$i].'</span></a>';
                                 }
                             ?>     
@@ -150,7 +150,7 @@
                                                 <img class="entry-thumb" src="'. @$hn['image_thumb_'.$i].'" alt=""><span class="category_label">'.@$hn['category_name_'.$i].'</span>
                                             </a>';
                                 } else {
-                                      echo '<a href="'. @$hn['news_link_'.$i].'"><img width="100%" src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" alt="photography" />
+                                      echo '<a href="'. @$hn['news_link_'.$i].'"><img width="100%" class="entry-thumb" src="http://img.youtube.com/vi/' . @$hn['video_' . $i] . '/0.jpg" alt="photography" />
                                       <span class="category_label">'.@$hn['category_name_'.$i].'</span>
                                       </a>';
                                 }
