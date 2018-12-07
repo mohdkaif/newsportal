@@ -56,7 +56,6 @@ public function get_youtube_id_from_url($url)
 #------------------------------------    
     public function post() {
 
-
         // on page SEO
         $post_keyword = trim($this->input->post('meta_keyword'));
         $post_description = trim($this->input->post('meta_description'));

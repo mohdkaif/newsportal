@@ -62,6 +62,7 @@ if (($user_type == 3) || ($user_type == 4)) {
                             <option value="0">--select--</option>
                             <?php 
                                 foreach ($cat as $key => $value) {
+                                    
                                     echo '<option value="'.$value->slug.'">'.$value->category_name.'</option>';
                                 }
                             ?>

@@ -10,7 +10,7 @@ class Page extends CI_Model {
 #--------------------------------    
     public function get_news_page_wise($page = NULL, $num = NULL, $offset = NULL, $word_limit = 30) {
 
-       $this->db->select('news_position.*,news_mst.*,user_info.id,user_info.name,user_info.photo,categories.*')
+       $this->db->select('news_position.*,news_mst.*,user_info.id,user_info.name,user_info.photo,categories.slug as category_slug')
         ->from('news_position')
         ->join('news_mst', 'news_mst.news_id=news_position.news_id')
         ->join('user_info', 'user_info.id=news_mst.post_by')
@@ -29,12 +29,11 @@ class Page extends CI_Model {
         if ($query->num_rows() > 0) {
             $i = 1;
             foreach ($query->result() as  $value) {
-
+                
                 $this->db->select('categories.*');
                 $this->db->from('categories');
-                $this->db->where('categories.category_name', $value->page);
+                $this->db->where('categories.slug', $value->page);
                 @$slugrow = $this->db->get()->row_array();
-
                 
                 $news = $value->news;
                 $news = htmlspecialchars($news, ENT_QUOTES);

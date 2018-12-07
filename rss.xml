@@ -4,12 +4,313 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <title>YugantarPravah RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>05-12-2018</lastBuildDate>
+<lastBuildDate>07-12-2018</lastBuildDate>
 <image>
                     <title>YugantarPravahRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
                     <link>http://localhost/newsportal/</link>
                 </image>
+
+                <item>
+                    <title>dd</title>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/229/dd</link>
+                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>asfasfdsadsads
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544162503.jpg</url>
+                        <title>dd</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/229/dd</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/229/dd</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/229/dd>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>asfasfdsadsads
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sdsa</title>
+                            <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sdasd
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544162207.jpg</url>
+                        <title>sdsa</title>
+                        <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</guid>
+                    <category><![CDATA[Uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/Uttar-pradesh/details/227/sdsa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sdasd
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sdsa</title>
+                            <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sdasd
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544162207.jpg</url>
+                        <title>sdsa</title>
+                        <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</guid>
+                    <category><![CDATA[Uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/Uttar-pradesh/details/227/sdsa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sdasd
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>SA</title>
+                            <link>http://localhost/newsportal/Uttar-pradesh/details/226/SA</link>
+                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>ADASDASDSAD
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544162063.png</url>
+                        <title>SA</title>
+                        <link>http://localhost/newsportal/Uttar-pradesh/details/226/SA</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/226/SA</guid>
+                    <category><![CDATA[Uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/Uttar-pradesh/details/226/SA>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>ADASDASDSAD
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>AD</title>
+                            <link>http://localhost/newsportal/techno/details/225/AD</link>
+                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>dasfadsf
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544158752.png</url>
+                        <title>AD</title>
+                        <link>http://localhost/newsportal/techno/details/225/AD</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/225/AD</guid>
+                    <category><![CDATA[techno]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/techno/details/225/AD>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>dasfadsf
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>Ad</title>
+                            <link>http://localhost/newsportal/techno/details/224/Ad</link>
+                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>afe
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544158532.png</url>
+                        <title>Ad</title>
+                        <link>http://localhost/newsportal/techno/details/224/Ad</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/224/Ad</guid>
+                    <category><![CDATA[techno]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/techno/details/224/Ad>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>afe
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sa</title>
+                            <link>http://localhost/newsportal/techno/details/223/sa</link>
+                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>x\xfas
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544158503.jpg</url>
+                        <title>sa</title>
+                        <link>http://localhost/newsportal/techno/details/223/sa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/223/sa</guid>
+                    <category><![CDATA[techno]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/techno/details/223/sa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>x\xfas
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
 
                 <item>
                     <title>fsf</title>
@@ -568,321 +869,6 @@ hgvhghjgkh
                               </header>
 
                                 <p>csacfas
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>csa</title>
-                            <link>http://localhost/newsportal/techno/details/208/csa</link>
-                    <pubDate>Tuesday, 27 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>sadfasdasd
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title>csa</title>
-                        <link>http://localhost/newsportal/techno/details/208/csa</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/208/csa</guid>
-                    <category><![CDATA[techno]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/techno/details/208/csa>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>sadfasdasd
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
-                            <link>http://localhost/newsportal/techno/details/207/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</link>
-                    <pubDate>Monday, 26 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>sfdsahdfajsksa
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1543305630.jpg</url>
-                        <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
-                        <link>http://localhost/newsportal/techno/details/207/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/207/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</guid>
-                    <category><![CDATA[techno]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/techno/details/207/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>sfdsahdfajsksa
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>csaca</title>
-                            <link>http://localhost/newsportal/home/details/206/csaca</link>
-                    <pubDate>Monday, 26 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>BJP के घोषणापत्र में बड़े वादे...
-
-- 250 करोड़ के किसान का ग्रामीण स्टार्ट अप फंड
-
-- प्रत्येक जिले में बनाया जाएगा योग भवन
-
-- किसानों के लिए ऋण राहत आयोग
-
-- 6100 करोड़</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1543305022.jpg</url>
-                        <title>csaca</title>
-                        <link>http://localhost/newsportal/home/details/206/csaca</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/home/details/206/csaca</guid>
-                    <category><![CDATA[home]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/home/details/206/csaca>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>BJP के घोषणापत्र में बड़े वादे...
-
-- 250 करोड़ के किसान का ग्रामीण स्टार्ट अप फंड
-
-- प्रत्येक जिले में बनाया जाएगा योग भवन
-
-- किसानों के लिए ऋण राहत आयोग
-
-- 6100 करोड़</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>wq</title>
-                            <link>http://localhost/newsportal/techno/details/205/wq</link>
-                    <pubDate>Tuesday, 06 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>wqwqqqqqqqqqqqqqqqqqqqqqqqqq
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542786444.png</url>
-                        <title>wq</title>
-                        <link>http://localhost/newsportal/techno/details/205/wq</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/205/wq</guid>
-                    <category><![CDATA[techno]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/techno/details/205/wq>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>wqwqqqqqqqqqqqqqqqqqqqqqqqqq
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>headline nws</title>
-                            <link>http://localhost/newsportal/crime/details/204/headline-nws</link>
-                    <pubDate>Monday, 05 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>qwertyuioplkjhgfnxmwadkqwiudbkhjdoqiudhiqdhqiowdhiq
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542786206.png</url>
-                        <title>headline nws</title>
-                        <link>http://localhost/newsportal/crime/details/204/headline-nws</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/crime/details/204/headline-nws</guid>
-                    <category><![CDATA[crime]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/crime/details/204/headline-nws>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>qwertyuioplkjhgfnxmwadkqwiudbkhjdoqiudhiqdhqiowdhiq
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>sad</title>
-                            <link>http://localhost/newsportal/entertainment/details/203/sad</link>
-                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>asfdas
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542455424.png</url>
-                        <title>sad</title>
-                        <link>http://localhost/newsportal/entertainment/details/203/sad</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/entertainment/details/203/sad</guid>
-                    <category><![CDATA[entertainment]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/entertainment/details/203/sad>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>asfdas
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>sadf</title>
-                            <link>http://localhost/newsportal/sports/details/202/sadf</link>
-                    <pubDate>Saturday, 17 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>asd
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542455025.png</url>
-                        <title>sadf</title>
-                        <link>http://localhost/newsportal/sports/details/202/sadf</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/sports/details/202/sadf</guid>
-                    <category><![CDATA[sports]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/sports/details/202/sadf>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>asd
 </p>
 
                               <footer>

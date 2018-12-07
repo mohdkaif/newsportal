@@ -10,6 +10,63 @@
                     <link>http://localhost/newsportal/</link>
               </image>
                 <item>
+                    <news_id>229</news_id>
+                    <category>uttar-pradesh</category>
+                    <title>dd</title>
+                    <link>http://localhost/newsportal/uttar-pradesh/details/229/dd</link>
+                    <description>asfasfdsadsads
+</description>
+                    <pubDate>07-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544162503.jpg</url>
+                        <title>dd</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/229/dd</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/229/dd</guid>
+                    <image>http://localhost/newsportal/uploads/1544162503.jpg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544162503.jpg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>227</news_id>
+                    <category>Uttar-pradesh</category>
+                    <title>sdsa</title>
+                    <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                    <description>sdasd
+</description>
+                    <pubDate>07-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544162207.jpg</url>
+                        <title>sdsa</title>
+                        <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</guid>
+                    <image>http://localhost/newsportal/uploads/1544162207.jpg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544162207.jpg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>226</news_id>
+                    <category>Uttar-pradesh</category>
+                    <title>SA</title>
+                    <link>http://localhost/newsportal/Uttar-pradesh/details/226/SA</link>
+                    <description>ADASDASDSAD
+</description>
+                    <pubDate>07-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544162063.png</url>
+                        <title>SA</title>
+                        <link>http://localhost/newsportal/Uttar-pradesh/details/226/SA</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/226/SA</guid>
+                    <image>http://localhost/newsportal/uploads/1544162063.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544162063.png</thumb>
+                    
+                </item>
+
+                <item>
                     <news_id>214</news_id>
                     <category>Uttar-pradesh</category>
                     <title>फ़तेहपुर:बकेवर मिनी स्टेडियम में खेल-कूद का आयोजन-प्रतिभाओं को मिला मौका।</title>
@@ -80,60 +137,6 @@
                     <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/218/sdcsa</guid>
                     <image>http://localhost/newsportal/uploads/1543660825.png</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1543660825.png</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
                     
                 </item>
 

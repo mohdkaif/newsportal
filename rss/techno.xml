@@ -10,19 +10,76 @@
                     <link>http://localhost/newsportal/</link>
               </image>
                 <item>
-                    <news_id>213</news_id>
+                    <news_id>225</news_id>
                     <category>techno</category>
+                    <title>AD</title>
+                    <link>http://localhost/newsportal/techno/details/225/AD</link>
+                    <description>dasfadsf
+</description>
+                    <pubDate>07-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544158752.png</url>
+                        <title>AD</title>
+                        <link>http://localhost/newsportal/techno/details/225/AD</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/225/AD</guid>
+                    <image>http://localhost/newsportal/uploads/1544158752.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544158752.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>224</news_id>
+                    <category>techno</category>
+                    <title>Ad</title>
+                    <link>http://localhost/newsportal/techno/details/224/Ad</link>
+                    <description>afe
+</description>
+                    <pubDate>07-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544158532.png</url>
+                        <title>Ad</title>
+                        <link>http://localhost/newsportal/techno/details/224/Ad</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/224/Ad</guid>
+                    <image>http://localhost/newsportal/uploads/1544158532.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544158532.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>223</news_id>
+                    <category>techno</category>
+                    <title>sa</title>
+                    <link>http://localhost/newsportal/techno/details/223/sa</link>
+                    <description>x\xfas
+</description>
+                    <pubDate>07-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544158503.jpg</url>
+                        <title>sa</title>
+                        <link>http://localhost/newsportal/techno/details/223/sa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/223/sa</guid>
+                    <image>http://localhost/newsportal/uploads/1544158503.jpg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544158503.jpg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>213</news_id>
+                    <category>technology</category>
                     <title>china is blshih hyhg </title>
-                    <link>http://localhost/newsportal/techno/details/213/china-is-blshih-hyhg</link>
+                    <link>http://localhost/newsportal/technology/details/213/china-is-blshih-hyhg</link>
                     <description>sdgfdhgfhjgfjhgjkghjkhjkjkhkgjdgew
 </description>
                     <pubDate>29-11-2018</pubDate>       
                     <image>
                         <url>http://localhost/newsportal/uploads/1543467547.png</url>
                         <title>china is blshih hyhg </title>
-                        <link>http://localhost/newsportal/techno/details/213/china-is-blshih-hyhg</link>
+                        <link>http://localhost/newsportal/technology/details/213/china-is-blshih-hyhg</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/213/china-is-blshih-hyhg</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/technology/details/213/china-is-blshih-hyhg</guid>
                     <image>http://localhost/newsportal/uploads/1543467547.png</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1543467547.png</thumb>
                     
@@ -92,7 +149,7 @@
                     <link>http://localhost/newsportal/techno/details/205/wq</link>
                     <description>wqwqqqqqqqqqqqqqqqqqqqqqqqqq
 </description>
-                    <pubDate>21-11-2018</pubDate>       
+                    <pubDate>2018-11-21</pubDate>       
                     <image>
                         <url>http://localhost/newsportal/uploads/1542786444.png</url>
                         <title>wq</title>
@@ -139,60 +196,6 @@
                     <guid isPermaLink='false'>http://localhost/newsportal/techno/details/180/serdfghj</guid>
                     <image>http://localhost/newsportal/uploads/1542369152.jpeg</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1542369152.jpeg</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
                     
                 </item>
 

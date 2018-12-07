@@ -19,7 +19,7 @@ class Home_model extends CI_Model {
 
             $this->db->select('categories.*');
             $this->db->from('categories');
-            $this->db->where('categories.category_name', $page);
+            $this->db->where('categories.slug', $page);
             @$slug_row = $this->db->get()->row_array();
 
             $this->db->select('t1.news_id,t1.time_stamp,t1.slug,t1.page,t1.stitle,t1.title,t1.image,t1.videos,t1.news,t1.reference,t1.ref_date,t1.reporter,t1.videos,t1.post_date,t1.post_by,t3.id,t3.photo,t3.name');
@@ -236,17 +236,17 @@ class Home_model extends CI_Model {
            
             @$CI = array();
             foreach($cat_list as $key => $value){
-
                 $value = substr($value, 0, strpos($value, "~"));
-
+                
                 $this->db->select('category_imgae');
                 $this->db->from('categories');
-                $this->db->where('category_name ', $value);
+                $this->db->where('slug ', $value);
                 $result_category = $this->db->get()->result_array();
                 
                 foreach ($result_category as $data_cat) {
                     $CI['category_image_'. ($key+1)] = $data_cat['category_imgae'];
                 }
+
             }
            
            
