@@ -5,6 +5,7 @@
         extract($ads);
     }
     $defaultimg = base_url().'uploads/default.jpg';
+    date_default_timezone_set("Asia/Kolkata");
 ?>
 
 <!-- header news Area

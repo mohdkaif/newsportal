@@ -3,6 +3,7 @@
     if (isset($ads) && is_array($ads)) {
         extract($ads);
     }
+    date_default_timezone_set("Asia/Kolkata");
 ?>
 
 <section class="block-inner" style="

@@ -36,7 +36,7 @@
                  <div class="date">
                         <ul>
                             <li>By <a title="" href="#"><span><?php if($reporter!=null){echo $reporter;} else {echo $name; }?></span></a> --</li>
-                           
+                           <?php date_default_timezone_set("Asia/Kolkata"); ?>
                             <li><a title="" href="#"><?php echo date('l, d M, Y ,g:i A',$time_stamp); ?></a> </li>
                         </ul>
                     </div>

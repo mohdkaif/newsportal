@@ -10,6 +10,101 @@
                     <link>http://localhost/newsportal/</link>
               </image>
                 <item>
+                    <news_id>236</news_id>
+                    <category>uttar-pradesh</category>
+                    <title>fasfa</title>
+                    <link>http://localhost/newsportal/uttar-pradesh/details/236/fasfa</link>
+                    <description>safasfad
+</description>
+                    <pubDate>08-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544244378.png</url>
+                        <title>fasfa</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/236/fasfa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/236/fasfa</guid>
+                    <image>http://localhost/newsportal/uploads/1544244378.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544244378.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>235</news_id>
+                    <category>uttar-pradesh</category>
+                    <title>sdsa</title>
+                    <link>http://localhost/newsportal/uttar-pradesh/details/235/sdsa</link>
+                    <description>ngfchgfhgfhjgjhgjkkhjkhjkljlgjjgfhjjfdhfdhgd
+</description>
+                    <pubDate>08-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544244110.png</url>
+                        <title>sdsa</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/235/sdsa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/235/sdsa</guid>
+                    <image>http://localhost/newsportal/uploads/1544244110.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544244110.png</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>234</news_id>
+                    <category>uttar-pradesh</category>
+                    <title>saf</title>
+                    <link>http://localhost/newsportal/uttar-pradesh/details/234/saf</link>
+                    <description>asfsafa
+</description>
+                    <pubDate>08-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544242970.jpg</url>
+                        <title>saf</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/234/saf</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/234/saf</guid>
+                    <image>http://localhost/newsportal/uploads/1544242970.jpg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544242970.jpg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>231</news_id>
+                    <category>uttar-pradesh</category>
+                    <title>gsdgd</title>
+                    <link>http://localhost/newsportal/uttar-pradesh/details/231/gsdgd</link>
+                    <description>ukyukuy
+</description>
+                    <pubDate>07-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544185696.jpeg</url>
+                        <title>gsdgd</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/231/gsdgd</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/231/gsdgd</guid>
+                    <image>http://localhost/newsportal/uploads/1544185696.jpeg</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544185696.jpeg</thumb>
+                    
+                </item>
+
+                <item>
+                    <news_id>230</news_id>
+                    <category>uttar-pradesh</category>
+                    <title>kjgbkj</title>
+                    <link>http://localhost/newsportal/uttar-pradesh/details/230/kjgbkj</link>
+                    <description>fdszfdasfdsfsdfsdfdsfsdfsdfsdfsdfsd
+</description>
+                    <pubDate>07-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544184916.png</url>
+                        <title>kjgbkj</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/230/kjgbkj</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/230/kjgbkj</guid>
+                    <image>http://localhost/newsportal/uploads/1544184916.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544184916.png</thumb>
+                    
+                </item>
+
+                <item>
                     <news_id>229</news_id>
                     <category>uttar-pradesh</category>
                     <title>dd</title>
@@ -30,18 +125,18 @@
 
                 <item>
                     <news_id>227</news_id>
-                    <category>Uttar-pradesh</category>
+                    <category>uttar-pradesh</category>
                     <title>sdsa</title>
-                    <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                    <link>http://localhost/newsportal/uttar-pradesh/details/227/sdsa</link>
                     <description>sdasd
 </description>
                     <pubDate>07-12-2018</pubDate>       
                     <image>
                         <url>http://localhost/newsportal/uploads/1544162207.jpg</url>
                         <title>sdsa</title>
-                        <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/227/sdsa</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/227/sdsa</guid>
                     <image>http://localhost/newsportal/uploads/1544162207.jpg</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1544162207.jpg</thumb>
                     
@@ -49,18 +144,18 @@
 
                 <item>
                     <news_id>226</news_id>
-                    <category>Uttar-pradesh</category>
+                    <category>uttar-pradesh</category>
                     <title>SA</title>
-                    <link>http://localhost/newsportal/Uttar-pradesh/details/226/SA</link>
+                    <link>http://localhost/newsportal/uttar-pradesh/details/226/SA</link>
                     <description>ADASDASDSAD
 </description>
                     <pubDate>07-12-2018</pubDate>       
                     <image>
                         <url>http://localhost/newsportal/uploads/1544162063.png</url>
                         <title>SA</title>
-                        <link>http://localhost/newsportal/Uttar-pradesh/details/226/SA</link>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/226/SA</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/226/SA</guid>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/226/SA</guid>
                     <image>http://localhost/newsportal/uploads/1544162063.png</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1544162063.png</thumb>
                     
@@ -137,96 +232,6 @@
                     <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/218/sdcsa</guid>
                     <image>http://localhost/newsportal/uploads/1543660825.png</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1543660825.png</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
                     
                 </item>
 

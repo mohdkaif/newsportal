@@ -4,12 +4,313 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <title>YugantarPravah RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>07-12-2018</lastBuildDate>
+<lastBuildDate>08-12-2018</lastBuildDate>
 <image>
                     <title>YugantarPravahRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
                     <link>http://localhost/newsportal/</link>
                 </image>
+
+                <item>
+                    <title>fasfa</title>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/236/fasfa</link>
+                    <pubDate>Saturday, 08 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>safasfad
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544244378.png</url>
+                        <title>fasfa</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/236/fasfa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/236/fasfa</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/236/fasfa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>safasfad
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sdsa</title>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/235/sdsa</link>
+                    <pubDate>Saturday, 08 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>ngfchgfhgfhjgjhgjkkhjkhjkljlgjjgfhjjfdhfdhgd
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544244110.png</url>
+                        <title>sdsa</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/235/sdsa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/235/sdsa</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/235/sdsa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>ngfchgfhgfhjgjhgjkkhjkhjkljlgjjgfhjjfdhfdhgd
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>saf</title>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/234/saf</link>
+                    <pubDate>Saturday, 08 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>asfsafa
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544242970.jpg</url>
+                        <title>saf</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/234/saf</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/234/saf</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/234/saf>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>asfsafa
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>sd</title>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/233/sd</link>
+                    <pubDate>Saturday, 08 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sdsad
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544186213.png</url>
+                        <title>sd</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/233/sd</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/233/sd</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/233/sd>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sdsad
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>ds</title>
+                            <link>http://localhost/newsportal/politics/details/232/ds</link>
+                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sdf
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544185763.png</url>
+                        <title>ds</title>
+                        <link>http://localhost/newsportal/politics/details/232/ds</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/politics/details/232/ds</guid>
+                    <category><![CDATA[politics]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/politics/details/232/ds>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sdf
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>gsdgd</title>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/231/gsdgd</link>
+                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>ukyukuy
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544185696.jpeg</url>
+                        <title>gsdgd</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/231/gsdgd</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/231/gsdgd</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/231/gsdgd>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>ukyukuy
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>kjgbkj</title>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/230/kjgbkj</link>
+                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>fdszfdasfdsfsdfsdfdsfsdfsdfsdfsdfsd
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544184916.png</url>
+                        <title>kjgbkj</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/230/kjgbkj</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/230/kjgbkj</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/230/kjgbkj>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>fdszfdasfdsfsdfsdfdsfsdfsdfsdfsdfsd
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
 
                 <item>
                     <title>dd</title>
@@ -56,7 +357,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
                 <item>
                     <title>sdsa</title>
-                            <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/227/sdsa</link>
                     <pubDate>Friday, 07 Dec, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>sdasd
@@ -64,10 +365,10 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                     <image>
                         <url>http://localhost/newsportal/uploads/1544162207.jpg</url>
                         <title>sdsa</title>
-                        <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/227/sdsa</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</guid>
-                    <category><![CDATA[Uttar-pradesh]]></category>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/227/sdsa</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
 
                     <content:encoded>
                     <![CDATA[
@@ -75,7 +376,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/Uttar-pradesh/details/227/sdsa>
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/227/sdsa>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -99,7 +400,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
                 <item>
                     <title>sdsa</title>
-                            <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/227/sdsa</link>
                     <pubDate>Friday, 07 Dec, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>sdasd
@@ -107,10 +408,10 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                     <image>
                         <url>http://localhost/newsportal/uploads/1544162207.jpg</url>
                         <title>sdsa</title>
-                        <link>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</link>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/227/sdsa</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/227/sdsa</guid>
-                    <category><![CDATA[Uttar-pradesh]]></category>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/227/sdsa</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
 
                     <content:encoded>
                     <![CDATA[
@@ -118,7 +419,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/Uttar-pradesh/details/227/sdsa>
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/227/sdsa>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -142,7 +443,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
                 <item>
                     <title>SA</title>
-                            <link>http://localhost/newsportal/Uttar-pradesh/details/226/SA</link>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/226/SA</link>
                     <pubDate>Friday, 07 Dec, 2018</pubDate>  
                     <author>Md Kaif</author>     
                     <description>ADASDASDSAD
@@ -150,10 +451,10 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                     <image>
                         <url>http://localhost/newsportal/uploads/1544162063.png</url>
                         <title>SA</title>
-                        <link>http://localhost/newsportal/Uttar-pradesh/details/226/SA</link>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/226/SA</link>
                     </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/226/SA</guid>
-                    <category><![CDATA[Uttar-pradesh]]></category>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/226/SA</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
 
                     <content:encoded>
                     <![CDATA[
@@ -161,7 +462,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                         <html lang="en" prefix="op: http://media.facebook.com/op#">
                           <head>
                             <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/Uttar-pradesh/details/226/SA>
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/226/SA>
                             <meta property="op:markup_version" content="v1.0">
                           </head>
                           <body>
@@ -570,305 +871,6 @@ hgvhghjgkh
                               </header>
 
                                 <p>asd
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>a</title>
-                            <link>http://localhost/newsportal/business/details/216/a</link>
-                    <pubDate>Saturday, 01 Dec, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>As
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1543656865.png</url>
-                        <title>a</title>
-                        <link>http://localhost/newsportal/business/details/216/a</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/business/details/216/a</guid>
-                    <category><![CDATA[business]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/business/details/216/a>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>As
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>sad</title>
-                            <link>http://localhost/newsportal/business/details/215/sad</link>
-                    <pubDate>Tuesday, 19 Jan, 2038</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>asd
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1543655651.png</url>
-                        <title>sad</title>
-                        <link>http://localhost/newsportal/business/details/215/sad</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/business/details/215/sad</guid>
-                    <category><![CDATA[business]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/business/details/215/sad>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>asd
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>फ़तेहपुर:बकेवर मिनी स्टेडियम में खेल-कूद का आयोजन-प्रतिभाओं को मिला मौका।</title>
-                            <link>http://localhost/newsportal/Uttar-pradesh/details/214/फ़तेहपुर-बकेवर-मिनी-स्टेडियम-में-खेल-कूद-का-आयोजन-प्रतिभाओं-को-मिला-मौका।</link>
-                    <pubDate>Friday, 30 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>फ़तेहपुर:बकेवर मिनी स्टेडियम में खेल-कूद का आयोजन-प्रतिभाओं को मिला मौका। फ़तेहपुर:बकेवर मिनी स्टेडियम में खेल-कूद का आयोजन-प्रतिभाओं को मिला मौका। फ़तेहपुर:बकेवर मिनी स्टेडियम में खेल-कूद का आयोजन-प्रतिभाओं को मिला मौका। फ़तेहपुर:बकेवर मिनी स्टेडियम</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1543558772.jpg</url>
-                        <title>फ़तेहपुर:बकेवर मिनी स्टेडियम में खेल-कूद का आयोजन-प्रतिभाओं को मिला मौका।</title>
-                        <link>http://localhost/newsportal/Uttar-pradesh/details/214/फ़तेहपुर-बकेवर-मिनी-स्टेडियम-में-खेल-कूद-का-आयोजन-प्रतिभाओं-को-मिला-मौका।</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/214/फ़तेहपुर-बकेवर-मिनी-स्टेडियम-में-खेल-कूद-का-आयोजन-प्रतिभाओं-को-मिला-मौका।</guid>
-                    <category><![CDATA[Uttar-pradesh]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/Uttar-pradesh/details/214/फ़तेहपुर-बकेवर-मिनी-स्टेडियम-में-खेल-कूद-का-आयोजन-प्रतिभाओं-को-मिला-मौका।>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>फ़तेहपुर:बकेवर मिनी स्टेडियम में खेल-कूद का आयोजन-प्रतिभाओं को मिला मौका। फ़तेहपुर:बकेवर मिनी स्टेडियम में खेल-कूद का आयोजन-प्रतिभाओं को मिला मौका। फ़तेहपुर:बकेवर मिनी स्टेडियम में खेल-कूद का आयोजन-प्रतिभाओं को मिला मौका। फ़तेहपुर:बकेवर मिनी स्टेडियम</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>china is blshih hyhg </title>
-                            <link>http://localhost/newsportal/technology/details/213/china-is-blshih-hyhg</link>
-                    <pubDate>Wednesday, 28 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>sdgfdhgfhjgfjhgjkghjkhjkjkhkgjdgew
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1543467547.png</url>
-                        <title>china is blshih hyhg </title>
-                        <link>http://localhost/newsportal/technology/details/213/china-is-blshih-hyhg</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/technology/details/213/china-is-blshih-hyhg</guid>
-                    <category><![CDATA[technology]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/technology/details/213/china-is-blshih-hyhg>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>sdgfdhgfhjgfjhgjkghjkhjkjkhkgjdgew
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>dsad</title>
-                            <link>http://localhost/newsportal/technology/details/212/dsad</link>
-                    <pubDate>Tuesday, 27 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>dsadas
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1543319413.jpg</url>
-                        <title>dsad</title>
-                        <link>http://localhost/newsportal/technology/details/212/dsad</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/technology/details/212/dsad</guid>
-                    <category><![CDATA[technology]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/technology/details/212/dsad>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>dsadas
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>adfghjkl</title>
-                            <link>http://localhost/newsportal/techno/details/210/adfghjkl</link>
-                    <pubDate>Monday, 26 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>arhdjatgeshbrthjtr
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1543314036.jpg</url>
-                        <title>adfghjkl</title>
-                        <link>http://localhost/newsportal/techno/details/210/adfghjkl</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/210/adfghjkl</guid>
-                    <category><![CDATA[techno]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/techno/details/210/adfghjkl>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>arhdjatgeshbrthjtr
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
-                            <link>http://localhost/newsportal/techno/details/209/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</link>
-                    <pubDate>Tuesday, 27 Nov, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>csacfas
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
-                        <link>http://localhost/newsportal/techno/details/209/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/209/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</guid>
-                    <category><![CDATA[techno]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/techno/details/209/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>csacfas
 </p>
 
                               <footer>

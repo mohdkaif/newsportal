@@ -10,6 +10,25 @@
                     <link>http://localhost/newsportal/</link>
               </image>
                 <item>
+                    <news_id>232</news_id>
+                    <category>politics</category>
+                    <title>ds</title>
+                    <link>http://localhost/newsportal/politics/details/232/ds</link>
+                    <description>sdf
+</description>
+                    <pubDate>07-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544185763.png</url>
+                        <title>ds</title>
+                        <link>http://localhost/newsportal/politics/details/232/ds</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/politics/details/232/ds</guid>
+                    <image>http://localhost/newsportal/uploads/1544185763.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544185763.png</thumb>
+                    
+                </item>
+
+                <item>
                     <news_id>220</news_id>
                     <category>politics</category>
                     <title>gfg</title>
@@ -211,24 +230,6 @@ hgvhghjgkh
                     <guid isPermaLink='false'>http://localhost/newsportal/Politics/details/28/There-are-many-variations-of-passages-of-Lorem-Ipsum-available</guid>
                     <image>http://localhost/newsportal/uploads/1502887485.jpeg</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1502887485.jpeg</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
                     
                 </item>
 
