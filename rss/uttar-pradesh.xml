@@ -10,6 +10,25 @@
                     <link>http://localhost/newsportal/</link>
               </image>
                 <item>
+                    <news_id>237</news_id>
+                    <category>uttar-pradesh</category>
+                    <title>hghkgk</title>
+                    <link>http://localhost/newsportal/uttar-pradesh/details/237/hghkgk</link>
+                    <description>gfjkhygfiygiugtuiotyiuytuitui
+</description>
+                    <pubDate>09-12-2018</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544333686.png</url>
+                        <title>hghkgk</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/237/hghkgk</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/237/hghkgk</guid>
+                    <image>http://localhost/newsportal/uploads/1544333686.png</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/1544333686.png</thumb>
+                    
+                </item>
+
+                <item>
                     <news_id>236</news_id>
                     <category>uttar-pradesh</category>
                     <title>fasfa</title>
@@ -232,24 +251,6 @@
                     <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/218/sdcsa</guid>
                     <image>http://localhost/newsportal/uploads/1543660825.png</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1543660825.png</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id></news_id>
-                    <category></category>
-                    <title></title>
-                    <link>http://localhost/newsportal//details//</link>
-                    <description></description>
-                    <pubDate></pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/</url>
-                        <title></title>
-                        <link>http://localhost/newsportal//details//</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal//details//</guid>
-                    <image>http://localhost/newsportal/uploads/</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
                     
                 </item>
 

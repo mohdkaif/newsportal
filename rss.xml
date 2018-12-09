@@ -4,12 +4,55 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <title>YugantarPravah RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>08-12-2018</lastBuildDate>
+<lastBuildDate>09-12-2018</lastBuildDate>
 <image>
                     <title>YugantarPravahRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
                     <link>http://localhost/newsportal/</link>
                 </image>
+
+                <item>
+                    <title>hghkgk</title>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/237/hghkgk</link>
+                    <pubDate>Sunday, 09 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>gfjkhygfiygiugtuiotyiuytuitui
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/1544333686.png</url>
+                        <title>hghkgk</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/237/hghkgk</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/237/hghkgk</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/237/hghkgk>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>gfjkhygfiygiugtuiotyiuytuitui
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
 
                 <item>
                     <title>fasfa</title>
@@ -828,49 +871,6 @@ hgvhghjgkh
                               </header>
 
                                 <p>sadsadas
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>dsa</title>
-                            <link>http://localhost/newsportal/business/details/217/dsa</link>
-                    <pubDate>Saturday, 01 Dec, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>asd
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1543657121.png</url>
-                        <title>dsa</title>
-                        <link>http://localhost/newsportal/business/details/217/dsa</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/business/details/217/dsa</guid>
-                    <category><![CDATA[business]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/business/details/217/dsa>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>asd
 </p>
 
                               <footer>

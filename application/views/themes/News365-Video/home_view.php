@@ -6,6 +6,7 @@
     }
     $defaultimg = base_url().'uploads/default.jpg';
     date_default_timezone_set("Asia/Kolkata");
+    ////print_r(date('Y-m-d g:i:A',1544293800));die();
 ?>
 
 <!-- header news Area
