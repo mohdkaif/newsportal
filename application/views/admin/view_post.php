@@ -112,7 +112,7 @@ date_default_timezone_set("Asia/Kolkata");
                         <tr>
                            <th><?php echo display('ref');?>.</th><th>:</th><td><input type="text" name="reference" class="form-control"></td>
                             <!-- <th><?php echo display('post_date');?></th><th>:</th><td><input type="text" name="ref_date" value="<?php echo date("d-m-Y", time() + 6 * 60 * 60); ?>" id="datepicker"  class="form-control" /></td> -->
-                             <th><?php echo display('post_date');?></th><th>:</th><td><input type="text" name="ref_date" value="<?php echo date("d-m-Y", time()); ?>" id="datepicker"  class="form-control" /></td>
+                             <th><?php echo display('post_date');?></th><th>:</th><td><input type="text" name="ref_date" value="<?php echo date("Y-m-d", time()); ?>" id="datepicker"  class="form-control" /></td>
                         </tr>
                         
                         <tr>
