@@ -331,12 +331,11 @@
                                                     </div>
                                                 </div>
                                             </div>
-
                                             <div class="post-title-author-details">
                                                 <h4><a href="<?php echo @$sn['hn']['news_link_' . $i] ?>"><?php echo @$sn['hn']['news_title_' . $i]; ?></a></h4>
                                                 <div class="post-editor-date">
                                                     <div class="post-date">
-                                                        <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y, g:i A', @$hn['ptime_' . $i])); ?>
+                                                        <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y, g:i A', @$sn['hn']['ptime_' . $i])); ?>
                                                     </div>
                                                 </div>
                                             </div>
