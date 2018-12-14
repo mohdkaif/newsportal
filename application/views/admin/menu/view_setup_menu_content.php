@@ -36,8 +36,8 @@ if (($user_type == 3) || ($user_type == 4)) {
               
                     <ul class="nav nav-tabs" style="border-bottom: 1px solid #70af40;">
                         <li class="active"><a href="#Category"><?php echo display('category')?></a></li>
-                        <li><a href="#Pages"><?php echo display('add_page')?></a></li>
-                        <li><a href="#Link"><?php echo display('link')?></a></li>
+                        <!-- <li><a href="#Pages"><?php echo display('add_page')?></a></li>
+                        <li><a href="#Link"><?php echo display('link')?></a></li> -->
                     </ul>
 
                   <div class="tab-content">

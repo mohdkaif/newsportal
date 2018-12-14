@@ -26,37 +26,37 @@
                 </url>
 
                 <url>
-                    <loc>http://localhost/newsportal/अंतरराष्ट्रीय</loc>
+                    <loc>http://localhost/newsportal/international</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/newsportal/राष्ट्रीय</loc>
+                    <loc>http://localhost/newsportal/national</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/newsportal/उत्तर-प्रदेश</loc>
+                    <loc>http://localhost/newsportal/uttar-pradesh</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/newsportal/राजनीति</loc>
+                    <loc>http://localhost/newsportal/politics</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/newsportal/क्राइम</loc>
+                    <loc>http://localhost/newsportal/crime</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
 
                 <url>
-                    <loc>http://localhost/newsportal/खेल</loc>
+                    <loc>http://localhost/newsportal/sports</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
@@ -104,12 +104,6 @@
                 </url>
 
                 <url>
-                    <loc>http://localhost/newsportal/अंतरराष्ट्रीय</loc>
-                    <changefreq> always </changefreq>
-                    <priority>1.0</priority>    
-                </url>
-
-                <url>
                     <loc>http://localhost/newsportal/राष्ट्रीय</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
@@ -117,12 +111,6 @@
 
                 <url>
                     <loc>http://localhost/newsportal/उत्तर-प्रदेश</loc>
-                    <changefreq> always </changefreq>
-                    <priority>1.0</priority>    
-                </url>
-
-                <url>
-                    <loc>http://localhost/newsportal/राजनीति</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>
@@ -195,6 +183,12 @@
 
                 <url>
                     <loc>http://localhost/newsportal/abc</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/newsportal/politics</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
                 </url>

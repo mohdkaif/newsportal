@@ -5489,3 +5489,7 @@ span.category_label {
 .social ul li a.instagram::after{
     border-top-color: #909aa0;
 }
+.agileits_portfolio_grid h5{
+    color: #fff;
+    padding: 0 5px;
+}

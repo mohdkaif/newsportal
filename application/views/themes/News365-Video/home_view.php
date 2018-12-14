@@ -781,9 +781,9 @@ $videoList = json_decode(file_get_contents('https://www.googleapis.com/youtube/v
                                     foreach($videoList->items as $item){
                                             //Embed video
                                         if(isset($item->id->videoId)){
-                                                echo '<div id="'. $item->id->videoId .'" class="col-md-3 agileits_portfolio_grid" style="margin-top:25px!important">
+                                                echo '<div id="'. $item->id->videoId .'" class="agileits_portfolio_grid" style="margin-top:25px!important">
                                                         <iframe  height="190" src="https://www.youtube.com/embed/'.$item->id->videoId.'" frameborder="0" allowfullscreen></iframe>
-                                                       
+                                                       <h5>'. $item->snippet->title .'</h5>
                                                     </div>';
                                         }
                                     }

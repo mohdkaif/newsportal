@@ -178,10 +178,10 @@ $(document).ready(function() {
         // lazyLoad: true,
         navigation: true,
        
-        // navigationText: [
-        //     "<i class='fa pe-7s-angle-left'></i>",
-        //     "<i class='fa pe-7s-angle-right'></i>"
-        // ],
+        navigationText: [
+            "<i class='fa pe-7s-angle-left'></i>",
+            "<i class='fa pe-7s-angle-right'></i>"
+        ],
        responsiveClass:true,
         responsive:{
             0:{
