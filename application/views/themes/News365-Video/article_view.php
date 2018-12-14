@@ -37,7 +37,7 @@
                         <ul>
                             <li>By <a title="" href="#"><span><?php if($reporter!=null){echo $reporter;} else {echo $name; }?></span></a> --</li>
                            <?php date_default_timezone_set("Asia/Kolkata"); ?>
-                            <li><a title="" href="#"><?php echo date('l, d M, Y ,g:i A',$time_stamp); ?></a> </li>
+                            <li><a title="" href="#"><?php echo date('l, d M, Y',$time_stamp); ?></a> </li>
                         </ul>
                     </div>
 
@@ -159,6 +159,7 @@
                     <?php $img_url = (is_file('uploads/' . $image)) ? $bu . 'uploads/' . $image : $bu . 'uploads/' . $image; ?>
                     
                     <?php
+                    
                     if ($videos!=NULL) {
                         echo '<iframe width="100%" height="370px" src="https://www.youtube.com/embed/' . $videos . '?rel=0" frameborder="0" autoplay allowfullscreen></iframe>';
                     }else{
@@ -335,7 +336,7 @@
                                                 <h4><a href="<?php echo @$sn['hn']['news_link_' . $i] ?>"><?php echo @$sn['hn']['news_title_' . $i]; ?></a></h4>
                                                 <div class="post-editor-date">
                                                     <div class="post-date">
-                                                        <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y, g:i A', @$sn['hn']['ptime_' . $i])); ?>
+                                                        <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y', @$sn['hn']['ptime_' . $i])); ?>
                                                     </div>
                                                 </div>
                                             </div>
@@ -763,7 +764,7 @@
                                     <div class="date">
                                         <ul>
                                             <li>By<a title="" href="#"><span><?php echo @$Editor['hn']['post_by_name_'.$i]?></span></a> --</li>
-                                            <li><a title="" href="#"><?php echo date('l, d M, Y, g:i A', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
+                                            <li><a title="" href="#"><?php echo date('l, d M, Y', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
                                         </ul>
                                     </div>
                                     <p>

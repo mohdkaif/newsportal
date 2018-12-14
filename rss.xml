@@ -4,12 +4,141 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <title>YugantarPravah RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>10-12-2018</lastBuildDate>
+<lastBuildDate>13-12-2018</lastBuildDate>
 <image>
                     <title>YugantarPravahRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
                     <link>http://localhost/newsportal/</link>
                 </image>
+
+                <item>
+                    <title>fsafsadf</title>
+                            <link>http://localhost/newsportal/videos/details/243/fsafsadf</link>
+                    <pubDate>Thursday, 13 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sfasfasdfa
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title>fsafsadf</title>
+                        <link>http://localhost/newsportal/videos/details/243/fsafsadf</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/videos/details/243/fsafsadf</guid>
+                    <category><![CDATA[videos]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/videos/details/243/fsafsadf>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sfasfasdfa
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>dsadfgsd</title>
+                            <link>http://localhost/newsportal/videos/details/242/dsadfgsd</link>
+                    <pubDate>Thursday, 13 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>erfewrewrew
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title>dsadfgsd</title>
+                        <link>http://localhost/newsportal/videos/details/242/dsadfgsd</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/videos/details/242/dsadfgsd</guid>
+                    <category><![CDATA[videos]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/videos/details/242/dsadfgsd>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>erfewrewrew
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
+
+                <item>
+                    <title>safasfasfa</title>
+                            <link>http://localhost/newsportal/videos/details/241/safasfasfa</link>
+                    <pubDate>Thursday, 13 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>dfsadfasfasfasfas
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title>safasfasfa</title>
+                        <link>http://localhost/newsportal/videos/details/241/safasfasfa</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/videos/details/241/safasfasfa</guid>
+                    <category><![CDATA[videos]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/videos/details/241/safasfasfa>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>dfsadfasfasfasfas
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
 
                 <item>
                     <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
@@ -728,135 +857,6 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                               </header>
 
                                 <p>afe
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>sa</title>
-                            <link>http://localhost/newsportal/techno/details/223/sa</link>
-                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>x\xfas
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1544158503.jpg</url>
-                        <title>sa</title>
-                        <link>http://localhost/newsportal/techno/details/223/sa</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/223/sa</guid>
-                    <category><![CDATA[techno]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/techno/details/223/sa>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>x\xfas
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>fsf</title>
-                            <link>http://localhost/newsportal/sports/details/222/fsf</link>
-                    <pubDate>Wednesday, 05 Dec, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>sfsfs
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1543997777.jpg</url>
-                        <title>fsf</title>
-                        <link>http://localhost/newsportal/sports/details/222/fsf</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/sports/details/222/fsf</guid>
-                    <category><![CDATA[sports]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/sports/details/222/fsf>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>sfsfs
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>sad</title>
-                            <link>http://localhost/newsportal/entertainment/details/221/sad</link>
-                    <pubDate>Wednesday, 05 Dec, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>sad
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1543997679.jpg</url>
-                        <title>sad</title>
-                        <link>http://localhost/newsportal/entertainment/details/221/sad</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/entertainment/details/221/sad</guid>
-                    <category><![CDATA[entertainment]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/entertainment/details/221/sad>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>sad
 </p>
 
                               <footer>

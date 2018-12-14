@@ -7,6 +7,14 @@
     $defaultimg = base_url().'uploads/default.jpg';
     date_default_timezone_set("Asia/Kolkata");
     ////print_r(date('Y-m-d g:i:A',1544293800));die();
+    $API_key    = 'AIzaSyBxu2hOi94lllbdKW961XjUg4PACbAf8NQ';
+$channelID  = 'UCbRG-3SFyaDX-aEretQjehQ';
+$maxResults = 10;
+
+$videoList = json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId='.$channelID.'&maxResults='.$maxResults.'&key='.$API_key.''));
+
+
+
 ?>
 
 <!-- header news Area
@@ -91,7 +99,7 @@
                             <div class="post-editor-date">
                                 <!-- post date -->
                                 <div class="post-date">
-                                    <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y, g:i A', @$hn['ptime_1'])); ?>
+                                    <i class="pe-7s-clock"></i> <?php echo (date('l, d M, Y', @$hn['ptime_1'])); ?>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +133,7 @@
                             <h3 class="post-title post-title-size"><a href="<?php echo @$hn['news_link_'.$i];?>" rel="bookmark"> <?php echo @$hn['news_title_'.$i];?></a></h3>
                             <div class="post-editor-date">
                                 <div class="post-date">
-                                    <i class="pe-7s-clock"></i><?php echo (date('l, d M, Y, g:i A', @$hn['ptime_' . $i])); ?>
+                                    <i class="pe-7s-clock"></i><?php echo (date('l, d M, Y', @$hn['ptime_' . $i])); ?>
                                 </div>
                                 <?php if(@$hn['video_'.$i]!=NULL) {?>
                                 <a class="playvideo pull-right" href="<?php echo @$hn['news_link_'.$i];?>"><i class="fa fa-play-circle-o"></i></a>
@@ -165,7 +173,7 @@
                             <div class="post-editor-date">
                                 <!-- post date -->
                                 <div class="post-date">
-                                    <i class="pe-7s-clock"></i><?php echo (date('l, d M, Y, g:i A', @$hn['ptime_' . $i])); ?>
+                                    <i class="pe-7s-clock"></i><?php echo (date('l, d M, Y', @$hn['ptime_' . $i])); ?>
                                 </div>
                                 <?php if (@$hn['video_'.$i]!=NULL) {?>
                                 <a class="playvideo pull-right" href="<?php echo @$hn['news_link_'.$i];?>"><i class="fa fa-play-circle-o"></i></a>
@@ -733,7 +741,7 @@
                                 <div class="date">
                                     <ul>
                                         <li>By<a title="" href="#"><span><?php echo @$Editor['hn']['post_by_name_'.$i]?></span></a> --</li>
-                                        <li><a title="" href="#"><?php echo date('l, d M, Y, g:i A', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
+                                        <li><a title="" href="#"><?php echo date('l, d M, Y', @$Editor['hn']['ptime_'.$i]) ;?></a></li>
                                     </ul>
                                 </div>
                                 <p>
@@ -745,12 +753,16 @@
                         <?php } ?>
                     </div>
                 </div>
+                
+            </div>
+            <div class="col-md-12 col-sm-12">
                 <!-- video -->
                 <?php if(@$home_page_positions[7]['status']==1){ 
                     //print_r($pn['position_7']);die();
                 ?>
                     <!-- video -->
                     <div class="video-headding"><?php echo display('video_striming')?></div>
+                    <div class="contentSlide">
                     <div id="rypp-demo-4" class="RYPP r16-9" data-playlist="PLw8TejMbmHM6IegrJ4iECWNoFuG7RiCV_">
                         <div class="RYPP-playlist">
                             <script type="text/javascript" src="<?php echo base_url(); ?>movi/highslide-with-html.js"></script>
@@ -763,39 +775,62 @@
                                 hs.outlineWhileAnimating = true;
                             </script>
                             <div class="RYP-items">
-                                <ol>
-                                <?php 
+                                <ol class="owl-carousel" id="content-slide-video">
+                                    <?php
+                                    /////print_r($videoList);die();
+                                    foreach($videoList->items as $item){
+                                            //Embed video
+                                        if(isset($item->id->videoId)){
+                                                echo '<div id="'. $item->id->videoId .'" class="col-md-3 agileits_portfolio_grid" style="margin-top:25px!important">
+                                                        <iframe  height="190" src="https://www.youtube.com/embed/'.$item->id->videoId.'" frameborder="0" allowfullscreen></iframe>
+                                                       
+                                                    </div>';
+                                        }
+                                    }
+                                    ?>
+                                    <!--thisis heading youtube  <h5 style="color:white;">'. $item->snippet->title .'</h5> -->
+                                <!-- <?php 
                                
-                                for($i=1;$i<=5;$i++){
-                                    if(!isset($pn['position_7']['news_title_'.$i]))
+                                foreach($videoList->items as $item){
+                                    if(isset($item->id->videoId))
                                     continue
-                                ?>
-                                   <li class="selected" >
-                                       <p class="title" style="width: 67%">
-                                       <a style="width: 67%; color: #fff;" href="http://www.youtube.com/embed/<?php echo @$pn['position_7']['video_'.$i]?>?rel=0&amp;wmode=transparent"
-                                            onclick="return hs.htmlExpand(this, {objectType: 'iframe', width: 480, height: 385, 
-                                                    allowSizeReduction: false, wrapperClassName: 'draggable-header no-footer', 
-                                                    preserveContent: false, objectLoadTime: 'after'})">
-                                       <?php echo @$pn['position_7']['news_title_'.$i]?>
-                                       </a>
-                                       <small class="author"><br><?php echo @$pn['position_7']['post_by_name_'.$i]?></small></p>
-                                            <a href="http://www.youtube.com/embed/<?php echo @$pn['position_7']['video_'.$i]?>?rel=0&amp;wmode=transparent"
+                                ?> -->
+                                  <!--  <li class="selected item" >
+                                       <!-- <div class="col-md-7 col-sm-6 col-xs-6">
+                                            <a href="http://www.youtube.com/embed/<?php echo $item->id->videoId; ?>?rel=0&amp;wmode=transparent"
                                             onclick="return hs.htmlExpand(this, {objectType: 'iframe', width: 480, height: 385, 
                                                     allowSizeReduction: false, wrapperClassName: 'draggable-header no-footer', 
                                                     preserveContent: false, objectLoadTime: 'after'})">    
                                         <?php
-                                            if (@$pn['position_7']['image_check_'.$i]!=NULL) {
-                                              echo'<img class="img-responsive" style="width: 85px" src="'.@$pn['position_7']['image_thumb_'.$i].'" alt="">';
+                                           /* if (@$pn['position_7']['image_check_'.$i]!=NULL) {
+                                              echo'<img class="img-responsive" src="'.@$pn['position_7']['image_thumb_'.$i].'" alt="">';
                                             } else {
-                                                echo'<img style="width: 85px" src="https://i.ytimg.com/vi/'. @$pn['position_7']['video_'.$i].'/default.jpg" class="thumb">';
-                                            }
+                                                echo'<img  src="https://i.ytimg.com/vi/'. @$pn['position_7']['video_'.$i].'/default.jpg" class="thumb">';
+                                            }*/
+                                            echo '<div id="'. $item->id->videoId .'" class="col-md-3 agileits_portfolio_grid" style="margin-top:25px!important">
+                                               <iframe width="100%" height="190" src="https://www.youtube.com/embed/'.$item->id->videoId.'" frameborder="0" allowfullscreen></iframe>
+                                               <h4>'. $item->snippet->title .'</h4>
+                                           </div>';
                                         ?>
                                             </a>
-                                   </li>
-                                <?php } ?>
+                                        </div> -->
+                                       <!-- <div class="col-md-5 col-sm-6 col-xs-6">
+                                           <p class="title" style="width: 67%">
+                                           <a style="width: 67%; color: #fff;" href="http://www.youtube.com/embed/<?php echo $item->id->videoId;?>?rel=0&amp;wmode=transparent"
+                                                onclick="return hs.htmlExpand(this, {objectType: 'iframe', width: 480, height: 385, 
+                                                        allowSizeReduction: false, wrapperClassName: 'draggable-header no-footer', 
+                                                        preserveContent: false, objectLoadTime: 'after'})">
+                                           <?php echo @$pn['position_7']['news_title_'.$i]?>
+                                           </a>
+                                           <small class="author"><br><?php echo $item->snippet->title?></small></p>
+                                        </div> -->
+                                     
+                                 <!--   </li>
+                                <?php } ?> --> 
                                 </ol>   
                             </div>
-
+                        </div>
+                            </div>
                         </div>
                     </div>
                      <?php } ?>

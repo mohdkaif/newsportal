@@ -83,7 +83,7 @@ class Home_model extends CI_Model {
                 }
                 
                 // post time
-                $PN['position_' . $position]['ptime_' . $i] =  date('l, d M, Y,g:i A', $ptime);
+                $PN['position_' . $position]['ptime_' . $i] =  date('l, d M, Y', $ptime);
                 // post date
                 $PN['position_' . $position]['post_date_' . $i] = $post_date;
                 // News Title

@@ -171,7 +171,38 @@ $(document).ready(function() {
             that.owlControls.prependTo(elem);
         }
     });
-
+    $("#content-slide-video").owlCarousel({
+        //autoPlay: 5000, Set AutoPlay to 5 seconds
+        items: 4,
+        dots: false,
+        // lazyLoad: true,
+        navigation: true,
+       
+        // navigationText: [
+        //     "<i class='fa pe-7s-angle-left'></i>",
+        //     "<i class='fa pe-7s-angle-right'></i>"
+        // ],
+       responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:4,
+                nav:false
+            },
+            1000:{
+                items:4,
+                nav:true,
+                loop:false
+            }
+        }
+        // afterInit: function(elem) {
+        //     var that = this;
+        //     that.owlControls.prependTo(elem);
+        // }
+    });
     $("#video-slide").owlCarousel({
         items: 1,
         itemsDesktop: [1199, 1],
