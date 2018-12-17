@@ -105,11 +105,11 @@ class Home_model extends CI_Model {
                 $PN['position_' . $position]['full_news_' . $i] = strip_tags($news_full, '<p><a>');     
                  //Thumb Image
                 $PN['position_' . $position]['image_check_' . $i] = $image;
-                $PN['position_' . $position]['image_thumb_' . $i] = base_url() . 'uploads/thumb/' . $image;
+                $PN['position_' . $position]['image_thumb_' . $i] = base_url() . 'uploads/' . $image;
                 //Large Image 
                 $PN['position_' . $position]['image_large_' . $i] = base_url() . 'uploads/' . $image;
                 //Image thumb with link
-                $PN['position_' . $position]['image_thumb_link_' . $i] = "<a href='" . @$PN['position_' . $position]['newslink' . $i] . "'><img src='" . base_url() . 'uploads/thumb/' . $image . "' alt='" . $splited_TITLE . "' class='img-responsive bdtask_image_thumb'></a>";
+                $PN['position_' . $position]['image_thumb_link_' . $i] = "<a href='" . @$PN['position_' . $position]['newslink' . $i] . "'><img src='" . base_url() . 'uploads/' . $image . "' alt='" . $splited_TITLE . "' class='img-responsive bdtask_image_thumb'></a>";
                 //Image large with link
                 $PN['position_' . $position]['image_large_link_' . $i] = "<a href='" . @$PN['position_' . $position]['newslink' . $i] . "'><img src='" . base_url() . 'uploads/' . $image . "' alt='" . $splited_TITLE . "' class='img-responsive bdtask_image_large'></a>";
 
@@ -214,11 +214,11 @@ class Home_model extends CI_Model {
             $HN['image_' . $i] = $value1->image;
             $HN['image_check_' . $i] = $value1->image;
             //Thumb Image Link
-            $HN['image_thumb_' . $i] = base_url() . 'uploads/thumb/' . $HN['image_' . $i];
+            $HN['image_thumb_' . $i] = base_url() . 'uploads/' . $HN['image_' . $i];
             //Large Image 
             $HN['image_large_' . $i] = base_url() . 'uploads/' . $HN['image_' . $i];
-            //Image thumb with with link
-            $HN['image_thumb_link_' . $i] = "<a href=" . $bu . $HN['category_' . $i] . '/' . $HN['news_id_' . $i] . '/' . $HN['splited_title_' . $i] ."><img src='" . base_url() . 'uploads/thumb/' . $HN['image_' . $i] . "' alt='" . $HN['splited_title_' . $i] . "'></a>";
+            //Image with with link
+            $HN['image_thumb_link_' . $i] = "<a href=" . $bu . $HN['category_' . $i] . '/' . $HN['news_id_' . $i] . '/' . $HN['splited_title_' . $i] ."><img src='" . base_url() . 'uploads/' . $HN['image_' . $i] . "' alt='" . $HN['splited_title_' . $i] . "'></a>";
             //Image large with with link
             $HN['image_large_link_' . $i] = "<a href=" . $bu . $HN['category_' . $i] . '/' . $HN['news_id_' . $i] . '/' . $HN['splited_title_' . $i] ."><img src='" . base_url() . 'uploads/' . $HN['image_' . $i] . "' alt='" . $HN['splited_title_' . $i] . "'></a>";
             ### Image Group End  ###

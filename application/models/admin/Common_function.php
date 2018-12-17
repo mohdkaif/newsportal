@@ -133,7 +133,7 @@ class Common_function extends CI_Model {
 
         } else {
 
-            $files['msg'] = $msg = 'Please upload image smaller than 1MB';
+            $files['msg'] = $msg = 'Please upload image smaller than 5MB';
 
         }
 

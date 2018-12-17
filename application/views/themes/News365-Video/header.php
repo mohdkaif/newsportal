@@ -123,6 +123,16 @@
 
 
         </script>
+        <!------- Script for notification-->
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+        <script>
+          var OneSignal = window.OneSignal || [];
+          OneSignal.push(function() {
+            OneSignal.init({
+              appId: "a5498cba-95b2-4e78-9cbb-2f62793a40d7",
+            });
+          });
+        </script>
         <style type="text/css">
             @import  url('https://fonts.googleapis.com/css?family=Noto+Sans');
         </style>
