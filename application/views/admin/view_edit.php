@@ -2,6 +2,9 @@
     $news_id = $this->uri->segment(4);
     @$home_row = $this->db->select('position')->from('news_position')->where('news_id',$news_id)->where('page','home')->get()->row_array();
     @$other_row = $this->db->select('page,position')->from('news_position')->where('news_id',$news_id)->where('page !=','home')->get()->row_array();
+  
+    $bu = base_url();
+
 ?>
 
 
@@ -31,7 +34,7 @@ if (($user_type == 3) || ($user_type == 4)) {
             <input type="hidden" name="home_page_old" value="<?php echo @($home_row['position'] != '') ? $home_row['position'] : 0; ?>" />
             <input type="hidden" name="other_page_old" value="<?php echo @($other_row['page'] != '') ? $other_row['page'] : 0; ?>" />
             <input type="hidden" name="other_position_old" value="<?php echo @($other_row['position'] != '') ? $other_row['position'] : 0; ?>" />
-            <input type="hidden" name="image_old" value="<?php echo @$row['image']; ?>" />
+            <input type="hidden" name="image_old" id="image_old" value="<?php echo @$row['image']; ?>" />
             <input type="hidden" name="news_id" value="<?php echo @$news_id; ?>" />
         <!-- old data hold for update............................................................... end -->
         
@@ -103,6 +106,19 @@ if (($user_type == 3) || ($user_type == 4)) {
                         <tr>
                             <th><?php echo display('photo');?></th><th>:</th><td>
                                 <input type="file" name="file_select_machin" accept="image/*" id="file_select_machin" />
+                               
+                                <!-- Old Image-->
+                                
+                                <?php if($row['image']!=null) {
+
+                                    $img_url = (is_file('uploads/' . $row['image'])) ? $bu . 'uploads/' . $row['image'] : $bu . 'uploads/' . $row['image']; 
+
+                                    ?>
+                                    <img src="<?php echo $img_url;?>" alt="" width="150px" height="150px" id="old-image">
+                                    <div class="delete_fields" data-request="remove" data-target="#old-image">
+                                        <a href="javascript:void(0);"><img src="<?php echo $bu;?>/uploads/del_icon.png"></a>
+                                    </div>
+                                <?php }?>
                             </td>
                         </tr>
                         <tr>
@@ -202,5 +218,14 @@ if (($user_type == 3) || ($user_type == 4)) {
 </aside>
 <script type="text/javascript">
     document.forms['f_name'].elements['other_page'].value="<?php echo $row['page'];?>";
+
+
+    $(document).on('click', '[data-request="remove"]', function(){
+        var $this = $(this);
+        var $target = $this.attr('data-target');
+        $($target).hide('slow', function(){ $($target).remove(); });
+        $('#image_old').val("");
+        alert($('#image_old').val());
+    });
 </script>
 

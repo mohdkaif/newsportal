@@ -5334,7 +5334,11 @@ footer {
         padding: 30px 0 0;
     }
     .technology_sec .left-padding {
-        padding-left: 15px;
+        padding-left: 8px;
+    }
+    
+    #content-slide .item, #content-slide-2 .item, #content-slide-3 .item, #content-slide-5 .item {
+       margin: 0 8px;
     }
     .tab-inner .tabs li {
         display: inline-block;
@@ -5492,4 +5496,11 @@ span.category_label {
 .agileits_portfolio_grid h5{
     color: #fff;
     padding: 0 5px;
+}
+
+.post-wrapper h3 a, .item h3 a {
+   display: block;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+   text-align: justify;
 }

@@ -10,6 +10,25 @@
                     <link>http://localhost/newsportal/</link>
               </image>
                 <item>
+                    <news_id>244</news_id>
+                    <category>uttar-pradesh</category>
+                    <title>asdas</title>
+                    <link>http://localhost/newsportal/uttar-pradesh/details/244/asdas</link>
+                    <description>sadasdsa
+</description>
+                    <pubDate>2018-12-17</pubDate>       
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title>asdas</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/244/asdas</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/244/asdas</guid>
+                    <image>http://localhost/newsportal/uploads/</image>
+                    <thumb>http://localhost/newsportal/uploads/thumb/</thumb>
+                    
+                </item>
+
+                <item>
                     <news_id>240</news_id>
                     <category>uttar-pradesh</category>
                     <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
@@ -251,25 +270,6 @@
                     <guid isPermaLink='false'>http://localhost/newsportal/Uttar-pradesh/details/214/फ़तेहपुर-बकेवर-मिनी-स्टेडियम-में-खेल-कूद-का-आयोजन-प्रतिभाओं-को-मिला-मौका।</guid>
                     <image>http://localhost/newsportal/uploads/1543558772.jpg</image>
                     <thumb>http://localhost/newsportal/uploads/thumb/1543558772.jpg</thumb>
-                    
-                </item>
-
-                <item>
-                    <news_id>199</news_id>
-                    <category>uttar-pradesh</category>
-                    <title>safdsf</title>
-                    <link>http://localhost/newsportal/uttar-pradesh/details/199/safdsf</link>
-                    <description>asfsafasf
-</description>
-                    <pubDate>2018-11-17</pubDate>       
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1542454234.png</url>
-                        <title>safdsf</title>
-                        <link>http://localhost/newsportal/uttar-pradesh/details/199/safdsf</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/199/safdsf</guid>
-                    <image>http://localhost/newsportal/uploads/1542454234.png</image>
-                    <thumb>http://localhost/newsportal/uploads/thumb/1542454234.png</thumb>
                     
                 </item>
 </channel>

@@ -4,12 +4,55 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <title>YugantarPravah RSS Feed RSS</title>
 <link>http://localhost/newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>13-12-2018</lastBuildDate>
+<lastBuildDate>20-12-2018</lastBuildDate>
 <image>
                     <title>YugantarPravahRSS Feed</title>
                     <url>http://localhost/newsportal/uploads/images/logo.png</url>
                     <link>http://localhost/newsportal/</link>
                 </image>
+
+                <item>
+                    <title>asdas</title>
+                            <link>http://localhost/newsportal/uttar-pradesh/details/244/asdas</link>
+                    <pubDate>Monday, 17 Dec, 2018</pubDate>  
+                    <author>Md Kaif</author>     
+                    <description>sadasdsa
+</description>
+                    <image>
+                        <url>http://localhost/newsportal/uploads/</url>
+                        <title>asdas</title>
+                        <link>http://localhost/newsportal/uttar-pradesh/details/244/asdas</link>
+                    </image>
+                    <guid isPermaLink='false'>http://localhost/newsportal/uttar-pradesh/details/244/asdas</guid>
+                    <category><![CDATA[uttar-pradesh]]></category>
+
+                    <content:encoded>
+                    <![CDATA[
+                        <!doctype html>
+                        <html lang="en" prefix="op: http://media.facebook.com/op#">
+                          <head>
+                            <meta charset="utf-8">
+                            <link rel="canonical" href=http://localhost/newsportal/uttar-pradesh/details/244/asdas>
+                            <meta property="op:markup_version" content="v1.0">
+                          </head>
+                          <body>
+                            <article>
+                              <header>
+                                <!— Article header goes here -->
+                              </header>
+
+                                <p>sadasdsa
+</p>
+
+                              <footer>
+                                <!— Article footer goes here -->
+                              </footer>
+                            </article>
+                          </body>
+                        </html>
+                        ]]>
+                   </content:encoded>
+                </item>
 
                 <item>
                     <title>fsafsadf</title>
@@ -143,11 +186,11 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 <item>
                     <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
                             <link>http://localhost/newsportal/uttar-pradesh/details/240/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</link>
-                    <pubDate>Monday, 10 Dec, 2018</pubDate>  
+                    <pubDate>Thursday, 01 Jan, 1970</pubDate>  
                     <author>Md Kaif</author>     
-                    <description> का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य  का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य  का हुआ अनावरण, बोले</description>
+                    <description> का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य  का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य  का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य  का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति,</description>
                     <image>
-                        <url>http://localhost/newsportal/uploads/1544415452.png</url>
+                        <url>http://localhost/newsportal/uploads/</url>
                         <title>'स्टैच्यू ऑफ यूनिटी' का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य का समावेश था</title>
                         <link>http://localhost/newsportal/uttar-pradesh/details/240/'स्टैच्यू-ऑफ-यूनिटी'-का-हुआ-अनावरण-बोले-PM-पटेल-में-कौटिल्य-की-कूटनीति-शिवाजी-के-शौर्य-का-समावेश-था</link>
                     </image>
@@ -169,7 +212,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                                 <!— Article header goes here -->
                               </header>
 
-                                <p> का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य  का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य  का हुआ अनावरण, बोले</p>
+                                <p> का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य  का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य  का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति, शिवाजी के शौर्य  का हुआ अनावरण, बोले PM - पटेल में कौटिल्य की कूटनीति,</p>
 
                               <footer>
                                 <!— Article footer goes here -->
@@ -814,49 +857,6 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                               </header>
 
                                 <p>dasfadsf
-</p>
-
-                              <footer>
-                                <!— Article footer goes here -->
-                              </footer>
-                            </article>
-                          </body>
-                        </html>
-                        ]]>
-                   </content:encoded>
-                </item>
-
-                <item>
-                    <title>Ad</title>
-                            <link>http://localhost/newsportal/techno/details/224/Ad</link>
-                    <pubDate>Friday, 07 Dec, 2018</pubDate>  
-                    <author>Md Kaif</author>     
-                    <description>afe
-</description>
-                    <image>
-                        <url>http://localhost/newsportal/uploads/1544158532.png</url>
-                        <title>Ad</title>
-                        <link>http://localhost/newsportal/techno/details/224/Ad</link>
-                    </image>
-                    <guid isPermaLink='false'>http://localhost/newsportal/techno/details/224/Ad</guid>
-                    <category><![CDATA[techno]]></category>
-
-                    <content:encoded>
-                    <![CDATA[
-                        <!doctype html>
-                        <html lang="en" prefix="op: http://media.facebook.com/op#">
-                          <head>
-                            <meta charset="utf-8">
-                            <link rel="canonical" href=http://localhost/newsportal/techno/details/224/Ad>
-                            <meta property="op:markup_version" content="v1.0">
-                          </head>
-                          <body>
-                            <article>
-                              <header>
-                                <!— Article header goes here -->
-                              </header>
-
-                                <p>afe
 </p>
 
                               <footer>
