@@ -154,7 +154,7 @@ class Home_model extends CI_Model {
         @$HN = array();
 
         foreach ($result as $key => $value1) {
-             
+           /* print_r($value1);die();*/
             /*print_r($value1);die();
             $this->db->select('categories.*');
             $this->db->from('categories');
@@ -191,6 +191,12 @@ class Home_model extends CI_Model {
             //Only news ID 
             $HN['news_id_' . $i] = $value1->news_id;
             //post Title
+            $new_title = (strlen($value1->title)>250)?(substr($value1->title, 0, 250)):($value1->title);
+          /*  $str =  preg_replace("/[^\p{L}\p{N}\p{Z}_]/u", '', $value1->title);
+            $test = preg_replace('@[^\x{0900}-\x{097F}]@u', '', $new_title);*/
+            /*$Str1 = preg_replace('/[\x00-\x1F\x7F-\xFF]/', '', $new_title);
+            print_r($Str1);die();*/
+            
             $HN['news_title_' . $i] = $value1->title;
             //Short Title
             $HN['stitle_' . $i] = $value1->stitle;

@@ -145,7 +145,7 @@
                     <!-- <p class="short-head"><?php echo @$stitle;?></p> -->
                     <!-- <h1><?php echo $title; ?></h1> -->
                     <div class="video-container show-tag">
-                        <?php if($image_name!=null){?>
+                        <?php if(isset($image_name)){?>
                         <div class="post-info" id="post-info">
                                 
                                 <h3 class="post-title"><a href="http://localhost/newsportal/Story/technology/ds-sd-sd-xy-xt" rel="bookmark"><?php  echo $image_name;?></a></h3>
@@ -792,7 +792,7 @@
                             <!-- widget item -->
                            <?php 
 
-                           for($i=0;$i<=0;$i++){
+                           for($i=0;$i<$ads['newsdetailscount'];$i++){
 
 
                             ?>

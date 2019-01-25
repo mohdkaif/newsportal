@@ -56,11 +56,12 @@ class Ads extends CI_Model {
                     $ads2[$page . '_' . $i] = $value->embed_code;
                     $ads2['lg_status_'. $i] = $value->large_status;
                     $ads2['sm_status_'. $i] = $value->mobile_status;
+
                     $i++;
                 }
                 
             }
-           
+            $ads2['newsdetailscount'] = $i;
             return $ads2;
         } else {
             return false;
